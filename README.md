@@ -1,5 +1,10 @@
 # Coastal Alpine Tech Limited: Kiwi Edge AI Stack
 
+![Coastal Alpine Tech Banner](assets/social_preview.png)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)  
+[![Sovereignty: Offline Native](https://img.shields.io/badge/Sovereignty-Offline%20Native-green.svg)]()
+
 Welcome to the official repository landing page for **Coastal Alpine Tech Limited**, headquartered in New Plymouth, Taranaki, New Zealand. We design and deploy offline-native, data-sovereign edge intelligence systems for remote, high-stakes industrial, agricultural, and biosecurity settings across New Zealand.
 
 Our stack operates entirely on-premise (e.g. on Raspberry Pi 5 hardware with NPU acceleration) to maintain customary data rights (Te Mana Raraunga / Māori Data Sovereignty) and guarantee 100% operational uptime in rural catchments facing cloud blackouts.
