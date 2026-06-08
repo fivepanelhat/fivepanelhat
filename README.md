@@ -3,6 +3,8 @@
 ![Coastal Alpine Tech Banner](assets/social_preview.png)
 
 [![License: Proprietary](https://img.shields.io/badge/License-Proprietary-red.svg)](LICENSE)  
+[![Python: 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)  
+[![Hardware: Edge AI](https://img.shields.io/badge/Hardware-Raspberry%20Pi%205%20%2B%20Hailo--10L%2F10H%20NPU-orange.svg)]()  
 [![Sovereignty: Offline Native](https://img.shields.io/badge/Sovereignty-Offline%20Native-green.svg)]()
 
 Welcome to the official repository landing page for **Coastal Alpine Tech Limited**, headquartered in New Plymouth, Taranaki, New Zealand. We design and deploy offline-native, data-sovereign edge intelligence systems for remote, high-stakes industrial, agricultural, and biosecurity settings across New Zealand.
