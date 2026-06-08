@@ -17,7 +17,7 @@ Our stack operates entirely on-premise (e.g. on Raspberry Pi 5 hardware with NPU
 | :--- | :--- | :--- | :--- |
 | [weaver](https://github.com/fivepanelhat/weaver) | Multi-tenant helpdesk & local RAG mesh | Privacy Act 2020, Public Records Act 2005 | RPi 5 (8GB/16GB) |
 | [Blue-Moon-Portal](https://github.com/fivepanelhat/Blue-Moon-Portal) | Automated crop lighting & laser target tracking | HSNO Act 1996, HSWA 2015 (Laser safety) | RPi 5 + AI HAT+ |
-| [Sting-Operation-AI](https://github.com/fivepanelhat/Sting-Operation-AI) | YOLO wasp & bee classifier beehive sentinel | Biosecurity Act 1993, Animal Welfare Act 1999 | RPi 5 + Hailo-8L |
+| [Sting-Operation-AI](https://github.com/fivepanelhat/Sting-Operation-AI) | YOLO wasp & bee classifier beehive sentinel | Biosecurity Act 1993, Animal Welfare Act 1999 | RPi 5 + Hailo-10L NPU |
 | [AquaGuard-Portal](https://github.com/fivepanelhat/AquaGuard-Portal) | Water runoff, sediment, & turbidity telemetry | RMA 1991, Horizons One Plan, regional consents | RPi 5 + Camera + Mic |
 | [SoilGuard-Portal](https://github.com/fivepanelhat/SoilGuard-Portal) | Soil N-P-K, pH, & moisture crop control | NES-F 2020 (Synthetic N cap), FWFPs | RPi 5 + AI HAT+ |
 | [coastal-alpine-core](https://github.com/fivepanelhat/coastal-alpine-core) | Shared SDK (Offline LLM wrapper, safety, telemetry) | - | Python 3.10+ Edge-wide |
