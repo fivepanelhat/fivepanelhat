@@ -21,7 +21,7 @@ Our stack operates entirely on-premise (e.g. on Raspberry Pi 5 hardware with NPU
 | Repository | Role | Core NZ Regulations | Primary Hardware Target |
 | :--- | :--- | :--- | :--- |
 | [weaver](https://github.com/fivepanelhat/weaver) | Multi-tenant helpdesk & local RAG mesh | Privacy Act 2020, Public Records Act 2005 | RPi 5 (8GB/16GB) |
-| [Blue-Moon-Portal](https://github.com/fivepanelhat/Blue-Moon-Portal) | Automated crop lighting & laser target tracking | HSNO Act 1996, HSWA 2015 (Laser safety) | RPi 5 + AI HAT+ |
+| [Blue-Moon-Portal](https://github.com/fivepanelhat/Blue-Moon-Portal) | Multi-modal edge AI for microgreen cultivation (Byte Size Kai) | Biosecurity Act 1993, HSNO Act 1996, Food Act 2014 | RPi 5 + AI HAT+ (Hailo-8 NPU) |
 | [Sting-Operation-AI](https://github.com/fivepanelhat/Sting-Operation-AI) | YOLO wasp & bee classifier beehive sentinel | Biosecurity Act 1993, Animal Welfare Act 1999 | RPi 5 + Hailo-10L NPU |
 | [AquaGuard-Portal](https://github.com/fivepanelhat/AquaGuard-Portal) | Water runoff, sediment, & turbidity telemetry | RMA 1991, Horizons One Plan, regional consents | RPi 5 + Camera + Mic |
 | [SoilGuard-Portal](https://github.com/fivepanelhat/SoilGuard-Portal) | Soil N-P-K, pH, & moisture crop control | NES-F 2020 (Synthetic N cap), FWFPs | RPi 5 + AI HAT+ |
@@ -40,7 +40,7 @@ flowchart TD
         
         subgraph "Application Layer"
             Weaver["weaver<br/>(LangGraph AI Helpdesk)"]
-            BlueMoon["Blue-Moon-Portal<br/>(Laser Pest Control)"]
+            BlueMoon["Blue-Moon-Portal<br/>(Microgreen Crop AI)"]
             Sting["Sting-Operation-AI<br/>(Bee Sentinel Box)"]
             Aqua["AquaGuard-Portal<br/>(Runoff Telemetry)"]
             Soil["SoilGuard-Portal<br/>(NPK Soil Monitor)"]
