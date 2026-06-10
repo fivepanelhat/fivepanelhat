@@ -1,5 +1,8 @@
 # Coastal Alpine Tech Limited: Kiwi Edge AI Stack
 
+![CI](https://github.com/UNKNOWN_OWNER/fivepanelhat/actions/workflows/secops.yml/badge.svg?branch=main)
+
+
 ![Coastal Alpine Tech Banner](assets/social_preview.png)
 
 [![License](https://img.shields.io/badge/License-Proprietary--Commercial-blue?style=flat-square)](LICENSE)  
