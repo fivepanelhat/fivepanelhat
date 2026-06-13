@@ -1,5 +1,9 @@
 # Coastal Alpine Tech Limited: Kiwi Edge AI Stack
 
+![CI](https://github.com/fivepanelhat/fivepanelhat.git
+/actions/workflows/secops.yml/badge.svg?branch=main)
+
+
 ![CI](https://github.com/fivepanelhat/fivepanelhat/actions/workflows/secops.yml/badge.svg?branch=main)
 
 
