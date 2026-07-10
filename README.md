@@ -145,8 +145,6 @@ flowchart TB
 | **⑤ Portals** | Domain agents | Agritech, biosecurity, water, soil, helpdesk |
 | **⑥ Aether** | Dev-time agentic tooling | HITL planning, skills, remediation for the stack |
 
----
-
 ## Core Operating Philosophies
 
 1. **Sovereign by Design**: Data generated on NZ *whenua* is processed and stored locally, fully conforming to Te Mana Raraunga principles. We avoid commercial third-party cloud data leakage.
