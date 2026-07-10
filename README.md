@@ -40,26 +40,110 @@ All Coastal Alpine edge repositories document this same target. Do not mix Hailo
 
 ## Stack Architecture Overview
 
-The following diagram illustrates how the shared core SDK powers data-sovereign telemetry parsing, security screening, and offline reasoning across the different application portals:
+End-to-end data path on a **single sovereign edge node** (Raspberry Pi 5 16GB + Hailo-10H). Sensors and actuators stay on-farm; inference and orchestration never leave the property.
+
+![Kiwi Edge AI Stack — liquid glass architecture](assets/architecture_overview.png)
+
+### System layers (readable map)
 
 ```mermaid
-flowchart TD
-    subgraph "Sovereign Local Hardware — RPi 5 16GB + Hailo-10H"
-        Core["Coastal-Alpine-Core SDK<br/>(Safety Guards / Telemetry)"]
-        
-        subgraph "Application Layer"
-            Weaver["Weaver<br/>(LangGraph AI Helpdesk)"]
-            BlueMoon["Blue-Moon-Portal<br/>(Microgreen Crop AI)"]
-            Sting["Sting-Operation-AI<br/>(Bee Sentinel Box)"]
-            Aqua["AquaGuard-Portal<br/>(Runoff Telemetry)"]
-            Soil["SoilGuard-Portal<br/>(NPK Soil Monitor)"]
-        end
+%%{init: {
+  "theme": "dark",
+  "themeVariables": {
+    "fontSize": "18px",
+    "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+    "primaryColor": "#0ea5e9",
+    "primaryTextColor": "#f8fafc",
+    "primaryBorderColor": "#38bdf8",
+    "lineColor": "#67e8f9",
+    "secondaryColor": "#1e293b",
+    "tertiaryColor": "#0f172a",
+    "clusterBkg": "#0b1220cc",
+    "clusterBorder": "#38bdf880",
+    "titleColor": "#e2e8f0"
+  },
+  "flowchart": {
+    "nodeSpacing": 48,
+    "rankSpacing": 56,
+    "padding": 24,
+    "htmlLabels": true,
+    "curve": "basis"
+  }
+}}%%
+flowchart TB
+    classDef hw fill:#0c4a6e,stroke:#38bdf8,stroke-width:2px,color:#f0f9ff
+    classDef core fill:#134e4a,stroke:#2dd4bf,stroke-width:2px,color:#f0fdfa
+    classDef app fill:#1e1b4b,stroke:#a5b4fc,stroke-width:2px,color:#eef2ff
+    classDef ai fill:#3b0764,stroke:#e879f9,stroke-width:2px,color:#fdf4ff
+    classDef fw fill:#422006,stroke:#fbbf24,stroke-width:2px,color:#fffbeb
+    classDef sense fill:#052e16,stroke:#4ade80,stroke-width:2px,color:#f0fdf4
+
+    subgraph FIELD["① Field & marine sensors"]
+        direction LR
+        S1["Water probes<br/>pH · DO · turbidity"]
+        S2["Soil probes<br/>N-P-K · moisture"]
+        S3["Vision / audio<br/>CSI · mics"]
+        S4["Hive cameras<br/>YOLO streams"]
     end
-    
-    Weaver & BlueMoon & Sting & Aqua & Soil -->|Imports & Telemetry| Core
-    Core -->|Local Port Inference| Ollama["Local Ollama<br/>(Gemma 4 Instruct)"]
-    Core -->|NPU| Hailo["Hailo-10H NPU<br/>40 TOPS"]
+
+    subgraph FIRMWARE["② Edge nodes — Sovereign-Edge-Firmware"]
+        direction LR
+        ESP["ESP32 nodes<br/>mTLS MQTT"]
+        HUB["Pi hub services<br/>Mosquitto · Node-RED"]
+    end
+
+    subgraph RUNTIME["③ Edge runtime — RPi 5 16GB + Hailo-10H · coastal-alpine-stack"]
+        direction TB
+        K3s["K3s / compose<br/>on-device services"]
+        Ollama["Ollama<br/>Gemma 4 e4b local LLM"]
+        Hailo["Hailo-10H NPU<br/>40 TOPS vision accel"]
+    end
+
+    subgraph SDK["④ Shared SDK — Coastal-Alpine-Core"]
+        direction LR
+        Guard["Input / security guards"]
+        Tele["Telemetry · energy"]
+        Client["SovereignOllamaClient"]
+    end
+
+    subgraph PORTALS["⑤ Domain portals — offline agents"]
+        direction LR
+        Weaver["Weaver<br/>multi-tenant RAG mesh"]
+        Blue["Blue-Moon<br/>microgreens AI"]
+        Sting["Sting-Operation<br/>bee / wasp sentinel"]
+        Aqua["AquaGuard<br/>water quality"]
+        Soil["SoilGuard<br/>soil & fertigation"]
+    end
+
+    subgraph ORCH["⑥ Development companion"]
+        Aether["Aether<br/>agentic ReAct orchestrator"]
+    end
+
+    S1 & S2 & S3 & S4 --> ESP
+    ESP --> HUB
+    HUB --> K3s
+    K3s --> Guard & Tele & Client
+    Client --> Ollama
+    S3 & S4 --> Hailo
+    Guard & Tele & Client --> Weaver & Blue & Sting & Aqua & Soil
+    Aether -.->|skills · CI · HITL| Weaver & Blue & Sting & Aqua & Soil
+
+    class S1,S2,S3,S4 sense
+    class ESP,HUB fw
+    class K3s,Ollama,Hailo hw
+    class Guard,Tele,Client core
+    class Weaver,Blue,Sting,Aqua,Soil app
+    class Aether ai
 ```
+
+| Layer | What runs | Why it matters |
+| :--- | :--- | :--- |
+| **① Sensors** | Probes, cameras, audio | Capture stays local to whenua / farm |
+| **② Firmware** | ESP32 + mTLS MQTT | Hardened field devices, no cloud telemetry bus |
+| **③ Runtime** | Pi 5 16GB, Hailo-10H, Ollama, K3s | Full offline inference + orchestration |
+| **④ Core SDK** | Guards, telemetry, LLM client | Shared safety and observability for every portal |
+| **⑤ Portals** | Domain agents | Agritech, biosecurity, water, soil, helpdesk |
+| **⑥ Aether** | Dev-time agentic tooling | HITL planning, skills, remediation for the stack |
 
 ---
 
