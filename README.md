@@ -155,6 +155,23 @@ Developed with pride in **Taranaki, New Zealand**.
 
 ---
 
+## Recent stack updates
+
+### 2026-07-11 — harden, document, productise
+
+| Area | What shipped |
+| :--- | :--- |
+| **Coastal-Alpine-Core** | **v0.5.3** edge SDK optimisations (Ollama client, telemetry/flywheel, MQTT bounds, AV downscale, hardware key normalisation); **v0.5.4** expanded SecurityGuard patterns and notifications |
+| **Security (org-wide)** | Least-privilege GitHub Actions `permissions`, Dependabot (incl. Actions), SECURITY / notifications sections, dependency floors; Sting no longer writes Roboflow API keys to disk |
+| **coastal-alpine-stack** | Enhanced multi-plane system map; hero architecture image upsized to **4K**; Mermaid maps enlarged in README + `ARCHITECTURE.md` |
+| **Portfolio / regulations** | Core NZ regulations column filled with **Te Mana Raraunga 2018** for Core, stack, Firmware, and Aether |
+| **GitHub blurbs** | Architecture-focused repo descriptions across the stack (layer role + RPi 5 16GB + Hailo-10H / sovereignty language) |
+| **Aether v0.6.4** | New skills: `kiwi-edge-architecture`, `security-notifications-triage`, `te-mana-raraunga-sovereignty`; refreshed `build-ci-hygiene`, skills catalogue, and README Skills section |
+
+**Next focus (suggested):** keep submodules on Core ≥0.5.4; run Dependabot PRs; smoke-test Aether skills against a portal repo; optional ruff polish on Core.
+
+---
+
 ## Project badges
 
 Status badges for this repository (CI, security, license, and stack metadata):
