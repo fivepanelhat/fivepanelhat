@@ -31,10 +31,10 @@ All Coastal Alpine edge repositories document this same target. Do not mix Hailo
 | [Sting-Operation-AI](https://github.com/fivepanelhat/Sting-Operation-AI) | YOLO wasp & bee classifier beehive sentinel | Biosecurity Act 1993, Animal Welfare Act 1999 | RPi 5 16GB + Hailo-10H |
 | [AquaGuard-Portal](https://github.com/fivepanelhat/AquaGuard-Portal) | Water runoff, sediment, & turbidity telemetry | RMA 1991, Horizons One Plan, regional consents | RPi 5 16GB + Hailo-10H |
 | [SoilGuard-Portal](https://github.com/fivepanelhat/SoilGuard-Portal) | Soil N-P-K, pH, & moisture crop control | NES-F 2020 (Synthetic N cap), FWFPs | RPi 5 16GB + Hailo-10H |
-| [Coastal-Alpine-Core](https://github.com/fivepanelhat/Coastal-Alpine-Core) | Shared SDK (offline LLM wrapper, safety, telemetry) | — | RPi 5 16GB + Hailo-10H |
-| [coastal-alpine-stack](https://github.com/fivepanelhat/coastal-alpine-stack) | Full stack compose / K3s edge runtime | — | RPi 5 16GB + Hailo-10H |
-| [Sovereign-Edge-Firmware](https://github.com/fivepanelhat/Sovereign-Edge-Firmware) | ESP32 sensor firmware + edge hub | — | RPi 5 16GB hub + ESP32 nodes |
-| [Aether](https://github.com/fivepanelhat/Aether) | Sovereign agentic development orchestrator | — | Dev workstation / edge companion |
+| [Coastal-Alpine-Core](https://github.com/fivepanelhat/Coastal-Alpine-Core) | Shared SDK (offline LLM wrapper, safety, telemetry) | Te Mana Raraunga 2018 | RPi 5 16GB + Hailo-10H |
+| [coastal-alpine-stack](https://github.com/fivepanelhat/coastal-alpine-stack) | Full stack compose / K3s edge runtime | Te Mana Raraunga 2018 | RPi 5 16GB + Hailo-10H |
+| [Sovereign-Edge-Firmware](https://github.com/fivepanelhat/Sovereign-Edge-Firmware) | ESP32 sensor firmware + edge hub | Te Mana Raraunga 2018 | RPi 5 16GB hub + ESP32 nodes |
+| [Aether](https://github.com/fivepanelhat/Aether) | Sovereign agentic development orchestrator | Te Mana Raraunga 2018 | Dev workstation / edge companion |
 
 ---
 
