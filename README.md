@@ -150,6 +150,52 @@ All four repositories are classified under the **Coastal Alpine Tech (CAT) Archi
 
 ---
 
+## 💰 Kotahitanga Investment Strategy — Sovereign AI Capital Allocation
+
+**Kotahitanga** (collective unity) is our framework for allocating capital to sovereign AI and indigenous data infrastructure projects. It operationalizes:
+
+✓ **Three-Tier Model** (aligns with CAT standards)
+  - **Diamond:** Onshore bare-metal infrastructure ($500K–$2M, 24 months)
+  - **Platinum:** Edge-autonomous intelligent systems ($200K–$800K, 12 months)
+  - **Gold:** Commercial workflow optimization ($50K–$300K, 6 months)
+
+✓ **OCAP® Verification** (Te Mana Raraunga principles)
+  - Ownership: Clear legal ownership (iwi, organization, or co-ownership)
+  - Control: Encryption keys held by data owner (dual-key model for Māori data)
+  - Access: All access logged, audited, restricted by purpose
+  - Possession: Data physically located in Aotearoa only
+
+✓ **225-Point Compliance Baseline** (NZ Privacy Act 2020 + SOC 2 Type II)
+  - **Diamond:** ≥95% baseline (external auditor sign-off required)
+  - **Platinum:** ≥85% baseline (internal audit + CISO review)
+  - **Gold:** ≥80% baseline (Compliance Officer review)
+
+✓ **Remediation Guardrails**
+  - 🟢 **GREEN (≥90%):** Full capital release, normal operations
+  - 🟡 **YELLOW (70–89%):** 50% escrow hold, 30-day remediation deadline
+  - 🔴 **RED (<70%):** Full capital freeze, infrastructure lockout (remediate or terminate)
+
+✓ **HITL Gates** (mandatory human-in-the-loop)
+  - Capital allocation decisions (>$50K requires CFO + CISO approval)
+  - Tier classification changes (requires board + Cultural Advisory Board sign-off)
+  - Māori data approvals (Cultural Advisory Board has veto authority)
+
+✓ **Local Benefit-Sharing** (quarterly reporting)
+  - Local employment created (FTEs)
+  - Community training + skill development
+  - Data sovereignty milestones achieved
+  - Revenue reinvested locally
+
+**Active Projects:**
+- **KAS-2026-001:** Sovereign Regional Health Cloud (Weaver) — $1.2M, ACTIVE, 94% ✓
+- **KAS-2026-007:** Community Farm AI (Core/Aether) — $300K, ACTIVE, 88%
+- **KAS-2026-008:** Regional Intelligence Hub (Stack) — $400K, RED (capital freeze, remediation in progress)
+
+[View Full Investment Strategy](https://github.com/fivepanelhat/Weaver/blob/claude/edge-ai-computer-use-cli-157258/.github/investment/KOTAHITANGA_INVESTMENT_STRATEGY.md)  
+[View Capital Allocation Tracker](https://github.com/fivepanelhat/Weaver/blob/claude/edge-ai-computer-use-cli-157258/.github/investment/CAPITAL_ALLOCATION_TRACKER.md)
+
+---
+
 ## 🆘 Contact & Support
 
 ### Compliance & Governance
