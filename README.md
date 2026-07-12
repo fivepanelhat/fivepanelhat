@@ -1,5 +1,3 @@
-# Five Panel Hat 🎩
-
 **Coastal Alpine Tech's Sovereign Edge AI Stack**
 
 ---
