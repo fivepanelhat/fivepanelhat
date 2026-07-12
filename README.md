@@ -25,6 +25,35 @@ A compact view of the governance work now living in this org profile (full frame
 
 ---
 
+## Funding system (grants + tracker)
+
+Org home for **Māori AI · deeptech · agritech · sovereign edge** funding discovery and applications (HITL required):
+
+| Resource | Path |
+| :--- | :--- |
+| **Funding index** | [`.github/funding/README.md`](.github/funding/README.md) |
+| **Guide** | [`.github/funding/FUNDING_GUIDE.md`](.github/funding/FUNDING_GUIDE.md) |
+| **Tracker** | [`.github/funding/FUNDING_TRACKER.md`](.github/funding/FUNDING_TRACKER.md) · [tracker.csv](.github/funding/tracker.csv) |
+| **Grants Agent skill** | [`.github/funding/grants-agent/SKILL.md`](.github/funding/grants-agent/SKILL.md) |
+| **Knowledge base** | [`.github/funding/knowledge-base/`](.github/funding/knowledge-base/) |
+| **Fit scorer** | `python .github/funding/scripts/score_fit.py --project "..."` |
+
+### Open / near-term priorities (research snapshot 2026-07-13)
+
+| Priority | Fund | Status | Indicative value |
+| :--- | :--- | :--- | :--- |
+| **P0** | [New to R&D Grant](https://www.business.govt.nz/tax-and-money/innovation-funding/new-to-r-and-d-grant) (MBIE) | **OPEN** | 40% co-fund up to **$400k** |
+| **P0** | [Māori Development Fund](https://www.tpk.govt.nz/nga-putea-me-nga-ratonga/maori-development-fund) (TPK) | **OPEN** (rolling; regional office first) | Proposal-based · fund **$40.21m p.a.** |
+| **P0** | [Primary Sector Growth Fund](https://www.mpi.govt.nz/funding-rural-support/primary-sector-growth-fund) (MPI) | **OPEN** | Co-investment (replaces SFF Futures) |
+| **P1** | R&D Experience Grant | Opens **13 Jul 2026** | Student ~10 weeks |
+| **P1** | R&D Career Grant | Opens **31 Aug 2026** | Up to $30k / $35k (6 months) |
+| **P1** | [RDTI](https://www.rdti.govt.nz/) | Ongoing | **15%** tax credit |
+| **P2** | NZIAT AI Research Platform | Partner / watch | ~**$70m** / 7 years (platform) |
+
+Re-verify every status on the funder site before applying. Agent drafts are **not** submissions.
+
+---
+
 ## Canonical hardware target
 
 | Component | Specification |
@@ -365,6 +394,15 @@ Full reference set on this repo:
 ---
 
 ## Recent stack updates
+
+### 2026-07-13 — funding system scaffold
+
+| Area | What shipped |
+| :--- | :--- |
+| **Funding guide + tracker** | Open NZ grants for Māori AI / deeptech / agritech / sovereign edge (MBIE, TPK, MPI, RDTI, NZIAT) |
+| **Grants agent** | Skill + fit matrix + HITL checklist under `.github/funding/grants-agent/` |
+| **Knowledge base** | Extracted CAT standards + NZ compliance digests for proposal drafting |
+| **Fit scorer** | `scripts/score_fit.py` against `tracker.csv` |
 
 ### 2026-07-12 — front page hybrid + compliance blend
 
