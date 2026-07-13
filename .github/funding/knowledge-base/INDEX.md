@@ -8,6 +8,8 @@ Extracted and curated knowledge for the **grants-agent** and human grant writers
 | [portfolio-fit.md](portfolio-fit.md) | Repo → funding themes |
 | [sovereignty-overlay.md](sovereignty-overlay.md) | Te Mana Raraunga + Privacy + HITL short form |
 | [extracted-skills/](extracted-skills/) | Digests of key SKILL.md sources |
+| [../FUNDING_ELIGIBILITY_MATRIX.md](../FUNDING_ELIGIBILITY_MATRIX.md) | Grant/seed likelihood, TAM, prerequisites |
+| [../INVESTOR_MATRIX.md](../INVESTOR_MATRIX.md) | Investor/founder matrix + public comps |
 
 ## Source map
 

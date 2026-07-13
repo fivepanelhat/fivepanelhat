@@ -12,6 +12,8 @@ This folder is the org-level home for grant discovery, tracking, and agent-assis
 | :--- | :--- |
 | How we pursue funding | [FUNDING_GUIDE.md](FUNDING_GUIDE.md) |
 | Live opportunity board | [FUNDING_TRACKER.md](FUNDING_TRACKER.md) · [tracker.csv](tracker.csv) |
+| **Funding eligibility matrix** (grants/seed likelihood, TAM, prerequisites) | [FUNDING_ELIGIBILITY_MATRIX.md](FUNDING_ELIGIBILITY_MATRIX.md) · [matrices/](matrices/) |
+| **Investor & founder matrix** (what VCs/angels/founders want + Halter/Sharesies/Cursor comps) | [INVESTOR_MATRIX.md](INVESTOR_MATRIX.md) |
 | Per-grant briefs | [opportunities/](opportunities/) |
 | Grants Agent skill | [grants-agent/SKILL.md](grants-agent/SKILL.md) |
 | Knowledge base (extracted skills) | [knowledge-base/](knowledge-base/) |

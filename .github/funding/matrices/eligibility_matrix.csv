@@ -1,0 +1,15 @@
+capital_type,instrument,cat_use_case,likelihood_now,likelihood_6_12mo,key_prerequisite,main_blocker,narrative_weight,tam_weight,traction_weight
+New to R&D Grant,grant_cofund_40pct,Core Weaver Aether R&D,82,90,new_to_rd_eligibility_and_60pct_private_cofund,rd_spend_history_or_cash,high,medium,low
+Primary Sector Growth Fund,coinvestment,SoilGuard AquaGuard Sting pilots,75,88,farm_partners_and_eoi,multi_month_process,high,high,medium
+Maori Development Fund,grant_investment,whenua productivity Maori outcomes,48,72,tpk_regional_and_kaitono,no_authentic_partnership,high,medium,low
+RDTI,tax_credit_15pct,ongoing eligible R&D,70,85,cost_capture_systems,not_cash,medium,low,low
+R&D Experience Grant,wage_support,intern capacity,72,80,open_window_project_plan,timing,medium,low,low
+R&D Career Grant,wage_support,grad PhD capacity,72,80,open_window_role_def,timing,medium,low,low
+NZIAT AI Platform,partner_subcontract,edge partner to platform,45,70,host_relationship,not_platform_host,high,high,medium
+MABx whenua multi-fund,programme_grants,cluster tech partner,50,75,cultural_pathway,relationships,high,medium,low
+Angel pre-seed equity,safe_or_equity,GTM pilots team,55,75,story_team_early_proof,thin_traction,high,high,medium
+NZ seed VC,equity,agritech AI wedge scale,50,78,venture_path_nz_deeptech,arr_or_pilot_density,high,high,high
+Global agritech VC,equity,multi-country field scale,25,55,multi_geo_field_proof,too_early,high,high,high
+Global AI pure-play VC,equity,agent product velocity,20,45,usage_and_revenue_velocity,wrong_metrics_now,medium,high,high
+Strategic corporate,pilot_then_equity,distribution,40,65,procurement_path,long_cycles,medium,medium,medium
+Internal Kotahitanga,internal_capital,stack completion,varies,varies,compliance_gates,red_freeze,medium,low,low
