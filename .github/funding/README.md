@@ -16,6 +16,7 @@ This folder is the org-level home for grant discovery, tracking, and agent-assis
 | **Investor & founder matrix** (what VCs/angels/founders want + Halter/Sharesies/Cursor comps) | [INVESTOR_MATRIX.md](INVESTOR_MATRIX.md) |
 | **Roadmap / timeline (todos)** | [ROADMAP_TIMELINE.md](ROADMAP_TIMELINE.md) · [matrices/roadmap_todos.csv](matrices/roadmap_todos.csv) |
 | **Authenticity audit** | [AUTHENTICITY_AUDIT.md](AUTHENTICITY_AUDIT.md) — pre-seed claims hygiene across org READMEs |
+| **Install matrix (Win/Linux)** | [INSTALL_MATRIX.md](INSTALL_MATRIX.md) — cross-platform install commands + smoke status |
 | Per-grant briefs | [opportunities/](opportunities/) |
 | Grants Agent skill | [grants-agent/SKILL.md](grants-agent/SKILL.md) |
 | Knowledge base (extracted skills) | [knowledge-base/](knowledge-base/) |
