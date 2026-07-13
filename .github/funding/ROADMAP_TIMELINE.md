@@ -326,8 +326,8 @@ Nov–Mar   Full proposal + co-invest packaging
 
 #### Todos — `KA`
 
-- [ ] **KA-001** · Review KAS-2026-008 RED freeze remediation plan · _Due: 2026-08-15_
-- [ ] **KA-002** · Monthly compliance % update on active KAS projects · _Ongoing_
+- [ ] **KA-001** · Review internal planning scenario KAS-PLAN-008 (unfunded) before any capital narrative · _Due: 2026-08-15_
+- [ ] **KA-002** · Monthly review of internal planning scenarios only (no fake ACTIVE budgets) · _Ongoing_
 - [ ] **KA-003** · HITL for any internal allocation &gt;$50k · _Per event_
 - [ ] **KA-004** · Ensure external grant co-fund never double-counts frozen/internal pots incorrectly · _Per application_
 

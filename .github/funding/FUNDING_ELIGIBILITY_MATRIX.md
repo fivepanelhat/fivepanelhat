@@ -19,7 +19,7 @@
 | **20–39** | **Low** | Structural blockers (eligibility, traction, or thesis mismatch) |
 | **0–19** | **Unlikely now** | Wrong stage / wrong capital type |
 
-**CAT stage assumption (2026-07):** Product architecture + multi-repo stack public; compliance skill pack deployed; limited disclosed commercial ARR; hardware target clear (RPi 5 16GB + Hailo-10H); Taranaki HQ. Adjust scores when ARR, pilots, or entity facts change.
+**CAT stage assumption (2026-07):** **Pre-seed startup.** Product architecture + multi-repo stack public; compliance skill pack as design targets; limited/no disclosed commercial ARR; hardware target clear (RPi 5 16GB + Hailo-10H); Taranaki HQ. Adjust scores when ARR, pilots, or entity facts change.
 
 ---
 
@@ -114,7 +114,7 @@ Likelihood = composite of **fit** (narrative/market) × **readiness** (prerequis
 | **Global agritech VC** | Equity | Halter-class field scale | Multi-country field proof | **25** | **55** | Too early; need scale metrics |
 | **Global AI pure-play VC** | Equity | Cursor-class agent velocity | Explosive product usage metrics | **20** | **45** | Wrong metric profile today |
 | **Strategic corporate** (ag/telco/cloud NZ) | Equity / pilot $ | Distribution | Procurement path | **40** | **65** | Long sales cycles |
-| **Internal Kotahitanga** | Internal capital | Stack completion | Compliance % gates; HITL | **varies** | — | Red freeze rules |
+| **Internal Kotahitanga** | Planning only (pre-seed) | Stack completion goals | No real multi-M budgets; HITL before any real capital | **planning** | — | Do not invent ACTIVE funded rows |
 | **Crowdfunding / retail** | Equity crowdfund | Brand | Not primary CAT path | **15** | **25** | Dilution / focus risk |
 
 ### 5.1 Likelihood heatmap (quick view)

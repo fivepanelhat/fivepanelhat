@@ -91,7 +91,7 @@ SV-006,nz_seed,Policy skip global VC until metrics,policy,founder,,todo,P5
 GL-001,global,Annual re-score eligibility matrix,each Jul,grant_lead,,todo,later
 GL-002,global,No cold tier-1 AI agritech outreach early,policy,founder,,todo,later
 GL-003,global,Track Halter-class field metric north star,ongoing,gtm,,todo,later
-KA-001,kotahitanga,Review KAS-2026-008 RED freeze plan,2026-08-15,finance,,todo,internal
-KA-002,kotahitanga,Monthly compliance pct KAS projects,monthly,grant_lead,,todo,internal
+KA-001,kotahitanga,Review planning scenario KAS-PLAN-008 unfunded,2026-08-15,finance,,todo,internal
+KA-002,kotahitanga,Monthly review planning scenarios only,monthly,grant_lead,,todo,internal
 KA-003,kotahitanga,HITL internal allocations over 50k,per event,founder,,todo,internal
 KA-004,kotahitanga,No double-count grant vs internal pots,per app,finance,,todo,internal

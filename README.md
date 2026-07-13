@@ -2,9 +2,11 @@
 
 ![Coastal Alpine Tech Banner](assets/social_preview.png)
 
-Welcome to the official repository landing page for **Coastal Alpine Tech Limited**, headquartered in New Plymouth, Taranaki, New Zealand. We design and deploy offline-native, data-sovereign edge intelligence systems for remote, high-stakes industrial, agricultural, and biosecurity settings across Aotearoa.
+**Coastal Alpine Tech Limited** — pre-seed startup, New Plymouth, Taranaki, Aotearoa New Zealand.
 
-Our stack is **hybridised** across **Coastal-Alpine-Core**, **Weaver**, **Aether**, and **coastal-alpine-stack**: develop on **Windows or Linux**, deploy production on the **canonical edge node** — **Raspberry Pi 5 (16GB)** with **Hailo-10H NPU** (40 TOPS AI Accelerator / AI HAT+ 2) — to maintain customary data rights (Te Mana Raraunga / Māori Data Sovereignty) and guarantee operational uptime in rural catchments facing cloud blackouts.
+We are building offline-native, data-sovereign edge intelligence for remote industrial, agricultural, and biosecurity settings across Aotearoa. This org profile maps our **Kiwi Edge AI Stack** — early-stage product architecture and open engineering work, **not** a claim of large-scale commercial deployment or raised Series capital.
+
+Our stack is **hybridised** across **Coastal-Alpine-Core**, **Weaver**, **Aether**, and **coastal-alpine-stack**: develop on **Windows or Linux**; target production edge on the **canonical node** — **Raspberry Pi 5 (16GB)** with **Hailo-10H NPU** (40 TOPS AI Accelerator / AI HAT+ 2) — to support customary data rights (Te Mana Raraunga / Māori Data Sovereignty) and offline operation in rural catchments facing cloud blackouts.
 
 ---
 
@@ -20,7 +22,7 @@ A compact view of the governance work now living in this org profile (full frame
 | **MBIE Responsible AI** | Safety-by-design, explainability, HITL gates |
 | **NZ Algorithm Charter** | Transparent decisions, human appeal |
 
-**Status:** Framework files deployed · implementation roadmap Q3 2026 → external SOC 2 target Q4 2026–Q1 2027  
+**Status (pre-seed):** Compliance **framework documents** are in-repo as design targets — **not** an external SOC 2 Type II attestation. Implementation is early-stage.  
 **Local docs:** [SKILL.md](.github/compliance/nz-ai-compliance-soc2/SKILL.md) · [Implementation guide](.github/compliance/nz-ai-compliance-soc2/README.md) · [Audit checklist](.github/compliance/nz-ai-compliance-soc2/references/COMPLIANCE_AUDIT_CHECKLIST.md)
 
 ---
@@ -85,24 +87,28 @@ All Coastal Alpine edge repositories document this same target. Do not mix Hailo
 | [SoilGuard-Portal](https://github.com/fivepanelhat/SoilGuard-Portal) | Soil N-P-K, pH, & moisture crop control | Edge Linux | NES-F 2020 (Synthetic N cap), FWFPs | RPi 5 16GB + Hailo-10H |
 | [Sovereign-Edge-Firmware](https://github.com/fivepanelhat/Sovereign-Edge-Firmware) | ESP32 sensor firmware + edge hub | Field + Pi hub | Te Mana Raraunga 2018 | RPi 5 16GB hub + ESP32 nodes |
 
-### Foundation roles (CAT tiers)
+### Foundation roles (CAT design targets)
 
-| Repo | Layer | CAT emphasis |
+CAT Gold / Platinum / Diamond labels are **internal design maturity targets** for a pre-seed company — not third-party certifications or claims of enterprise production fleets.
+
+| Repo | Layer | Design focus |
 | :--- | :--- | :--- |
-| **Weaver** | Orchestration + multi-tenant RAG | Diamond primary · HITL, tenant isolation |
-| **Aether** | Agentic companion + computer use | Platinum primary · explainability, fairness |
-| **Coastal-Alpine-Core** | Edge SDK + security primitives | Diamond primary · encryption, device posture |
-| **coastal-alpine-stack** | Deploy / remediate / compose | Diamond primary · fail-closed auth, signatures |
+| **Weaver** | Orchestration + multi-tenant RAG | HITL, tenant isolation |
+| **Aether** | Agentic companion + computer use | Explainability, fairness, skills |
+| **Coastal-Alpine-Core** | Edge SDK + security primitives | Encryption, device posture |
+| **coastal-alpine-stack** | Deploy / remediate / compose | Fail-closed auth patterns, compose/K3s |
 
 ---
 
 ## Stack Architecture Overview
 
-End-to-end data path on a **sovereign edge node**, hybridised with the **Aether** companion. Sensors and actuators stay on-farm; inference and orchestration never leave the property. **Develop on Windows or Linux; deploy on RPi 5.**
+End-to-end **target** data path on a sovereign edge node, hybridised with the **Aether** companion. Design intent: sensors and actuators stay on-farm; inference and orchestration stay local. **Develop on Windows or Linux; target deploy on RPi 5.**
+
+> **Diagrams:** Architecture images and Mermaid maps describe the **target product architecture** for this pre-seed stack. They are engineering design maps — not claims of large-scale commercial fleet deployment.
 
 ![Kiwi Edge AI Stack — ultra liquid glass architecture](assets/architecture_overview.png)
 
-### System layers (readable map)
+### System layers (readable map — same target layers as the image)
 
 ```mermaid
 %%{init: {
@@ -343,8 +349,8 @@ ollama pull qwen2.5-vl:7b       # Aether computer-use vision
 
 1. **Sovereign by Design**: Data generated on NZ *whenua* is processed and stored locally, fully conforming to Te Mana Raraunga principles. We avoid commercial third-party cloud data leakage.
 2. **Rural Resilience**: Our systems are engineered to withstand rural connectivity blackouts, executing local multi-modal vision and audio inference without any internet connection.
-3. **Regulatory Safety**: Systems actively control actuators (like locking out fertigation lines or disabling class 3B lasers) to automatically prevent regulatory breaches of Regional Council rules.
-4. **Cross-platform hybrid**: Foundation packages run on **Windows and Linux** for development; production edge stays on RPi 5 + Hailo-10H.
+3. **Regulatory Safety**: Domain agents are **designed** to support actuator lockouts (e.g. fertigation lines) so operators can reduce risk of Regional Council rule breaches — field validation is part of the pre-seed roadmap.
+4. **Cross-platform hybrid**: Foundation packages target **Windows and Linux** for development; intended production edge is RPi 5 + Hailo-10H.
 5. **HITL by default**: High-risk agent actions and capital/compliance decisions require human approval — no silent autonomous implementation of governance changes.
 
 Developed with pride in **Taranaki, New Zealand**.
@@ -355,11 +361,13 @@ Developed with pride in **Taranaki, New Zealand**.
 
 Condensed from the compliance and Kotahitanga work added to this profile — product landing above remains primary.
 
-### CAT Architectural Standards
+### CAT Architectural Standards (design targets)
 
-- **Diamond (primary):** enterprise-grade compliance, security, observability  
-- **Platinum (secondary):** AI continuous improvement + data flywheel  
-- **Gold (tertiary):** workflow-native design with transparent HITL gates  
+Internal maturity model — **not** external audit grades:
+
+- **Diamond:** security, observability, and deployment hardening goals  
+- **Platinum:** AI continuous improvement + data flywheel goals  
+- **Gold:** workflow-native design with transparent HITL gates  
 
 ### Kotahitanga investment principles
 
@@ -368,7 +376,7 @@ Condensed from the compliance and Kotahitanga work added to this profile — pro
 | Guardrail | Rule of thumb |
 | :--- | :--- |
 | **OCAP® alignment** | Ownership, Control, Access, Possession — data stays in Aotearoa |
-| **Compliance baseline** | Diamond ≥95% · Platinum ≥85% · Gold ≥80% on the 225-point matrix |
+| **Compliance baseline (internal goals)** | Diamond ≥95% · Platinum ≥85% · Gold ≥80% on the 225-point checklist |
 | **Remediation** | 🟢 ≥90% full release · 🟡 70–89% escrow · 🔴 &lt;70% freeze |
 | **HITL capital gates** | Large allocations and Māori-data decisions need human / Cultural Advisory Board sign-off |
 
@@ -383,7 +391,7 @@ Full reference set on this repo:
 | Incident playbook | [references/INCIDENT_RESPONSE_PLAYBOOK.md](.github/compliance/nz-ai-compliance-soc2/references/INCIDENT_RESPONSE_PLAYBOOK.md) |
 | Audit checklist | [references/COMPLIANCE_AUDIT_CHECKLIST.md](.github/compliance/nz-ai-compliance-soc2/references/COMPLIANCE_AUDIT_CHECKLIST.md) |
 
-### Key metrics (targets)
+### Key metrics (aspirational targets for a maturing product — not current SLAs)
 
 | Metric | Target |
 | :--- | :--- |
@@ -397,6 +405,14 @@ Full reference set on this repo:
 ---
 
 ## Recent stack updates
+
+### 2026-07-13 — authenticity + pre-seed positioning
+
+| Area | What shipped |
+| :--- | :--- |
+| **Company stage** | Coastal Alpine Tech Limited stated as **pre-seed startup** |
+| **Claims hygiene** | Softened enterprise/SLA overclaims; diagrams labelled as **target architecture** |
+| **Capital fiction** | Public materials avoid role-play funded-project narratives |
 
 ### 2026-07-13 — funding system scaffold
 
@@ -439,6 +455,7 @@ Full reference set on this repo:
 
 Status badges for this repository (CI, security, license, and stack metadata):
 
+[![Stage](https://img.shields.io/badge/Stage-Pre--seed-8B5CF6?style=flat-square)]()
 [![License](https://img.shields.io/badge/License-Proprietary--Commercial-blue?style=flat-square)](LICENSE)  
 [![Python: 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue?style=flat-square)](https://www.python.org/)  
 [![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20RPi-0078D6?style=flat-square)]()  

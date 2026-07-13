@@ -1,7 +1,7 @@
 # Coastal Alpine Tech — Funding System
 
 **Status:** Scaffold live · research snapshot **2026-07-13**  
-**Owner:** Coastal Alpine Tech (HITL required for all applications)  
+**Owner:** Coastal Alpine Tech Limited (**pre-seed startup**; HITL required for all applications)  
 **Scope:** Māori AI · deeptech · agritech · sovereign / offline edge AI · Te Mana Raraunga
 
 This folder is the org-level home for grant discovery, tracking, and agent-assisted proposal work. It reuses the compliance + CAT skill knowledge base so applications stay aligned with sovereignty and architectural standards.

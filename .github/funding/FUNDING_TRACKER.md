@@ -25,17 +25,17 @@
 
 ---
 
-## Internal capital (Kotahitanga)
+## Internal capital (Kotahitanga) — planning only
 
-Tracked separately from external grants (governance capital, not public grant applications):
+**Coastal Alpine Tech Limited is pre-seed.** The rows below are **internal planning scenarios** for how future capital *might* be gated — **not** raised funds, customer contracts, or active multi-million programmes.
 
-| ID | Project | Tier | Budget | Compliance % | Status | Notes |
-| :--- | :--- | :--- | ---: | ---: | :--- | :--- |
-| KAS-2026-001 | Sovereign Regional Health Cloud (Weaver) | Diamond | $1.2M | 94 | ACTIVE | HITL capital + cultural review |
-| KAS-2026-007 | Community Farm AI (Core/Aether) | Platinum | $300k | 88 | ACTIVE | Edge agritech flywheel |
-| KAS-2026-008 | Regional Intelligence Hub (Stack) | Diamond | $400k | RED | FREEZE | Remediate before capital release |
+| ID | Theme | Tier (design) | Planning envelope | Status | Notes |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| KAS-PLAN-001 | Sovereign health-adjacent orchestration (Weaver) | Diamond goals | TBD — unfunded | **planning** | Requires HITL + cultural review before any real allocation |
+| KAS-PLAN-007 | Community farm / agritech edge (Core/Aether) | Platinum goals | TBD — unfunded | **planning** | Pilot LOIs first |
+| KAS-PLAN-008 | Regional edge hub (Stack) | Diamond goals | TBD — unfunded | **planning** | No capital release without compliance baseline |
 
-Rules: see org README Kotahitanga section + compliance skill. **HITL mandatory** for allocations &gt;$50k.
+Rules: org README Kotahitanga principles + compliance skill. **HITL mandatory** before any real capital movement. Do not present these IDs as awarded grants or live investments.
 
 ---
 
