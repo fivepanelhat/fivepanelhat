@@ -15,6 +15,7 @@ This folder is the org-level home for grant discovery, tracking, and agent-assis
 | **Funding eligibility matrix** (grants/seed likelihood, TAM, prerequisites) | [FUNDING_ELIGIBILITY_MATRIX.md](FUNDING_ELIGIBILITY_MATRIX.md) · [matrices/](matrices/) |
 | **Investor & founder matrix** (what VCs/angels/founders want + Halter/Sharesies/Cursor comps) | [INVESTOR_MATRIX.md](INVESTOR_MATRIX.md) |
 | **Roadmap / timeline (todos)** | [ROADMAP_TIMELINE.md](ROADMAP_TIMELINE.md) · [matrices/roadmap_todos.csv](matrices/roadmap_todos.csv) |
+| **Authenticity audit** | [AUTHENTICITY_AUDIT.md](AUTHENTICITY_AUDIT.md) — pre-seed claims hygiene across org READMEs |
 | Per-grant briefs | [opportunities/](opportunities/) |
 | Grants Agent skill | [grants-agent/SKILL.md](grants-agent/SKILL.md) |
 | Knowledge base (extracted skills) | [knowledge-base/](knowledge-base/) |
