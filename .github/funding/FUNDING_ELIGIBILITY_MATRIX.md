@@ -241,4 +241,4 @@ Band using §1. Update [FUNDING_TRACKER.md](FUNDING_TRACKER.md) `fit_score` when
 
 **Owner:** Grant lead + Finance · **HITL:** Cultural Advisor for any Māori-outcome claims  
 
-**Related:** [FUNDING_GUIDE.md](FUNDING_GUIDE.md) · [grants-agent/SKILL.md](grants-agent/SKILL.md) · [knowledge-base/portfolio-fit.md](knowledge-base/portfolio-fit.md)
+**Related:** [FUNDING_GUIDE.md](FUNDING_GUIDE.md) · [ROADMAP_TIMELINE.md](ROADMAP_TIMELINE.md) · [grants-agent/SKILL.md](grants-agent/SKILL.md) · [knowledge-base/portfolio-fit.md](knowledge-base/portfolio-fit.md)

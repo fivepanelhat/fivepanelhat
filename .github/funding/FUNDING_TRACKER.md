@@ -53,6 +53,7 @@ Rules: see org README Kotahitanga section + compliance skill. **HITL mandatory**
 | Date | Change |
 | :--- | :--- |
 | 2026-07-13 | Initial tracker scaffold + research sweep (open NZ funds for Māori AI / deeptech / agritech / sovereign edge) |
+| 2026-07-13 | Added [ROADMAP_TIMELINE.md](ROADMAP_TIMELINE.md) — phased todos + due dates for every capital path |
 
 ---
 

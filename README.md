@@ -39,6 +39,7 @@ Org home for **Māori AI · deeptech · agritech · sovereign edge** funding dis
 | **Fit scorer** | `python .github/funding/scripts/score_fit.py --project "..."` |
 | **Eligibility matrix** | [`.github/funding/FUNDING_ELIGIBILITY_MATRIX.md`](.github/funding/FUNDING_ELIGIBILITY_MATRIX.md) — likelihood of grants/seed by narrative, TAM, prerequisites |
 | **Investor matrix** | [`.github/funding/INVESTOR_MATRIX.md`](.github/funding/INVESTOR_MATRIX.md) — what investors & founders want (Halter / Sharesies / Cursor comps) |
+| **Roadmap / todos** | [`.github/funding/ROADMAP_TIMELINE.md`](.github/funding/ROADMAP_TIMELINE.md) — timeline to attain each grant/seed path |
 
 ### Open / near-term priorities (research snapshot 2026-07-13)
 

@@ -1,0 +1,97 @@
+id,stream,title,due,owner_role,depends_on,status,phase
+FD-001,foundation,Assign named owners Grant Finance Cultural Tech GTM,2026-07-18,founder,,todo,P0
+FD-002,foundation,Confirm legal entity NZBN bank for grants,2026-07-25,finance,,todo,P0
+FD-003,foundation,Compile financials and 12-month cashflow template,2026-08-01,finance,FD-002,todo,P0
+FD-004,foundation,Document 3yr R&D spend and gov R&D funding,2026-07-25,finance,,todo,P0
+FD-005,foundation,Cap table and IP assignment check,2026-08-08,founder,,todo,P0
+FD-006,foundation,One-page CAT narrative spine,2026-07-20,grant_lead,,todo,P0
+FD-007,foundation,Bottom-up SOM v0 spreadsheet,2026-08-15,finance+gtm,FD-006,todo,P0
+FD-008,foundation,Demo kit BOM and cost card,2026-07-25,tech,,todo,P0
+FD-009,foundation,Field demo script and offline inference recording,2026-08-08,tech,FD-008,todo,P0
+FD-010,foundation,Compliance one-pager honest claims,2026-07-25,grant_lead,,todo,P0
+FD-011,foundation,Private evidence folder policy no secrets in git,2026-07-18,grant_lead,,todo,P0
+FD-012,foundation,Start weekly funding standup,2026-07-21,grant_lead,FD-001,todo,P0
+RD-001,new_to_rd,Book Innovation Services navigator call,2026-07-18,grant_lead,,todo,P1
+RD-002,new_to_rd,Confirm entity eligibility,2026-07-25,grant_lead,FD-002,todo,P1
+RD-003,new_to_rd,Confirm R&D spend and gov funding thresholds,2026-07-25,finance,FD-004,todo,P1
+RD-004,new_to_rd,Write R&D uncertainty statement,2026-07-28,tech,FD-006,todo,P1
+RD-005,new_to_rd,Select capability skills >=2,2026-07-28,grant_lead,RD-004,todo,P1
+RD-006,new_to_rd,Draft work packages,2026-08-08,tech,RD-004,todo,P1
+RD-007,new_to_rd,Full eligible cost budget,2026-08-15,finance,RD-006,todo,P1
+RD-008,new_to_rd,Cashflow and bank evidence for 60pct cofund,2026-08-20,finance,FD-003,todo,P1
+RD-009,new_to_rd,Cofund raise path if needed,2026-08-20,finance,RD-008,todo,P1
+RD-010,new_to_rd,Download template and read funding agreement,2026-07-25,grant_lead,RD-001,todo,P1
+RD-011,new_to_rd,Complete portal draft,2026-08-22,grant_lead,RD-007;RD-008,todo,P1
+RD-012,new_to_rd,HITL checklist grant+finance,2026-08-27,grant_lead,RD-011,todo,P1
+RD-013,new_to_rd,SUBMIT New to R&D,2026-08-29,grant_lead,RD-012,todo,P1
+RD-014,new_to_rd,Respond to clarifications within 5 days,ongoing,grant_lead,RD-013,todo,P1
+RD-015,new_to_rd,On award kickoff claims and RDTI intro,award+14d,finance,RD-013,todo,P1
+EX-001,rd_experience,Confirm official rules on open day,2026-07-13,grant_lead,,todo,P1
+EX-002,rd_experience,Write 1-page intern project,2026-07-18,tech,,todo,P1
+EX-003,rd_experience,Name supervisor H&S IP note,2026-07-20,grant_lead,EX-002,todo,P1
+EX-004,rd_experience,Candidate pipeline list,2026-07-25,grant_lead,,todo,P1
+EX-005,rd_experience,Apply Experience grant HITL,2026-08-15,grant_lead,EX-003,todo,P1
+EX-006,rd_experience,Onboard intern checklist,award,tech,EX-005,todo,P1
+CR-001,rd_career,Define grad role,2026-08-15,tech,,todo,P1
+CR-002,rd_career,Masters vs PhD budget track,2026-08-20,finance,CR-001,todo,P1
+CR-003,rd_career,University candidate shortlist,2026-08-28,grant_lead,CR-001,todo,P1
+CR-004,rd_career,Apply Career grant HITL,2026-09-15,grant_lead,CR-002;CR-003,todo,P1
+CR-005,rd_career,6-month milestone plan on award,award+7d,tech,CR-004,todo,P1
+RT-001,rdti,Book RDTI intro session,2026-08-30,finance,RD-001,todo,P1
+RT-002,rdti,Chart of accounts R&D tags,2026-09-15,finance,,todo,P1
+RT-003,rdti,Timesheet project code policy,2026-09-15,tech,RT-002,todo,P1
+RT-004,rdti,Eligible activity cheatsheet for eng,2026-09-30,finance,RT-003,todo,P1
+RT-005,rdti,Quarterly internal RDTI review,2026-Q4,finance,RT-004,todo,P1
+PS-001,psgf,Choose primary pilot wedge portal,2026-08-08,gtm,,todo,P2
+PS-002,psgf,List 10 target farms orchards hives,2026-08-22,gtm,PS-001,todo,P2
+PS-003,psgf,LOI MoU template data residency,2026-08-29,grant_lead,PS-001,todo,P2
+PS-004,psgf,Secure >=2 signed pilot LOIs,2026-09-30,gtm,PS-002;PS-003,todo,P2
+PS-005,psgf,Economic benefit model,2026-10-10,finance,PS-001,todo,P2
+PS-006,psgf,Coinvestment plan cash in-kind hardware,2026-10-15,finance,PS-005,todo,P2
+PS-007,psgf,EOI draft grants-agent then human,2026-10-20,grant_lead,PS-004;PS-006,todo,P2
+PS-008,psgf,HITL and lodge EOI,2026-10-31,grant_lead,PS-007,todo,P2
+PS-009,psgf,Deploy pilot 1 hardware on-farm,2026-11-30,tech,PS-004,todo,P2
+PS-010,psgf,30-day pilot evidence pack,2026-12-31,tech,PS-009,todo,P2
+PS-011,psgf,Full proposal next stage,2027-Q1,grant_lead,PS-008;PS-010,todo,P2
+PS-012,psgf,Monthly MPI process check,ongoing,grant_lead,,todo,P2
+MD-001,mdf,Cultural Advisor MDF go/no-go,2026-08-31,cultural,,todo,P3
+MD-002,mdf,Identify kaitono entity if go,2026-09-30,cultural,MD-001,todo,P3
+MD-003,mdf,Map to MDF investment priority,2026-10-05,grant_lead,MD-002,todo,P3
+MD-004,mdf,Contact TPK regional office first,2026-10-15,cultural,MD-002,todo,P3
+MD-005,mdf,Co-design outcomes benefit-sharing OCAP,2026-11-15,cultural,MD-004,todo,P3
+MD-006,mdf,ROI and sustainability plan,2026-12-15,finance,MD-005,todo,P3
+MD-007,mdf,Complete TPK template after guidance,2027-01-31,grant_lead,MD-004;MD-006,todo,P3
+MD-008,mdf,HITL and submit MDF,2027-Q1,grant_lead,MD-007,todo,P3
+MD-009,mdf,If no-go park and reassess Q2 2027,2026-08-31,cultural,MD-001,todo,P3
+MX-001,mabx,Search tupu.nz Taranaki and nationwide,2026-08-31,cultural,,todo,P3
+MX-002,mabx,Read MABx programme eligibility,2026-08-31,cultural,,todo,P3
+MX-003,mabx,One-pager CAT as whenua tech partner,2026-09-15,grant_lead,MX-001,todo,P3
+MX-004,mabx,Warm intro path no spam,2026-10-31,cultural,MX-003,todo,P3
+MX-005,mabx,If cluster pilot kit and data MoU,2026-Q4,tech,MX-004,todo,P3
+NZ-001,nziat,Map shortlisted concepts to portals,2026-08-15,grant_lead,,todo,P2
+NZ-002,nziat,One-pager sovereign edge contribution,2026-08-31,tech,NZ-001,todo,P2
+NZ-003,nziat,Identify 3 uni CRI contacts,2026-09-15,grant_lead,NZ-001,todo,P2
+NZ-004,nziat,Outreach edge pilot partnership,2026-10-31,grant_lead,NZ-002;NZ-003,todo,P2
+NZ-005,nziat,Revisit when host announced,2026-Q4,grant_lead,NZ-004,todo,P2
+CL-001,climate,Quarterly MfE Stage 3 check,quarterly,cultural,,todo,watch
+CL-002,climate,Engage only if marae-led fit,gate,cultural,CL-001,todo,watch
+AN-001,angel,10-slide investor deck,2026-11-15,grant_lead,PS-009;FD-007,todo,P4
+AN-002,angel,Data room v0,2026-11-30,finance,AN-001,todo,P4
+AN-003,angel,Target list 20 angels funds,2026-11-15,grant_lead,,todo,P4
+AN-004,angel,Soft circle coffees,2026-12-15,founder,AN-001;AN-003,todo,P4
+AN-005,angel,Decide SAFE instrument with counsel,2027-01-15,founder,AN-004,todo,P4
+AN-006,angel,Formal raise window 3-4 months,2027-Q1,founder,AN-005;PS-009,todo,P4
+AN-007,angel,HITL term sheet and close,2027-Q2,founder,AN-006,todo,P4
+SV-001,nz_seed,Research NZ seed fund thesis fit,2026-12-15,grant_lead,,todo,P5
+SV-002,nz_seed,Metrics pack nodes offline pilots ARR,2027-03-31,tech,PS-010,todo,P5
+SV-003,nz_seed,AU beachhead memo,2027-04-30,gtm,FD-007,todo,P5
+SV-004,nz_seed,Warm intros only,2027-Q2,founder,SV-002,todo,P5
+SV-005,nz_seed,Full seed if multi-pilot or ARR path,2027-H2,founder,SV-004,todo,P5
+SV-006,nz_seed,Policy skip global VC until metrics,policy,founder,,todo,P5
+GL-001,global,Annual re-score eligibility matrix,each Jul,grant_lead,,todo,later
+GL-002,global,No cold tier-1 AI agritech outreach early,policy,founder,,todo,later
+GL-003,global,Track Halter-class field metric north star,ongoing,gtm,,todo,later
+KA-001,kotahitanga,Review KAS-2026-008 RED freeze plan,2026-08-15,finance,,todo,internal
+KA-002,kotahitanga,Monthly compliance pct KAS projects,monthly,grant_lead,,todo,internal
+KA-003,kotahitanga,HITL internal allocations over 50k,per event,founder,,todo,internal
+KA-004,kotahitanga,No double-count grant vs internal pots,per app,finance,,todo,internal

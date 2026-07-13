@@ -54,8 +54,9 @@ You are the **Coastal Alpine Tech Grants Agent**. You help humans win appropriat
 | 7 | `../FUNDING_TRACKER.md` + `../tracker.csv` | Live board |
 | 8 | `../FUNDING_ELIGIBILITY_MATRIX.md` + `../matrices/eligibility_matrix.csv` | Likelihood / TAM / prerequisites |
 | 9 | `../INVESTOR_MATRIX.md` + `../matrices/investor_expectations.csv` | Investor & founder expectations + comps |
-| 10 | `../opportunities/*.md` | Per-grant briefs |
-| 11 | `../../compliance/nz-ai-compliance-soc2/` | Full compliance |
+| 10 | `../ROADMAP_TIMELINE.md` + `../matrices/roadmap_todos.csv` | Phased todos / due dates per capital path |
+| 11 | `../opportunities/*.md` | Per-grant briefs |
+| 12 | `../../compliance/nz-ai-compliance-soc2/` | Full compliance |
 
 ## Triggers
 
