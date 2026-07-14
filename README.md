@@ -1,5 +1,29 @@
 # Coastal Alpine Tech Limited: Kiwi Edge AI Stack
 
+[![Stage](https://img.shields.io/badge/Stage-Pre--seed-8B5CF6)](https://github.com/fivepanelhat)
+[![License: Proprietary](https://img.shields.io/badge/License-Proprietary--Commercial-blue.svg)](./LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-3776ab?logo=python&logoColor=white)](https://www.python.org)
+
+[![Linux](https://img.shields.io/badge/Linux-Ubuntu%2C%20Debian%2C%20Fedora-FCC624?logo=linux&logoColor=black)](https://github.com/fivepanelhat/fivepanelhat)
+[![Windows](https://img.shields.io/badge/Windows-10%2B-0078D4?logo=windows&logoColor=white)](https://github.com/fivepanelhat/fivepanelhat)
+[![macOS](https://img.shields.io/badge/macOS-12%2B-000000?logo=apple&logoColor=white)](https://github.com/fivepanelhat/fivepanelhat)
+[![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-5%20%2816GB%29-C11A5B?logo=raspberry-pi&logoColor=white)](https://github.com/fivepanelhat/fivepanelhat)
+
+[![Claude AI](https://img.shields.io/badge/Claude-Anthropic-9C27B0)](https://anthropic.com)
+[![Gemini](https://img.shields.io/badge/Gemini-Google-4285F4?logo=google&logoColor=white)](https://gemini.google.com)
+[![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4-00A67E)](https://openai.com)
+[![Grok](https://img.shields.io/badge/Grok-xAI-000000)](https://x.ai)
+
+[![Ollama](https://img.shields.io/badge/Ollama-Gemma%204-000000?logo=ollama&logoColor=white)](https://ollama.com)
+[![Hailo NPU](https://img.shields.io/badge/NPU-Hailo--10H-005A9C)](https://github.com/fivepanelhat/fivepanelhat)
+[![Hybrid](https://img.shields.io/badge/Hybrid-Core%20%7C%20Weaver%20%7C%20Aether%20%7C%20Stack-8B5CF6)](https://github.com/fivepanelhat/coastal-alpine-stack)
+[![Data Sovereign](https://img.shields.io/badge/Data%20Sovereign-NZ%20Bound-00247D)](https://github.com/fivepanelhat/fivepanelhat)
+
+[![CI Status](https://github.com/fivepanelhat/fivepanelhat/actions/workflows/ci-scan.yml/badge.svg?branch=main)](https://github.com/fivepanelhat/fivepanelhat/actions/workflows/ci-scan.yml)
+[![SecOps](https://img.shields.io/github/actions/workflow/status/fivepanelhat/fivepanelhat/secops.yml?branch=main&label=SecOps&color=success)](https://github.com/fivepanelhat/fivepanelhat/actions/workflows/secops.yml)
+[![RedTeam](https://img.shields.io/github/actions/workflow/status/fivepanelhat/fivepanelhat/redteam.yml?branch=main&label=RedTeam&color=critical)](https://github.com/fivepanelhat/fivepanelhat/actions/workflows/redteam.yml)
+[![Dependencies](https://img.shields.io/badge/Dependencies-Monitored-brightgreen?logo=dependabot)](https://github.com/fivepanelhat/fivepanelhat/security/dependabot)
+
 ![Coastal Alpine Tech Banner](assets/social_preview.png)
 
 **Coastal Alpine Tech Limited** — pre-seed startup, New Plymouth, Taranaki, Aotearoa New Zealand.
@@ -449,28 +473,6 @@ Full reference set on this repo:
 | **Aether** | Kiwi Edge skills, computer-use hybrid, dual installers |
 
 **Next focus (suggested):** keep submodules on Core ≥0.5.4; smoke-test installers on clean Windows and Linux hosts; advance Week 1–12 compliance implementation against the local checklist.
-
----
-
-## Project badges
-
-Status badges for this repository (CI, security, license, and stack metadata):
-
-[![Stage](https://img.shields.io/badge/Stage-Pre--seed-8B5CF6?style=flat-square)]()
-[![License](https://img.shields.io/badge/License-Proprietary--Commercial-blue?style=flat-square)](LICENSE)  
-[![Python: 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue?style=flat-square)](https://www.python.org/)  
-[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20RPi-0078D6?style=flat-square)]()  
-[![Hybrid](https://img.shields.io/badge/Hybrid-Core%20%7C%20Weaver%20%7C%20Aether%20%7C%20Stack-8B5CF6?style=flat-square)]()  
-[![Install](https://img.shields.io/badge/Install-install.sh%20%7C%20install.ps1-0ea5e9?style=flat-square)]()  
-[![Hardware Target](https://img.shields.io/badge/Hardware-Raspberry%20Pi%205%2016GB-C11A5B?style=flat-square&logo=raspberry-pi&logoColor=white)]()  
-[![NPU Acceleration](https://img.shields.io/badge/NPU-Hailo--10H%20Accelerated-005A9C?style=flat-square)]()  
-[![Sovereignty](https://img.shields.io/badge/Sovereignty-NZ%20Data%20Bound-00247D?style=flat-square)]()  
-[![Compliance](https://img.shields.io/badge/Compliance-Privacy%20Act%20%7C%20SOC%202%20%7C%20TMR-0f766e?style=flat-square)](.github/compliance/nz-ai-compliance-soc2/)  
-[![CI](https://github.com/fivepanelhat/fivepanelhat/actions/workflows/ci-scan.yml/badge.svg?branch=main)](https://github.com/fivepanelhat/fivepanelhat/actions/workflows/ci-scan.yml)  
-[![SecOps](https://img.shields.io/github/actions/workflow/status/fivepanelhat/fivepanelhat/secops.yml?branch=main&label=SecOps&style=flat-square&color=success)](https://github.com/fivepanelhat/fivepanelhat/actions/workflows/secops.yml)  
-[![RedTeam](https://img.shields.io/github/actions/workflow/status/fivepanelhat/fivepanelhat/redteam.yml?branch=main&label=RedTeam&style=flat-square&color=critical)](https://github.com/fivepanelhat/fivepanelhat/actions/workflows/redteam.yml)  
-[![Dependabot](https://img.shields.io/badge/Dependencies-Monitored-brightgreen?style=flat-square&logo=dependabot)]()  
-[![Sustainability](https://img.shields.io/badge/EECA%20NZ-Carbon%20Tracked-green?style=flat-square)]()
 
 ---
 
