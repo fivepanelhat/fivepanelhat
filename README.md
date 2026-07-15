@@ -115,6 +115,29 @@ All Coastal Alpine edge repositories document this same target. Do not mix Hailo
 
 ---
 
+## Focus wedges (90-day)
+
+| Priority | Wedge | Canonical repo | Notes |
+| :--- | :--- | :--- | :--- |
+| **P0** | **Byte Size Kai** (agritech) | [Blue-Moon-Portal](https://github.com/fivepanelhat/Blue-Moon-Portal) + Core | Commercial hardware pilot path |
+| **P0** | **Front Line Whanau** (social) | [Front_Line_Whanau](https://github.com/fivepanelhat/Front_Line_Whanau) | Live: front-line-whanau.vercel.app |
+| Supporting | Stack foundation | Core, Weaver, Aether, stack, firmware | Shared SDK / deploy |
+| Supporting | Sister portals | Soil / Aqua / Sting | Background until wedge needs them |
+| Parked | Founder tools | CAT-mail, NZ-Start-Up | Not the sales narrative |
+| **Archived** | Whanau hub scaffold | [whanau-preterm-support-hub](https://github.com/fivepanelhat/whanau-preterm-support-hub) | **Merged into Front_Line_Whanau** (2026-07-16) |
+
+## License matrix (SPDX)
+
+| Repository | License | Notes |
+| :--- | :--- | :--- |
+| Coastal-Alpine-Core, Weaver, coastal-alpine-stack, portals, firmware | Proprietary (CAT) | Commercial edge stack |
+| Aether | Apache-2.0 | Open companion |
+| Front_Line_Whanau | Apache-2.0 | Open social platform |
+| CAT-mail | MIT | Privacy-first email agent |
+| fivepanelhat (profile) | Proprietary docs | Portfolio landing |
+
+Each repo ships a root `LICENSE` file. Prefer SPDX in GitHub repo settings so the UI does not show `NOASSERTION`.
+
 ## The Kiwi Edge AI Stack Portfolio
 
  | Repository | Role | Platforms | Core NZ Regulations | Primary hardware |
@@ -128,6 +151,8 @@ All Coastal Alpine edge repositories document this same target. Do not mix Hailo
  | [AquaGuard-Portal](https://github.com/fivepanelhat/AquaGuard-Portal) | Water runoff, sediment, & turbidity telemetry | Edge Linux | RMA 1991, Horizons One Plan, regional consents | RPi 5 16GB + Hailo-10H |
  | [SoilGuard-Portal](https://github.com/fivepanelhat/SoilGuard-Portal) | Soil N-P-K, pH, & moisture crop control | Edge Linux | NES-F 2020 (Synthetic N cap), FWFPs | RPi 5 16GB + Hailo-10H |
  | [Sovereign-Edge-Firmware](https://github.com/fivepanelhat/Sovereign-Edge-Firmware) | ESP32 sensor firmware + edge hub | Field + Pi hub | Te Mana Raraunga 2018 | RPi 5 16GB hub + ESP32 nodes |
+ | [Front_Line_Whanau](https://github.com/fivepanelhat/Front_Line_Whanau) | **Canonical** national whanau / preterm support platform | Web / PWA / Tauri | Privacy Act 2020, Te Tiriti | Vercel + optional desktop |
+ | ~~whanau-preterm-support-hub~~ | **ARCHIVED** scaffold — do not contribute | — | — | Redirect → Front_Line_Whanau |
 
 
 ### Featured edge product: Byte Size Kai
