@@ -47,7 +47,7 @@ Anti-hallucination policy: [`.github/agent-fleet/anti-hallucination.md`](./.gith
 
 We are building offline-native, data-sovereign edge intelligence for remote industrial, agricultural, and biosecurity settings across Aotearoa. This org profile maps our **Kiwi Edge AI Stack**  early-stage product architecture and open engineering work, **not** a claim of large-scale commercial deployment or raised Series capital.
 
-Our stack is **hybridised** across **Coastal-Alpine-Core**, **Weaver**, **Aether**, and **coastal-alpine-stack**: develop on **Windows or Linux**; target production edge on the **canonical node**  **Raspberry Pi 5 (16GB)** with **Hailo-10H NPU** (40 TOPS AI Accelerator / AI HAT+ 2)  to support customary data rights (Te Mana Raraunga / MÄori Data Sovereignty) and offline operation in rural catchments facing cloud blackouts.
+Our stack is **hybridised** across **Coastal-Alpine-Core**, **Weaver**, **Aether**, and **coastal-alpine-stack**: develop on **Windows or Linux**; target production edge on the **canonical node**  **Raspberry Pi 5 (16GB)** with **Hailo-10H NPU** (40 TOPS AI Accelerator / AI HAT+ 2)  to support customary data rights (Te Mana Raraunga / Maori Data Sovereignty) and offline operation in rural catchments facing cloud blackouts.
 
 ---
 
@@ -58,7 +58,7 @@ A compact view of the governance work now living in this org profile (full frame
  | Pillar | Focus |
  | :--- | :--- |
  | **Privacy Act 2020** | IPP 111 mapping, DSAR pathways, retention |
- | **Te Mana Raraunga** | MÄori data sovereignty + OCAP-aligned control |
+ | **Te Mana Raraunga** | Maori data sovereignty + OCAP-aligned control |
  | **SOC 2 Type II** | CC / A / S / P controls, 225-item matrix |
  | **MBIE Responsible AI** | Safety-by-design, explainability, HITL gates |
  | **NZ Algorithm Charter** | Transparent decisions, human appeal |
@@ -70,7 +70,7 @@ A compact view of the governance work now living in this org profile (full frame
 
 ## Funding system (grants + tracker)
 
-Org home for **MÄori AI | deeptech | agritech | sovereign edge** funding discovery and applications (HITL required):
+Org home for **Maori AI | deeptech | agritech | sovereign edge** funding discovery and applications (HITL required):
 
  | Resource | Path |
  | :--- | :--- |
@@ -90,7 +90,7 @@ Org home for **MÄori AI | deeptech | agritech | sovereign edge** funding disc
  | Priority | Fund | Status | Indicative value |
  | :--- | :--- | :--- | :--- |
  | **P0** | [New to R&D Grant](https://www.business.govt.nz/tax-and-money/innovation-funding/new-to-r-and-d-grant) (MBIE) | **OPEN** | 40% co-fund up to **$400k** |
- | **P0** | [MÄori Development Fund](https://www.tpk.govt.nz/nga-putea-me-nga-ratonga/maori-development-fund) (TPK) | **OPEN** (rolling; regional office first) | Proposal-based | fund **$40.21m p.a.** |
+ | **P0** | [Maori Development Fund](https://www.tpk.govt.nz/nga-putea-me-nga-ratonga/maori-development-fund) (TPK) | **OPEN** (rolling; regional office first) | Proposal-based | fund **$40.21m p.a.** |
  | **P0** | [Primary Sector Growth Fund](https://www.mpi.govt.nz/funding-rural-support/primary-sector-growth-fund) (MPI) | **OPEN** | Co-investment (replaces SFF Futures) |
  | **P1** | R&D Experience Grant | Opens **13 Jul 2026** | Student ~10 weeks |
  | **P1** | R&D Career Grant | Opens **31 Aug 2026** | Up to $30k / $35k (6 months) |
@@ -420,7 +420,7 @@ Internal maturity model  **not** external audit grades:
  | **OCAP alignment** | Ownership, Control, Access, Possession  data stays in Aotearoa |
  | **Compliance baseline (internal goals)** | Diamond 95% | Platinum 85% | Gold 80% on the 225-point checklist |
  | **Remediation** | 90% full release | 70-89% escrow | &lt;70% freeze |
- | **HITL capital gates** | Large allocations and MÄori-data decisions need human / Cultural Advisory Board sign-off |
+ | **HITL capital gates** | Large allocations and Maori-data decisions need human / Cultural Advisory Board sign-off |
 
 Full reference set on this repo:
 
@@ -460,7 +460,7 @@ Full reference set on this repo:
 
  | Area | What shipped |
  | :--- | :--- |
- | **Funding guide + tracker** | Open NZ grants for MÄori AI / deeptech / agritech / sovereign edge (MBIE, TPK, MPI, RDTI, NZIAT) |
+ | **Funding guide + tracker** | Open NZ grants for Maori AI / deeptech / agritech / sovereign edge (MBIE, TPK, MPI, RDTI, NZIAT) |
  | **Grants agent** | Skill + fit matrix + HITL checklist under `.github/funding/grants-agent/` |
  | **Knowledge base** | Extracted CAT standards + NZ compliance digests for proposal drafting |
  | **Fit scorer** | `scripts/score_fit.py` against `tracker.csv` |
