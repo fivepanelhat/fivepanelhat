@@ -123,11 +123,23 @@ All Coastal Alpine edge repositories document this same target. Do not mix Hailo
  | [Weaver](https://github.com/fivepanelhat/Weaver) | Multi-tenant helpdesk & local RAG mesh | **Windows | Linux | RPi** | Privacy Act 2020, Public Records Act 2005 | RPi 5 16GB + Hailo-10H |
  | [Aether](https://github.com/fivepanelhat/Aether) | Sovereign agentic companion + computer use | **Windows | Linux | macOS** | Te Mana Raraunga 2018 | Dev workstation / edge companion |
  | [coastal-alpine-stack](https://github.com/fivepanelhat/coastal-alpine-stack) | Full stack compose / K3s monorepo | **Windows | Linux | RPi** | Te Mana Raraunga 2018 | RPi 5 16GB + Hailo-10H |
- | [Blue-Moon-Portal](https://github.com/fivepanelhat/Blue-Moon-Portal) | Multi-modal edge AI for microgreen cultivation | Edge Linux | Biosecurity Act 1993, HSNO Act 1996, Food Act 2014 | RPi 5 16GB + Hailo-10H |
+ | [**Byte Size Kai**](https://github.com/fivepanelhat/Blue-Moon-Portal) (`Blue-Moon-Portal`) | **Lead agritech product** - multi-modal edge AI for microgreens / Mana Kai | Edge Linux | Biosecurity Act 1993, HSNO Act 1996, Food Act 2014 | RPi 5 16GB + Hailo-10H |
  | [Sting-Operation-AI](https://github.com/fivepanelhat/Sting-Operation-AI) | YOLO wasp & bee classifier beehive sentinel | Edge Linux + Hailo | Biosecurity Act 1993, Animal Welfare Act 1999 | RPi 5 16GB + Hailo-10H |
  | [AquaGuard-Portal](https://github.com/fivepanelhat/AquaGuard-Portal) | Water runoff, sediment, & turbidity telemetry | Edge Linux | RMA 1991, Horizons One Plan, regional consents | RPi 5 16GB + Hailo-10H |
  | [SoilGuard-Portal](https://github.com/fivepanelhat/SoilGuard-Portal) | Soil N-P-K, pH, & moisture crop control | Edge Linux | NES-F 2020 (Synthetic N cap), FWFPs | RPi 5 16GB + Hailo-10H |
  | [Sovereign-Edge-Firmware](https://github.com/fivepanelhat/Sovereign-Edge-Firmware) | ESP32 sensor firmware + edge hub | Field + Pi hub | Te Mana Raraunga 2018 | RPi 5 16GB hub + ESP32 nodes |
+
+
+### Featured edge product: Byte Size Kai
+
+**Byte Size Kai** is the forefront agritech offering on this stack - sovereign multi-modal crop intelligence for microgreens and Mana Kai-class growers (Horowhenua field context / Taranaki engineering).
+
+| | |
+|--|--|
+| **Product brand** | Byte Size Kai |
+| **Repository (technical / CI path)** | [Blue-Moon-Portal](https://github.com/fivepanelhat/Blue-Moon-Portal) - keep clone URLs as-is |
+| **Stack role** | Domain portal on Coastal-Alpine-Core + Hailo vision + local Ollama |
+| **Sister portals (background)** | SoilGuard, AquaGuard, Sting-Operation |
 
 ### Foundation roles (CAT design targets)
 
@@ -212,7 +224,7 @@ flowchart TB
 
     subgraph PORTALS["Domain portals  offline agents"]
         direction LR
-        Blue["Blue-Moon"]
+        Blue["Byte Size Kai"]
         Sting["Sting-Operation"]
         Aqua["AquaGuard"]
         Soil["SoilGuard"]
@@ -255,7 +267,7 @@ flowchart TB
  | **Sensors** | Probes, cameras, audio | Capture stays local to whenua / farm |
  | **Firmware** | ESP32 + mTLS MQTT | Hardened field devices, no cloud telemetry bus |
  | **Hybrid runtime** | Core + Weaver + stack + Ollama + Hailo | Shared SDK, multi-tenant routing, offline inference |
- | **Portals** | Domain agents | Agritech, biosecurity, water, soil |
+ | **Portals** | Domain agents | **Byte Size Kai** (agritech lead), biosecurity, water, soil |
  | **Aether** | Companion + computer use | HITL, skills, remediation, desktop control (Win/Linux) |
  | **Hosts** | Windows | Linux | RPi 5 | Same hybrid packages; dual-platform installers |
 
