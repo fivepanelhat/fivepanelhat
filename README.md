@@ -187,7 +187,7 @@ flowchart TB
     classDef companion fill:#4c1d95,stroke:#c4b5fd,stroke-width:2px,color:#f5f3ff
     classDef host fill:#052e16,stroke:#86efac,stroke-width:2px,color:#f0fdf4
 
-    subgraph FIELD["â'  Field & marine sensors"]
+    subgraph FIELD["Field & marine sensors"]
         direction LR
         S1["Water probes<br/>pH | DO | turbidity"]
         S2["Soil probes<br/>N-P-K | moisture"]
@@ -195,13 +195,13 @@ flowchart TB
         S4["Hive cameras<br/>YOLO streams"]
     end
 
-    subgraph FIRMWARE["â'¡ Edge nodes  Sovereign-Edge-Firmware"]
+    subgraph FIRMWARE["Edge nodes  Sovereign-Edge-Firmware"]
         direction LR
         ESP["ESP32 nodes<br/>mTLS MQTT"]
         HUB["Pi hub services<br/>Mosquitto | Node-RED"]
     end
 
-    subgraph RUNTIME["â'¢ Hybrid runtime  Core | Weaver | stack | RPi 5 16GB + Hailo-10H"]
+    subgraph RUNTIME["Hybrid runtime  Core | Weaver | stack | RPi 5 16GB + Hailo-10H"]
         direction TB
         K3s["K3s / compose<br/>coastal-alpine-stack"]
         Core["Coastal-Alpine-Core<br/>SecurityGuard | Telemetry | Flywheel | portal_core"]
@@ -210,7 +210,7 @@ flowchart TB
         Hailo["Hailo-10H NPU<br/>40 TOPS vision accel"]
     end
 
-    subgraph PORTALS["â'£ Domain portals  offline agents"]
+    subgraph PORTALS["Domain portals  offline agents"]
         direction LR
         Blue["Blue-Moon"]
         Sting["Sting-Operation"]
@@ -218,11 +218,11 @@ flowchart TB
         Soil["SoilGuard"]
     end
 
-    subgraph ORCH["â'¤ Aether companion  hybrid edge AI + computer use"]
+    subgraph ORCH["Aether companion  hybrid edge AI + computer use"]
         Aether["Aether<br/>ReAct | skills | HITL | desktop control"]
     end
 
-    subgraph HOSTS["â'¥ Hosts  dual platform"]
+    subgraph HOSTS["Hosts  dual platform"]
         direction LR
         Win["Windows 10/11<br/>install.ps1"]
         Lin["Linux workstation<br/>install.sh"]
@@ -252,12 +252,12 @@ flowchart TB
 
  | Layer | What runs | Why it matters |
  | :--- | :--- | :--- |
- | **â'  Sensors** | Probes, cameras, audio | Capture stays local to whenua / farm |
- | **â'¡ Firmware** | ESP32 + mTLS MQTT | Hardened field devices, no cloud telemetry bus |
- | **â'¢ Hybrid runtime** | Core + Weaver + stack + Ollama + Hailo | Shared SDK, multi-tenant routing, offline inference |
- | **â'£ Portals** | Domain agents | Agritech, biosecurity, water, soil |
- | **â'¤ Aether** | Companion + computer use | HITL, skills, remediation, desktop control (Win/Linux) |
- | **â'¥ Hosts** | Windows | Linux | RPi 5 | Same hybrid packages; dual-platform installers |
+ | **Sensors** | Probes, cameras, audio | Capture stays local to whenua / farm |
+ | **Firmware** | ESP32 + mTLS MQTT | Hardened field devices, no cloud telemetry bus |
+ | **Hybrid runtime** | Core + Weaver + stack + Ollama + Hailo | Shared SDK, multi-tenant routing, offline inference |
+ | **Portals** | Domain agents | Agritech, biosecurity, water, soil |
+ | **Aether** | Companion + computer use | HITL, skills, remediation, desktop control (Win/Linux) |
+ | **Hosts** | Windows | Linux | RPi 5 | Same hybrid packages; dual-platform installers |
 
 ---
 
@@ -267,7 +267,7 @@ The hybrid foundation repos ship **one-line installers** for both platforms. Pro
 
 ### Prerequisites
 
- |  | ðŸ§ Linux (Ubuntu / Debian / RPi OS) | ðŸªŸ Windows 10/11 |
+ |  | Linux (Ubuntu / Debian / RPi OS) | Windows 10/11 |
  | :--- | :--- | :--- |
  | **Python** | 3.10+ (`python3`, `python3-venv`, `python3-pip`) | 3.10+ from [python.org](https://www.python.org/downloads/)  **Add to PATH** |
  | **Git** | `sudo apt-get install -y git` | [Git for Windows](https://git-scm.com/) |
@@ -287,7 +287,7 @@ sudo apt-get install -y python3 python3-dev python3-venv python3-pip git build-e
 #### Coastal-Alpine-Core (shared SDK)
 
 <details open>
-<summary><strong>ðŸ§ Linux / macOS</strong></summary>
+<summary><strong>Linux / macOS</strong></summary>
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/fivepanelhat/Coastal-Alpine-Core/main/install.sh | bash
@@ -296,7 +296,7 @@ curl -fsSL https://raw.githubusercontent.com/fivepanelhat/Coastal-Alpine-Core/ma
 </details>
 
 <details>
-<summary><strong>ðŸªŸ Windows (PowerShell)</strong></summary>
+<summary><strong>Windows (PowerShell)</strong></summary>
 
 ```powershell
 irm https://raw.githubusercontent.com/fivepanelhat/Coastal-Alpine-Core/main/install.ps1 | iex
@@ -307,7 +307,7 @@ irm https://raw.githubusercontent.com/fivepanelhat/Coastal-Alpine-Core/main/inst
 #### Weaver (multi-tenant orchestration)
 
 <details open>
-<summary><strong>ðŸ§ Linux / macOS</strong></summary>
+<summary><strong>Linux / macOS</strong></summary>
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/fivepanelhat/Weaver/main/install.sh | bash
@@ -317,7 +317,7 @@ curl -fsSL https://raw.githubusercontent.com/fivepanelhat/Weaver/main/install.sh
 </details>
 
 <details>
-<summary><strong>ðŸªŸ Windows (PowerShell)</strong></summary>
+<summary><strong>Windows (PowerShell)</strong></summary>
 
 ```powershell
 irm https://raw.githubusercontent.com/fivepanelhat/Weaver/main/install.ps1 | iex
@@ -329,7 +329,7 @@ irm https://raw.githubusercontent.com/fivepanelhat/Weaver/main/install.ps1 | iex
 #### Aether (agentic companion + computer use)
 
 <details open>
-<summary><strong>ðŸ§ Linux / macOS</strong></summary>
+<summary><strong>Linux / macOS</strong></summary>
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/fivepanelhat/Aether/main/install.sh | bash
@@ -339,7 +339,7 @@ aether doctor
 </details>
 
 <details>
-<summary><strong>ðŸªŸ Windows (PowerShell)</strong></summary>
+<summary><strong>Windows (PowerShell)</strong></summary>
 
 ```powershell
 irm https://raw.githubusercontent.com/fivepanelhat/Aether/main/install.ps1 | iex
@@ -351,7 +351,7 @@ aether doctor
 #### coastal-alpine-stack (full monorepo)
 
 <details open>
-<summary><strong>ðŸ§ Linux / macOS</strong></summary>
+<summary><strong>Linux / macOS</strong></summary>
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/fivepanelhat/coastal-alpine-stack/main/install.sh | bash
@@ -360,7 +360,7 @@ curl -fsSL https://raw.githubusercontent.com/fivepanelhat/coastal-alpine-stack/m
 </details>
 
 <details>
-<summary><strong>ðŸªŸ Windows (PowerShell)</strong></summary>
+<summary><strong>Windows (PowerShell)</strong></summary>
 
 ```powershell
 irm https://raw.githubusercontent.com/fivepanelhat/coastal-alpine-stack/main/install.ps1 | iex
@@ -418,8 +418,8 @@ Internal maturity model  **not** external audit grades:
  | Guardrail | Rule of thumb |
  | :--- | :--- |
  | **OCAP alignment** | Ownership, Control, Access, Possession  data stays in Aotearoa |
- | **Compliance baseline (internal goals)** | Diamond â‰¥95% | Platinum â‰¥85% | Gold â‰¥80% on the 225-point checklist |
- | **Remediation** | ðŸŸ¢ â‰¥90% full release | ðŸŸ¡ 7089% escrow | ðŸ"´ &lt;70% freeze |
+ | **Compliance baseline (internal goals)** | Diamond 95% | Platinum 85% | Gold 80% on the 225-point checklist |
+ | **Remediation** | 90% full release | 70-89% escrow | &lt;70% freeze |
  | **HITL capital gates** | Large allocations and MÄori-data decisions need human / Cultural Advisory Board sign-off |
 
 Full reference set on this repo:
@@ -441,7 +441,7 @@ Full reference set on this repo:
  | Audit log retention | 18 months (immutable) |
  | DSAR response | 20 working days |
  | Breach notification | 72 hours (Privacy Commissioner) |
- | Backup RTO / RPO | â‰¤4 h / â‰¤1 h |
+ | Backup RTO / RPO | 4 h / 1 h |
  | Incident P0 response | 15 minutes |
 
 ---
@@ -489,8 +489,8 @@ Full reference set on this repo:
  | **Security (org-wide)** | Least-privilege Actions, Dependabot, SECURITY sections |
  | **Aether** | Kiwi Edge skills, computer-use hybrid, dual installers |
 
-**Next focus (suggested):** keep submodules on Core â‰¥0.5.4; smoke-test installers on clean Windows and Linux hosts; advance Week 112 compliance implementation against the local checklist.
+**Next focus (suggested):** keep submodules on Core 0.5.4; smoke-test installers on clean Windows and Linux hosts; advance Week 112 compliance implementation against the local checklist.
 
 ---
 
-*Coastal Alpine Tech  Sovereign Edge AI for Aotearoa New Zealand ðŸ‡³ðŸ‡¿*
+*Coastal Alpine Tech  Sovereign Edge AI for Aotearoa New Zealand 
