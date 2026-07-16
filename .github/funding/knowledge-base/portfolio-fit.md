@@ -6,7 +6,7 @@
 | Weaver | Multi-tenant RAG / orchestration | deeptech, ai, sovereign-ai | New to R&D, RDTI, NZIAT | Diamond / Platinum |
 | Aether | Agentic companion + computer use | ai, deeptech, capacity | New to R&D, Career Grant, NZIAT | Platinum |
 | coastal-alpine-stack | Deploy / remediate / compose | edge, primary systems | PSGF (systems), New to R&D | Diamond |
-| Blue-Moon-Portal | Microgreens / cultivation | agritech, primary | PSGF, MABx partner | Gold → Platinum |
+| Byte-Size-Kai | Microgreens / cultivation | agritech, primary | PSGF, MABx partner | Gold → Platinum |
 | Sting-Operation-AI | Hive biosecurity vision | agritech, biosecurity | PSGF, New to R&D | Gold → Diamond |
 | AquaGuard-Portal | Water / runoff / turbidity | agritech, water, primary | PSGF, climate-adjacent | Gold → Diamond |
 | SoilGuard-Portal | Soil N-P-K / moisture | agritech, soil, whenua | PSGF, MDF partner, MABx | Gold → Diamond |

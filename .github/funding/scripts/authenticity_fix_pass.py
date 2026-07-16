@@ -20,7 +20,7 @@ REPOS = [
     "Weaver",
     "Front_Line_Whanau",
     "Sovereign-Edge-Firmware",
-    "Blue-Moon-Portal",
+    "Byte-Size-Kai",
     "Sting-Operation-AI",
     "SoilGuard-Portal",
     "AquaGuard-Portal",

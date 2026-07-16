@@ -29,7 +29,7 @@ From a clone: run `./install.sh` or `.\install.ps1` in the repo root (uses check
 
 | Repo | Linux | Windows | Notes |
 | :--- | :--- | :--- | :--- |
-| Blue-Moon-Portal | `./install.sh` or `python bootstrap.py` | `.\install.ps1` | Core pin `@v0.5.4` |
+| Byte-Size-Kai | `./install.sh` or `python bootstrap.py` | `.\install.ps1` | Core pin `@v0.5.4` |
 | SoilGuard-Portal | same | same | `pyaudio` optional only |
 | AquaGuard-Portal | same | same | `pyaudio` optional only |
 | Sting-Operation-AI | same | same | Needs torch wheels; prefer Python **3.11–3.12** |
