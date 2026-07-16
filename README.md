@@ -16,6 +16,68 @@
 Anti-hallucination policy: [`.github/agent-fleet/anti-hallucination.md`](./.github/agent-fleet/anti-hallucination.md) | Congruence: [`CAT_CONGRUENCE.md`](./CAT_CONGRUENCE.md)
 <!-- END CAT_CONGRUENCE_SNIPPET -->
 
+<!-- BEGIN PROBLEMS_SOLUTIONS_ECONOMY -->
+## Problems we are solving
+
+The **Kiwi Edge AI Stack** exists so Aotearoa can run hybrid edge + multi-model AI for farms, founders, and frontline care **without** defaulting to always-on foreign cloud dependency.
+
+1. **Primary industries locked to cloud SaaS** - Rural latency, outages, and offshore data residency conflict with real operations and Te Mana Raraunga.
+2. **Fragmented product landscape** - Growers, EDAs, and whanau face many disconnected tools instead of one coherent stack.
+3. **Founder overhead** - Early NZ companies burn time on formation, compliance, and grants with little local digital capacity.
+4. **Social navigation fatigue** - Whanau in high-stress pathways face scattered directories and equity gaps.
+5. **Shallow "AI employees" hype** - Unconstrained agents create legal and cultural risk; NZ needs hard HITL ceilings.
+
+## Solution we have built
+
+| Layer | Solution (repo) | Role |
+| :--- | :--- | :--- |
+| **Beachhead agritech** | [Byte Size Kai](https://github.com/fivepanelhat/Byte-Size-Kai) | Lead commercial edge product for crop / Mana Kai intelligence |
+| **Beachhead social** | [Front_Line_Whanau](https://github.com/fivepanelhat/Front_Line_Whanau) | National whanau / frontline support platform |
+| **Founder OS** | [NZ-Start-Up](https://github.com/fivepanelhat/NZ-Start-Up) | Local founder OS + EDA white-label kit |
+| **Edge foundation** | Core, Weaver, Aether, stack, firmware | SDK, orchestration, companion agents, deploy, field nodes |
+| **Domain portals** | SoilGuard, AquaGuard, Sting | Soil, water, biosecurity specialists |
+| **Privacy utility** | CAT-mail | Privacy-first email assist (parked vs beachheads) |
+
+**Hardware target:** Raspberry Pi 5 (16GB) + Hailo-10H NPU | **Policy:** agents draft/prepare; humans sign/send/pay.
+
+### Local (Taranaki) and national (Aotearoa) economic benefits
+
+Coastal Alpine Tech is a **pre-seed** company engineering in **New Plymouth, Taranaki**, with field context in regional primary industries (including Mana Kai-class / Horowhenua agritech). Benefits are framed as **pathways**, not guaranteed job numbers.
+
+#### Local / regional (Taranaki and rural NZ)
+
+| Pathway | What it creates |
+| :--- | :--- |
+| **R&D and product HQ** | Engineering, product, and IP ownership in region - counterweight to capital-city-only tech |
+| **Field install and support** | RPi / Hailo edge nodes, ESP32 sensors, and pilot support need local technicians and partners |
+| **EDA leverage** | Tools that help Venture Taranaki-class programmes onboard more founders without linear staff growth |
+| **Contractor network** | Legal, cultural advisory, hardware, and pilot ops spend that stays in NZ |
+
+#### National economy and employment
+
+| Pathway | What it creates |
+| :--- | :--- |
+| **Primary sector competitiveness** | Better yield, compliance, and biosecurity decisions support NZ's export food economy |
+| **Onshore data value** | Farm, whanau, and SME operational data stays under NZ custody (Privacy Act + Te Mana Raraunga) |
+| **Founder formation** | Faster, cleaner company setup and RDTI-ready logging keeps more early companies investable **in NZ** |
+| **Digital capability outside main centres** | Edge AI skills (vision, MQTT, local LLM) transferable across regions |
+| **Quality of work** | Human-in-the-loop design preserves skilled human roles in advice, compliance, and care |
+
+#### How this product contributes
+
+See **Solution we have built** above. Cross-portfolio map: [Kiwi Edge AI Stack](https://github.com/fivepanelhat/fivepanelhat) | employment detail: [NZ-Start-Up investor pack](https://github.com/fivepanelhat/NZ-Start-Up/blob/main/docs/INVESTOR_RD_AND_MARKET_REFERENCE.md).
+
+#### Portfolio employment map (pathways)
+
+| Path | Sequence | Employment / economy effect |
+| :--- | :--- | :--- |
+| **Founder -> fleet** | NZ-Start-Up -> RDTI logs -> board packs | More investable founders formed in Taranaki / regions |
+| **EDA -> region** | PowerUp-class white-label -> cohort reports | EDA capacity without linear headcount |
+| **Founder -> field** | Agritech founder -> Byte Size Kai / SoilGuard pilot | Farm productivity + local install jobs |
+| **Trust -> enterprise** | HITL + compliance mapping -> procurement-ready narrative | Public / enterprise readiness without fake autonomy |
+| **Social care** | Front_Line_Whanau (cultural HITL) | Social licence and equity impact (separate GTM from agritech pitch) |
+<!-- END PROBLEMS_SOLUTIONS_ECONOMY -->
+
 [![Stage](https://img.shields.io/badge/Stage-Pre--seed-8B5CF6)](https://github.com/fivepanelhat)
 [![License: Proprietary](https://img.shields.io/badge/License-Proprietary--Commercial-blue.svg)](./LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776ab?logo=python&logoColor=white)](https://www.python.org)
@@ -153,7 +215,7 @@ Each repo ships a root `LICENSE` file. Prefer SPDX in GitHub repo settings so th
  | [Front_Line_Whanau](https://github.com/fivepanelhat/Front_Line_Whanau) | **Canonical** national whanau / preterm support platform | Web / PWA / Tauri | Privacy Act 2020, Te Tiriti | Vercel + optional desktop |
  | ~~whanau-preterm-support-hub~~ | **ARCHIVED** scaffold - do not contribute | - | - | Redirect -> Front_Line_Whanau |
 
-### Featured edge product: Byte Size Kai
+### Featured edge product: Byte Size Kai (agritech beachhead)
 
 **Byte Size Kai** is the forefront agritech offering on this stack - sovereign multi-modal crop intelligence for microgreens and Mana Kai-class growers (Horowhenua field context / Taranaki engineering).
 
@@ -163,6 +225,18 @@ Each repo ships a root `LICENSE` file. Prefer SPDX in GitHub repo settings so th
 | **Repository (technical / CI path)** | [Byte-Size-Kai](https://github.com/fivepanelhat/Byte-Size-Kai) - keep clone URLs as-is |
 | **Stack role** | Domain portal on Coastal-Alpine-Core + Hailo vision + local Ollama |
 | **Sister portals (background)** | SoilGuard, AquaGuard, Sting-Operation |
+| **Problems (summary)** | Rural cloud blackouts; unstructured sensors; fragmented farm context; compliance pressure; data sovereignty on whenua |
+| **Solution (summary)** | Multi-modal edge portal on RPi 5 16GB + Hailo-10H, Core SDK, ESP32 firmware, HITL actuation |
+| **Economy / jobs** | Taranaki R&D HQ, field install/support pathways, primary-sector productivity, onshore data value - see [Byte Size Kai README](https://github.com/fivepanelhat/Byte-Size-Kai#problems-we-are-solving) |
+
+### Featured social product: Front Line Whanau
+
+| | |
+|--|--|
+| **Product** | [Front_Line_Whanau](https://github.com/fivepanelhat/Front_Line_Whanau) - national whanau / frontline support platform |
+| **Problems (summary)** | Fragmented support, NICU information overload, role mismatch, equity gaps, sensitive data risk |
+| **Solution (summary)** | Dual portals, national directory, self-service uploads, privacy-first vault, AI draft/prepare only |
+| **Economy / jobs** | Frontline capacity, NGO efficiency, regional equity, care-sector digital skills - not clinician replacement |
 
 ### Foundation roles (CAT design targets)
 
