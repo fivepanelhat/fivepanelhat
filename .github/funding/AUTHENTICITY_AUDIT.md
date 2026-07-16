@@ -1,4 +1,4 @@
-# Authenticity audit — org READMEs
+# Authenticity audit - org READMEs
 
 **Date:** 2026-07-13
 **Company stage:** Coastal Alpine Tech Limited = **pre-seed startup**
@@ -32,7 +32,7 @@ All public `README.md` files in core fivepanelhat org repositories.
 | SoilGuard-Portal | pre-seed line + overclaim soften + diagram note; WRITTEN |
 | AquaGuard-Portal | pre-seed line + overclaim soften + diagram note; WRITTEN |
 
-## Mermaid ↔ image alignment
+## Mermaid <-> image alignment
 
 Org and product READMEs use a consistent pattern:
 
@@ -41,14 +41,14 @@ Org and product READMEs use a consistent pattern:
 3. Mermaid system map for the **same conceptual layers**
 4. Optional layer summary table
 
-Layer naming may differ slightly by product (e.g. field sensors vs grow-room inputs) but maps to the same stack story: inputs → edge runtime (RPi 5 16GB + Hailo-10H) → actions/compliance → optional Aether companion → dual-platform hosts.
+Layer naming may differ slightly by product (e.g. field sensors vs grow-room inputs) but maps to the same stack story: inputs -> edge runtime (RPi 5 16GB + Hailo-10H) -> actions/compliance -> optional Aether companion -> dual-platform hosts.
 
 ## Residual risks / follow-ups
 
-- Re-verify any real pilot partner names before stating “partnership with …”
+- Re-verify any real pilot partner names before stating "partnership with ..."
 - Demo sites (e.g. Vercel) should be labelled demos, not mature production products
 - Funding roadmap todos remain aspirational until owners fill real dates/evidence
-- Deep skill docs under `.github/compliance` still use normative compliance language — treat as **framework design**, not completed audits
+- Deep skill docs under `.github/compliance` still use normative compliance language - treat as **framework design**, not completed audits
 
 ## Policy going forward
 

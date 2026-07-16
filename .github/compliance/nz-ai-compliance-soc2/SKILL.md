@@ -17,13 +17,13 @@ Lead Sovereign AI Compliance Auditor for New Zealand (Aotearoa). This skill eval
 
 ### 1. Privacy Act 2020 (Information Privacy Principles)
 
-**IPP 1: Collection Purpose** — Data collected only for stated, lawful purpose  
-**IPP 2: Source** — Information about source must be provided where practicable  
-**IPP 3: Collection Manner** — Collection must be fair and lawful  
-**IPP 4: Storage & Security** — Must be held securely; accessible only to authorized personnel  
-**IPP 5/6: Access & Correction** — Individuals can access and correct personal information  
-**IPP 8: Accuracy** — Information must be accurate, up-to-date, complete  
-**IPP 10/11: Use/Disclosure Limits** — Information may only be used/disclosed for collection purpose or related purpose  
+**IPP 1: Collection Purpose** - Data collected only for stated, lawful purpose 
+**IPP 2: Source** - Information about source must be provided where practicable 
+**IPP 3: Collection Manner** - Collection must be fair and lawful 
+**IPP 4: Storage & Security** - Must be held securely; accessible only to authorized personnel 
+**IPP 5/6: Access & Correction** - Individuals can access and correct personal information 
+**IPP 8: Accuracy** - Information must be accurate, up-to-date, complete 
+**IPP 10/11: Use/Disclosure Limits** - Information may only be used/disclosed for collection purpose or related purpose 
 
 **Guardrails:**
 - No personal data transmitted to public LLM endpoints (critical IPP4 breach)
@@ -31,23 +31,23 @@ Lead Sovereign AI Compliance Auditor for New Zealand (Aotearoa). This skill eval
 - Data subject access requests processed within 20 working days (mandatory)
 - Retention: Delete health data after 7 years (NZ Health Information Privacy Code)
 
-### 2. Te Mana Raraunga (Māori Data Sovereignty)
+### 2. Te Mana Raraunga (Maori Data Sovereignty)
 
-**Ownership Principle:** Māori data belongs to Māori collective; organizations are stewards, not owners.  
-**Control Principle:** Māori community exercises authority over data collection, use, access.  
+**Ownership Principle:** Maori data belongs to Maori collective; organizations are stewards, not owners. 
+**Control Principle:** Maori community exercises authority over data collection, use, access. 
 **Possession Principle:** Physical + logical control remains localized.
 
 **Guardrails:**
-- No Māori cultural data silently exported to cloud vendors
-- Iwi + hapū must be notified of any health/welfare data uses
+- No Maori cultural data silently exported to cloud vendors
+- Iwi + hapu must be notified of any health/welfare data uses
 - Explicit consent (tika data governance) required before processing
 - Local-first processing; no foreign data residency for sensitive collections
 
 ### 3. MBIE Responsible AI Guidance
 
-**Safety-by-Design:** AI systems must be designed with security + transparency from the start.  
-**Explainability:** Agent decisions must be auditable and explainable (no black-box deployments).  
-**Human-in-the-Loop:** High-risk decisions require human approval before execution.  
+**Safety-by-Design:** AI systems must be designed with security + transparency from the start. 
+**Explainability:** Agent decisions must be auditable and explainable (no black-box deployments). 
+**Human-in-the-Loop:** High-risk decisions require human approval before execution. 
 **Fairness:** Bias detection + mitigation required; algorithmic discrimination prohibited.
 
 **Guardrails:**
@@ -58,20 +58,20 @@ Lead Sovereign AI Compliance Auditor for New Zealand (Aotearoa). This skill eval
 
 ### 4. Public Service Algorithm Charter for Aotearoa
 
-**Transparency:** All public-facing algorithmic decisions must be explainable to affected parties.  
-**Accountability:** Clear responsibility chain; no "algorithm decided it" excuses.  
-**Fairness & Non-Discrimination:** Protected characteristics (race, ethnicity, disability, gender) must not drive decisions.  
+**Transparency:** All public-facing algorithmic decisions must be explainable to affected parties. 
+**Accountability:** Clear responsibility chain; no "algorithm decided it" excuses. 
+**Fairness & Non-Discrimination:** Protected characteristics (race, ethnicity, disability, gender) must not drive decisions. 
 **Consent & Appeal:** Automated decisions can be appealed; human review always available.
 
 **Guardrails:**
 - Algorithm impact assessments (AIA) for any government/public sector work
-- Public sector deployments: explainability score ≥ 0.85 (LIME/SHAP analysis)
+- Public sector deployments: explainability score 0.85 (LIME/SHAP analysis)
 - Appeal pathway: users can request human review within 30 days
 - Decision provenance: store input features, model version, inference timestamp
 
 ### 5. Consumer Protection & Competition
 
-**Fair Trading Act 1986:** Prohibits misleading conduct; AI hallucinations = liability.  
+**Fair Trading Act 1986:** Prohibits misleading conduct; AI hallucinations = liability. 
 **Commerce Act:** Algorithmic collusion is illegal; competitors cannot coordinate pricing via AI.
 
 **Guardrails:**
@@ -113,8 +113,8 @@ Lead Sovereign AI Compliance Auditor for New Zealand (Aotearoa). This skill eval
 
 **Implementation:**
 - No single point of failure: all services replicated
-- RTO (Recovery Time Objective): ≤ 4 hours
-- RPO (Recovery Point Objective): ≤ 1 hour
+- RTO (Recovery Time Objective): 4 hours
+- RPO (Recovery Point Objective): 1 hour
 - Blue-green deployments: zero-downtime updates
 
 **Monitoring:**
@@ -141,35 +141,35 @@ Lead Sovereign AI Compliance Auditor for New Zealand (Aotearoa). This skill eval
 
 **Execution Workflow (Linear/Gold):**
 
-1. **Discovery Phase** → Collect system architecture, data flows, API endpoints
-2. **Risk Assessment Phase** → Map against Privacy Act IPPs + SOC 2 controls
-3. **Gap Analysis Phase** → Identify non-compliance, list remediation actions
-4. **Remediation Phase** → Implement fixes with HITL approval gates
-5. **Verification Phase** → Audit checks confirm compliance
-6. **Sign-Off Phase** → Governance review + legal sign-off
+1. **Discovery Phase** -> Collect system architecture, data flows, API endpoints
+2. **Risk Assessment Phase** -> Map against Privacy Act IPPs + SOC 2 controls
+3. **Gap Analysis Phase** -> Identify non-compliance, list remediation actions
+4. **Remediation Phase** -> Implement fixes with HITL approval gates
+5. **Verification Phase** -> Audit checks confirm compliance
+6. **Sign-Off Phase** -> Governance review + legal sign-off
 
 **Decision Tree:**
 
 ```
 Does the system handle PHI (health data)?
-├─ YES → IPP4 (storage/security) + NZ Health Code mandatory
-│         Require: encryption at rest/transit + local processing
-├─ NO → Continue to next question
-│
-Does the system use Māori/Iwi data?
-├─ YES → Te Mana Raraunga + explicit consent mandatory
-│         Require: iwi notification + local-first processing
-├─ NO → Continue to next question
-│
+|- YES -> IPP4 (storage/security) + NZ Health Code mandatory
+| Require: encryption at rest/transit + local processing
+|- NO -> Continue to next question
+|
+Does the system use Maori/Iwi data?
+|- YES -> Te Mana Raraunga + explicit consent mandatory
+| Require: iwi notification + local-first processing
+|- NO -> Continue to next question
+|
 Does the system make automated decisions affecting users?
-├─ YES → MBIE Responsible AI + HITL approval mandatory
-│         Require: explainability score ≥ 0.85 + audit trail
-├─ NO → Continue to next question
-│
+|- YES -> MBIE Responsible AI + HITL approval mandatory
+| Require: explainability score 0.85 + audit trail
+|- NO -> Continue to next question
+|
 Does the system interface with public sector / government?
-├─ YES → Algorithm Charter mandatory
-│         Require: algorithmic impact assessment + appeal pathway
-├─ NO → Standard SOC 2 Type II controls apply
+|- YES -> Algorithm Charter mandatory
+| Require: algorithmic impact assessment + appeal pathway
+|- NO -> Standard SOC 2 Type II controls apply
 ```
 
 ---
@@ -180,7 +180,7 @@ Does the system interface with public sector / government?
 
 - [ ] RBAC implemented for all APIs
 - [ ] MFA enforced for admin console access
-- [ ] Service accounts use short-lived credentials (≤1 hour)
+- [ ] Service accounts use short-lived credentials (1 hour)
 - [ ] Secrets rotation: every 90 days
 - [ ] SSH keys audited: monthly
 - [ ] Unauthorized access alerts configured
@@ -206,7 +206,7 @@ Does the system interface with public sector / government?
 
 ### Te Mana Raraunga Compliance
 
-- [ ] Iwi/Hapū notification protocol documented
+- [ ] Iwi/Hapu notification protocol documented
 - [ ] Consent capture mechanism in place
 - [ ] Local-first processing verified (no silent cloud export)
 - [ ] Cultural data masking rules enforced
@@ -215,10 +215,10 @@ Does the system interface with public sector / government?
 ### Incident Response
 
 - [ ] Incident response plan documented + drilled
-- [ ] Breach notification SLA: ≤72 hours (Privacy Commissioner)
+- [ ] Breach notification SLA: 72 hours (Privacy Commissioner)
 - [ ] Audit logs immutable + centralized
 - [ ] Automated alerts configured for suspicious events
-- [ ] Forensic analysis capability (log retention ≥18 months)
+- [ ] Forensic analysis capability (log retention 18 months)
 
 ---
 
@@ -232,7 +232,7 @@ Does the system interface with public sector / government?
 
 **PLATINUM Alignment:**
 - Compliance posture monitoring as a data flywheel
-- Learn from compliance events → improve guardrails
+- Learn from compliance events -> improve guardrails
 - Bias scoring + model drift detection loops
 - Continuous fine-tuning of risk thresholds
 
@@ -248,7 +248,7 @@ Does the system interface with public sector / government?
 - Treating compliance as "tick-box exercise" without real security investment
 - Storing sensitive data in unencrypted cloud buckets (IPP4 critical breach)
 - Deploying government systems without explainability testing
-- Silently exporting Māori data without iwi consent (sovereignty violation)
+- Silently exporting Maori data without iwi consent (sovereignty violation)
 - Logging compliance events but never analyzing them (data flywheel blocked)
 - Skipping HITL gates for high-risk automated decisions
 
@@ -256,8 +256,8 @@ Does the system interface with public sector / government?
 
 ## Reference Documents
 
-- `references/NZ_PRIVACY_ACT_2020_MAPPING.md` — Full IPP mapping + remediation
-- `references/SOC2_CONTROL_MATRIX.md` — SOC 2 Type II control families + implementation
-- `references/TE_MANA_RARAUNGA_PRINCIPLES.md` — Māori data sovereignty framework
-- `references/INCIDENT_RESPONSE_PLAYBOOK.md` — Breach detection + notification SLAs
-- `references/COMPLIANCE_AUDIT_CHECKLIST.md` — Pre-audit readiness verification
+- `references/NZ_PRIVACY_ACT_2020_MAPPING.md` - Full IPP mapping + remediation
+- `references/SOC2_CONTROL_MATRIX.md` - SOC 2 Type II control families + implementation
+- `references/TE_MANA_RARAUNGA_PRINCIPLES.md` - Maori data sovereignty framework
+- `references/INCIDENT_RESPONSE_PLAYBOOK.md` - Breach detection + notification SLAs
+- `references/COMPLIANCE_AUDIT_CHECKLIST.md` - Pre-audit readiness verification

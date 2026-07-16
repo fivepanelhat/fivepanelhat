@@ -1,7 +1,7 @@
-# Compliance Audit Checklist — Pre-Audit Readiness Verification
+# Compliance Audit Checklist - Pre-Audit Readiness Verification
 
-**Purpose:** Verify system readiness for external SOC 2 Type II audit (minimum 6 months of operating controls)  
-**Frequency:** Monthly review (leading up to audit), quarterly post-audit  
+**Purpose:** Verify system readiness for external SOC 2 Type II audit (minimum 6 months of operating controls) 
+**Frequency:** Monthly review (leading up to audit), quarterly post-audit 
 **Responsibility:** Compliance Officer + Security Team
 
 ---
@@ -11,17 +11,17 @@
 Calculate compliance percentage:
 
 ```
-Total checks: ____ items marked ✓
+Total checks: ____ items marked [OK]
 Total audit checklist: 92 items
-Readiness: (checked / 92) × 100 = ____%
+Readiness: (checked / 92) x 100 = ____%
 
-Target: ≥95% before external audit engagement
+Target: 95% before external audit engagement
 ```
 
 **Traffic Light Status:**
-- 🟢 **Green (≥90%):** Ready for external audit within 4 weeks
-- 🟡 **Yellow (70-89%):** On track; address gaps within 8 weeks
-- 🔴 **Red (<70%):** Significant gaps; delay audit 12+ weeks
+- **Green (90%):** Ready for external audit within 4 weeks
+- **Yellow (70-89%):** On track; address gaps within 8 weeks
+- **Red (<70%):** Significant gaps; delay audit 12+ weeks
 
 ---
 
@@ -47,7 +47,7 @@ Target: ≥95% before external audit engagement
 - [ ] No unresolved ethics violations (or documented remediation)
 
 **CC1.3 Policies & Procedures**
-- [ ] Security policy: documented, dated, reviewed ≥annual
+- [ ] Security policy: documented, dated, reviewed annual
 - [ ] Privacy policy: published + accessible to users
 - [ ] Incident response plan: documented + tested annually
 - [ ] Change management process: documented + followed
@@ -67,11 +67,11 @@ Authentication & Authorization:
 - [ ] MFA enforced for all admin/privileged access (100%)
 - [ ] Password policy: min 12 chars, complexity, history, expiry
 - [ ] Session timeout: 15 min (admin), 60 min (general)
-- [ ] Account lockout: 5 attempts → 30 min lockout (configured)
+- [ ] Account lockout: 5 attempts -> 30 min lockout (configured)
 - [ ] RBAC implemented (roles: viewer, editor, admin, auditor, etc.)
 - [ ] Segregation of duties enforced (matrix documented)
 - [ ] Default deny (whitelist, not blacklist)
-- [ ] Service accounts: short-lived creds (max 1 hour) ← KEY
+- [ ] Service accounts: short-lived creds (max 1 hour) <- KEY
 - [ ] API authentication: OAuth 2.0 / JWT (not basic auth)
 - [ ] API tokens: max 1 hour expiry
 - [ ] Refresh tokens: max 30 days
@@ -363,17 +363,17 @@ Deployment & Tracking:
 
 ---
 
-## Te Mana Raraunga (Māori Data Sovereignty)
+## Te Mana Raraunga (Maori Data Sovereignty)
 
 - [ ] Data ownership registry: maintained + reviewed quarterly
 - [ ] Cultural Advisory Board: established + meets monthly
-- [ ] Data use agreements: signed for all Māori datasets
+- [ ] Data use agreements: signed for all Maori datasets
 - [ ] Encryption key: iwi holds master key (or threshold system)
-- [ ] Data localization: all Māori data in Aotearoa
+- [ ] Data localization: all Maori data in Aotearoa
 - [ ] Cultural classification: all data classified Level 1/2/3
 - [ ] Staff training: annual cultural competency (100% completion)
 - [ ] Community hui: annual meeting to review data uses
-- [ ] Access audit: all Māori data access logged (weekly review)
+- [ ] Access audit: all Maori data access logged (weekly review)
 - [ ] Benefit-sharing: tracked + reported quarterly
 - [ ] Deletion workflow: tested annually
 
@@ -399,15 +399,15 @@ Deployment & Tracking:
 
 ## TOTAL READINESS SCORE
 
-**Common Criteria (CC1/6/7/9): ___ / 149**  
-**Availability (A): ___ / 22**  
-**Privacy Act 2020 (P + IPPs): ___ / 34**  
-**Te Mana Raraunga: ___ / 11**  
+**Common Criteria (CC1/6/7/9): ___ / 149** 
+**Availability (A): ___ / 22** 
+**Privacy Act 2020 (P + IPPs): ___ / 34** 
+**Te Mana Raraunga: ___ / 11** 
 **Architecture & Infrastructure: ___ / 9**
 
 **TOTAL: ___ / 225**
 
-**Readiness Percentage: (Total / 225) × 100 = ____%**
+**Readiness Percentage: (Total / 225) x 100 = ____%**
 
 ---
 
@@ -416,8 +416,8 @@ Deployment & Tracking:
 | Gap | Priority | Owner | Deadline | Status | Evidence |
 |-----|----------|-------|----------|--------|----------|
 | API tokens lack expiry | High | [Name] | [Date] | In Progress | PR#123 |
-| SIEM not deployed | Critical | [Name] | [Date] | Open | — |
-| Cultural Advisory Board not yet established | High | [Name] | [Date] | Planned | — |
+| SIEM not deployed | Critical | [Name] | [Date] | Open | - |
+| Cultural Advisory Board not yet established | High | [Name] | [Date] | Planned | - |
 
 ---
 
@@ -430,15 +430,15 @@ Deployment & Tracking:
 - [ ] Auditor identified no material gaps
 - [ ] Auditor ready to proceed with SOC 2 Type II engagement
 
-**Auditor Name:** ________________  
-**Date:** ________________  
-**Firm:** ________________  
+**Auditor Name:** ________________ 
+**Date:** ________________ 
+**Firm:** ________________ 
 
 **Organization Attestation:**
 
-I certify that the above checklist reflects the accurate state of Coastal Alpine Tech systems and controls as of this date. All items marked ✓ are confirmed, implemented, and operating effectively.
+I certify that the above checklist reflects the accurate state of Coastal Alpine Tech systems and controls as of this date. All items marked [OK] are confirmed, implemented, and operating effectively.
 
-**Compliance Officer:** ________________  
-**Date:** ________________  
-**Title:** ________________  
+**Compliance Officer:** ________________ 
+**Date:** ________________ 
+**Title:** ________________ 
 
