@@ -107,6 +107,18 @@ Coastal Alpine Tech is pre-seed. The following artefacts exist so that enterpris
 
 **Status (July 2026):** Working technical controls (SecurityGuard, DataFlywheel, tenant isolation design, SecOps workflows) + comprehensive design-target documentation. External audit and formal attestation are future phases gated on pilots and commercial traction.
 
+## Commercial Positioning
+
+Technology is currently ahead of commercial packaging. The commercial logic is documented so investors and partners can see customer segments, packaging shape, recurring revenue intent, GTM sequence, and sales funnel — without invented ARR or public dollar prices.
+
+| Artefact | Purpose |
+|----------|---------|
+| **[Commercial Positioning](./.github/funding/COMMERCIAL_POSITIONING.md)** | Customer segments, packaging tiers (no public $), recurring model, GTM, funnel |
+| **[Investor Matrix](./.github/funding/INVESTOR_MATRIX.md)** | What different capital types optimise for |
+| **[Funding Eligibility Matrix](./.github/funding/FUNDING_ELIGIBILITY_MATRIX.md)** | Likelihood scores and gap-closure path |
+
+**Pricing posture:** Specific dollar figures are not published. Commercial terms are set per pilot or partnership and refined with real willingness-to-pay data.
+
 [![Stage](https://img.shields.io/badge/Stage-Pre--seed-8B5CF6)](https://github.com/fivepanelhat)
 [![License: Proprietary](https://img.shields.io/badge/License-Proprietary--Commercial-blue.svg)](./LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776ab?logo=python&logoColor=white)](https://www.python.org)
@@ -172,6 +184,7 @@ Org home for **Maori AI | deeptech | agritech | sovereign edge** funding discove
  | **Fit scorer** | `python .github/funding/scripts/score_fit.py --project "..."` |
  | **Eligibility matrix** | [`.github/funding/FUNDING_ELIGIBILITY_MATRIX.md`](.github/funding/FUNDING_ELIGIBILITY_MATRIX.md) likelihood of grants/seed by narrative, TAM, prerequisites |
  | **Investor matrix** | [`.github/funding/INVESTOR_MATRIX.md`](.github/funding/INVESTOR_MATRIX.md) what investors & founders want (Halter / Sharesies / Cursor comps) |
+ | **Commercial positioning** | [`.github/funding/COMMERCIAL_POSITIONING.md`](.github/funding/COMMERCIAL_POSITIONING.md) segments, packaging, GTM, funnel (no public $) |
  | **Roadmap / todos** | [`.github/funding/ROADMAP_TIMELINE.md`](.github/funding/ROADMAP_TIMELINE.md) timeline to attain each grant/seed path |
  | **Install matrix** | [`.github/funding/INSTALL_MATRIX.md`](.github/funding/INSTALL_MATRIX.md) Windows + Linux installers, smoke status |
 
@@ -572,6 +585,7 @@ Full reference set on this repo:
  | Audit checklist | [references/COMPLIANCE_AUDIT_CHECKLIST.md](.github/compliance/nz-ai-compliance-soc2/references/COMPLIANCE_AUDIT_CHECKLIST.md) |
  | Security Roadmap | [SECURITY_ROADMAP.md](.github/compliance/SECURITY_ROADMAP.md) |
  | Threat Model | [THREAT_MODEL.md](.github/compliance/THREAT_MODEL.md) |
+ | Commercial Positioning | [COMMERCIAL_POSITIONING.md](.github/funding/COMMERCIAL_POSITIONING.md) |
 
 ### Key metrics (aspirational targets for a maturing product not current SLAs)
 
@@ -587,6 +601,14 @@ Full reference set on this repo:
 ---
 
 ## Recent stack updates
+
+### 2026-07-16 Commercial Positioning + pricing hygiene
+
+ | Area | What shipped |
+ | :--- | :--- |
+ | **Commercial Positioning** | Customer segments, packaging logic, recurring model, GTM, funnel (no public dollar prices) |
+ | **NZ-Start-Up pricing cleanup** | Removed public NZ$ figures from white-label and sales one-pager; tiers retained |
+ | **README linking** | Commercial Positioning section + funding table entry |
 
 ### 2026-07-16 Enterprise Readiness artefacts
 
