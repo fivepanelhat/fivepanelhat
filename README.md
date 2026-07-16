@@ -78,6 +78,21 @@ See **Solution we have built** above. Cross-portfolio map: [Kiwi Edge AI Stack](
 | **Social care** | Front_Line_Whanau (cultural HITL) | Social licence and equity impact (separate GTM from agritech pitch) |
 <!-- END PROBLEMS_SOLUTIONS_ECONOMY -->
 
+## Technical Moat
+
+Coastal Alpine Tech’s defensibility comes from the tight integration of six capabilities that are rarely combined at the edge:
+
+- **Edge orchestration** — LangGraph multi-tenant mesh (Weaver) that keeps every tenant’s knowledge and state strictly local.
+- **Sovereign architecture** — Default-offline, Te Mana Raraunga-aligned paths. Data generated on whenua stays on whenua unless the owner explicitly moves it.
+- **Hardware optimisation** — Canonical target of Raspberry Pi 5 16GB + Hailo-10H with energy-aware telemetry (joules, tokens/s) built into every portal path.
+- **AI deployment tooling** — Shared Core SDK + dual-platform installers + Aether companion so the same stack runs on Windows/Linux workstations and production edge nodes.
+- **Proprietary local datasets** — Continuous DataFlywheel that records trajectories, human feedback, and hardware outcomes on-device, then curates golden sets under owner control. Nothing leaves the node by default.
+- **Inference optimisation** — Hardware-aware measurement and adaptive local paths (Ollama + optional Hailo acceleration) tuned for sub-10 W rural nodes rather than cloud GPUs.
+
+These are not separate features. They form a single closed loop: sensors → local inference → trajectory capture → human-in-the-loop correction → improved local models → better decisions — all while remaining offline-capable and sovereignty-compliant.
+
+The result is a system that becomes more valuable the longer it runs on a given farm or site, without requiring continuous cloud connectivity or data export.
+
 [![Stage](https://img.shields.io/badge/Stage-Pre--seed-8B5CF6)](https://github.com/fivepanelhat)
 [![License: Proprietary](https://img.shields.io/badge/License-Proprietary--Commercial-blue.svg)](./LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776ab?logo=python&logoColor=white)](https://www.python.org)
@@ -528,7 +543,7 @@ Internal maturity model **not** external audit grades:
  | :--- | :--- |
  | **OCAP alignment** | Ownership, Control, Access, Possession data stays in Aotearoa |
  | **Compliance baseline (internal goals)** | Diamond 95% | Platinum 85% | Gold 80% on the 225-point checklist |
- | **Remediation** | 90% full release | 70-89% escrow | &lt;70% freeze |
+ | **Remediation** | 90% full release | 70-89% escrow | <70% freeze |
  | **HITL capital gates** | Large allocations and Maori-data decisions need human / Cultural Advisory Board sign-off |
 
 Full reference set on this repo:
@@ -602,4 +617,4 @@ Full reference set on this repo:
 
 ---
 
-*Coastal Alpine Tech Sovereign Edge AI for Aotearoa New Zealand 
+*Coastal Alpine Tech Sovereign Edge AI for Aotearoa New Zealand*
