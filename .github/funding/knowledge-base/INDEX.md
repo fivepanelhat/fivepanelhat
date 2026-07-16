@@ -5,7 +5,7 @@ Extracted and curated knowledge for the **grants-agent** and human grant writers
 | Doc | Purpose |
 | :--- | :--- |
 | [skills-registry.md](skills-registry.md) | Skills relevant to funding, compliance, architecture |
-| [portfolio-fit.md](portfolio-fit.md) | Repo → funding themes |
+| [portfolio-fit.md](portfolio-fit.md) | Repo -> funding themes |
 | [sovereignty-overlay.md](sovereignty-overlay.md) | Te Mana Raraunga + Privacy + HITL short form |
 | [extracted-skills/](extracted-skills/) | Digests of key SKILL.md sources |
 | [../FUNDING_ELIGIBILITY_MATRIX.md](../FUNDING_ELIGIBILITY_MATRIX.md) | Grant/seed likelihood, TAM, prerequisites |
@@ -23,6 +23,6 @@ Extracted and curated knowledge for the **grants-agent** and human grant writers
 
 ## Refresh policy
 
-- On any skill version bump → update digest + registry row.  
-- On portfolio README change → update `portfolio-fit.md`.  
+- On any skill version bump -> update digest + registry row. 
+- On portfolio README change -> update `portfolio-fit.md`. 
 - Monthly minimum even if no code changes.

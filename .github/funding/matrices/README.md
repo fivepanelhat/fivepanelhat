@@ -2,7 +2,7 @@
 
 | File | Description |
 | :--- | :--- |
-| [eligibility_matrix.csv](eligibility_matrix.csv) | Capital types × likelihood × blockers for CAT |
+| [eligibility_matrix.csv](eligibility_matrix.csv) | Capital types x likelihood x blockers for CAT |
 | [investor_expectations.csv](investor_expectations.csv) | Criterion importance by investor type + CAT readiness |
 | [roadmap_todos.csv](roadmap_todos.csv) | All roadmap todos (id, due, owner, depends_on, status) |
 

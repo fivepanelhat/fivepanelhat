@@ -1,4 +1,4 @@
-# CAT-G-005 — R&D Experience Grant
+# CAT-G-005 - R&D Experience Grant
 
 | Field | Value |
 | :--- | :--- |
@@ -10,12 +10,12 @@
 
 ## CAT project ideas for interns
 
-- Hailo-10H model optimisation benchmarks (Sting / Soil vision)  
-- Offline eval harness for Weaver RAG  
-- Field firmware test fixtures (Sovereign-Edge-Firmware)  
-- Documentation + reproducibility for Diamond CI  
+- Hailo-10H model optimisation benchmarks (Sting / Soil vision) 
+- Offline eval harness for Weaver RAG 
+- Field firmware test fixtures (Sovereign-Edge-Firmware) 
+- Documentation + reproducibility for Diamond CI 
 
 ## Next steps
 
-1. Day-before checklist: project plan, supervisor, health & safety, IP  
-2. Apply at open if eligibility confirmed with Innovation Services  
+1. Day-before checklist: project plan, supervisor, health & safety, IP 
+2. Apply at open if eligibility confirmed with Innovation Services 

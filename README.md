@@ -12,10 +12,9 @@
 
 > Sovereign hybrid edge AI for NZ farms and founders - local-first + multi-model, Te Mana Raraunga aligned - collaborating with Venture Taranaki, startups.com investors and Kotahitanga Investment Fund (HITL + cultural advisory for formal approaches).
 
-**Agents inform, draft, prepare, monitor, and remind. Humans advise, sign, file, send, and pay.**  
+**Agents inform, draft, prepare, monitor, and remind. Humans advise, sign, file, send, and pay.** 
 Anti-hallucination policy: [`.github/agent-fleet/anti-hallucination.md`](./.github/agent-fleet/anti-hallucination.md) | Congruence: [`CAT_CONGRUENCE.md`](./CAT_CONGRUENCE.md)
 <!-- END CAT_CONGRUENCE_SNIPPET -->
-
 
 [![Stage](https://img.shields.io/badge/Stage-Pre--seed-8B5CF6)](https://github.com/fivepanelhat)
 [![License: Proprietary](https://img.shields.io/badge/License-Proprietary--Commercial-blue.svg)](./LICENSE)
@@ -43,11 +42,11 @@ Anti-hallucination policy: [`.github/agent-fleet/anti-hallucination.md`](./.gith
 
 ![Coastal Alpine Tech Banner](assets/social_preview.png)
 
-**Coastal Alpine Tech Limited**  pre-seed startup, New Plymouth, Taranaki, Aotearoa New Zealand.
+**Coastal Alpine Tech Limited** pre-seed startup, New Plymouth, Taranaki, Aotearoa New Zealand.
 
-We are building offline-native, data-sovereign edge intelligence for remote industrial, agricultural, and biosecurity settings across Aotearoa. This org profile maps our **Kiwi Edge AI Stack**  early-stage product architecture and open engineering work, **not** a claim of large-scale commercial deployment or raised Series capital.
+We are building offline-native, data-sovereign edge intelligence for remote industrial, agricultural, and biosecurity settings across Aotearoa. This org profile maps our **Kiwi Edge AI Stack** early-stage product architecture and open engineering work, **not** a claim of large-scale commercial deployment or raised Series capital.
 
-Our stack is **hybridised** across **Coastal-Alpine-Core**, **Weaver**, **Aether**, and **coastal-alpine-stack**: develop on **Windows or Linux**; target production edge on the **canonical node**  **Raspberry Pi 5 (16GB)** with **Hailo-10H NPU** (40 TOPS AI Accelerator / AI HAT+ 2)  to support customary data rights (Te Mana Raraunga / Maori Data Sovereignty) and offline operation in rural catchments facing cloud blackouts.
+Our stack is **hybridised** across **Coastal-Alpine-Core**, **Weaver**, **Aether**, and **coastal-alpine-stack**: develop on **Windows or Linux**; target production edge on the **canonical node** **Raspberry Pi 5 (16GB)** with **Hailo-10H NPU** (40 TOPS AI Accelerator / AI HAT+ 2) to support customary data rights (Te Mana Raraunga / Maori Data Sovereignty) and offline operation in rural catchments facing cloud blackouts.
 
 ---
 
@@ -63,7 +62,7 @@ A compact view of the governance work now living in this org profile (full frame
  | **MBIE Responsible AI** | Safety-by-design, explainability, HITL gates |
  | **NZ Algorithm Charter** | Transparent decisions, human appeal |
 
-**Status (pre-seed):** Compliance **framework documents** are in-repo as design targets  **not** an external SOC 2 Type II attestation. Implementation is early-stage.
+**Status (pre-seed):** Compliance **framework documents** are in-repo as design targets **not** an external SOC 2 Type II attestation. Implementation is early-stage.
 **Local docs:** [SKILL.md](.github/compliance/nz-ai-compliance-soc2/SKILL.md) | [Implementation guide](.github/compliance/nz-ai-compliance-soc2/README.md) | [Audit checklist](.github/compliance/nz-ai-compliance-soc2/references/COMPLIANCE_AUDIT_CHECKLIST.md)
 
 ---
@@ -80,10 +79,10 @@ Org home for **Maori AI | deeptech | agritech | sovereign edge** funding discove
  | **Grants Agent skill** | [`.github/funding/grants-agent/SKILL.md`](.github/funding/grants-agent/SKILL.md) |
  | **Knowledge base** | [`.github/funding/knowledge-base/`](.github/funding/knowledge-base/) |
  | **Fit scorer** | `python .github/funding/scripts/score_fit.py --project "..."` |
- | **Eligibility matrix** | [`.github/funding/FUNDING_ELIGIBILITY_MATRIX.md`](.github/funding/FUNDING_ELIGIBILITY_MATRIX.md)  likelihood of grants/seed by narrative, TAM, prerequisites |
- | **Investor matrix** | [`.github/funding/INVESTOR_MATRIX.md`](.github/funding/INVESTOR_MATRIX.md)  what investors & founders want (Halter / Sharesies / Cursor comps) |
- | **Roadmap / todos** | [`.github/funding/ROADMAP_TIMELINE.md`](.github/funding/ROADMAP_TIMELINE.md)  timeline to attain each grant/seed path |
- | **Install matrix** | [`.github/funding/INSTALL_MATRIX.md`](.github/funding/INSTALL_MATRIX.md)  Windows + Linux installers, smoke status |
+ | **Eligibility matrix** | [`.github/funding/FUNDING_ELIGIBILITY_MATRIX.md`](.github/funding/FUNDING_ELIGIBILITY_MATRIX.md) likelihood of grants/seed by narrative, TAM, prerequisites |
+ | **Investor matrix** | [`.github/funding/INVESTOR_MATRIX.md`](.github/funding/INVESTOR_MATRIX.md) what investors & founders want (Halter / Sharesies / Cursor comps) |
+ | **Roadmap / todos** | [`.github/funding/ROADMAP_TIMELINE.md`](.github/funding/ROADMAP_TIMELINE.md) timeline to attain each grant/seed path |
+ | **Install matrix** | [`.github/funding/INSTALL_MATRIX.md`](.github/funding/INSTALL_MATRIX.md) Windows + Linux installers, smoke status |
 
 ### Open / near-term priorities (research snapshot 2026-07-13)
 
@@ -105,7 +104,7 @@ Re-verify every status on the funder site before applying. Agent drafts are **no
 
  | Component | Specification |
  | :--- | :--- |
- | Compute | **Raspberry Pi 5  16GB RAM** |
+ | Compute | **Raspberry Pi 5 16GB RAM** |
  | NPU | **Hailo-10H** (40 TOPS) via Raspberry Pi **AI Accelerator / AI HAT+ 2** |
  | OS (edge) | Raspberry Pi OS (64-bit) |
  | Dev hosts | **Windows 10/11** | **Linux** (Ubuntu/Debian/RPi OS) | macOS optional |
@@ -152,8 +151,7 @@ Each repo ships a root `LICENSE` file. Prefer SPDX in GitHub repo settings so th
  | [SoilGuard-Portal](https://github.com/fivepanelhat/SoilGuard-Portal) | Soil N-P-K, pH, & moisture crop control | Edge Linux | NES-F 2020 (Synthetic N cap), FWFPs | RPi 5 16GB + Hailo-10H |
  | [Sovereign-Edge-Firmware](https://github.com/fivepanelhat/Sovereign-Edge-Firmware) | ESP32 sensor firmware + edge hub | Field + Pi hub | Te Mana Raraunga 2018 | RPi 5 16GB hub + ESP32 nodes |
  | [Front_Line_Whanau](https://github.com/fivepanelhat/Front_Line_Whanau) | **Canonical** national whanau / preterm support platform | Web / PWA / Tauri | Privacy Act 2020, Te Tiriti | Vercel + optional desktop |
- | ~~whanau-preterm-support-hub~~ | **ARCHIVED** scaffold — do not contribute | — | — | Redirect → Front_Line_Whanau |
-
+ | ~~whanau-preterm-support-hub~~ | **ARCHIVED** scaffold - do not contribute | - | - | Redirect -> Front_Line_Whanau |
 
 ### Featured edge product: Byte Size Kai
 
@@ -168,7 +166,7 @@ Each repo ships a root `LICENSE` file. Prefer SPDX in GitHub repo settings so th
 
 ### Foundation roles (CAT design targets)
 
-CAT Gold / Platinum / Diamond labels are **internal design maturity targets** for a pre-seed company  not third-party certifications or claims of enterprise production fleets.
+CAT Gold / Platinum / Diamond labels are **internal design maturity targets** for a pre-seed company not third-party certifications or claims of enterprise production fleets.
 
  | Repo | Layer | Design focus |
  | :--- | :--- | :--- |
@@ -183,108 +181,108 @@ CAT Gold / Platinum / Diamond labels are **internal design maturity targets** fo
 
 End-to-end **target** data path on a sovereign edge node, hybridised with the **Aether** companion. Design intent: sensors and actuators stay on-farm; inference and orchestration stay local. **Develop on Windows or Linux; target deploy on RPi 5.**
 
-> **Diagrams:** Architecture images and Mermaid maps describe the **target product architecture** for this pre-seed stack. They are engineering design maps  not claims of large-scale commercial fleet deployment.
+> **Diagrams:** Architecture images and Mermaid maps describe the **target product architecture** for this pre-seed stack. They are engineering design maps not claims of large-scale commercial fleet deployment.
 
-![Kiwi Edge AI Stack  ultra liquid glass architecture](assets/architecture_overview.png)
+![Kiwi Edge AI Stack ultra liquid glass architecture](assets/architecture_overview.png)
 
-### System layers (readable map  same target layers as the image)
+### System layers (readable map same target layers as the image)
 
 ```mermaid
 %%{init: {
-  "theme": "dark",
-  "themeVariables": {
-    "fontSize": "15px",
-    "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
-    "primaryColor": "#0ea5e9",
-    "primaryTextColor": "#f8fafc",
-    "primaryBorderColor": "#38bdf8",
-    "lineColor": "#67e8f9",
-    "secondaryColor": "#1e293b",
-    "tertiaryColor": "#0f172a",
-    "clusterBkg": "#0b1220cc",
-    "clusterBorder": "#38bdf880",
-    "titleColor": "#e2e8f0"
-  },
-  "flowchart": {
-    "nodeSpacing": 36,
-    "rankSpacing": 44,
-    "padding": 18,
-    "htmlLabels": true,
-    "curve": "basis",
-    "useMaxWidth": true
-  }
+ "theme": "dark",
+ "themeVariables": {
+ "fontSize": "15px",
+ "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+ "primaryColor": "#0ea5e9",
+ "primaryTextColor": "#f8fafc",
+ "primaryBorderColor": "#38bdf8",
+ "lineColor": "#67e8f9",
+ "secondaryColor": "#1e293b",
+ "tertiaryColor": "#0f172a",
+ "clusterBkg": "#0b1220cc",
+ "clusterBorder": "#38bdf880",
+ "titleColor": "#e2e8f0"
+ },
+ "flowchart": {
+ "nodeSpacing": 36,
+ "rankSpacing": 44,
+ "padding": 18,
+ "htmlLabels": true,
+ "curve": "basis",
+ "useMaxWidth": true
+ }
 }}%%
 flowchart TB
-    classDef hw fill:#0c4a6e,stroke:#38bdf8,stroke-width:2px,color:#f0f9ff
-    classDef core fill:#134e4a,stroke:#2dd4bf,stroke-width:2px,color:#f0fdfa
-    classDef app fill:#1e1b4b,stroke:#a5b4fc,stroke-width:2px,color:#eef2ff
-    classDef ai fill:#3b0764,stroke:#e879f9,stroke-width:2px,color:#fdf4ff
-    classDef fw fill:#422006,stroke:#fbbf24,stroke-width:2px,color:#fffbeb
-    classDef sense fill:#052e16,stroke:#4ade80,stroke-width:2px,color:#f0fdf4
-    classDef companion fill:#4c1d95,stroke:#c4b5fd,stroke-width:2px,color:#f5f3ff
-    classDef host fill:#052e16,stroke:#86efac,stroke-width:2px,color:#f0fdf4
+ classDef hw fill:#0c4a6e,stroke:#38bdf8,stroke-width:2px,color:#f0f9ff
+ classDef core fill:#134e4a,stroke:#2dd4bf,stroke-width:2px,color:#f0fdfa
+ classDef app fill:#1e1b4b,stroke:#a5b4fc,stroke-width:2px,color:#eef2ff
+ classDef ai fill:#3b0764,stroke:#e879f9,stroke-width:2px,color:#fdf4ff
+ classDef fw fill:#422006,stroke:#fbbf24,stroke-width:2px,color:#fffbeb
+ classDef sense fill:#052e16,stroke:#4ade80,stroke-width:2px,color:#f0fdf4
+ classDef companion fill:#4c1d95,stroke:#c4b5fd,stroke-width:2px,color:#f5f3ff
+ classDef host fill:#052e16,stroke:#86efac,stroke-width:2px,color:#f0fdf4
 
-    subgraph FIELD["Field & marine sensors"]
-        direction LR
-        S1["Water probes<br/>pH | DO | turbidity"]
-        S2["Soil probes<br/>N-P-K | moisture"]
-        S3["Vision / audio<br/>CSI | mics"]
-        S4["Hive cameras<br/>YOLO streams"]
-    end
+ subgraph FIELD["Field & marine sensors"]
+ direction LR
+ S1["Water probes<br/>pH | DO | turbidity"]
+ S2["Soil probes<br/>N-P-K | moisture"]
+ S3["Vision / audio<br/>CSI | mics"]
+ S4["Hive cameras<br/>YOLO streams"]
+ end
 
-    subgraph FIRMWARE["Edge nodes  Sovereign-Edge-Firmware"]
-        direction LR
-        ESP["ESP32 nodes<br/>mTLS MQTT"]
-        HUB["Pi hub services<br/>Mosquitto | Node-RED"]
-    end
+ subgraph FIRMWARE["Edge nodes Sovereign-Edge-Firmware"]
+ direction LR
+ ESP["ESP32 nodes<br/>mTLS MQTT"]
+ HUB["Pi hub services<br/>Mosquitto | Node-RED"]
+ end
 
-    subgraph RUNTIME["Hybrid runtime  Core | Weaver | stack | RPi 5 16GB + Hailo-10H"]
-        direction TB
-        K3s["K3s / compose<br/>coastal-alpine-stack"]
-        Core["Coastal-Alpine-Core<br/>SecurityGuard | Telemetry | Flywheel | portal_core"]
-        Weaver["Weaver<br/>LangGraph multi-tenant RAG"]
-        Ollama["Ollama<br/>Gemma 4 e4b local LLM"]
-        Hailo["Hailo-10H NPU<br/>40 TOPS vision accel"]
-    end
+ subgraph RUNTIME["Hybrid runtime Core | Weaver | stack | RPi 5 16GB + Hailo-10H"]
+ direction TB
+ K3s["K3s / compose<br/>coastal-alpine-stack"]
+ Core["Coastal-Alpine-Core<br/>SecurityGuard | Telemetry | Flywheel | portal_core"]
+ Weaver["Weaver<br/>LangGraph multi-tenant RAG"]
+ Ollama["Ollama<br/>Gemma 4 e4b local LLM"]
+ Hailo["Hailo-10H NPU<br/>40 TOPS vision accel"]
+ end
 
-    subgraph PORTALS["Domain portals  offline agents"]
-        direction LR
-        Blue["Byte Size Kai"]
-        Sting["Sting-Operation"]
-        Aqua["AquaGuard"]
-        Soil["SoilGuard"]
-    end
+ subgraph PORTALS["Domain portals offline agents"]
+ direction LR
+ Blue["Byte Size Kai"]
+ Sting["Sting-Operation"]
+ Aqua["AquaGuard"]
+ Soil["SoilGuard"]
+ end
 
-    subgraph ORCH["Aether companion  hybrid edge AI + computer use"]
-        Aether["Aether<br/>ReAct | skills | HITL | desktop control"]
-    end
+ subgraph ORCH["Aether companion hybrid edge AI + computer use"]
+ Aether["Aether<br/>ReAct | skills | HITL | desktop control"]
+ end
 
-    subgraph HOSTS["Hosts  dual platform"]
-        direction LR
-        Win["Windows 10/11<br/>install.ps1"]
-        Lin["Linux workstation<br/>install.sh"]
-        RPi["RPi 5 16GB + Hailo-10H<br/>production edge"]
-    end
+ subgraph HOSTS["Hosts dual platform"]
+ direction LR
+ Win["Windows 10/11<br/>install.ps1"]
+ Lin["Linux workstation<br/>install.sh"]
+ RPi["RPi 5 16GB + Hailo-10H<br/>production edge"]
+ end
 
-    S1 & S2 & S3 & S4 --> ESP
-    ESP --> HUB
-    HUB --> K3s
-    K3s --> Core
-    Core --> Weaver
-    Weaver --> Blue & Sting & Aqua & Soil
-    Core --> Ollama
-    S3 & S4 --> Hailo
-    Aether -.-> | skills | CI | HITL | computer use | Core & Weaver
-    RUNTIME -.-> HOSTS
-    ORCH -.-> Win & Lin
+ S1 & S2 & S3 & S4 --> ESP
+ ESP --> HUB
+ HUB --> K3s
+ K3s --> Core
+ Core --> Weaver
+ Weaver --> Blue & Sting & Aqua & Soil
+ Core --> Ollama
+ S3 & S4 --> Hailo
+ Aether -.-> | skills | CI | HITL | computer use | Core & Weaver
+ RUNTIME -.-> HOSTS
+ ORCH -.-> Win & Lin
 
-    class S1,S2,S3,S4 sense
-    class ESP,HUB fw
-    class K3s,Ollama,Hailo hw
-    class Core core
-    class Weaver,Blue,Sting,Aqua,Soil app
-    class Aether companion
-    class Win,Lin,RPi host
+ class S1,S2,S3,S4 sense
+ class ESP,HUB fw
+ class K3s,Ollama,Hailo hw
+ class Core core
+ class Weaver,Blue,Sting,Aqua,Soil app
+ class Aether companion
+ class Win,Lin,RPi host
 ```
 
  | Layer | What runs | Why it matters |
@@ -298,19 +296,19 @@ flowchart TB
 
 ---
 
-## Install  Windows + Linux
+## Install Windows + Linux
 
 The hybrid foundation repos ship **one-line installers** for both platforms. Production edge remains **RPi 5 (Linux)**; Windows and Linux workstations are first-class for development.
 
 ### Prerequisites
 
- |  | Linux (Ubuntu / Debian / RPi OS) | Windows 10/11 |
+ | | Linux (Ubuntu / Debian / RPi OS) | Windows 10/11 |
  | :--- | :--- | :--- |
- | **Python** | 3.10+ (`python3`, `python3-venv`, `python3-pip`) | 3.10+ from [python.org](https://www.python.org/downloads/)  **Add to PATH** |
+ | **Python** | 3.10+ (`python3`, `python3-venv`, `python3-pip`) | 3.10+ from [python.org](https://www.python.org/downloads/) **Add to PATH** |
  | **Git** | `sudo apt-get install -y git` | [Git for Windows](https://git-scm.com/) |
  | **Build tools** | `sudo apt-get install -y build-essential python3-dev` | Usually not required for pure Python |
  | **Ollama** | [ollama.com](https://ollama.com) install script | [Windows installer](https://ollama.com/download/windows) |
- | **PowerShell** |  | 5.1+ or 7+; if scripts blocked: `Set-ExecutionPolicy -Scope CurrentUser RemoteSigned` |
+ | **PowerShell** | | 5.1+ or 7+; if scripts blocked: `Set-ExecutionPolicy -Scope CurrentUser RemoteSigned` |
  | **Docker** (optional) | `docker.io` / compose for stack services | [Docker Desktop](https://www.docker.com/products/docker-desktop/) |
 
 ```bash
@@ -408,9 +406,9 @@ irm https://raw.githubusercontent.com/fivepanelhat/coastal-alpine-stack/main/ins
 ### Local models
 
 ```bash
-ollama pull gemma4:e4b          # Weaver / portals / edge
-ollama pull qwen2.5-coder:7b    # Aether text
-ollama pull qwen2.5-vl:7b       # Aether computer-use vision
+ollama pull gemma4:e4b # Weaver / portals / edge
+ollama pull qwen2.5-coder:7b # Aether text
+ollama pull qwen2.5-vl:7b # Aether computer-use vision
 ```
 
 ### Quick reference
@@ -428,9 +426,9 @@ ollama pull qwen2.5-vl:7b       # Aether computer-use vision
 
 1. **Sovereign by Design**: Data generated on NZ *whenua* is processed and stored locally, fully conforming to Te Mana Raraunga principles. We avoid commercial third-party cloud data leakage.
 2. **Rural Resilience**: Our systems are engineered to withstand rural connectivity blackouts, executing local multi-modal vision and audio inference without any internet connection.
-3. **Regulatory Safety**: Domain agents are **designed** to support actuator lockouts (e.g. fertigation lines) so operators can reduce risk of Regional Council rule breaches  field validation is part of the pre-seed roadmap.
+3. **Regulatory Safety**: Domain agents are **designed** to support actuator lockouts (e.g. fertigation lines) so operators can reduce risk of Regional Council rule breaches field validation is part of the pre-seed roadmap.
 4. **Cross-platform hybrid**: Foundation packages target **Windows and Linux** for development; intended production edge is RPi 5 + Hailo-10H.
-5. **HITL by default**: High-risk agent actions and capital/compliance decisions require human approval  no silent autonomous implementation of governance changes.
+5. **HITL by default**: High-risk agent actions and capital/compliance decisions require human approval no silent autonomous implementation of governance changes.
 
 Developed with pride in **Taranaki, New Zealand**.
 
@@ -438,11 +436,11 @@ Developed with pride in **Taranaki, New Zealand**.
 
 ## Governance & capital (summary)
 
-Condensed from the compliance and Kotahitanga work added to this profile  product landing above remains primary.
+Condensed from the compliance and Kotahitanga work added to this profile product landing above remains primary.
 
 ### CAT Architectural Standards (design targets)
 
-Internal maturity model  **not** external audit grades:
+Internal maturity model **not** external audit grades:
 
 - **Diamond:** security, observability, and deployment hardening goals
 - **Platinum:** AI continuous improvement + data flywheel goals
@@ -454,7 +452,7 @@ Internal maturity model  **not** external audit grades:
 
  | Guardrail | Rule of thumb |
  | :--- | :--- |
- | **OCAP alignment** | Ownership, Control, Access, Possession  data stays in Aotearoa |
+ | **OCAP alignment** | Ownership, Control, Access, Possession data stays in Aotearoa |
  | **Compliance baseline (internal goals)** | Diamond 95% | Platinum 85% | Gold 80% on the 225-point checklist |
  | **Remediation** | 90% full release | 70-89% escrow | &lt;70% freeze |
  | **HITL capital gates** | Large allocations and Maori-data decisions need human / Cultural Advisory Board sign-off |
@@ -470,7 +468,7 @@ Full reference set on this repo:
  | Incident playbook | [references/INCIDENT_RESPONSE_PLAYBOOK.md](.github/compliance/nz-ai-compliance-soc2/references/INCIDENT_RESPONSE_PLAYBOOK.md) |
  | Audit checklist | [references/COMPLIANCE_AUDIT_CHECKLIST.md](.github/compliance/nz-ai-compliance-soc2/references/COMPLIANCE_AUDIT_CHECKLIST.md) |
 
-### Key metrics (aspirational targets for a maturing product  not current SLAs)
+### Key metrics (aspirational targets for a maturing product not current SLAs)
 
  | Metric | Target |
  | :--- | :--- |
@@ -485,7 +483,7 @@ Full reference set on this repo:
 
 ## Recent stack updates
 
-### 2026-07-13  authenticity + pre-seed positioning
+### 2026-07-13 authenticity + pre-seed positioning
 
  | Area | What shipped |
  | :--- | :--- |
@@ -493,7 +491,7 @@ Full reference set on this repo:
  | **Claims hygiene** | Softened enterprise/SLA overclaims; diagrams labelled as **target architecture** |
  | **Capital fiction** | Public materials avoid role-play funded-project narratives |
 
-### 2026-07-13  funding system scaffold
+### 2026-07-13 funding system scaffold
 
  | Area | What shipped |
  | :--- | :--- |
@@ -502,7 +500,7 @@ Full reference set on this repo:
  | **Knowledge base** | Extracted CAT standards + NZ compliance digests for proposal drafting |
  | **Fit scorer** | `scripts/score_fit.py` against `tracker.csv` |
 
-### 2026-07-12  front page hybrid + compliance blend
+### 2026-07-12 front page hybrid + compliance blend
 
  | Area | What shipped |
  | :--- | :--- |
@@ -510,7 +508,7 @@ Full reference set on this repo:
  | **Compliance mix** | Kept NZ AI / SOC 2 / Kotahitanga highlights with **local** doc links (no broken branch paths) |
  | **Visuals** | Ultra liquid glass morphism hero + architecture overview refresh |
 
-### 2026-07-12  hybridise + dual-platform install
+### 2026-07-12 hybridise + dual-platform install
 
  | Area | What shipped |
  | :--- | :--- |
@@ -518,7 +516,7 @@ Full reference set on this repo:
  | **Installers** | `install.sh` + `install.ps1` on Core, Weaver, Aether, coastal-alpine-stack |
  | **Core pin** | Consumers document **@v0.5.4** tagged releases |
 
-### 2026-07-11  harden, document, productise
+### 2026-07-11 harden, document, productise
 
  | Area | What shipped |
  | :--- | :--- |
@@ -530,4 +528,4 @@ Full reference set on this repo:
 
 ---
 
-*Coastal Alpine Tech  Sovereign Edge AI for Aotearoa New Zealand 
+*Coastal Alpine Tech Sovereign Edge AI for Aotearoa New Zealand 

@@ -1,8 +1,8 @@
-# NZ AI Compliance + SOC 2 Type II Skill — Implementation Guide
+# NZ AI Compliance + SOC 2 Type II Skill - Implementation Guide
 
-**Skill Version:** 1.0.0  
-**Repositories:** Weaver, Core, Stack, Aether  
-**CAT Classification:** Diamond (primary) | Platinum (secondary) | Gold (tertiary)  
+**Skill Version:** 1.0.0 
+**Repositories:** Weaver, Core, Stack, Aether 
+**CAT Classification:** Diamond (primary) | Platinum (secondary) | Gold (tertiary) 
 **HITL Gate:** Required for all implementation decisions
 
 ---
@@ -11,11 +11,11 @@
 
 This skill operationalizes compliance + security for Coastal Alpine Tech across all four production repositories. It enforces:
 
-1. **NZ Privacy Act 2020** — Information Privacy Principles (IPPs 1-11) + sensitive data protection
-2. **Te Mana Raraunga** — Māori data sovereignty (OCAP® principles: Ownership, Control, Access, Possession)
-3. **MBIE Responsible AI** — Safety-by-design, explainability, HITL gates, fairness
-4. **SOC 2 Type II Controls** — Enterprise-grade security, availability, confidentiality (audit logging, access control, encryption)
-5. **Algorithm Charter for Aotearoa** — Transparent automated decision-making with human appeal pathways
+1. **NZ Privacy Act 2020** - Information Privacy Principles (IPPs 1-11) + sensitive data protection
+2. **Te Mana Raraunga** - Maori data sovereignty (OCAP principles: Ownership, Control, Access, Possession)
+3. **MBIE Responsible AI** - Safety-by-design, explainability, HITL gates, fairness
+4. **SOC 2 Type II Controls** - Enterprise-grade security, availability, confidentiality (audit logging, access control, encryption)
+5. **Algorithm Charter for Aotearoa** - Transparent automated decision-making with human appeal pathways
 
 ---
 
@@ -67,7 +67,7 @@ This skill operationalizes compliance + security for Coastal Alpine Tech across 
 **Backup & Disaster Recovery:**
 - [ ] Verify daily backups (hourly for critical systems)
 - [ ] Test monthly restore (from production backup)
-- [ ] Document RTO/RPO targets (≤4 hours RTO, ≤1 hour RPO)
+- [ ] Document RTO/RPO targets (4 hours RTO, 1 hour RPO)
 - [ ] Implement immutable backups (prevent ransomware deletion)
 - [ ] Multi-region backup replication (optional but recommended)
 
@@ -76,10 +76,10 @@ This skill operationalizes compliance + security for Coastal Alpine Tech across 
 ### Phase 3: Privacy Act Compliance (Week 2-4)
 
 **Data Inventory & Classification:**
-- [ ] Catalog all personal data systems (ROPA — Record of Processing Activity)
+- [ ] Catalog all personal data systems (ROPA - Record of Processing Activity)
 - [ ] Classify by sensitivity (Level 1: public, Level 2: personal, Level 3: health/sensitive)
 - [ ] Document retention periods (health data: 7 years max)
-- [ ] Map data flows (collection → storage → use → disclosure → deletion)
+- [ ] Map data flows (collection -> storage -> use -> disclosure -> deletion)
 
 **User Rights Workflows:**
 - [ ] Implement Data Subject Access Request (DSAR) portal
@@ -97,16 +97,16 @@ This skill operationalizes compliance + security for Coastal Alpine Tech across 
 
 ---
 
-### Phase 4: Te Mana Raraunga (Māori Data Sovereignty) (Week 3-6)
+### Phase 4: Te Mana Raraunga (Maori Data Sovereignty) (Week 3-6)
 
 **Community Engagement (HITL Gate Required):**
-- [ ] Identify all iwi/hapū/whānau whose data is held
+- [ ] Identify all iwi/hapu/whanau whose data is held
 - [ ] Establish Cultural Advisory Board (monthly meetings minimum)
 - [ ] Develop data use agreements (signed by iwi + organization leadership)
 - [ ] Document community benefit-sharing (what does iwi gain?)
 
 **Technical Implementation:**
-- [ ] Implement data localization (all Māori data in Aotearoa, encrypted)
+- [ ] Implement data localization (all Maori data in Aotearoa, encrypted)
 - [ ] Dual-key encryption: iwi + organization hold keys (threshold cryptography option)
 - [ ] Cultural data classification system (Level 1: public, Level 2: community, Level 3: sacred)
 - [ ] Annual community hui (gathering) to review data uses + outcomes
@@ -152,7 +152,7 @@ This skill operationalizes compliance + security for Coastal Alpine Tech across 
 Create this file in each repo root (`Weaver/COMPLIANCE.md`, `Core/COMPLIANCE.md`, etc.):
 
 ```markdown
-# Compliance — NZ AI + SOC 2 Type II
+# Compliance - NZ AI + SOC 2 Type II
 
 This repository is governed by the **NZ AI Compliance + SOC 2 Type II** framework.
 
@@ -201,7 +201,7 @@ Every month, Compliance Officer reviews:
 - [ ] Backup restoration test passed
 - [ ] No unresolved security alerts
 - [ ] Third-party DPA status current
-- [ ] Māori data access appropriate (if applicable)
+- [ ] Maori data access appropriate (if applicable)
 - [ ] Cultural Advisory Board meeting held (if applicable)
 
 ## Incident Reporting
@@ -233,12 +233,12 @@ This compliance skill is aligned with CAT Architectural Standards:
 - Integrates IaC for compliance infrastructure
 
 **PLATINUM (Secondary):**
-- Compliance posture as data flywheel (learn from incidents → improve guardrails)
+- Compliance posture as data flywheel (learn from incidents -> improve guardrails)
 - Bias detection + algorithmic drift monitoring
 - Continuous improvement of risk thresholds
 
 **GOLD (Tertiary):**
-- Linear compliance audit workflow (Discovery → Design → Development → Testing → Deployment)
+- Linear compliance audit workflow (Discovery -> Design -> Development -> Testing -> Deployment)
 - Transparent approval gates + HITL decision-making
 - Clear documentation of compliance decisions
 
@@ -255,12 +255,12 @@ This compliance skill is aligned with CAT Architectural Standards:
 
 SLA: Response within 15 min (P0), 1 hour (P1)
 
-### Q: How do I get approval to process Māori health data?
+### Q: How do I get approval to process Maori health data?
 
 **A:** 
 1. Submit data use case to Compliance Officer
 2. Compliance Officer escalates to Cultural Advisory Board
-3. CAB reviews (requires iwi + kaumātua approval)
+3. CAB reviews (requires iwi + kaumatua approval)
 4. If approved: sign data use agreement + implement controls
 5. Ongoing: monthly oversight + annual community hui
 
@@ -279,8 +279,8 @@ SLA: Response within 15 min (P0), 1 hour (P1)
 
 ### Q: How long do we keep logs?
 
-**A:** Audit logs: 18 months minimum (SOC 2 requirement)  
-Health data: 7 years maximum (NZ Health Privacy Code)  
+**A:** Audit logs: 18 months minimum (SOC 2 requirement) 
+Health data: 7 years maximum (NZ Health Privacy Code) 
 Incident register: 7+ years (Privacy Commissioner guidance)
 
 ---
@@ -324,21 +324,21 @@ Incident register: 7+ years (Privacy Commissioner guidance)
 
 ```
 EVERY MONTH:
-  - Review audit logs (no suspicious patterns)
-  - Run compliance checklist (mark items ✓)
-  - Update compliance status dashboard
-  - Brief leadership on compliance status
-  - Identify any needed remediation
+ - Review audit logs (no suspicious patterns)
+ - Run compliance checklist (mark items [OK])
+ - Update compliance status dashboard
+ - Brief leadership on compliance status
+ - Identify any needed remediation
 ```
 
 ---
 
 ## Success Criteria (6 Months)
 
-- ✓ External SOC 2 Type II audit passed (auditor opinion issued)
-- ✓ Privacy Commissioner has confidence in controls (zero breaches)
-- ✓ Cultural Advisory Board gives approval (Māori data sovereignty respected)
-- ✓ Zero critical compliance findings
-- ✓ Incident response tested + SLAs consistently met
-- ✓ All staff trained on compliance (100% completion)
+- [OK] External SOC 2 Type II audit passed (auditor opinion issued)
+- [OK] Privacy Commissioner has confidence in controls (zero breaches)
+- [OK] Cultural Advisory Board gives approval (Maori data sovereignty respected)
+- [OK] Zero critical compliance findings
+- [OK] Incident response tested + SLAs consistently met
+- [OK] All staff trained on compliance (100% completion)
 

@@ -1,7 +1,7 @@
 # SOC 2 Type II Control Matrix
 
-**Framework:** AICPA Trust Services Criteria (2024 Edition)  
-**Attestation Type:** Type II (operating effectiveness over time, min 6-month observation period)  
+**Framework:** AICPA Trust Services Criteria (2024 Edition) 
+**Attestation Type:** Type II (operating effectiveness over time, min 6-month observation period) 
 **Audit Cycle:** Annual external audit (recommended)
 
 ---
@@ -10,11 +10,11 @@
 
 | Criterion | Scope | SOC 2 Type I | SOC 2 Type II |
 |-----------|-------|-------------|--------------|
-| **CC (Common Criteria)** | Organization-wide controls | ✓ | ✓ |
-| **A (Availability)** | System uptime + performance | Optional | ✓ |
-| **S (Security)** | Data confidentiality + integrity | ✓ | ✓ |
+| **CC (Common Criteria)** | Organization-wide controls | [OK] | [OK] |
+| **A (Availability)** | System uptime + performance | Optional | [OK] |
+| **S (Security)** | Data confidentiality + integrity | [OK] | [OK] |
 | **C (Confidentiality)** | Non-public data access restrictions | Optional | Optional |
-| **P (Privacy)** | Personal data handling (new 2024) | Optional | ✓ |
+| **P (Privacy)** | Personal data handling (new 2024) | Optional | [OK] |
 
 ---
 
@@ -28,16 +28,16 @@
 
 ```yaml
 CC1.1 Governance Structure:
-  - Documented organizational chart with defined roles
-  - Board/leadership oversight of security + compliance
-  - Compliance committee meets quarterly
-  - Policies published + acknowledged by all staff
+ - Documented organizational chart with defined roles
+ - Board/leadership oversight of security + compliance
+ - Compliance committee meets quarterly
+ - Policies published + acknowledged by all staff
 
 CC1.2 Ethical Conduct:
-  - Code of Conduct signed by all employees
-  - Confidentiality agreements in place
-  - Whistleblower hotline available (anonymous)
-  - Investigation process documented
+ - Code of Conduct signed by all employees
+ - Confidentiality agreements in place
+ - Whistleblower hotline available (anonymous)
+ - Investigation process documented
 ```
 
 **Evidence for Auditor:**
@@ -55,39 +55,39 @@ CC1.2 Ethical Conduct:
 
 ```yaml
 Authentication:
-  - MFA enforced for all administrative access
-  - Password policy: min 12 characters, complexity rules
-  - Session timeout: 15 min inactivity (admin), 60 min (users)
-  - Account lockout: 5 failed attempts → 30 min lockout
+ - MFA enforced for all administrative access
+ - Password policy: min 12 characters, complexity rules
+ - Session timeout: 15 min inactivity (admin), 60 min (users)
+ - Account lockout: 5 failed attempts -> 30 min lockout
 
 Authorization:
-  - RBAC: roles = {viewer, editor, admin, compliance-auditor}
-  - Principle of least privilege: default deny, whitelist
-  - Access review: quarterly verification of role assignments
-  - Segregation of duties: same user cannot create + approve payment
+ - RBAC: roles = {viewer, editor, admin, compliance-auditor}
+ - Principle of least privilege: default deny, whitelist
+ - Access review: quarterly verification of role assignments
+ - Segregation of duties: same user cannot create + approve payment
 
 API Authentication:
-  - OAuth 2.0 / JWT tokens (not basic auth)
-  - Token expiry: max 1 hour
-  - Refresh tokens: max 30 days
-  - API key rotation: 90 days
-  - Revoked keys logged + monitored
+ - OAuth 2.0 / JWT tokens (not basic auth)
+ - Token expiry: max 1 hour
+ - Refresh tokens: max 30 days
+ - API key rotation: 90 days
+ - Revoked keys logged + monitored
 ```
 
 #### CC6.2 Physical Access
 
 ```yaml
 Data Center Security:
-  - Badge access + turnstile (prevent tailgating)
-  - Video surveillance (90-day retention)
-  - Visitor log (manual or automated)
-  - After-hours access: requires approval + logging
+ - Badge access + turnstile (prevent tailgating)
+ - Video surveillance (90-day retention)
+ - Visitor log (manual or automated)
+ - After-hours access: requires approval + logging
 
 Server Room Access:
-  - Locked cabinet / cage
-  - Authorized personnel only
-  - Environmental monitoring (temp, humidity, power)
-  - UPS + backup generator (zero downtime)
+ - Locked cabinet / cage
+ - Authorized personnel only
+ - Environmental monitoring (temp, humidity, power)
+ - UPS + backup generator (zero downtime)
 ```
 
 **Evidence for Auditor:**
@@ -105,36 +105,36 @@ Server Room Access:
 
 ```yaml
 Change Management:
-  - Change request process: documented, approved, tested
-  - Test environment isolation: separate from production
-  - Peer review: code changes reviewed by second person
-  - Rollback procedure: documented, tested quarterly
-  - Deployment frequency: max 2x per week (reduces risk)
+ - Change request process: documented, approved, tested
+ - Test environment isolation: separate from production
+ - Peer review: code changes reviewed by second person
+ - Rollback procedure: documented, tested quarterly
+ - Deployment frequency: max 2x per week (reduces risk)
 
 Segregation of Duties:
-  - Developer: cannot deploy to production
-  - DevOps: cannot change access policies
-  - Auditor: read-only access (cannot modify logs)
-  - Conflict matrix: document incompatible roles
+ - Developer: cannot deploy to production
+ - DevOps: cannot change access policies
+ - Auditor: read-only access (cannot modify logs)
+ - Conflict matrix: document incompatible roles
 
 Secret Management:
-  - Centralized vault: HashiCorp Vault / AWS Secrets Manager
-  - No hardcoded credentials in code (enforced by static analysis)
-  - Secret rotation: every 90 days (automated)
-  - Secret access audit: log who accessed what, when
-  - Principle: service account ≠ human account
+ - Centralized vault: HashiCorp Vault / AWS Secrets Manager
+ - No hardcoded credentials in code (enforced by static analysis)
+ - Secret rotation: every 90 days (automated)
+ - Secret access audit: log who accessed what, when
+ - Principle: service account = human account
 
 Version Control:
-  - All changes in Git (commits logged)
-  - Branch protection: require code review + approval
-  - Commit signatures: GPG / SSH (verify authenticity)
-  - Deploy keys: separate from development keys
+ - All changes in Git (commits logged)
+ - Branch protection: require code review + approval
+ - Commit signatures: GPG / SSH (verify authenticity)
+ - Deploy keys: separate from development keys
 
 Patch Management:
-  - Vulnerability scanning: weekly (all container images)
-  - Patch policy: critical (0-24 hours), high (1-7 days), medium (30 days)
-  - Test patches in staging before production
-  - Maintain patch history (2+ year retention)
+ - Vulnerability scanning: weekly (all container images)
+ - Patch policy: critical (0-24 hours), high (1-7 days), medium (30 days)
+ - Test patches in staging before production
+ - Maintain patch history (2+ year retention)
 ```
 
 **Evidence for Auditor:**
@@ -152,39 +152,39 @@ Patch Management:
 
 ```yaml
 Encryption:
-  Data at Rest:
-    - Database: AES-256 (Postgres native encryption)
-    - Backup: S3 encryption with KMS key
-    - Key rotation: 90 days (automated)
-    - Key escrow: master key in separate vault
-  
-  Data in Transit:
-    - TLS 1.3+ (minimum)
-    - HSTS headers: enforce HTTPS (1 year)
-    - Certificate pinning: prevent MITM attacks
-    - API endpoints: all HTTPS (no fallback to HTTP)
+ Data at Rest:
+ - Database: AES-256 (Postgres native encryption)
+ - Backup: S3 encryption with KMS key
+ - Key rotation: 90 days (automated)
+ - Key escrow: master key in separate vault
+ 
+ Data in Transit:
+ - TLS 1.3+ (minimum)
+ - HSTS headers: enforce HTTPS (1 year)
+ - Certificate pinning: prevent MITM attacks
+ - API endpoints: all HTTPS (no fallback to HTTP)
 
 Malware Prevention:
-  - Antivirus: scans on CI/CD build step
-  - Container scanning: Trivy (weekly) + clair (on deployment)
-  - Static analysis: SAST (SonarQube) on all code
-  - Dynamic analysis: DAST (Burp / OWASP ZAP) quarterly
-  - EDR (Endpoint Detection): deployed on all admin devices
+ - Antivirus: scans on CI/CD build step
+ - Container scanning: Trivy (weekly) + clair (on deployment)
+ - Static analysis: SAST (SonarQube) on all code
+ - Dynamic analysis: DAST (Burp / OWASP ZAP) quarterly
+ - EDR (Endpoint Detection): deployed on all admin devices
 
 Backup & Disaster Recovery:
-  - Backup frequency: daily (hourly for critical systems)
-  - Retention: 30 days (hot), 1 year (cold archive)
-  - RTO: ≤ 4 hours
-  - RPO: ≤ 1 hour
-  - DR test: quarterly (restore from backup, verify data integrity)
-  - Immutable backup: prevent accidental/ransomware deletion
+ - Backup frequency: daily (hourly for critical systems)
+ - Retention: 30 days (hot), 1 year (cold archive)
+ - RTO: 4 hours
+ - RPO: 1 hour
+ - DR test: quarterly (restore from backup, verify data integrity)
+ - Immutable backup: prevent accidental/ransomware deletion
 
 Incident Response:
-  - IR plan documented + drilled (annual)
-  - Detection: automated alerting (failed logins, DDoS, data access anomalies)
-  - Response time: P1 (0-1 hour), P2 (1-4 hours), P3 (1 day)
-  - Forensics: log retention 18+ months (immutable, centralized)
-  - Post-incident: blameless postmortem, document lessons learned
+ - IR plan documented + drilled (annual)
+ - Detection: automated alerting (failed logins, DDoS, data access anomalies)
+ - Response time: P1 (0-1 hour), P2 (1-4 hours), P3 (1 day)
+ - Forensics: log retention 18+ months (immutable, centralized)
+ - Post-incident: blameless postmortem, document lessons learned
 ```
 
 **Evidence for Auditor:**
@@ -200,35 +200,35 @@ Incident Response:
 
 ## A: Availability
 
-**Control Objective:** System must be available when needed; uptime SLO ≥ 99.5%.
+**Control Objective:** System must be available when needed; uptime SLO 99.5%.
 
 ```yaml
 Monitoring & Alerting:
-  - Uptime monitoring: external (e.g., StatusPage, Pingdom)
-  - Response time: alert if >1 sec (user-facing), >5 sec (backend)
-  - CPU/Memory: alert at 80% usage (prevent outage)
-  - Disk space: alert at 80% (prevent disk full crash)
-  - Database connections: alert if >90% of max pool
-  - Alert severity: P0 (page on-call immediately), P1 (email + Slack), P2 (log)
+ - Uptime monitoring: external (e.g., StatusPage, Pingdom)
+ - Response time: alert if >1 sec (user-facing), >5 sec (backend)
+ - CPU/Memory: alert at 80% usage (prevent outage)
+ - Disk space: alert at 80% (prevent disk full crash)
+ - Database connections: alert if >90% of max pool
+ - Alert severity: P0 (page on-call immediately), P1 (email + Slack), P2 (log)
 
 High Availability:
-  - No single point of failure: all services replicated (min 3 nodes)
-  - Load balancing: round-robin + health checks (remove failed nodes)
-  - Database replication: primary + hot standby (automatic failover)
-  - DNS failover: multi-region routing (active-active preferred)
-  - Blue-green deployments: zero-downtime updates
+ - No single point of failure: all services replicated (min 3 nodes)
+ - Load balancing: round-robin + health checks (remove failed nodes)
+ - Database replication: primary + hot standby (automatic failover)
+ - DNS failover: multi-region routing (active-active preferred)
+ - Blue-green deployments: zero-downtime updates
 
 Capacity Planning:
-  - Baseline: measure CPU, memory, disk under normal load
-  - Growth plan: scale infrastructure before hitting limits
-  - Load testing: quarterly (simulate peak traffic)
-  - Forecasting: predict resource needs 6 months ahead
+ - Baseline: measure CPU, memory, disk under normal load
+ - Growth plan: scale infrastructure before hitting limits
+ - Load testing: quarterly (simulate peak traffic)
+ - Forecasting: predict resource needs 6 months ahead
 
 Incident Response (Availability):
-  - On-call rotation: 24/7 coverage (weekends + holidays)
-  - Escalation path: documented + tested
-  - Runbooks: step-by-step recovery procedures
-  - Communication: status page updates every 30 min during incident
+ - On-call rotation: 24/7 coverage (weekends + holidays)
+ - Escalation path: documented + tested
+ - Runbooks: step-by-step recovery procedures
+ - Communication: status page updates every 30 min during incident
 ```
 
 **SLO Targets:**
@@ -268,14 +268,14 @@ Incident Response (Availability):
 
 ```yaml
 Privacy Controls Integration:
-  - Privacy by Design: assess new systems for privacy risks
-  - Data Minimization: collect only what's necessary
-  - Retention Limits: auto-delete data after configured period
-  - Consent Management: capture + verify user consent for processing
-  - Privacy Incident Response: breach notification within 72 hours
-  - Privacy Impact Assessment (PIA): quarterly review
-  - Third-party DPA: enforce data processor agreements
-  - User Rights: DSAR/deletion/portability workflows automated
+ - Privacy by Design: assess new systems for privacy risks
+ - Data Minimization: collect only what's necessary
+ - Retention Limits: auto-delete data after configured period
+ - Consent Management: capture + verify user consent for processing
+ - Privacy Incident Response: breach notification within 72 hours
+ - Privacy Impact Assessment (PIA): quarterly review
+ - Third-party DPA: enforce data processor agreements
+ - User Rights: DSAR/deletion/portability workflows automated
 ```
 
 ---
@@ -286,10 +286,10 @@ For each control, evaluate:
 
 | Dimension | Question | Status | Evidence |
 |-----------|----------|--------|----------|
-| **Design** | Is the control properly designed to address the objective? | ✓ / ✗ | [Attach documentation] |
-| **Implementation** | Has the control been implemented? | ✓ / ✗ | [Screenshots / logs] |
-| **Effectiveness** | Is the control operating as designed? | ✓ / ✗ | [Audit results / test records] |
-| **Monitoring** | Is the control continuously monitored? | ✓ / ✗ | [Alert logs, reports] |
+| **Design** | Is the control properly designed to address the objective? | [OK] / [X] | [Attach documentation] |
+| **Implementation** | Has the control been implemented? | [OK] / [X] | [Screenshots / logs] |
+| **Effectiveness** | Is the control operating as designed? | [OK] / [X] | [Audit results / test records] |
+| **Monitoring** | Is the control continuously monitored? | [OK] / [X] | [Alert logs, reports] |
 
 ---
 

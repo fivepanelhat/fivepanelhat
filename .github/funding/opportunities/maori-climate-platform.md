@@ -1,10 +1,10 @@
-# CAT-G-009 — Māori Climate Platform
+# CAT-G-009 - Maori Climate Platform
 
 | Field | Value |
 | :--- | :--- |
 | **Funder** | Ministry for the Environment |
-| **Status** | **Watch** — Stage 2 investments announced; new open rounds TBD |
-| **Fit score** | **55** — only if marae/community resilience + edge energy/water |
+| **Status** | **Watch** - Stage 2 investments announced; new open rounds TBD |
+| **Fit score** | **55** - only if marae/community resilience + edge energy/water |
 
 ## Relevance
 

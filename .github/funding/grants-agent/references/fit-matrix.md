@@ -1,6 +1,6 @@
 # Fit scoring matrix
 
-Score each opportunity for a project 0–100. Start at 0; add points; apply penalties.
+Score each opportunity for a project 0-100. Start at 0; add points; apply penalties.
 
 ## Positive signals
 
@@ -20,21 +20,21 @@ Score each opportunity for a project 0–100. Start at 0; add points; apply pena
 | Signal | Points |
 | :--- | ---: |
 | Fund closed / paused | score = 0 |
-| Requires kaitono Māori-led but none available | −25 |
-| Needs public co-fund stacking that conflicts | −15 |
-| Only BAU / commercialisation with no R&D uncertainty (for R&D funds) | −20 |
-| Health/PHI without compliance readiness | −20 |
-| Over-claims vs public docs | −15 |
-| Callaghan-only dead end | −10 |
+| Requires kaitono Maori-led but none available | 25 |
+| Needs public co-fund stacking that conflicts | 15 |
+| Only BAU / commercialisation with no R&D uncertainty (for R&D funds) | 20 |
+| Health/PHI without compliance readiness | 20 |
+| Over-claims vs public docs | 15 |
+| Callaghan-only dead end | 10 |
 
 ## Bands
 
 | Score | Action |
 | ---: | :--- |
-| ≥ 85 | **Pursue now** — draft + navigator contact |
-| 70–84 | **Pursue with gaps** — list blockers first |
-| 55–69 | **Watch / partner** — do not solo-apply |
-| &lt; 55 | **Skip** unless strategy changes |
+| 85 | **Pursue now** - draft + navigator contact |
+| 70-84 | **Pursue with gaps** - list blockers first |
+| 55-69 | **Watch / partner** - do not solo-apply |
+| < 55 | **Skip** unless strategy changes |
 
 ## Theme tags used in tracker
 
