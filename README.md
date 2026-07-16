@@ -119,7 +119,7 @@ All Coastal Alpine edge repositories document this same target. Do not mix Hailo
 
 | Priority | Wedge | Canonical repo | Notes |
 | :--- | :--- | :--- | :--- |
-| **P0** | **Byte Size Kai** (agritech) | [Blue-Moon-Portal](https://github.com/fivepanelhat/Blue-Moon-Portal) + Core | Commercial hardware pilot path |
+| **P0** | **Byte Size Kai** (agritech) | [Byte-Size-Kai](https://github.com/fivepanelhat/Byte-Size-Kai) + Core | Commercial hardware pilot path |
 | **P0** | **Front Line Whanau** (social) | [Front_Line_Whanau](https://github.com/fivepanelhat/Front_Line_Whanau) | Live: front-line-whanau.vercel.app |
 | Supporting | Stack foundation | Core, Weaver, Aether, stack, firmware | Shared SDK / deploy |
 | Supporting | Sister portals | Soil / Aqua / Sting | Background until wedge needs them |
@@ -146,7 +146,7 @@ Each repo ships a root `LICENSE` file. Prefer SPDX in GitHub repo settings so th
  | [Weaver](https://github.com/fivepanelhat/Weaver) | Multi-tenant helpdesk & local RAG mesh | **Windows | Linux | RPi** | Privacy Act 2020, Public Records Act 2005 | RPi 5 16GB + Hailo-10H |
  | [Aether](https://github.com/fivepanelhat/Aether) | Sovereign agentic companion + computer use | **Windows | Linux | macOS** | Te Mana Raraunga 2018 | Dev workstation / edge companion |
  | [coastal-alpine-stack](https://github.com/fivepanelhat/coastal-alpine-stack) | Full stack compose / K3s monorepo | **Windows | Linux | RPi** | Te Mana Raraunga 2018 | RPi 5 16GB + Hailo-10H |
- | [**Byte Size Kai**](https://github.com/fivepanelhat/Blue-Moon-Portal) (`Blue-Moon-Portal`) | **Lead agritech product** - multi-modal edge AI for microgreens / Mana Kai | Edge Linux | Biosecurity Act 1993, HSNO Act 1996, Food Act 2014 | RPi 5 16GB + Hailo-10H |
+ | [**Byte Size Kai**](https://github.com/fivepanelhat/Byte-Size-Kai) (`Byte-Size-Kai`) | **Lead agritech product** - multi-modal edge AI for microgreens / Mana Kai | Edge Linux | Biosecurity Act 1993, HSNO Act 1996, Food Act 2014 | RPi 5 16GB + Hailo-10H |
  | [Sting-Operation-AI](https://github.com/fivepanelhat/Sting-Operation-AI) | YOLO wasp & bee classifier beehive sentinel | Edge Linux + Hailo | Biosecurity Act 1993, Animal Welfare Act 1999 | RPi 5 16GB + Hailo-10H |
  | [AquaGuard-Portal](https://github.com/fivepanelhat/AquaGuard-Portal) | Water runoff, sediment, & turbidity telemetry | Edge Linux | RMA 1991, Horizons One Plan, regional consents | RPi 5 16GB + Hailo-10H |
  | [SoilGuard-Portal](https://github.com/fivepanelhat/SoilGuard-Portal) | Soil N-P-K, pH, & moisture crop control | Edge Linux | NES-F 2020 (Synthetic N cap), FWFPs | RPi 5 16GB + Hailo-10H |
@@ -162,7 +162,7 @@ Each repo ships a root `LICENSE` file. Prefer SPDX in GitHub repo settings so th
 | | |
 |--|--|
 | **Product brand** | Byte Size Kai |
-| **Repository (technical / CI path)** | [Blue-Moon-Portal](https://github.com/fivepanelhat/Blue-Moon-Portal) - keep clone URLs as-is |
+| **Repository (technical / CI path)** | [Byte-Size-Kai](https://github.com/fivepanelhat/Byte-Size-Kai) - keep clone URLs as-is |
 | **Stack role** | Domain portal on Coastal-Alpine-Core + Hailo vision + local Ollama |
 | **Sister portals (background)** | SoilGuard, AquaGuard, Sting-Operation |
 

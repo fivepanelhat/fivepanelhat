@@ -18,7 +18,7 @@ HOME = Path.home()
 CORE_GIT = "https://github.com/fivepanelhat/Coastal-Alpine-Core.git@v0.5.4"
 
 PORTALS = [
-    "Blue-Moon-Portal",
+    "Byte-Size-Kai",
     "Sting-Operation-AI",
     "SoilGuard-Portal",
     "AquaGuard-Portal",
@@ -178,7 +178,7 @@ ROOT_VENV_DIR = ".venv"
 
 PORTALS = [
     "AquaGuard-Portal",
-    "Blue-Moon-Portal",
+    "Byte-Size-Kai",
     "SoilGuard-Portal",
     "Sting-Operation-AI",
     "Weaver",
