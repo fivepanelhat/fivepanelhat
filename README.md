@@ -93,6 +93,20 @@ These are not separate features. They form a single closed loop: sensors → loc
 
 The result is a system that becomes more valuable the longer it runs on a given farm or site, without requiring continuous cloud connectivity or data export.
 
+## Enterprise Readiness
+
+Coastal Alpine Tech is pre-seed. The following artefacts exist so that enterprise buyers, partners, and investors can see the design intent, current controls, and staged path forward — without over-claiming certification or maturity that does not yet exist.
+
+| Artefact | Purpose |
+|----------|---------|
+| **[GOVERNANCE.md](./GOVERNANCE.md)** | Decision rights, HITL ceiling, roles, Cultural Advisory interface, escalation |
+| **[Security & Compliance Roadmap](./.github/compliance/SECURITY_ROADMAP.md)** | Phased path: current state → first pilot → seed readiness |
+| **[Threat Model](./.github/compliance/THREAT_MODEL.md)** | STRIDE-oriented view of the edge + multi-tenant + local-LLM attack surface |
+| **[NZ AI Compliance + SOC 2 Framework](./.github/compliance/nz-ai-compliance-soc2/)** | Privacy Act, Te Mana Raraunga, SOC 2 control matrix, incident playbook, audit checklist |
+| **Architecture diagrams** | Target architecture (Mermaid + images) in this README and in Core / Weaver / Aether / stack |
+
+**Status (July 2026):** Working technical controls (SecurityGuard, DataFlywheel, tenant isolation design, SecOps workflows) + comprehensive design-target documentation. External audit and formal attestation are future phases gated on pilots and commercial traction.
+
 [![Stage](https://img.shields.io/badge/Stage-Pre--seed-8B5CF6)](https://github.com/fivepanelhat)
 [![License: Proprietary](https://img.shields.io/badge/License-Proprietary--Commercial-blue.svg)](./LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776ab?logo=python&logoColor=white)](https://www.python.org)
@@ -140,7 +154,7 @@ A compact view of the governance work now living in this org profile (full frame
  | **NZ Algorithm Charter** | Transparent decisions, human appeal |
 
 **Status (pre-seed):** Compliance **framework documents** are in-repo as design targets **not** an external SOC 2 Type II attestation. Implementation is early-stage.
-**Local docs:** [SKILL.md](.github/compliance/nz-ai-compliance-soc2/SKILL.md) | [Implementation guide](.github/compliance/nz-ai-compliance-soc2/README.md) | [Audit checklist](.github/compliance/nz-ai-compliance-soc2/references/COMPLIANCE_AUDIT_CHECKLIST.md)
+**Local docs:** [SKILL.md](.github/compliance/nz-ai-compliance-soc2/SKILL.md) | [Implementation guide](.github/compliance/nz-ai-compliance-soc2/README.md) | [Audit checklist](.github/compliance/nz-ai-compliance-soc2/references/COMPLIANCE_AUDIT_CHECKLIST.md) | [Security Roadmap](.github/compliance/SECURITY_ROADMAP.md) | [Threat Model](.github/compliance/THREAT_MODEL.md)
 
 ---
 
@@ -525,7 +539,7 @@ Developed with pride in **Taranaki, New Zealand**.
 
 ## Governance & capital (summary)
 
-Condensed from the compliance and Kotahitanga work added to this profile product landing above remains primary.
+See the full **[GOVERNANCE.md](./GOVERNANCE.md)** for decision rights, roles, HITL policy, and escalation.
 
 ### CAT Architectural Standards (design targets)
 
@@ -556,6 +570,8 @@ Full reference set on this repo:
  | Te Mana Raraunga | [references/TE_MANA_RARAUNGA_PRINCIPLES.md](.github/compliance/nz-ai-compliance-soc2/references/TE_MANA_RARAUNGA_PRINCIPLES.md) |
  | Incident playbook | [references/INCIDENT_RESPONSE_PLAYBOOK.md](.github/compliance/nz-ai-compliance-soc2/references/INCIDENT_RESPONSE_PLAYBOOK.md) |
  | Audit checklist | [references/COMPLIANCE_AUDIT_CHECKLIST.md](.github/compliance/nz-ai-compliance-soc2/references/COMPLIANCE_AUDIT_CHECKLIST.md) |
+ | Security Roadmap | [SECURITY_ROADMAP.md](.github/compliance/SECURITY_ROADMAP.md) |
+ | Threat Model | [THREAT_MODEL.md](.github/compliance/THREAT_MODEL.md) |
 
 ### Key metrics (aspirational targets for a maturing product not current SLAs)
 
@@ -571,6 +587,15 @@ Full reference set on this repo:
 ---
 
 ## Recent stack updates
+
+### 2026-07-16 Enterprise Readiness artefacts
+
+ | Area | What shipped |
+ | :--- | :--- |
+ | **GOVERNANCE.md** | Decision rights, HITL ceiling, roles, Cultural Advisory interface |
+ | **Security & Compliance Roadmap** | Phased, stage-honest path to pilot and seed readiness |
+ | **Threat Model** | STRIDE-oriented view of the actual edge attack surface |
+ | **README linking** | Enterprise Readiness section for discoverability |
 
 ### 2026-07-13 authenticity + pre-seed positioning
 
