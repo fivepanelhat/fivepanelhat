@@ -12,6 +12,8 @@
 
 > Sovereign hybrid edge AI for NZ farms and founders - local-first + multi-model, Te Mana Raraunga aligned - collaborating with Venture Taranaki, startups.com investors and Kotahitanga Investment Fund (HITL + cultural advisory for formal approaches).
 
+**See [AI Infrastructure Leadership](./AI_INFRASTRUCTURE_LEADERSHIP.md) for our positioning as New Zealand's leader in sovereign edge AI Infrastructure.**
+
 **Agents inform, draft, prepare, monitor, and remind. Humans advise, sign, file, send, and pay.** 
 Anti-hallucination policy: [`.github/agent-fleet/anti-hallucination.md`](./.github/agent-fleet/anti-hallucination.md) | Congruence: [`CAT_CONGRUENCE.md`](./CAT_CONGRUENCE.md)
 <!-- END CAT_CONGRUENCE_SNIPPET -->
@@ -602,6 +604,13 @@ Full reference set on this repo:
 
 ## Recent stack updates
 
+### 2026-07-17 AI Infrastructure Leadership + Hardening
+
+ | Area | What shipped |
+ | :--- | :--- |
+ | **AI_INFRASTRUCTURE_LEADERSHIP.md** | New prominent doc positioning CAT as NZ sovereign AI Infrastructure leader; integrates aether-nz-ai-safety hardening, risk tiering, skills extensibility, grounded claims | 
+ | **README update** | Added prominent link to new leadership doc in portfolio header |
+
 ### 2026-07-16 Commercial Positioning + pricing hygiene
 
  | Area | What shipped |
@@ -660,7 +669,7 @@ Full reference set on this repo:
  | **Security (org-wide)** | Least-privilege Actions, Dependabot, SECURITY sections |
  | **Aether** | Kiwi Edge skills, computer-use hybrid, dual installers |
 
-**Next focus (suggested):** keep submodules on Core 0.5.4; smoke-test installers on clean Windows and Linux hosts; advance Week 112 compliance implementation against the local checklist.
+**Next focus (suggested):** keep submodules on Core 0.5.4; smoke-test installers on clean Windows and Linux hosts; advance Week 112 compliance implementation against the local checklist; link new AI_INFRASTRUCTURE_LEADERSHIP.md from investor/grant materials.
 
 ---
 
