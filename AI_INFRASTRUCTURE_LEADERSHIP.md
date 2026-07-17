@@ -22,6 +22,7 @@ This is infrastructure because it is:
 - **Production-Grade Hardened**: Not prototypes — Security & Compliance Roadmap, Threat Models, Governance, Diamond-level CAT Architectural Standards.
 - **NZ-Native & Culturally Safe**: Privacy Act 2020, Algorithm Charter, Public Service AI Framework, Te Tiriti partnership, OCAP-aligned data control.
 - **Rural & Offline Resilient**: Designed for blackouts, low-power, no cloud required for core operation.
+- **Hardware-Aware & Energy-Optimised (2026 Paradigm)**: Right-sized SLMs, aggressive quantization, domain-specific distillation, speculative decoding, operator fusion, and performance-per-joule metrics as first-class design goals.
 
 **We are the sovereign AI Infrastructure layer for Aotearoa's primary industries and edge future.**
 
@@ -68,6 +69,20 @@ See implementation in:
 - SecurityGuard patterns across Core/Weaver/Aether
 - `.github/compliance/NZ_AI_FRAMEWORKS_ALIGNMENT.md` (detailed mapping including global regulatory moat)
 
+## 2026 Edge & Agentic Optimisation Layer
+
+Our stack is built for the modern paradigm:
+- **Right-sized SLMs + aggressive quantization** (4-bit baseline, mixed 2/3-bit on FFN, attention preserved)
+- **Domain-specific distillation** from larger teachers onto sub-4B models using agritech corpus
+- **Speculative decoding** for generation speed on constrained hardware
+- **Semantic routing & escalation** in Weaver/Aether (light models for routine tasks, escalate only on uncertainty/complexity)
+- **Stateful context caching + context pruning** in local RAG
+- **Hardware-aware compilation** (Hailo .hef, operator fusion, memory-bandwidth optimisation)
+- **Performance-per-joule** as primary metric (TelemetryTracker + POWER_BUDGET.md)
+- **Closed-loop local Data Flywheel** for continuous improvement without cloud round-trips
+
+These techniques are not add-ons — they are core to how the Kiwi Edge AI Stack delivers production-grade reasoning on real rural hardware.
+
 ## Skills Architecture & Extensibility
 
 The infrastructure is skills-native (powered by aether-core + aether-agent-fleet + aether-skill-authoring).
@@ -75,7 +90,7 @@ The infrastructure is skills-native (powered by aether-core + aether-agent-fleet
 Current hardened skills include: agent-hardening, compliance-registrar, data-sovereignty, hitl-protocol, nz-ai-safety, cat-architectural-standards, and domain-specific (grants, market, finance, etc.).
 
 We are actively expanding the fleet with AI Infrastructure-specific skills for:
-- Orchestration & routing governance
+- Orchestration & routing governance (including semantic routing)
 - Flywheel curation & golden-set management
 - Hardware posture & energy optimisation
 - Cross-portal infrastructure monitoring
