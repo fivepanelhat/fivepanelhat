@@ -15,6 +15,8 @@ The **Kiwi Edge AI Stack** (Coastal-Alpine-Core + Weaver + Aether + Sovereign-Ed
 - **Sovereignty & Safety Infrastructure**: aether-nz-ai-safety hardened guidelines, Te Mana Raraunga operational controls, full threat modeling, SOC2-mapped compliance as code, fail-closed defaults.
 - **Continuous Improvement Flywheel**: Local data loops that improve models and decisions over time without exfiltration — turning every farm/node into infrastructure value.
 
+**Platform + Beachhead Narrative**: We built **one core platform** (Core + Weaver + Aether + stack) that powers sovereign edge AI. **Byte-Size-Kai** is the first validated beachhead application (microgreens / Mana Kai agritech). Sting-Operation-AI is the first ML pipeline. Everything else is scaffolding or future modules on the same foundation. This is the winning 2026 structure: platform engine + focused wedge that proves the engine works.
+
 This is infrastructure because it is:
 - **Reusable & Composable**: Same Core/Weaver/Aether powers agritech (Byte Size Kai), biosecurity (Sting), water/soil (AquaGuard/SoilGuard), founder tools (NZ-Start-Up), and future verticals.
 - **Production-Grade Hardened**: Not prototypes — Security & Compliance Roadmap, Threat Models, Governance, Diamond-level CAT Architectural Standards.
@@ -54,7 +56,7 @@ All work follows hardened NZ AI safety (see full skill for details):
 **Anti-Patterns We Explicitly Avoid**:
 - Treating voluntary NZ guidance as sufficient without enforcement.
 - Claiming alignment (Te Mana Raraunga, Algorithm Charter) without concrete, auditable controls.
-- Allowing agents to present as authoritative.
+- Allowing agents to present as authoritative without human gate.
 - Defaulting to cloud for convenience on sensitive or cultural workloads.
 - Skipping impact assessment or cultural review for high-stakes features.
 - Logging full personal/cultural prompts without minimisation.
@@ -64,6 +66,7 @@ See implementation in:
 - `aether-nz-ai-safety` skill (full guidelines + checklist)
 - `aether-hitl-protocol`, `aether-data-sovereignty`, `cat-architectural-standards` (Diamond target)
 - SecurityGuard patterns across Core/Weaver/Aether
+- `.github/compliance/NZ_AI_FRAMEWORKS_ALIGNMENT.md` (detailed mapping including global regulatory moat)
 
 ## Skills Architecture & Extensibility
 
