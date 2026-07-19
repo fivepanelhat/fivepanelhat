@@ -390,7 +390,7 @@ flowchart TB
  Weaver --> Blue & Sting & Aqua & Soil
  Core --> Ollama
  S3 & S4 --> Hailo
- Aether -.-> | skills | CI | HITL | computer use | Core & Weaver
+ Aether -.->|"skills, CI, HITL, computer use"| Core & Weaver
  RUNTIME -.-> HOSTS
  ORCH -.-> Win & Lin
 
