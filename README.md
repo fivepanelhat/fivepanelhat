@@ -35,10 +35,9 @@ The **Kiwi Edge AI Stack** exists so Aotearoa can run hybrid edge + multi-model 
 | :--- | :--- | :--- |
 | **Beachhead agritech** | [Byte Size Kai](https://github.com/fivepanelhat/Byte-Size-Kai) | Lead commercial edge product for crop / Mana Kai intelligence |
 | **Beachhead social** | [Front_Line_Whanau](https://github.com/fivepanelhat/Front_Line_Whanau) | National whanau / frontline support platform |
-| **Founder OS** | [NZ-Start-Up](https://github.com/fivepanelhat/NZ-Start-Up) | Local founder OS + EDA white-label kit |
 | **Edge foundation** | Core, Weaver, Aether, stack, firmware | SDK, orchestration, companion agents, deploy, field nodes |
 | **Domain portals** | SoilGuard, AquaGuard, Sting | Soil, water, biosecurity specialists |
-| **Privacy utility** | CAT-mail | Privacy-first email assist (parked vs beachheads) |
+| **Founder tools** | [NZ-Start-Up](https://github.com/fivepanelhat/NZ-Start-Up), [CAT-mail](https://github.com/fivepanelhat/CAT-mail) | Founder OS + EDA white-label kit; privacy-first email assist. Support tooling, not the sales narrative |
 
 **Hardware target:** Raspberry Pi 5 (16GB) + Hailo-10H NPU | **Policy:** agents draft/prepare; humans sign/send/pay.
 
@@ -255,9 +254,37 @@ Each repo ships a root `LICENSE` file. Prefer SPDX in GitHub repo settings so th
  | [Sting-Operation-AI](https://github.com/fivepanelhat/Sting-Operation-AI) | YOLO wasp & bee classifier beehive sentinel | Edge Linux + Hailo | Biosecurity Act 1993, Animal Welfare Act 1999 | RPi 5 16GB + Hailo-10H |
  | [AquaGuard-Portal](https://github.com/fivepanelhat/AquaGuard-Portal) | Water runoff, sediment, & turbidity telemetry | Edge Linux | RMA 1991, Horizons One Plan, regional consents | RPi 5 16GB + Hailo-10H |
  | [SoilGuard-Portal](https://github.com/fivepanelhat/SoilGuard-Portal) | Soil N-P-K, pH, & moisture crop control | Edge Linux | NES-F 2020 (Synthetic N cap), FWFPs | RPi 5 16GB + Hailo-10H |
- | [Sovereign-Edge-Firmware](https://github.com/fivepanelhat/Sovereign-Edge-Firmware) | ESP32 sensor firmware + edge hub | Field + Pi hub | Te Mana Raraunga 2018 | RPi 5 16GB hub + ESP32 nodes |
+ | [Sovereign-Edge-Firmware](https://github.com/fivepanelhat/Sovereign-Edge-Firmware) | ESP32 sensor firmware + edge hub — **pending live telemetry**, see to-do below | Field + Pi hub | Te Mana Raraunga 2018 | RPi 5 16GB hub + ESP32 nodes |
  | [Front_Line_Whanau](https://github.com/fivepanelhat/Front_Line_Whanau) | **Canonical** national whanau / preterm support platform | Web / PWA / Tauri | Privacy Act 2020, Te Tiriti | Vercel + optional desktop |
  | ~~whanau-preterm-support-hub~~ | **ARCHIVED** scaffold - do not contribute | - | - | Redirect -> Front_Line_Whanau |
+
+### Founder tools
+
+Internal / support tooling. Listed separately from the edge stack because these
+are not field-deployed products and carry no hardware target.
+
+ | Repository | Role | Platforms | Core NZ Regulations |
+ | :--- | :--- | :--- | :--- |
+ | [NZ-Start-Up](https://github.com/fivepanelhat/NZ-Start-Up) | Founder OS - company formation, compliance, RDTI logging, EDA white-label kit | Desktop / CLI | Companies Act 1993, RDTI scheme rules |
+ | [CAT-mail](https://github.com/fivepanelhat/CAT-mail) | Privacy-first email assist, zero data retention | Desktop | Privacy Act 2020 |
+
+### Sovereign-Edge-Firmware: to-do before "complete"
+
+The firmware is **not** finished. It compiles and the mTLS MQTT path is
+designed, but it has not yet been validated end to end on real hardware, so it
+should not be presented as a shipped field capability. Outstanding, from the
+repo's own roadmap:
+
+- [ ] Confirm a fresh ESP32 board package reinstall compiles cleanly
+- [ ] Re-upload the combined sketch (DHT11 + rain sensor + MQTT) on a healthy compiler
+- [ ] Debug intermittent DHT11 reads (test moving power from direct-ESP32 to the shared 5V rail)
+- [ ] Complete Node-RED wiring for `garden/sensor1/rain` into InfluxDB
+- [ ] Integrate the physical light and moisture sensors into the enclosure
+- [ ] Deploy Grafana over the InfluxDB metrics
+- [ ] Configure persistent headless boot for the Pi services (`systemctl enable`)
+- [ ] **Capture live telemetry from a deployed node** - the gate for marking this complete
+
+Source: [Sovereign-Edge-Firmware roadmap](https://github.com/fivepanelhat/Sovereign-Edge-Firmware#project-roadmap).
 
 ### Featured edge product: Byte Size Kai (agritech beachhead)
 
@@ -406,7 +433,7 @@ flowchart TB
  | Layer | What runs | Why it matters |
  | :--- | :--- | :--- |
  | **Sensors** | Probes, cameras, audio | Capture stays local to whenua / farm |
- | **Firmware** | ESP32 + mTLS MQTT | Hardened field devices, no cloud telemetry bus |
+ | **Firmware** | ESP32 + mTLS MQTT | Hardened field devices, no cloud telemetry bus. **Pending live telemetry** - designed and compiling, not yet validated on a deployed node |
  | **Hybrid runtime** | Core + Weaver + stack + Ollama + Hailo | Shared SDK, multi-tenant routing, offline inference |
  | **Portals** | Domain agents | **Byte Size Kai** (agritech lead), biosecurity, water, soil |
  | **Aether** | Companion + computer use | HITL, skills, remediation, desktop control (Win/Linux) |
