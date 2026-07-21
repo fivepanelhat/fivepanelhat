@@ -24,7 +24,7 @@ Anti-hallucination policy: [`.github/agent-fleet/anti-hallucination.md`](./.gith
 <!-- END CAT_CONGRUENCE_SNIPPET -->
 
 <!-- BEGIN PRIVACY_SECURITY_GOVERNANCE -->
-## Privacy · Security · Governance
+## Privacy / Security / Governance
 
 Coastal Alpine Tech products treat operational and personal data as **taonga**. Defaults favour **local-first** operation, **purpose-limited** collection, and **Human-in-the-Loop** for high-stakes actions.
 
@@ -39,7 +39,7 @@ Coastal Alpine Tech products treat operational and personal data as **taonga**. 
 Fleet policy: [fivepanelhat / Kiwi Edge AI Stack](https://github.com/fivepanelhat/fivepanelhat) · Product detail: [`COMPLIANCE.md`](./COMPLIANCE.md) · [`SECURITY.md`](./SECURITY.md) (where present) · [`CAT_CONGRUENCE.md`](./CAT_CONGRUENCE.md) (where present)
 <!-- END PRIVACY_SECURITY_GOVERNANCE -->
 
-## Fleet mandate: Privacy · Security · Governance
+## Fleet mandate: Privacy / Security / Governance
 
 Every Coastal Alpine Tech repository is expected to surface **Privacy**, **Security**, and **Governance** in the README and `COMPLIANCE.md` / `SECURITY.md`:
 
