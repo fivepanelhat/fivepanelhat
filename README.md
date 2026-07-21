@@ -236,10 +236,19 @@ All Coastal Alpine edge repositories document this same target. Do not mix Hailo
 | Repository | License | Notes |
 | :--- | :--- | :--- |
 | Coastal-Alpine-Core, Weaver, coastal-alpine-stack, portals, firmware | Proprietary (CAT) | Commercial edge stack |
-| Aether | Apache-2.0 | Open companion |
-| Front_Line_Whanau | Apache-2.0 | Open social platform |
-| CAT-mail | MIT | Privacy-first email agent |
+| Byte-Size-Kai | Proprietary (CAT) | Lead agritech product |
+| Front_Line_Whanau | Proprietary (CAT) | National social platform |
+| Aether | Proprietary (CAT) | Internal companion |
+| scaffylads | Proprietary (CAT) | Scaffolding work journal |
+| CAT-mail | Proprietary (CAT) | Privacy-first email agent |
+| NZ-Start-Up | Proprietary (CAT) | Founder OS (dual-licence, Track A default) |
 | fivepanelhat (profile) | Proprietary docs | Portfolio landing |
+
+The entire portfolio is standardised on the **Coastal Alpine Tech proprietary
+licence**. Front_Line_Whanau, Aether (both previously Apache-2.0) and CAT-mail
+(previously MIT) were relicensed to proprietary; this governs each repo going
+forward, and does not affect versions already distributed under the earlier
+open licences.
 
 Each repo ships a root `LICENSE` file. Prefer SPDX in GitHub repo settings so the UI does not show `NOASSERTION`.
 
