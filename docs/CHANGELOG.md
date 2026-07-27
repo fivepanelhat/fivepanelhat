@@ -2,6 +2,14 @@
 
 Notable changes to the Kiwi Edge AI Stack portfolio landing (`fivepanelhat/fivepanelhat`).
 
+## [2026-07-27] — Company knowledge pack
+
+### Added
+- **`docs/company/`** — COMPANY_PROFILE, CATALOGUE, BRAIN (+ index README)
+  - Profile: identity, mission, stage honesty, ceilings
+  - Catalogue: platform, beachheads, portals, founder OS, archived
+  - Brain: claim rules, routing, anti-patterns, weekly pulse for agents/founders
+
 ## [2026-07-27] — Alignment Week (landing hygiene)
 
 ### Added
