@@ -1,16 +1,18 @@
 # Coastal Alpine Tech - portfolio congruence
 
-**Company:** Coastal Alpine Tech Limited | **Stage:** Pre-seed | **Region:** Taranaki, Aotearoa New Zealand 
-**R&D since:** 8 August 2025 | **Founding target:** 8 August 2026 
+**Company:** Coastal Alpine Tech Limited | **Stage:** Pre-seed | **Region:** Taranaki, Aotearoa New Zealand  
+**R&D since:** 8 August 2025 | **Founding target:** 8 August 2026  
 **Org home:** [fivepanelhat](https://github.com/fivepanelhat/fivepanelhat) | **Founder OS:** [NZ-Start-Up](https://github.com/fivepanelhat/NZ-Start-Up)
 
 This repository is part of the **Kiwi Edge AI Stack** - hybrid edge (RPi 5 16GB + Hailo-10H) + multi-model fleets + Te Mana Raraunga local-first data. It is **not** a claim of large-scale commercial deployment or raised Series capital.
 
 ## Investor one-liner (global)
 
-> Coastal Alpine Tech is building the sovereign hybrid edge-AI stack for Aotearoa's primary industries and founders - local-first RPi 5 + Hailo nodes, multi-model fleets (Grok/Claude/Gemini), Te Mana Raraunga data sovereignty, and white-label EDA tools - actively seeking collaboration with Venture Taranaki, startups.com investors, and the Kotahitanga Investment Fund to scale intergenerational Maori and regional economic outcomes.
+> Coastal Alpine Tech is building the sovereign hybrid edge-AI stack for Aotearoa's primary industries and founders - local-first RPi 5 + Hailo nodes, multi-model fleets (Grok/Claude/Gemini), **designed in accordance with Te Mana Raraunga** principles, and white-label EDA tools - actively seeking collaboration with Venture Taranaki, startups.com investors, and the Kotahitanga Investment Fund to scale intergenerational Māori and regional economic outcomes.
 
 **Collaboration:** Open to Venture Taranaki, startups.com investors, and Kotahitanga Investment Fund - **HITL + cultural advisory** for any formal approach. No implied existing deals.
+
+**Claim tier:** Portfolio external language is **L1 Designed** (July 2026). Prefer “designed in accordance with…” over “fully aligned / certified / guarantees sovereignty.” Canonical evidence: [docs/ALIGNMENT_EVIDENCE.md](./docs/ALIGNMENT_EVIDENCE.md) → [Aether alignments](https://github.com/fivepanelhat/Aether/tree/main/docs/alignments).
 
 ## Stack map
 
@@ -23,12 +25,12 @@ This repository is part of the **Kiwi Edge AI Stack** - hybrid edge (RPi 5 16GB 
 | Shared SDK | Coastal-Alpine-Core, coastal-alpine-stack |
 | Field | Sovereign-Edge-Firmware |
 | Domains | **Byte Size Kai** (Byte-Size-Kai), SoilGuard-Portal, AquaGuard-Portal, Sting-Operation-AI |
-| Whanau / social | whanau-preterm-support-hub, Front_Line_Whanau |
+| Whanau / social | Front_Line_Whanau |
 | Privacy util | CAT-mail |
 
 ## Autonomy ceiling (all agentic work)
 
-**Agents inform, draft, prepare, monitor, and remind.** 
+**Agents inform, draft, prepare, monitor, and remind.**  
 **Humans advise, sign, file, send, and pay.**
 
 Hard refusals: inventing NZBN/IRD/partner consent | autonomous cold email (UEM) | filing government forms | moving money | cultural extraction / invented iwi endorsement.
@@ -42,16 +44,24 @@ Hard refusals: inventing NZBN/IRD/partner consent | autonomous cold email (UEM) 
 5. Extended thinking: list uncertainties and what would change the answer **before** final output.
 6. Watermarks: `DRAFT`, `NOT LEGAL ADVICE`, `NOT FINANCIAL ADVICE`, `DRAFT_NOT_SENT`, `PREPARED BY AGENT`.
 
+## NZ AI Safety & alignment evidence
+
+- Hardened guidelines and skills live primarily in **Aether** (`docs/HARDENED_NZ_AI_SAFETY_GUIDELINES.md`, `skills/aether-nz-ai-safety`).
+- Instrument mapping, scorecards, grant links: [Aether `docs/alignments/`](https://github.com/fivepanelhat/Aether/tree/main/docs/alignments).
+- Portfolio pointer: [`docs/ALIGNMENT_EVIDENCE.md`](./docs/ALIGNMENT_EVIDENCE.md).
+- Default HITL for production / external / health / cultural actions: **L2**.
+- External compliance claims require founder approval and must match scorecard tier.
+
 ## Agent fleet location
 
 Portable skills and policy live under:
 
 ```text
 .github/agent-fleet/
- AGENTS.md
- anti-hallucination.md
- agent-hardening/SKILL.md
- cat-architectural-standards/SKILL.md
+  AGENTS.md
+  anti-hallucination.md
+  agent-hardening/SKILL.md
+  cat-architectural-standards/SKILL.md
 ```
 
 Canonical full fleet + runtime: **NZ-Start-Up** (`skills/`, `nz-startup` CLI).
