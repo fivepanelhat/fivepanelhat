@@ -1,11 +1,11 @@
 # COMPLIANCE.md
 
 **Coastal Alpine Tech Limited** | **Product:** fivepanelhat (Kiwi Edge portfolio)
-Last updated: 22 July 2026
+Last updated: 27 July 2026
 
 ## Privacy / Security / Governance (fleet mandatory)
 
-**Last reviewed (fleet block):** 22 July 2026
+**Last reviewed (fleet block):** 27 July 2026
 
 | Pillar | Standard |
 | --- | --- |
@@ -20,6 +20,15 @@ Last updated: 22 July 2026
 
 > This document is **alignment evidence**, not a compliance certificate, audit report, or legal advice.
 
+## Alignment Evidence
+
+Canonical instrument mapping, metrics, scorecards, and grant reinforcement links live in the **Aether** alignments library (system of record):
+
+- https://github.com/fivepanelhat/Aether/tree/main/docs/alignments
+- Portfolio pointer: [`docs/ALIGNMENT_EVIDENCE.md`](./docs/ALIGNMENT_EVIDENCE.md)
+- Grant citations: [GRANT-REINFORCEMENT.md](https://github.com/fivepanelhat/Aether/blob/main/docs/alignments/GRANT-REINFORCEMENT.md)
+
+Binding controls remain those stated in this document and product-level COMPLIANCE / SECURITY files. External claims require concrete controls plus founder approval. **Scorecard tier (July 2026): L1 Designed** until Minimum Viable Set runtime evidence is recorded on Aether.
 
 ## Regulatory Mapping
 
