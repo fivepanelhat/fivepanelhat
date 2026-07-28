@@ -1,8 +1,8 @@
 # Funding Tracker
 
-**Snapshot date:** 2026-07-13 
-**Machine file:** [tracker.csv](tracker.csv) 
-**Status legend:** `watch` | `researching` | `fit_scored` | `partnering` | `drafting` | `hitl_review` | `submitted` | `clarification` | `awarded` | `declined` | `withdrawn` | `reporting` | `closed` | `opens_soon` | `open` | `paused`
+**Snapshot date:** 2026-07-28  
+**Machine file:** [tracker.csv](tracker.csv)  
+**Status legend:** `watch` | `researching` | `fit_scored` | `partnering` | `drafting` | `hitl_review` | `submitted` | `clarification` | `awarded` | `declined` | `withdrawn` | `reporting` | `closed` | `opens_soon` | `open` | `paused` | `relationship`
 
 > Verify every row against the funder site before acting. NZ science system reforms (Callaghan -> MBIE / NZIAT) are in flight.
 
@@ -22,6 +22,7 @@
 | CAT-G-008 | Maori Agribusiness / whenua funds | MPI MABx + Tupu.nz multi-fund | **researching** | Programme-dependent | Cluster / whenua dependent | 75 | maori,agritech,whenua | Search tupu.nz for Taranaki; engage MABx if cluster fits | Cultural Advisor | [link](opportunities/maori-agribusiness.md) |
 | CAT-G-009 | Maori Climate Platform | MfE | **watch** | Stage 2 underway; watch Stage 3 | Stage 2 ~$7.25m across projects | 55 | maori,climate,marae | Only if marae resilience + edge energy/water stack | Cultural Advisor | [link](opportunities/maori-climate-platform.md) |
 | CAT-G-010 | Callaghan wind-down services | Callaghan / MBIE transfer | **watch** | Org winds down through 2026 | N/A | 40 | transition | Prefer MBIE portals; do not build new Callaghan-only paths | Grant lead | [link](opportunities/callaghan-transition.md) |
+| CAT-G-011 | Kotahitanga Fund | Kiingitanga / Iwi | **relationship** | Relationship pathway (no public open round confirmed) | ~$100m seed pledged | 80 (thematic) | maori-tech,sovereign,intergenerational | Draft 1-page capability brief; map warm introductions | Founder + Cultural Advisor | [link](opportunities/kotahitanga-fund.md) |
 
 ---
 
@@ -54,12 +55,13 @@ Rules: org README Kotahitanga principles + compliance skill. **HITL mandatory** 
 | :--- | :--- |
 | 2026-07-13 | Initial tracker scaffold + research sweep (open NZ funds for Maori AI / deeptech / agritech / sovereign edge) |
 | 2026-07-13 | Added [ROADMAP_TIMELINE.md](ROADMAP_TIMELINE.md) - phased todos + due dates for every capital path |
+| 2026-07-28 | **Sprint**: Added CAT-G-011 Kotahitanga Fund (relationship pathway); updated GRANT-REINFORCEMENT in Aether; campaign brief activated. Skills catalogue remains internal. |
 
 ---
 
 ## How to update
 
-1. Edit this table **and** `tracker.csv` (same IDs). 
-2. Bump `last_verified` in the opportunity brief. 
-3. If status -> `submitted` / `awarded`, attach evidence path under `opportunities/evidence/` (private; do not commit secrets). 
+1. Edit this table **and** `tracker.csv` (same IDs).  
+2. Bump `last_verified` in the opportunity brief.  
+3. If status -> `submitted` / `awarded`, attach evidence path under `opportunities/evidence/` (private; do not commit secrets).  
 4. Run `python scripts/score_fit.py` after product roadmap changes.

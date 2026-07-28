@@ -1,6 +1,6 @@
 # Opportunity briefs
 
-| ID | File | Status (2026-07-13) |
+| ID | File | Status (2026-07-28) |
 | :--- | :--- | :--- |
 | CAT-G-001 | [new-to-rd-grant.md](new-to-rd-grant.md) | OPEN |
 | CAT-G-002 | [maori-development-fund.md](maori-development-fund.md) | OPEN rolling |
@@ -12,5 +12,6 @@
 | CAT-G-008 | [maori-agribusiness.md](maori-agribusiness.md) | Researching |
 | CAT-G-009 | [maori-climate-platform.md](maori-climate-platform.md) | Watch |
 | CAT-G-010 | [callaghan-transition.md](callaghan-transition.md) | Watch |
+| CAT-G-011 | [kotahitanga-fund.md](kotahitanga-fund.md) | **Relationship pathway** |
 
 Each brief follows the same template: overview, eligibility, CAT fit, narrative hooks, risks, next steps, sources.
