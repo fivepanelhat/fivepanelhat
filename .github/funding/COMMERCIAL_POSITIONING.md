@@ -133,7 +133,18 @@ These numbers do not exist yet in a meaningful way. Publishing invented unit eco
 
 ---
 
-## 9. What This Document Is Not
+## 9. Consolidation & Data Protection Posture
+
+NZ AI ecosystem consolidation is expected. CAT’s defensive position is technical + contractual:
+
+- Local-first / edge architecture and owner-controlled keys make wholesale data extraction harder than pure SaaS.
+- Customer agreements will include change-of-control and data-return rights so an acquirer cannot simply move NZ / Māori data overseas without consequence.
+
+Full detail: [Data Sovereignty & Acquisition Protection](../../docs/DATA_SOVEREIGNTY_ACQUISITION.md).
+
+---
+
+## 10. What This Document Is Not
 
 - A public price list
 - A claim of existing ARR or customers
@@ -146,6 +157,7 @@ It is a commercial logic map for a pre-seed company whose technology is ahead of
 
 ## Related Documents
 
+- [Data Sovereignty & Acquisition Protection](../../docs/DATA_SOVEREIGNTY_ACQUISITION.md)
 - [Investor Matrix](./INVESTOR_MATRIX.md)
 - [Funding Eligibility Matrix](./FUNDING_ELIGIBILITY_MATRIX.md)
 - [Security & Compliance Roadmap](../compliance/SECURITY_ROADMAP.md)
@@ -155,4 +167,4 @@ It is a commercial logic map for a pre-seed company whose technology is ahead of
 
 ---
 
-*Last updated: July 2026 | Pre-seed design target. Pricing remains confidential until validated with paying customers.*
+*Last updated: August 2026 | Pre-seed design target. Pricing remains confidential until validated with paying customers.*
