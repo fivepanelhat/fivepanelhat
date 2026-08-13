@@ -2,7 +2,7 @@
 
 **Company:** Coastal Alpine Tech Limited  
 **Stage:** Pre-seed (New Plymouth, Taranaki, Aotearoa New Zealand)  
-**Last updated:** July 2026
+**Last updated:** August 2026
 
 This document is the single top-level reference for how decisions are made, who holds authority, and how human oversight is enforced across the Kiwi Edge AI Stack.
 
@@ -71,6 +71,7 @@ Aether and the agent-fleet skills implement these gates. Circumvention is a poli
 - No automatic cloud exfiltration of such data.
 - Formal Cultural Advisory Board will be established before any scaled use of Level 2/3 cultural data.
 - Until the Board exists, the Founder is personally accountable for any such decisions and must document them.
+- Acquisition or change of control does not automatically lift these controls. See [Data Sovereignty & Acquisition Protection](docs/DATA_SOVEREIGNTY_ACQUISITION.md).
 
 See: [Te Mana Raraunga Principles](.github/compliance/nz-ai-compliance-soc2/references/TE_MANA_RARAUNGA_PRINCIPLES.md)
 
@@ -104,6 +105,7 @@ Detailed playbooks live under `.github/compliance/nz-ai-compliance-soc2/referenc
 
 ## 8. Related Documents
 
+- [Data Sovereignty & Acquisition Protection](docs/DATA_SOVEREIGNTY_ACQUISITION.md)
 - [Security & Compliance Roadmap](.github/compliance/SECURITY_ROADMAP.md)
 - [Threat Model](.github/compliance/THREAT_MODEL.md)
 - [NZ AI Compliance + SOC 2 Skill](.github/compliance/nz-ai-compliance-soc2/SKILL.md)
