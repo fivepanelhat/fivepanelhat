@@ -7,11 +7,13 @@ This repository is part of the **Kiwi Edge AI Stack** - hybrid edge (RPi 5 16GB 
 
 ## Investor one-liner (global)
 
-> Coastal Alpine Tech is building the sovereign hybrid edge-AI stack for Aotearoa's primary industries and founders - local-first RPi 5 + Hailo nodes, multi-model fleets (Grok/Claude/Gemini), **designed in accordance with Te Mana Raraunga** principles, and white-label EDA tools - actively seeking collaboration with Venture Taranaki, startups.com investors, and the Kotahitanga Investment Fund to scale intergenerational Māori and regional economic outcomes.
+> Coastal Alpine Tech is a **safe NZ AI stack partner** building the sovereign hybrid edge-AI stack for Aotearoa's primary industries and founders - local-first RPi 5 + Hailo nodes, multi-model fleets, **designed in accordance with Te Mana Raraunga** principles, hard HITL, and white-label EDA tools - open to collaboration with Venture Taranaki, startups.com investors, and the Kotahitanga Investment Fund (no implied existing deals).
+
+**Partner brief:** [docs/SAFE_NZ_AI_STACK_PARTNER.md](./docs/SAFE_NZ_AI_STACK_PARTNER.md)
 
 **Collaboration:** Open to Venture Taranaki, startups.com investors, and Kotahitanga Investment Fund - **HITL + cultural advisory** for any formal approach. No implied existing deals.
 
-**Claim tier:** Portfolio external language is **L1 Designed**. Prefer “designed in accordance with…” over “fully aligned / certified / guarantees sovereignty.” Canonical evidence: [docs/ALIGNMENT_EVIDENCE.md](./docs/ALIGNMENT_EVIDENCE.md) → [Aether alignments](https://github.com/fivepanelhat/Aether/tree/main/docs/alignments).
+**Claim tier:** Portfolio external language is **L1 Designed**. Prefer “designed in accordance with…” and “stack partner” over “fully aligned / certified / national leader / guarantees sovereignty.” Canonical evidence: [docs/ALIGNMENT_EVIDENCE.md](./docs/ALIGNMENT_EVIDENCE.md) → [Aether alignments](https://github.com/fivepanelhat/Aether/tree/main/docs/alignments).
 
 ## Stack map
 
