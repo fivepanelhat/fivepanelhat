@@ -1,7 +1,6 @@
 # Coastal Alpine Tech - portfolio congruence
 
 **Company:** Coastal Alpine Tech Limited | **Stage:** Pre-seed | **Region:** Taranaki, Aotearoa New Zealand  
-**R&D since:** 8 August 2025 | **Founding target:** 8 August 2026  
 **Org home:** [fivepanelhat](https://github.com/fivepanelhat/fivepanelhat) | **Founder OS:** [NZ-Start-Up](https://github.com/fivepanelhat/NZ-Start-Up)
 
 This repository is part of the **Kiwi Edge AI Stack** - hybrid edge (RPi 5 16GB + Hailo-10H) + multi-model fleets + Te Mana Raraunga local-first data. It is **not** a claim of large-scale commercial deployment or raised Series capital.
@@ -12,7 +11,7 @@ This repository is part of the **Kiwi Edge AI Stack** - hybrid edge (RPi 5 16GB 
 
 **Collaboration:** Open to Venture Taranaki, startups.com investors, and Kotahitanga Investment Fund - **HITL + cultural advisory** for any formal approach. No implied existing deals.
 
-**Claim tier:** Portfolio external language is **L1 Designed** (July 2026). Prefer “designed in accordance with…” over “fully aligned / certified / guarantees sovereignty.” Canonical evidence: [docs/ALIGNMENT_EVIDENCE.md](./docs/ALIGNMENT_EVIDENCE.md) → [Aether alignments](https://github.com/fivepanelhat/Aether/tree/main/docs/alignments).
+**Claim tier:** Portfolio external language is **L1 Designed**. Prefer “designed in accordance with…” over “fully aligned / certified / guarantees sovereignty.” Canonical evidence: [docs/ALIGNMENT_EVIDENCE.md](./docs/ALIGNMENT_EVIDENCE.md) → [Aether alignments](https://github.com/fivepanelhat/Aether/tree/main/docs/alignments).
 
 ## Stack map
 
@@ -21,6 +20,7 @@ This repository is part of the **Kiwi Edge AI Stack** - hybrid edge (RPi 5 16GB 
 | Narrative | fivepanelhat |
 | Founder OS / EDA | NZ-Start-Up |
 | Agent / HITL | Aether |
+| Agent runtime | cat-agent-harness |
 | Edge orchestration | Weaver |
 | Shared SDK | Coastal-Alpine-Core, coastal-alpine-stack |
 | Field | Sovereign-Edge-Firmware |
