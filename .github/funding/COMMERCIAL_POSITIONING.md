@@ -1,12 +1,26 @@
 # Commercial Positioning — Coastal Alpine Tech
 
 **Company:** Coastal Alpine Tech Limited  
-**Stage:** Pre-seed (July 2026)  
+**Stage:** Pre-seed  
 **Status:** Design targets and hypotheses. No material commercial revenue yet.
+
+**External frame:** [Safe NZ AI Stack Partner](../../docs/SAFE_NZ_AI_STACK_PARTNER.md) (L1 Designed).
 
 This document exists so investors, partners, and early customers can see the commercial logic without over-claiming traction or locking the company into premature price points.
 
 **Pricing note:** Specific dollar figures are deliberately not published. Pricing will be refined through paid pilots and design-partner conversations. Contact for pilot terms.
+
+---
+
+## 0. Partner thesis (commercial)
+
+CAT sells **stack partnership**, not generic AI hype:
+
+- Local-first edge + agent governance so partners keep data and accountability onshore
+- HITL-hard products (agents draft/prepare; humans decide)
+- White-label / cohort capacity for EDAs and focused agritech edge pilots
+
+Primary external one-liner: see [SAFE_NZ_AI_STACK_PARTNER.md](../../docs/SAFE_NZ_AI_STACK_PARTNER.md).
 
 ---
 
@@ -157,6 +171,7 @@ It is a commercial logic map for a pre-seed company whose technology is ahead of
 
 ## Related Documents
 
+- [Safe NZ AI Stack Partner](../../docs/SAFE_NZ_AI_STACK_PARTNER.md)
 - [Data Sovereignty & Acquisition Protection](../../docs/DATA_SOVEREIGNTY_ACQUISITION.md)
 - [Investor Matrix](./INVESTOR_MATRIX.md)
 - [Funding Eligibility Matrix](./FUNDING_ELIGIBILITY_MATRIX.md)
