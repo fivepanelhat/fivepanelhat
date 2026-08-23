@@ -2,11 +2,63 @@
 
 **Purpose:** Single place for clients, partners, and the founder to see major company and product updates across the Kiwi Edge AI Stack, with direct links to the relevant repositories and artefacts.
 
-**Last updated:** 24 August 2026
+**Last updated:** 24 August 2026 (afternoon iteration)
 
 ---
 
-## 24 August 2026 — NZ Startup in a Box + Byte Size Kai skill fleets completed
+## 24 August 2026 (pm) — Continuous iteration: skills, harness, Aether, Weaver
+
+Ongoing hardening and refinement across the operating system and foundation layers. Stage-honest design/iteration work — not production claims.
+
+### Skills fleet improvements
+
+| Area | What improved |
+|------|----------------|
+| **HITL consistency** | All new NZ Startup + Byte Size Kai skills enforce L2 minimum on legal, finance, data, and cultural paths; Human Action Checklist pattern standardised |
+| **Cultural sensitivity flags** | Byte Size Kai skills and mana-kai-consent-and-sovereignty elevate Te Mana Raraunga gates; explicit “escalate rather than assume” language |
+| **Evidence-only synthesis** | customer-discovery-synthesis and community-insight-synthesis refuse invented quotes/outcomes |
+| **Progressive disclosure** | Skill frontmatter + short SKILL.md bodies; detailed artefacts kept in references/ where needed |
+| **Manifest as source of truth** | NZ Startup in a Box and Byte Size Kai manifests kept in sync with live skill set |
+
+**Repos:** [NZ-Start-Up](https://github.com/fivepanelhat/NZ-Start-Up) · [Byte-Size-Kai](https://github.com/fivepanelhat/Byte-Size-Kai)
+
+### cat-agent-harness improvements
+
+| Area | What improved |
+|------|----------------|
+| **Plugin-first runtime posture** | Local-first, hard HITL, Te Mana Raraunga-aligned framing reinforced |
+| **Sovereignty boundary** | Explicit “no silent exfil” and owner-controlled key posture in harness description |
+| **Fleet coherence** | Harness positioned as the runtime under the Kiwi Edge stack (alongside Aether skills and Core primitives) |
+
+**Repo:** [cat-agent-harness](https://github.com/fivepanelhat/cat-agent-harness) *(private)*
+
+### Aether improvements
+
+| Area | What improved |
+|------|----------------|
+| **Computer-use HITL** | Default per-step approval for click/type/shell; dry-run and auto-approve switches documented |
+| **Skills catalogue** | Kiwi Edge architecture, Te Mana Raraunga sovereignty, error-remediation, git-workflow, CI failure parser skills surface clearly |
+| **Webhook remediation** | Propose-only default; optional auto-remediate behind explicit env flag; retry/backoff documented |
+| **Dual-platform install** | install.sh / install.ps1 + doctor path kept current |
+| **Claim discipline** | Architecture diagrams labelled as target design; stage honesty in economic benefits section |
+
+**Repo:** [Aether](https://github.com/fivepanelhat/Aether) · Skills guide: [docs/SKILLS.md](https://github.com/fivepanelhat/Aether/blob/main/docs/SKILLS.md)
+
+### Weaver improvements
+
+| Area | What improved |
+|------|----------------|
+| **Tenant isolation posture** | Intake / Fulfilment / Resolution agents + partitioned vector/SQL stores reiterated as design baseline |
+| **Core pin hygiene** | Documented pin to Coastal-Alpine-Core (v0.5.x line) in install paths |
+| **Hybrid stack links** | Clear pairing with Aether (companion/HITL) and Core (guards, telemetry, flywheel) |
+| **Offline edge framing** | Local Ollama + RPi 5 16GB + Hailo-10H target kept consistent with portfolio |
+| **Stage honesty** | Performance numbers and deployment scenarios labelled as targets / illustrative, not audited production SLAs |
+
+**Repo:** [Weaver](https://github.com/fivepanelhat/Weaver) · [ARCHITECTURE.md](https://github.com/fivepanelhat/Weaver/blob/main/ARCHITECTURE.md)
+
+---
+
+## 24 August 2026 (am) — NZ Startup in a Box + Byte Size Kai skill fleets completed
 
 Major expansion of the digital-employee / skills operating system.
 
