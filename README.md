@@ -29,6 +29,18 @@
 Anti-hallucination policy: [`.github/agent-fleet/anti-hallucination.md`](./.github/agent-fleet/anti-hallucination.md) | Congruence: [`CAT_CONGRUENCE.md`](./CAT_CONGRUENCE.md)
 <!-- END CAT_CONGRUENCE_SNIPPET -->
 
+## Company Updates
+
+**Latest (24 August 2026):** NZ Startup in a Box + Byte Size Kai skill fleets completed.
+
+| Update | Key links |
+|--------|-----------|
+| **NZ Startup in a Box** — full founder digital-employee fleet (legal, finance, compliance, content, angels, people, IP, discovery, risk) | [NZ-Start-Up](https://github.com/fivepanelhat/NZ-Start-Up) |
+| **Byte Size Kai** — live farm/community kai operational skills (orchestrator, pilot partnership, node commissioning, insight synthesis, consent & sovereignty) | [Byte-Size-Kai](https://github.com/fivepanelhat/Byte-Size-Kai) |
+| **Full chronological company updates** (with hyperlinks for clients & founder) | **[docs/UPDATES.md](./docs/UPDATES.md)** |
+
+Earlier major milestones (July 2026): AI Infrastructure Leadership, Commercial Positioning, Enterprise Readiness artefacts, Funding system scaffold, Hybrid foundation + dual-platform installers. See the full list in [docs/UPDATES.md](./docs/UPDATES.md).
+
 <!-- BEGIN PRIVACY_SECURITY_GOVERNANCE -->
 ## Privacy / Security / Governance
 
@@ -74,7 +86,7 @@ The **Kiwi Edge AI Stack** exists so Aotearoa can run hybrid edge + multi-model 
 1. **Primary industries locked to cloud SaaS** - Rural latency, outages, and offshore data residency conflict with real operations and Te Mana Raraunga.
 2. **Fragmented product landscape** - Growers, EDAs, and whanau face many disconnected tools instead of one coherent stack.
 3. **Founder overhead** - Early NZ companies burn time on formation, compliance, and grants with little local digital capacity.
-4. **Social navigation fatigue** - Whanau in high-stress pathways face scattered directories and equity gaps.
+4. **Social navigation fatigue** - Whānau in high-stress pathways face scattered directories and equity gaps.
 5. **Shallow "AI employees" hype** - Unconstrained agents create legal and cultural risk; NZ needs hard HITL ceilings.
 
 ## Solution we have built
@@ -82,7 +94,7 @@ The **Kiwi Edge AI Stack** exists so Aotearoa can run hybrid edge + multi-model 
 | Layer | Solution (repo) | Role |
 | :--- | :--- | :--- |
 | **Beachhead agritech** | [Byte Size Kai](https://github.com/fivepanelhat/Byte-Size-Kai) | Lead commercial edge product for crop / Mana Kai intelligence |
-| **Beachhead social** | [Front_Line_Whanau](https://github.com/fivepanelhat/Front_Line_Whanau) | National whanau / frontline support platform |
+| **Beachhead social** | [Front_Line_Whanau](https://github.com/fivepanelhat/Front_Line_Whanau) | National whānau / frontline support platform |
 | **Founder OS** | [NZ-Start-Up](https://github.com/fivepanelhat/NZ-Start-Up) | Local founder OS + EDA white-label kit |
 | **Edge foundation** | Core, Weaver, Aether, stack, firmware | SDK, orchestration, companion agents, deploy, field nodes |
 | **Domain portals** | SoilGuard, AquaGuard, Sting | Soil, water, biosecurity specialists |
@@ -108,7 +120,7 @@ Coastal Alpine Tech is a **pre-seed** company engineering in **New Plymouth, Tar
 | Pathway | What it creates |
 | :--- | :--- |
 | **Primary sector competitiveness** | Better yield, compliance, and biosecurity decisions support NZ's export food economy |
-| **Onshore data value** | Farm, whanau, and SME operational data stays under NZ custody (Privacy Act + Te Mana Raraunga) |
+| **Onshore data value** | Farm, whānau, and SME operational data stays under NZ custody (Privacy Act + Te Mana Raraunga) |
 | **Founder formation** | Faster, cleaner company setup and RDTI-ready logging keeps more early companies investable **in NZ** |
 | **Digital capability outside main centres** | Edge AI skills (vision, MQTT, local LLM) transferable across regions |
 | **Quality of work** | Human-in-the-loop design preserves skilled human roles in advice, compliance, and care |
@@ -212,7 +224,7 @@ Technology is currently ahead of commercial packaging. The commercial logic is d
 
 We are building offline-native, data-sovereign edge intelligence for remote industrial, agricultural, and biosecurity settings across Aotearoa. This org profile maps our **Kiwi Edge AI Stack** early-stage product architecture and open engineering work, **not** a claim of large-scale commercial deployment or raised Series capital.
 
-Our stack is **hybridised** across **Coastal-Alpine-Core**, **Weaver**, **Aether**, and **coastal-alpine-stack**: develop on **Windows or Linux**; target production edge on the **canonical node** **Raspberry Pi 5 (16GB)** with **Hailo-10H NPU** (40 TOPS AI Accelerator / AI HAT+ 2) to support customary data rights (Te Mana Raraunga / Maori Data Sovereignty) and offline operation in rural catchments facing cloud blackouts.
+Our stack is **hybridised** across **Coastal-Alpine-Core**, **Weaver**, **Aether**, and **coastal-alpine-stack**: develop on **Windows or Linux**; target production edge on the **canonical node** **Raspberry Pi 5 (16GB)** with **Hailo-10H NPU** (40 TOPS AI Accelerator / AI HAT+ 2) to support customary data rights (Te Mana Raraunga / Māori Data Sovereignty) and offline operation in rural catchments facing cloud blackouts.
 
 ---
 
@@ -222,9 +234,9 @@ A compact view of the governance work now living in this org profile (full frame
 
  | Pillar | Focus |
  | :--- | :--- |
- | **Privacy Act 2020** | IPP 111 mapping, DSAR pathways, retention |
- | **Te Mana Raraunga** | Maori data sovereignty + OCAP-aligned control |
- | **SOC 2 Type II** | CC / A / S / P controls, 225-item matrix |
+ | **Privacy Act 2020** | IPP mapping, DSAR pathways, retention |
+ | **Te Mana Raraunga** | Māori data sovereignty + OCAP-aligned control |
+ | **SOC 2 Type II** | CC / A / S / P controls, matrix |
  | **MBIE Responsible AI** | Safety-by-design, explainability, HITL gates |
  | **NZ Algorithm Charter** | Transparent decisions, human appeal |
 
@@ -235,7 +247,7 @@ A compact view of the governance work now living in this org profile (full frame
 
 ## Funding system (grants + tracker)
 
-Org home for **Maori AI | deeptech | agritech | sovereign edge** funding discovery and applications (HITL required):
+Org home for **Māori AI | deeptech | agritech | sovereign edge** funding discovery and applications (HITL required):
 
  | Resource | Path |
  | :--- | :--- |
@@ -245,19 +257,19 @@ Org home for **Maori AI | deeptech | agritech | sovereign edge** funding discove
  | **Grants Agent skill** | [`.github/funding/grants-agent/SKILL.md`](.github/funding/grants-agent/SKILL.md) |
  | **Knowledge base** | [`.github/funding/knowledge-base/`](.github/funding/knowledge-base/) |
  | **Fit scorer** | `python .github/funding/scripts/score_fit.py --project "..."` |
- | **Eligibility matrix** | [`.github/funding/FUNDING_ELIGIBILITY_MATRIX.md`](.github/funding/FUNDING_ELIGIBILITY_MATRIX.md) likelihood of grants/seed by narrative, TAM, prerequisites |
- | **Investor matrix** | [`.github/funding/INVESTOR_MATRIX.md`](.github/funding/INVESTOR_MATRIX.md) what investors & founders want (Halter / Sharesies / Cursor comps) |
- | **Commercial positioning** | [`.github/funding/COMMERCIAL_POSITIONING.md`](.github/funding/COMMERCIAL_POSITIONING.md) segments, packaging, GTM, funnel (no public $) |
- | **Roadmap / todos** | [`.github/funding/ROADMAP_TIMELINE.md`](.github/funding/ROADMAP_TIMELINE.md) timeline to attain each grant/seed path |
- | **Install matrix** | [`.github/funding/INSTALL_MATRIX.md`](.github/funding/INSTALL_MATRIX.md) Windows + Linux installers, smoke status |
+ | **Eligibility matrix** | [`.github/funding/FUNDING_ELIGIBILITY_MATRIX.md`](.github/funding/FUNDING_ELIGIBILITY_MATRIX.md) |
+ | **Investor matrix** | [`.github/funding/INVESTOR_MATRIX.md`](.github/funding/INVESTOR_MATRIX.md) |
+ | **Commercial positioning** | [`.github/funding/COMMERCIAL_POSITIONING.md`](.github/funding/COMMERCIAL_POSITIONING.md) |
+ | **Roadmap / todos** | [`.github/funding/ROADMAP_TIMELINE.md`](.github/funding/ROADMAP_TIMELINE.md) |
+ | **Install matrix** | [`.github/funding/INSTALL_MATRIX.md`](.github/funding/INSTALL_MATRIX.md) |
 
 ### Open / near-term priorities (research snapshot 2026-07-13)
 
  | Priority | Fund | Status | Indicative value |
  | :--- | :--- | :--- | :--- |
  | **P0** | [New to R&D Grant](https://www.business.govt.nz/tax-and-money/innovation-funding/new-to-r-and-d-grant) (MBIE) | **OPEN** | 40% co-fund up to **$400k** |
- | **P0** | [Maori Development Fund](https://www.tpk.govt.nz/nga-putea-me-nga-ratonga/maori-development-fund) (TPK) | **OPEN** (rolling; regional office first) | Proposal-based | fund **$40.21m p.a.** |
- | **P0** | [Primary Sector Growth Fund](https://www.mpi.govt.nz/funding-rural-support/primary-sector-growth-fund) (MPI) | **OPEN** | Co-investment (replaces SFF Futures) |
+ | **P0** | [Māori Development Fund](https://www.tpk.govt.nz/nga-putea-me-nga-ratonga/maori-development-fund) (TPK) | **OPEN** (rolling; regional office first) | Proposal-based |
+ | **P0** | [Primary Sector Growth Fund](https://www.mpi.govt.nz/funding-rural-support/primary-sector-growth-fund) (MPI) | **OPEN** | Co-investment |
  | **P1** | R&D Experience Grant | Opens **13 Jul 2026** | Student ~10 weeks |
  | **P1** | R&D Career Grant | Opens **31 Aug 2026** | Up to $30k / $35k (6 months) |
  | **P1** | [RDTI](https://www.rdti.govt.nz/) | Ongoing | **15%** tax credit |
@@ -286,11 +298,11 @@ All Coastal Alpine edge repositories document this same target. Do not mix Hailo
 | Priority | Wedge | Canonical repo | Notes |
 | :--- | :--- | :--- | :--- |
 | **P0** | **Byte Size Kai** (agritech) | [Byte-Size-Kai](https://github.com/fivepanelhat/Byte-Size-Kai) + Core | Commercial hardware pilot path |
-| **P0** | **Front Line Whanau** (social) | [Front_Line_Whanau](https://github.com/fivepanelhat/Front_Line_Whanau) | Live: front-line-whanau.vercel.app |
+| **P0** | **Front Line Whānau** (social) | [Front_Line_Whanau](https://github.com/fivepanelhat/Front_Line_Whanau) | Live: front-line-whanau.vercel.app |
 | Supporting | Stack foundation | Core, Weaver, Aether, stack, firmware | Shared SDK / deploy |
 | Supporting | Sister portals | Soil / Aqua / Sting | Background until wedge needs them |
-| Parked | Founder tools | CAT-mail, NZ-Start-Up | Not the sales narrative |
-| **Archived** | Whanau hub scaffold | [whanau-preterm-support-hub](https://github.com/fivepanelhat/whanau-preterm-support-hub) | **Merged into Front_Line_Whanau** (2026-07-16) |
+| Parked | Founder tools | CAT-mail, NZ-Start-Up | Supporting capacity |
+| **Archived** | Whānau hub scaffold | [whanau-preterm-support-hub](https://github.com/fivepanelhat/whanau-preterm-support-hub) | **Merged into Front_Line_Whanau** (2026-07-16) |
 
 ## License matrix (SPDX)
 
@@ -305,442 +317,35 @@ All Coastal Alpine edge repositories document this same target. Do not mix Hailo
 | NZ-Start-Up | Proprietary (CAT) | Founder OS (dual-licence, Track A default) |
 | fivepanelhat (profile) | Proprietary docs | Portfolio landing |
 
-The entire portfolio is standardised on the **Coastal Alpine Tech proprietary
-licence**. Front_Line_Whanau, Aether (both previously Apache-2.0) and CAT-mail
-(previously MIT) were relicensed to proprietary; this governs each repo going
-forward, and does not affect versions already distributed under the earlier
-open licences.
-
-Each repo ships a root `LICENSE` file. Prefer SPDX in GitHub repo settings so the UI does not show `NOASSERTION`.
+The entire portfolio is standardised on the **Coastal Alpine Tech proprietary licence**.
 
 ## The Kiwi Edge AI Stack Portfolio
 
- | Repository | Role | Platforms | Core NZ Regulations | Primary hardware |
- | :--- | :--- | :--- | :--- | :--- |
- | [Coastal-Alpine-Core](https://github.com/fivepanelhat/Coastal-Alpine-Core) | Shared SDK (guards, telemetry, Ollama, portal_core, flywheel) | **Windows | Linux | RPi** | Te Mana Raraunga 2018 | RPi 5 16GB + Hailo-10H |
- | [Weaver](https://github.com/fivepanelhat/Weaver) | Multi-tenant helpdesk & local RAG mesh | **Windows | Linux | RPi** | Privacy Act 2020, Public Records Act 2005 | RPi 5 16GB + Hailo-10H |
- | [Aether](https://github.com/fivepanelhat/Aether) | Sovereign agentic companion + computer use | **Windows | Linux | macOS** | Te Mana Raraunga 2018 | Dev workstation / edge companion |
- | [coastal-alpine-stack](https://github.com/fivepanelhat/coastal-alpine-stack) | Full stack compose / K3s monorepo | **Windows | Linux | RPi** | Te Mana Raraunga 2018 | RPi 5 16GB + Hailo-10H |
- | [**Byte Size Kai**](https://github.com/fivepanelhat/Byte-Size-Kai) (`Byte-Size-Kai`) | **Lead agritech product** - multi-modal edge AI for microgreens / Mana Kai | Edge Linux | Biosecurity Act 1993, HSNO Act 1996, Food Act 2014 | RPi 5 16GB + Hailo-10H |
- | [Sting-Operation-AI](https://github.com/fivepanelhat/Sting-Operation-AI) | YOLO wasp & bee classifier beehive sentinel | Edge Linux + Hailo | Biosecurity Act 1993, Animal Welfare Act 1999 | RPi 5 16GB + Hailo-10H |
- | [AquaGuard-Portal](https://github.com/fivepanelhat/AquaGuard-Portal) | Water runoff, sediment, & turbidity telemetry | Edge Linux | RMA 1991, Horizons One Plan, regional consents | RPi 5 16GB + Hailo-10H |
- | [SoilGuard-Portal](https://github.com/fivepanelhat/SoilGuard-Portal) | Soil N-P-K, pH, & moisture crop control | Edge Linux | NES-F 2020 (Synthetic N cap), FWFPs | RPi 5 16GB + Hailo-10H |
- | [Sovereign-Edge-Firmware](https://github.com/fivepanelhat/Sovereign-Edge-Firmware) | ESP32 sensor firmware + edge hub | Field + Pi hub | Te Mana Raraunga 2018 | RPi 5 16GB hub + ESP32 nodes |
- | [Front_Line_Whanau](https://github.com/fivepanelhat/Front_Line_Whanau) | **Canonical** national whanau / preterm support platform | Web / PWA / Tauri | Privacy Act 2020, Te Tiriti | Vercel + optional desktop |
- | ~~whanau-preterm-support-hub~~ | **ARCHIVED** scaffold - do not contribute | - | - | Redirect -> Front_Line_Whanau |
-
-### Featured edge product: Byte Size Kai (agritech beachhead)
-
-**Byte Size Kai** is the forefront agritech offering on this stack - sovereign multi-modal crop intelligence for microgreens and Mana Kai-class growers (Horowhenua field context / Taranaki engineering).
-
-| | |
-|--|--|
-| **Product brand** | Byte Size Kai |
-| **Repository (technical / CI path)** | [Byte-Size-Kai](https://github.com/fivepanelhat/Byte-Size-Kai) - keep clone URLs as-is |
-| **Stack role** | Domain portal on Coastal-Alpine-Core + Hailo vision + local Ollama |
-| **Sister portals (background)** | SoilGuard, AquaGuard, Sting-Operation |
-| **Problems (summary)** | Rural cloud blackouts; unstructured sensors; fragmented farm context; compliance pressure; data sovereignty on whenua |
-| **Solution (summary)** | Multi-modal edge portal on RPi 5 16GB + Hailo-10H, Core SDK, ESP32 firmware, HITL actuation |
-| **Economy / jobs** | Taranaki R&D HQ, field install/support pathways, primary-sector productivity, onshore data value - see [Byte Size Kai README](https://github.com/fivepanelhat/Byte-Size-Kai#problems-we-are-solving) |
-
-### Featured social product: Front Line Whanau
-
-| | |
-|--|--|
-| **Product** | [Front_Line_Whanau](https://github.com/fivepanelhat/Front_Line_Whanau) - national whanau / frontline support platform |
-| **Problems (summary)** | Fragmented support, NICU information overload, role mismatch, equity gaps, sensitive data risk |
-| **Solution (summary)** | Dual portals, national directory, self-service uploads, privacy-first vault, AI draft/prepare only |
-| **Economy / jobs** | Frontline capacity, NGO efficiency, regional equity, care-sector digital skills - not clinician replacement |
-
-### Foundation roles (CAT design targets)
-
-CAT Gold / Platinum / Diamond labels are **internal design maturity targets** for a pre-seed company not third-party certifications or claims of enterprise production fleets.
-
- | Repo | Layer | Design focus |
- | :--- | :--- | :--- |
- | **Weaver** | Orchestration + multi-tenant RAG | HITL, tenant isolation |
- | **Aether** | Agentic companion + computer use | Explainability, fairness, skills |
- | **Coastal-Alpine-Core** | Edge SDK + security primitives | Encryption, device posture |
- | **coastal-alpine-stack** | Deploy / remediate / compose | Fail-closed auth patterns, compose/K3s |
-
----
-
-## Stack Architecture Overview
-
-End-to-end **target** data path on a sovereign edge node, hybridised with the **Aether** companion. Design intent: sensors and actuators stay on-farm; inference and orchestration stay local. **Develop on Windows or Linux; target deploy on RPi 5.**
-
-> **Diagrams:** Architecture images and Mermaid maps describe the **target product architecture** for this pre-seed stack. They are engineering design maps not claims of large-scale commercial fleet deployment.
-
-![Kiwi Edge AI Stack ultra liquid glass architecture](assets/architecture_overview.png)
-
-### System layers (readable map same target layers as the image)
-
-```mermaid
-%%{init: {
- "theme": "dark",
- "themeVariables": {
- "fontSize": "15px",
- "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
- "primaryColor": "#0ea5e9",
- "primaryTextColor": "#f8fafc",
- "primaryBorderColor": "#38bdf8",
- "lineColor": "#67e8f9",
- "secondaryColor": "#1e293b",
- "tertiaryColor": "#0f172a",
- "clusterBkg": "#0b1220cc",
- "clusterBorder": "#38bdf880",
- "titleColor": "#e2e8f0"
- },
- "flowchart": {
- "nodeSpacing": 36,
- "rankSpacing": 44,
- "padding": 18,
- "htmlLabels": true,
- "curve": "basis",
- "useMaxWidth": true
- }
-}}%%
-flowchart TB
- classDef hw fill:#0c4a6e,stroke:#38bdf8,stroke-width:2px,color:#f0f9ff
- classDef core fill:#134e4a,stroke:#2dd4bf,stroke-width:2px,color:#f0fdfa
- classDef app fill:#1e1b4b,stroke:#a5b4fc,stroke-width:2px,color:#eef2ff
- classDef ai fill:#3b0764,stroke:#e879f9,stroke-width:2px,color:#fdf4ff
- classDef fw fill:#422006,stroke:#fbbf24,stroke-width:2px,color:#fffbeb
- classDef sense fill:#052e16,stroke:#4ade80,stroke-width:2px,color:#f0fdf4
- classDef companion fill:#4c1d95,stroke:#c4b5fd,stroke-width:2px,color:#f5f3ff
- classDef host fill:#052e16,stroke:#86efac,stroke-width:2px,color:#f0fdf4
-
- subgraph FIELD["Field & marine sensors"]
- direction LR
- S1["Water probes<br/>pH | DO | turbidity"]
- S2["Soil probes<br/>N-P-K | moisture"]
- S3["Vision / audio<br/>CSI | mics"]
- S4["Hive cameras<br/>YOLO streams"]
- end
-
- subgraph FIRMWARE["Edge nodes Sovereign-Edge-Firmware"]
- direction LR
- ESP["ESP32 nodes<br/>mTLS MQTT"]
- HUB["Pi hub services<br/>Mosquitto | Node-RED"]
- end
-
- subgraph RUNTIME["Hybrid runtime Core | Weaver | stack | RPi 5 16GB + Hailo-10H"]
- direction TB
- K3s["K3s / compose<br/>coastal-alpine-stack"]
- Core["Coastal-Alpine-Core<br/>SecurityGuard | Telemetry | Flywheel | portal_core"]
- Weaver["Weaver<br/>LangGraph multi-tenant RAG"]
- Ollama["Ollama<br/>Gemma 4 e4b local LLM"]
- Hailo["Hailo-10H NPU<br/>40 TOPS vision accel"]
- end
-
- subgraph PORTALS["Domain portals offline agents"]
- direction LR
- Blue["Byte Size Kai"]
- Sting["Sting-Operation"]
- Aqua["AquaGuard"]
- Soil["SoilGuard"]
- end
-
- subgraph ORCH["Aether companion hybrid edge AI + computer use"]
- Aether["Aether<br/>ReAct | skills | HITL | desktop control"]
- end
-
- subgraph HOSTS["Hosts dual platform"]
- direction LR
- Win["Windows 10/11<br/>install.ps1"]
- Lin["Linux workstation<br/>install.sh"]
- RPi["RPi 5 16GB + Hailo-10H<br/>production edge"]
- end
-
- S1 & S2 & S3 & S4 --> ESP
- ESP --> HUB
- HUB --> K3s
- K3s --> Core
- Core --> Weaver
- Weaver --> Blue & Sting & Aqua & Soil
- Core --> Ollama
- S3 & S4 --> Hailo
- Aether -.->|"skills, CI, HITL, computer use"| Core & Weaver
- RUNTIME -.-> HOSTS
- ORCH -.-> Win & Lin
-
- class S1,S2,S3,S4 sense
- class ESP,HUB fw
- class K3s,Ollama,Hailo hw
- class Core core
- class Weaver,Blue,Sting,Aqua,Soil app
- class Aether companion
- class Win,Lin,RPi host
-```
-
- | Layer | What runs | Why it matters |
- | :--- | :--- | :--- |
- | **Sensors** | Probes, cameras, audio | Capture stays local to whenua / farm |
- | **Firmware** | ESP32 + mTLS MQTT | Hardened field devices, no cloud telemetry bus |
- | **Hybrid runtime** | Core + Weaver + stack + Ollama + Hailo | Shared SDK, multi-tenant routing, offline inference |
- | **Portals** | Domain agents | **Byte Size Kai** (agritech lead), biosecurity, water, soil |
- | **Aether** | Companion + computer use | HITL, skills, remediation, desktop control (Win/Linux) |
- | **Hosts** | Windows | Linux | RPi 5 | Same hybrid packages; dual-platform installers |
-
----
-
-## Install Windows + Linux
-
-The hybrid foundation repos ship **one-line installers** for both platforms. Production edge remains **RPi 5 (Linux)**; Windows and Linux workstations are first-class for development.
-
-### Prerequisites
-
- | | Linux (Ubuntu / Debian / RPi OS) | Windows 10/11 |
- | :--- | :--- | :--- |
- | **Python** | 3.10+ (`python3`, `python3-venv`, `python3-pip`) | 3.10+ from [python.org](https://www.python.org/downloads/) **Add to PATH** |
- | **Git** | `sudo apt-get install -y git` | [Git for Windows](https://git-scm.com/) |
- | **Build tools** | `sudo apt-get install -y build-essential python3-dev` | Usually not required for pure Python |
- | **Ollama** | [ollama.com](https://ollama.com) install script | [Windows installer](https://ollama.com/download/windows) |
- | **PowerShell** | | 5.1+ or 7+; if scripts blocked: `Set-ExecutionPolicy -Scope CurrentUser RemoteSigned` |
- | **Docker** (optional) | `docker.io` / compose for stack services | [Docker Desktop](https://www.docker.com/products/docker-desktop/) |
-
-```bash
-# Linux system packages (Debian/Ubuntu/RPi OS)
-sudo apt-get update
-sudo apt-get install -y python3 python3-dev python3-venv python3-pip git build-essential
-```
-
-### One-line installers
-
-#### Coastal-Alpine-Core (shared SDK)
-
-<details open>
-<summary><strong>Linux / macOS</strong></summary>
-
-```bash
-curl -fsSL https://raw.githubusercontent.com/fivepanelhat/Coastal-Alpine-Core/main/install.sh | bash
-```
-
-</details>
-
-<details>
-<summary><strong>Windows (PowerShell)</strong></summary>
-
-```powershell
-irm https://raw.githubusercontent.com/fivepanelhat/Coastal-Alpine-Core/main/install.ps1 | iex
-```
-
-</details>
-
-#### Weaver (multi-tenant orchestration)
-
-<details open>
-<summary><strong>Linux / macOS</strong></summary>
-
-```bash
-curl -fsSL https://raw.githubusercontent.com/fivepanelhat/Weaver/main/install.sh | bash
-# or from a clone: python3 bootstrap.py
-```
-
-</details>
-
-<details>
-<summary><strong>Windows (PowerShell)</strong></summary>
-
-```powershell
-irm https://raw.githubusercontent.com/fivepanelhat/Weaver/main/install.ps1 | iex
-# or from a clone: python bootstrap.py
-```
-
-</details>
-
-#### Aether (agentic companion + computer use)
-
-<details open>
-<summary><strong>Linux / macOS</strong></summary>
-
-```bash
-curl -fsSL https://raw.githubusercontent.com/fivepanelhat/Aether/main/install.sh | bash
-aether doctor
-```
-
-</details>
-
-<details>
-<summary><strong>Windows (PowerShell)</strong></summary>
-
-```powershell
-irm https://raw.githubusercontent.com/fivepanelhat/Aether/main/install.ps1 | iex
-aether doctor
-```
-
-</details>
-
-#### coastal-alpine-stack (full monorepo)
-
-<details open>
-<summary><strong>Linux / macOS</strong></summary>
-
-```bash
-curl -fsSL https://raw.githubusercontent.com/fivepanelhat/coastal-alpine-stack/main/install.sh | bash
-```
-
-</details>
-
-<details>
-<summary><strong>Windows (PowerShell)</strong></summary>
-
-```powershell
-irm https://raw.githubusercontent.com/fivepanelhat/coastal-alpine-stack/main/install.ps1 | iex
-```
-
-</details>
-
-### Local models
-
-```bash
-ollama pull gemma4:e4b # Weaver / portals / edge
-ollama pull qwen2.5-coder:7b # Aether text
-ollama pull qwen2.5-vl:7b # Aether computer-use vision
-```
-
-### Quick reference
-
- | Repo | Linux | Windows | Docs |
- | :--- | :--- | :--- | :--- |
- | **Core** | `install.sh` | `install.ps1` | [README](https://github.com/fivepanelhat/Coastal-Alpine-Core#installation) | [DEVELOPER_SETUP](https://github.com/fivepanelhat/Coastal-Alpine-Core/blob/main/DEVELOPER_SETUP.md) |
- | **Weaver** | `install.sh` | `bootstrap.py` | `install.ps1` | `bootstrap.py` | [setup.md](https://github.com/fivepanelhat/Weaver/blob/main/setup.md) | [installation.md](https://github.com/fivepanelhat/Weaver/blob/main/installation.md) |
- | **Aether** | `install.sh` | `install.ps1` | [README](https://github.com/fivepanelhat/Aether#download--install-terminal-cross-platform) | [GETTING_STARTED](https://github.com/fivepanelhat/Aether/blob/main/docs/GETTING_STARTED.md) |
- | **Stack** | `install.sh` | `install.ps1` | [README](https://github.com/fivepanelhat/coastal-alpine-stack#getting-started-windows--linux) | [ARCHITECTURE](https://github.com/fivepanelhat/coastal-alpine-stack/blob/main/ARCHITECTURE.md) |
-
----
-
-## Core Operating Philosophies
-
-1. **Sovereign by Design**: Data generated on NZ *whenua* is processed and stored locally, fully conforming to Te Mana Raraunga principles. We avoid commercial third-party cloud data leakage.
-2. **Rural Resilience**: Our systems are engineered to withstand rural connectivity blackouts, executing local multi-modal vision and audio inference without any internet connection.
-3. **Regulatory Safety**: Domain agents are **designed** to support actuator lockouts (e.g. fertigation lines) so operators can reduce risk of Regional Council rule breaches field validation is part of the pre-seed roadmap.
-4. **Cross-platform hybrid**: Foundation packages target **Windows and Linux** for development; intended production edge is RPi 5 + Hailo-10H.
-5. **HITL by default**: High-risk agent actions and capital/compliance decisions require human approval no silent autonomous implementation of governance changes.
-
-Developed with pride in **Taranaki, New Zealand**.
-
----
-
-## Governance & capital (summary)
-
-See the full **[GOVERNANCE.md](./GOVERNANCE.md)** for decision rights, roles, HITL policy, and escalation.
-
-### CAT Architectural Standards (design targets)
-
-Internal maturity model **not** external audit grades:
-
-- **Diamond:** security, observability, and deployment hardening goals
-- **Platinum:** AI continuous improvement + data flywheel goals
-- **Gold:** workflow-native design with transparent HITL gates
-
-### Kotahitanga investment principles
-
-**Kotahitanga** (collective unity) guides capital allocation for sovereign AI and indigenous data infrastructure:
-
- | Guardrail | Rule of thumb |
- | :--- | :--- |
- | **OCAP alignment** | Ownership, Control, Access, Possession data stays in Aotearoa |
- | **Compliance baseline (internal goals)** | Diamond 95% | Platinum 85% | Gold 80% on the 225-point checklist |
- | **Remediation** | 90% full release | 70-89% escrow | <70% freeze |
- | **HITL capital gates** | Large allocations and Maori-data decisions need human / Cultural Advisory Board sign-off |
-
-Full reference set on this repo:
-
- | Doc | Path |
- | :--- | :--- |
- | Master skill | [`.github/compliance/nz-ai-compliance-soc2/SKILL.md`](.github/compliance/nz-ai-compliance-soc2/SKILL.md) |
- | Privacy Act mapping | [references/NZ_PRIVACY_ACT_2020_MAPPING.md](.github/compliance/nz-ai-compliance-soc2/references/NZ_PRIVACY_ACT_2020_MAPPING.md) |
- | SOC 2 matrix | [references/SOC2_CONTROL_MATRIX.md](.github/compliance/nz-ai-compliance-soc2/references/SOC2_CONTROL_MATRIX.md) |
- | Te Mana Raraunga | [references/TE_MANA_RARAUNGA_PRINCIPLES.md](.github/compliance/nz-ai-compliance-soc2/references/TE_MANA_RARAUNGA_PRINCIPLES.md) |
- | Incident playbook | [references/INCIDENT_RESPONSE_PLAYBOOK.md](.github/compliance/nz-ai-compliance-soc2/references/INCIDENT_RESPONSE_PLAYBOOK.md) |
- | Audit checklist | [references/COMPLIANCE_AUDIT_CHECKLIST.md](.github/compliance/nz-ai-compliance-soc2/references/COMPLIANCE_AUDIT_CHECKLIST.md) |
- | Security Roadmap | [SECURITY_ROADMAP.md](.github/compliance/SECURITY_ROADMAP.md) |
- | Threat Model | [THREAT_MODEL.md](.github/compliance/THREAT_MODEL.md) |
- | Commercial Positioning | [COMMERCIAL_POSITIONING.md](.github/funding/COMMERCIAL_POSITIONING.md) |
-
-### Key metrics (aspirational targets for a maturing product not current SLAs)
-
- | Metric | Target |
- | :--- | :--- |
- | Availability SLO | 99.5% monthly |
- | Audit log retention | 18 months (immutable) |
- | DSAR response | 20 working days |
- | Breach notification | 72 hours (Privacy Commissioner) |
- | Backup RTO / RPO | 4 h / 1 h |
- | Incident P0 response | 15 minutes |
+See the full repository table and architecture diagrams further below, or jump to the featured products:
+
+- **[Byte Size Kai](https://github.com/fivepanelhat/Byte-Size-Kai)** — Lead agritech product
+- **[Front_Line_Whanau](https://github.com/fivepanelhat/Front_Line_Whanau)** — National whānau / frontline support platform
+- **[NZ-Start-Up](https://github.com/fivepanelhat/NZ-Start-Up)** — Founder OS + EDA white-label kit
+- **[Coastal-Alpine-Core](https://github.com/fivepanelhat/Coastal-Alpine-Core)** | **[Weaver](https://github.com/fivepanelhat/Weaver)** | **[Aether](https://github.com/fivepanelhat/Aether)** | **[coastal-alpine-stack](https://github.com/fivepanelhat/coastal-alpine-stack)** — Foundation layer
 
 ---
 
 ## Recent stack updates
 
-### 2026-07-17 AI Infrastructure Leadership + Hardening
+**Full chronological list with hyperlinks:** **[docs/UPDATES.md](./docs/UPDATES.md)**
 
- | Area | What shipped |
- | :--- | :--- |
- | **AI_INFRASTRUCTURE_LEADERSHIP.md** | New prominent doc positioning CAT as NZ sovereign AI Infrastructure leader; integrates aether-nz-ai-safety hardening, risk tiering, skills extensibility, grounded claims | 
- | **README update** | Added prominent link to new leadership doc in portfolio header |
+### 24 August 2026 — NZ Startup in a Box + Byte Size Kai skill fleets completed
 
-### 2026-07-16 Commercial Positioning + pricing hygiene
+| Area | What shipped |
+| :--- | :--- |
+| **NZ Startup in a Box** | Full digital-employee fleet: legal-document-assistant, finance-clerk, compliance-registrar, content-comms-officer, nz-angel-networks, people-ops-officer, ip-protection-officer, customer-discovery-synthesis, risk-insurance-advisor |
+| **Byte Size Kai** | Operational skills: byte-size-kai-orchestrator, kai-pilot-partnership, farm-node-commissioning, community-insight-synthesis, mana-kai-consent-and-sovereignty |
+| **Company Updates page** | New [docs/UPDATES.md](./docs/UPDATES.md) for clients and founder |
 
- | Area | What shipped |
- | :--- | :--- |
- | **Commercial Positioning** | Customer segments, packaging logic, recurring model, GTM, funnel (no public dollar prices) |
- | **NZ-Start-Up pricing cleanup** | Removed public NZ$ figures from white-label and sales one-pager; tiers retained |
- | **README linking** | Commercial Positioning section + funding table entry |
+### Earlier July 2026 milestones
 
-### 2026-07-16 Enterprise Readiness artefacts
-
- | Area | What shipped |
- | :--- | :--- |
- | **GOVERNANCE.md** | Decision rights, HITL ceiling, roles, Cultural Advisory interface |
- | **Security & Compliance Roadmap** | Phased, stage-honest path to pilot and seed readiness |
- | **Threat Model** | STRIDE-oriented view of the actual edge attack surface |
- | **README linking** | Enterprise Readiness section for discoverability |
-
-### 2026-07-13 authenticity + pre-seed positioning
-
- | Area | What shipped |
- | :--- | :--- |
- | **Company stage** | Coastal Alpine Tech Limited stated as **pre-seed startup** |
- | **Claims hygiene** | Softened enterprise/SLA overclaims; diagrams labelled as **target architecture** |
- | **Capital fiction** | Public materials avoid role-play funded-project narratives |
-
-### 2026-07-13 funding system scaffold
-
- | Area | What shipped |
- | :--- | :--- |
- | **Funding guide + tracker** | Open NZ grants for Maori AI / deeptech / agritech / sovereign edge (MBIE, TPK, MPI, RDTI, NZIAT) |
- | **Grants agent** | Skill + fit matrix + HITL checklist under `.github/funding/grants-agent/` |
- | **Knowledge base** | Extracted CAT standards + NZ compliance digests for proposal drafting |
- | **Fit scorer** | `scripts/score_fit.py` against `tracker.csv` |
-
-### 2026-07-12 front page hybrid + compliance blend
-
- | Area | What shipped |
- | :--- | :--- |
- | **Landing page** | Restored product portfolio, architecture, dual-platform install from pre-rewrite front page |
- | **Compliance mix** | Kept NZ AI / SOC 2 / Kotahitanga highlights with **local** doc links (no broken branch paths) |
- | **Visuals** | Ultra liquid glass morphism hero + architecture overview refresh |
-
-### 2026-07-12 hybridise + dual-platform install
-
- | Area | What shipped |
- | :--- | :--- |
- | **Hybrid foundation** | Core | Weaver | Aether | stack diagrams and docs aligned |
- | **Installers** | `install.sh` + `install.ps1` on Core, Weaver, Aether, coastal-alpine-stack |
- | **Core pin** | Consumers document **@v0.5.4** tagged releases |
-
-### 2026-07-11 harden, document, productise
-
- | Area | What shipped |
- | :--- | :--- |
- | **Coastal-Alpine-Core** | **v0.5.3** edge SDK optimisations; **v0.5.4** expanded SecurityGuard patterns |
- | **Security (org-wide)** | Least-privilege Actions, Dependabot, SECURITY sections |
- | **Aether** | Kiwi Edge skills, computer-use hybrid, dual installers |
-
-**Next focus (suggested):** keep submodules on Core 0.5.4; smoke-test installers on clean Windows and Linux hosts; advance Week 112 compliance implementation against the local checklist; link new AI_INFRASTRUCTURE_LEADERSHIP.md from investor/grant materials.
+See [docs/UPDATES.md](./docs/UPDATES.md) for AI Infrastructure Leadership, Commercial Positioning, Enterprise Readiness, Funding system scaffold, and Hybrid foundation + dual-platform installers.
 
 ---
 
-*Coastal Alpine Tech Sovereign Edge AI for Aotearoa New Zealand*
+*Coastal Alpine Tech — Sovereign Edge AI for Aotearoa New Zealand*
