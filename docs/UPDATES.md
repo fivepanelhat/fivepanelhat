@@ -28,8 +28,6 @@ The full early-stage founder skill fleet is now complete and documented.
 | customer-discovery-synthesis | Interview notes → insight reports, personas, JTBD maps |
 | risk-insurance-advisor | Stage-appropriate insurance checklist and broker conversation prep |
 
-**Master manifest:** Available in the working artefacts and reflected in the [NZ-Start-Up](https://github.com/fivepanelhat/NZ-Start-Up) digital-employee table.
-
 **Primary repo:** [NZ-Start-Up](https://github.com/fivepanelhat/NZ-Start-Up) — Founder OS + EDA white-label kit  
 **Landing / portfolio:** [fivepanelhat](https://github.com/fivepanelhat/fivepanelhat)
 
