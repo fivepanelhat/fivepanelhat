@@ -31,17 +31,23 @@ Anti-hallucination policy: [`.github/agent-fleet/anti-hallucination.md`](./.gith
 
 ## Company Updates
 
+### Context layer push (25 August 2026)
+
+Primary commercial surface protected: public repos are **posture-only**; full methods, templates, and scored packs remain **commercial-track**.
+
+**Detail + links:** **[docs/UPDATES.md — Context layer push](./docs/UPDATES.md#25-august-2026--context-layer-push)**
+
 ### Don't audit. Sprintit.
 
-**Sprintit AI** is one of Coastal Alpine Tech’s **first commercial entry points**. It is a short readiness review of a customer’s **AI use and business readiness** — so both sides can see what solutions fit — in plain language, without a product or jargon dump on day one. It is also the **governance-layer** readiness component of the Kiwi Edge stack. Not a formal audit opinion or certification.
+**Sprintit AI** is one of Coastal Alpine Tech’s **first commercial entry points**. Short readiness review of a customer’s **AI use and business readiness** — so both sides can see what solutions fit — in plain language, without a product or jargon dump on day one. Also the **governance-layer** readiness component of the Kiwi Edge stack. Not a formal audit opinion or certification.
 
-**Full report (5Ws, problems, origin):** **[docs/UPDATES.md — Sprintit AI](./docs/UPDATES.md#25-august-2026--sprintit-ai-concise-report)**
+**Full report:** **[docs/UPDATES.md — Sprintit AI](./docs/UPDATES.md#25-august-2026--sprintit-ai-concise-report)**
 
 | Update | Link |
 |--------|------|
-| **Sprintit AI concise report** | [docs/UPDATES.md](./docs/UPDATES.md) |
-| **Commercial sweep** (context layer protected) | [docs/UPDATES.md](./docs/UPDATES.md) |
-| **NZ-Start-Up / Byte-Size-Kai / Aether / Weaver** | Product repos linked in updates |
+| **Context layer push** | [docs/UPDATES.md](./docs/UPDATES.md#25-august-2026--context-layer-push) |
+| **Sprintit AI concise report** | [docs/UPDATES.md](./docs/UPDATES.md#25-august-2026--sprintit-ai-concise-report) |
+| **NZ-Start-Up / Aether / funding pack** | Linked from context layer table |
 | **Full chronological company updates** | **[docs/UPDATES.md](./docs/UPDATES.md)** |
 
 <!-- BEGIN PRIVACY_SECURITY_GOVERNANCE -->
@@ -103,17 +109,21 @@ Every Coastal Alpine Tech repository is expected to surface **Privacy**, **Secur
 
 **Full chronological list with hyperlinks:** **[docs/UPDATES.md](./docs/UPDATES.md)**
 
+### Context layer push — 25 August 2026
+
+[docs/UPDATES.md — Context layer push](./docs/UPDATES.md#25-august-2026--context-layer-push)
+
 ### Don't audit. Sprintit. — Sprintit AI
 
-First entry point · customer AI readiness · solution fit. Report: [docs/UPDATES.md](./docs/UPDATES.md#25-august-2026--sprintit-ai-concise-report)
+[docs/UPDATES.md — Sprintit AI](./docs/UPDATES.md#25-august-2026--sprintit-ai-concise-report)
 
-### 24 August 2026 — Commercial sweep + continuous iteration
+### 24 August 2026 — Estate commercial sweep
 
-Context layer protected · skills stubbed · funding trackers blanked · Aether/Weaver/harness hardening. See [docs/UPDATES.md](./docs/UPDATES.md).
+Skills stubbed · templates/knowledge withdrawn · funding trackers blanked. See context layer push.
 
 ### July 2026 milestones
 
-AI Infrastructure Leadership, Commercial Positioning, Enterprise Readiness, Funding system, Hybrid foundation — full detail in [docs/UPDATES.md](./docs/UPDATES.md).
+AI Infrastructure Leadership, Commercial Positioning, Enterprise Readiness, Funding system, Hybrid foundation — [docs/UPDATES.md](./docs/UPDATES.md).
 
 ---
 
