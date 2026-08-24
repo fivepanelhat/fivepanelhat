@@ -10,31 +10,33 @@
 
 ### Don't audit. Sprintit.
 
-**Product:** [Sprintit AI](https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/UPDATES.md#25-august-2026--sprintit-ai-concise-report)
+**Product:** Sprintit AI  
+**Role in CAT:** Governance-layer readiness component — the structured review function of the Kiwi Edge stack, delivered as a time-boxed sprint rather than a formal audit.
 
 | | |
 |--|--|
-| **What** | A time-boxed, collaborative **readiness sprint** for NZ founders, farms, EDAs, and operators assessing AI, edge systems, or data-sovereign practice. Practical findings and a ranked action list — **not** a formal audit opinion, certification, or legal conclusion. |
+| **What** | CAT’s **governance-layer** component for readiness and improvement. A time-boxed, collaborative sprint that examines HITL posture, data/sovereignty defaults, founder or farm readiness, and critical path — then returns findings and a ranked action list. **Not** a formal audit opinion, certification, or legal conclusion. |
 | **Who** | Coastal Alpine Tech Limited delivers; clients are founders, regional operators, farms, and economic development agencies. |
 | **Where** | Aotearoa New Zealand — local-first, Te Mana Raraunga-aware, HITL-governed. |
-| **When** | Concept and client framing formalised 24 August 2026; packaging continues to evolve. |
-| **Why** | Regional clients need honest readiness insight without the reputation and resistance that sits on the word *audit*. |
+| **When** | Concept and client framing formalised 24–25 August 2026; packaging continues to evolve. |
+| **Why** | Every serious stack needs a governance review function. Calling it an *audit* closes doors with regional clients. **Sprintit** keeps the discipline and drops the baggage. |
 
 ### Problems we are solving
 
-1. **“Audit” closes doors** — Inspection language signals pass/fail, blame, and cost; many SMEs and regional operators disengage before the work starts.
+1. **Governance without the “audit” brand** — Stacks need a review component; inspection language signals pass/fail, blame, and cost.
 2. **Readiness without a usable frame** — Founders and farms need current-state clarity and prioritised next steps, not a thick inspection report.
 3. **AI adoption without governance** — Edge and agent systems need HITL ceilings and sovereignty posture checked early, before spend and risk accumulate.
-4. **Fragmented advice** — Formation, compliance, grants, data, and GTM sit in separate silos; a short sprint can surface the critical path in one engagement.
+4. **Fragmented advice** — Formation, compliance, grants, data, and GTM sit in silos; one sprint surfaces the critical path.
 
 ### How Sprintit AI came about
 
-Coastal Alpine Tech already held the skills fleet, governance patterns, and Kiwi Edge architecture knowledge required for a structured readiness review. Formalising that as **Sprintit AI** turned internal capability into a client-facing product with constructive language: time-boxed, collaborative, improvement-focused — partnership and momentum, not inspection.
+CAT’s skills fleet, HITL rules, and Kiwi Edge architecture already encoded a governance review capability. **Sprintit AI** is that capability productised: the governance-layer component that *does the work others would call auditing*, framed as a collaborative sprint so clients engage instead of disengage.
 
 **Tagline:** Don't audit. Sprintit.  
-**Method, rubrics, and report packs:** commercial delivery only (not a free public playbook).
+**Architecture:** Governance layer of CAT / Kiwi Edge.  
+**Method, rubrics, and report packs:** commercial delivery only.
 
-**Related:** [NZ-Start-Up](https://github.com/fivepanelhat/NZ-Start-Up) · [Byte-Size-Kai](https://github.com/fivepanelhat/Byte-Size-Kai) · [Aether](https://github.com/fivepanelhat/Aether)
+**Related:** [NZ-Start-Up](https://github.com/fivepanelhat/NZ-Start-Up) · [Byte-Size-Kai](https://github.com/fivepanelhat/Byte-Size-Kai) · [Aether](https://github.com/fivepanelhat/Aether) · [Company Updates](https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/UPDATES.md)
 
 ---
 
