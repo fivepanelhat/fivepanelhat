@@ -2,7 +2,51 @@
 
 **Purpose:** Single place for clients, partners, and the founder to see major company and product updates across the Kiwi Edge AI Stack, with direct links to the relevant repositories and artefacts.
 
-**Last updated:** 24 August 2026 (afternoon iteration)
+**Last updated:** 24 August 2026
+
+---
+
+## 24 August 2026 — Sprintit AI introduced (client readiness sprints)
+
+Coastal Alpine Tech has formalised **Sprintit AI** as the client-facing name for structured readiness and improvement work. We deliberately do **not** call this an “audit.”
+
+### What Sprintit AI is
+
+**Sprintit AI** is a time-boxed, collaborative readiness sprint for New Zealand founders, farms, EDAs, and operators who are adopting or assessing AI, edge systems, or data-sovereign practices.
+
+It uses Coastal Alpine Tech’s skills fleet, governance patterns, and Kiwi Edge architecture knowledge to produce a clear picture of current state and a prioritised action list — without the language or baggage of a formal audit.
+
+Typical Sprintit AI work can cover:
+
+| Focus | What the sprint examines |
+|-------|--------------------------|
+| **Founder / company readiness** | Formation hygiene, compliance calendar, grant/RDTI evidence posture, legal draft readiness |
+| **AI & agent posture** | HITL ceilings, claim discipline, where agents draft vs where humans must act |
+| **Data & sovereignty** | Local-first defaults, consent, residency, Te Mana Raraunga alignment where relevant |
+| **Edge / agritech path** | Node readiness, pilot partnership clarity, farm/community consent gates (Byte Size Kai context) |
+| **Go-to-market & narrative** | One-pagers, investor/EDA packs, stage-honest positioning |
+
+Outputs are practical: findings, gaps, and a short ranked plan the client can act on with their own advisors. Sprintit AI does **not** issue formal audit opinions, certifications, or legal conclusions.
+
+### Why “sprint” — not “audit”
+
+| Word | How it lands with clients |
+|------|---------------------------|
+| **Audit** | Often implies inspection, pass/fail, regulatory exposure, blame, and high cost. Many SMEs and regional operators hear “audit” and disengage. |
+| **Sprint** | Familiar from agile practice: time-boxed, collaborative, improvement-focused, and owned by the client. It signals partnership and momentum, not inspection. |
+
+We developed Sprintit AI so that clients can get honest readiness insight and a clear next-step plan **without** triggering the reputation and resistance that sits on the word *audit*. The work remains rigorous; the framing stays constructive.
+
+### Why we developed it
+
+1. **Client language** — Regional founders, farms, and EDAs need diagnostic help, but “audit” closes doors.
+2. **Reuse of the fleet** — NZ Start-Up skills, Byte Size Kai operational skills, Aether governance, and stack architecture already encode the questions a readiness review must ask.
+3. **Stage-honest commercial path** — Sprintit AI is a natural entry product: short engagement, clear deliverable, path into deeper pilot or white-label work.
+4. **Trust** — Same HITL and claim-discipline rules apply: we prepare findings and recommendations; the client decides and acts with their own professional advisors where required.
+
+**Status:** Concept and client framing formalised 24 August 2026. Delivery uses existing skills and architecture; packaging and offer materials will continue to evolve.
+
+**Related:** [NZ-Start-Up](https://github.com/fivepanelhat/NZ-Start-Up) · [Byte-Size-Kai](https://github.com/fivepanelhat/Byte-Size-Kai) · [Aether](https://github.com/fivepanelhat/Aether) · [Kiwi Edge landing](https://github.com/fivepanelhat/fivepanelhat)
 
 ---
 
@@ -52,7 +96,7 @@ Ongoing hardening and refinement across the operating system and foundation laye
 | **Core pin hygiene** | Documented pin to Coastal-Alpine-Core (v0.5.x line) in install paths |
 | **Hybrid stack links** | Clear pairing with Aether (companion/HITL) and Core (guards, telemetry, flywheel) |
 | **Offline edge framing** | Local Ollama + RPi 5 16GB + Hailo-10H target kept consistent with portfolio |
-| **Stage honesty** | Performance numbers and deployment scenarios labelled as targets / illustrative, not audited production SLAs |
+| **Stage honesty** | Performance numbers and deployment scenarios labelled as targets / illustrative, not production SLAs |
 
 **Repo:** [Weaver](https://github.com/fivepanelhat/Weaver) · [ARCHITECTURE.md](https://github.com/fivepanelhat/Weaver/blob/main/ARCHITECTURE.md)
 
