@@ -6,13 +6,20 @@
 
 ---
 
-## 24 August 2026 — Sprintit AI introduced (client readiness sprints)
+## 24 August 2026 — Sprintit AI
 
-Coastal Alpine Tech has formalised **Sprintit AI** as the client-facing name for structured readiness and improvement work. We deliberately do **not** call this an “audit.”
+### Don't audit. Sprintit.
+
+**Sprintit AI** is Coastal Alpine Tech’s client-facing readiness product.
+
+> **Tagline:** Don't audit. Sprintit.  
+> **Product:** Sprintit AI
+
+We deliberately avoid the word *audit*. For many founders, farms, and regional operators, “audit” signals inspection, pass/fail, regulatory exposure, and cost. **Sprintit** keeps the work rigorous and time-boxed, but frames it as a collaborative improvement sprint — partnership and momentum, not inspection.
 
 ### What Sprintit AI is
 
-**Sprintit AI** is a time-boxed, collaborative readiness sprint for New Zealand founders, farms, EDAs, and operators who are adopting or assessing AI, edge systems, or data-sovereign practices.
+A time-boxed, collaborative readiness sprint for New Zealand founders, farms, EDAs, and operators who are adopting or assessing AI, edge systems, or data-sovereign practices.
 
 It uses Coastal Alpine Tech’s skills fleet, governance patterns, and Kiwi Edge architecture knowledge to produce a clear picture of current state and a prioritised action list — without the language or baggage of a formal audit.
 
@@ -28,23 +35,22 @@ Typical Sprintit AI work can cover:
 
 Outputs are practical: findings, gaps, and a short ranked plan the client can act on with their own advisors. Sprintit AI does **not** issue formal audit opinions, certifications, or legal conclusions.
 
-### Why “sprint” — not “audit”
+### Why the tagline
 
-| Word | How it lands with clients |
-|------|---------------------------|
-| **Audit** | Often implies inspection, pass/fail, regulatory exposure, blame, and high cost. Many SMEs and regional operators hear “audit” and disengage. |
-| **Sprint** | Familiar from agile practice: time-boxed, collaborative, improvement-focused, and owned by the client. It signals partnership and momentum, not inspection. |
-
-We developed Sprintit AI so that clients can get honest readiness insight and a clear next-step plan **without** triggering the reputation and resistance that sits on the word *audit*. The work remains rigorous; the framing stays constructive.
+| | |
+|--|--|
+| **Don't audit** | Removes the reputation problem: inspection, blame, and disengagement |
+| **Sprintit** | Time-boxed, collaborative, improvement-focused — work the client owns |
+| **Sprintit AI** | The product name for the readiness sprint, powered by CAT’s skills and stack |
 
 ### Why we developed it
 
-1. **Client language** — Regional founders, farms, and EDAs need diagnostic help, but “audit” closes doors.
+1. **Client language** — Regional founders, farms, and EDAs need diagnostic help; “audit” closes doors.
 2. **Reuse of the fleet** — NZ Start-Up skills, Byte Size Kai operational skills, Aether governance, and stack architecture already encode the questions a readiness review must ask.
-3. **Stage-honest commercial path** — Sprintit AI is a natural entry product: short engagement, clear deliverable, path into deeper pilot or white-label work.
-4. **Trust** — Same HITL and claim-discipline rules apply: we prepare findings and recommendations; the client decides and acts with their own professional advisors where required.
+3. **Stage-honest commercial path** — Short engagement, clear deliverable, path into deeper pilot or white-label work.
+4. **Trust** — Same HITL rules: we prepare findings and recommendations; the client decides and acts with their own professional advisors where required.
 
-**Status:** Concept and client framing formalised 24 August 2026. Delivery uses existing skills and architecture; packaging and offer materials will continue to evolve.
+**Status:** Concept, tagline, and client framing formalised 24 August 2026. Delivery uses existing skills and architecture; packaging and offer materials will continue to evolve.
 
 **Related:** [NZ-Start-Up](https://github.com/fivepanelhat/NZ-Start-Up) · [Byte-Size-Kai](https://github.com/fivepanelhat/Byte-Size-Kai) · [Aether](https://github.com/fivepanelhat/Aether) · [Kiwi Edge landing](https://github.com/fivepanelhat/fivepanelhat)
 
