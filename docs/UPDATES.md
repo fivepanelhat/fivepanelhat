@@ -1,26 +1,25 @@
 # Company Updates — Coastal Alpine Tech
 
-**Purpose:** Single place for clients, partners, and the founder to see major company and product updates across the Kiwi Edge AI Stack, with direct links to the relevant repositories and artefacts.
+**Purpose:** Single place for clients, partners, and the founder to see major company and product updates across the Kiwi Edge AI Stack.
 
 **Last updated:** 24 August 2026
 
 ---
 
-## 24 August 2026 — Commercial prune (context layer locked)
+## 24 August 2026 — Full estate commercial sweep
 
-Public surface reduced so competitors cannot adopt or weaponise the sellable **context layer**.
+End-to-end prune so competitors cannot adopt or weaponise the context layer.
 
-| Action | Result |
-|--------|--------|
-| **No public prices** | No dollar figures on product READMEs; terms by pilot/partnership only |
-| **All NZ-Start-Up skills → stubs** | Role + autonomy ceiling only |
-| **templates/** | Operating templates withdrawn (incorporation, GST, grants, LOI, data room, sales, NDA, etc.) |
-| **knowledge/** | Funding landscape, market packs, integrations, lifecycle, memory schema withdrawn |
-| **Investor matrix** | Detailed public matrix replaced with posture-only notice |
+| Scope | Action |
+|-------|--------|
+| **NZ-Start-Up** | All skills stubbed; templates & knowledge withdrawn; product prices removed |
+| **Aether `skills/nz-startup/`** | Full fleet mirror stubbed (was still shipping procedures) |
+| **Portfolio funding pack** | Eligibility matrix, roadmap timeline, fit matrix, application checklist, score_fit logic withdrawn or commercial-only |
+| **Investor matrix** | Posture-only public notice |
 | **Sprintit AI** | Tagline public; method private |
-| **Licence** | Track A evaluation ≠ Track B context packs |
+| **Prices** | No CAT product dollar figures on public product docs |
 
-**Repos:** [NZ-Start-Up](https://github.com/fivepanelhat/NZ-Start-Up) · [skills/README.md](https://github.com/fivepanelhat/NZ-Start-Up/blob/main/skills/README.md) · [templates/README.md](https://github.com/fivepanelhat/NZ-Start-Up/blob/main/templates/README.md) · [knowledge/README.md](https://github.com/fivepanelhat/NZ-Start-Up/blob/main/knowledge/README.md)
+**Repos:** [NZ-Start-Up](https://github.com/fivepanelhat/NZ-Start-Up) · [Aether nz-startup pack](https://github.com/fivepanelhat/Aether/tree/main/skills/nz-startup) · [Funding index](https://github.com/fivepanelhat/fivepanelhat/tree/main/.github/funding)
 
 ---
 
@@ -28,36 +27,21 @@ Public surface reduced so competitors cannot adopt or weaponise the sellable **c
 
 ### Don't audit. Sprintit.
 
-**Sprintit AI** is Coastal Alpine Tech’s client-facing readiness product.
-
-> **Tagline:** Don't audit. Sprintit.  
-> **Product:** Sprintit AI
-
-Time-boxed collaborative readiness sprints for NZ founders, farms, and EDAs. Practical findings and ranked actions — not formal audit opinions.
-
-**Commercial boundary:** Tagline public. Method, rubrics, and report packs commercial delivery only.
+Client-facing readiness product. Tagline public. Method, rubrics, and report packs commercial delivery only.
 
 ---
 
-## 24 August 2026 (pm) — Continuous iteration
+## Earlier 24 August 2026
 
-Skills fleet, harness, Aether, and Weaver hardening (design/iteration, not production claims).
-
-**Repos:** [NZ-Start-Up](https://github.com/fivepanelhat/NZ-Start-Up) · [Aether](https://github.com/fivepanelhat/Aether) · [Weaver](https://github.com/fivepanelhat/Weaver) · [cat-agent-harness](https://github.com/fivepanelhat/cat-agent-harness) *(private)*
+Continuous iteration (skills, harness, Aether, Weaver) · NZ Startup + Byte Size Kai fleets established (later pruned to stubs).
 
 ---
 
-## 24 August 2026 (am) — NZ Startup + Byte Size Kai fleets
+## July 2026 milestones
 
-Founder OS and Byte Size Kai operational fleets established; public surface later pruned to stubs (see Commercial prune).
+Company knowledge pack · AI Infrastructure Leadership · Commercial Positioning · Enterprise readiness · Funding scaffold · Hybrid foundation.
 
----
-
-## Earlier 2026 milestones
-
-- Company knowledge pack · AI Infrastructure Leadership · Commercial Positioning · Enterprise readiness · Funding scaffold · Hybrid foundation + dual-platform installers
-
-See portfolio [README](https://github.com/fivepanelhat/fivepanelhat) and linked artefacts. Detailed capital and method packs are not published as free playbooks.
+Detailed capital and method packs are not published as free playbooks.
 
 ---
 
