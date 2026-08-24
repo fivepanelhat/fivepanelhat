@@ -33,7 +33,7 @@ Anti-hallucination policy: [`.github/agent-fleet/anti-hallucination.md`](./.gith
 
 ### Don't audit. Sprintit.
 
-**Sprintit AI** is Coastal Alpine Tech’s client-facing readiness product — time-boxed collaborative sprints for NZ founders, farms, and EDAs. Not a formal audit.
+**Sprintit AI** is the **governance-layer** readiness component of Coastal Alpine Tech — the structured review function of the Kiwi Edge stack, delivered as a time-boxed collaborative sprint for NZ founders, farms, and EDAs. Not a formal audit opinion or certification.
 
 **Full report (5Ws, problems, origin):** **[docs/UPDATES.md — Sprintit AI](./docs/UPDATES.md#25-august-2026--sprintit-ai-concise-report)**
 
@@ -105,7 +105,7 @@ Every Coastal Alpine Tech repository is expected to surface **Privacy**, **Secur
 
 ### Don't audit. Sprintit. — Sprintit AI
 
-Concise report: [docs/UPDATES.md](./docs/UPDATES.md#25-august-2026--sprintit-ai-concise-report)
+Governance-layer readiness component. Report: [docs/UPDATES.md](./docs/UPDATES.md#25-august-2026--sprintit-ai-concise-report)
 
 ### 24 August 2026 — Commercial sweep + continuous iteration
 
