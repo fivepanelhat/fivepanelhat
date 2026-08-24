@@ -31,17 +31,18 @@ Anti-hallucination policy: [`.github/agent-fleet/anti-hallucination.md`](./.gith
 
 ## Company Updates
 
-**Latest (24 August 2026 pm):** Continuous iteration — skills fleet hardening, harness, Aether & Weaver improvements.
+### Don't audit. Sprintit.
 
-| Update | Key links |
-|--------|-----------|
-| **Skills fleet** — HITL consistency, Te Mana Raraunga gates, evidence-only synthesis | [NZ-Start-Up](https://github.com/fivepanelhat/NZ-Start-Up) · [Byte-Size-Kai](https://github.com/fivepanelhat/Byte-Size-Kai) |
-| **Aether** — computer-use HITL, skills catalogue, webhook remediation defaults | [Aether](https://github.com/fivepanelhat/Aether) |
-| **Weaver** — tenant isolation posture, Core pin hygiene, hybrid stack links | [Weaver](https://github.com/fivepanelhat/Weaver) |
-| **Harness** — plugin-first, local-first, hard HITL runtime posture | [cat-agent-harness](https://github.com/fivepanelhat/cat-agent-harness) |
+**Sprintit AI** is Coastal Alpine Tech’s client-facing readiness product — time-boxed collaborative sprints for NZ founders, farms, and EDAs. Not a formal audit.
+
+**Full report (5Ws, problems, origin):** **[docs/UPDATES.md — Sprintit AI](./docs/UPDATES.md#25-august-2026--sprintit-ai-concise-report)**
+
+| Update | Link |
+|--------|------|
+| **Sprintit AI concise report** | [docs/UPDATES.md](./docs/UPDATES.md) |
+| **Commercial sweep** (context layer protected) | [docs/UPDATES.md](./docs/UPDATES.md) |
+| **NZ-Start-Up / Byte-Size-Kai / Aether / Weaver** | Product repos linked in updates |
 | **Full chronological company updates** | **[docs/UPDATES.md](./docs/UPDATES.md)** |
-
-Earlier today: full NZ Startup in a Box + Byte Size Kai skill fleets completed. July milestones: AI Infrastructure Leadership, Commercial Positioning, Enterprise Readiness, Funding system, Hybrid foundation. See [docs/UPDATES.md](./docs/UPDATES.md).
 
 <!-- BEGIN PRIVACY_SECURITY_GOVERNANCE -->
 ## Privacy / Security / Governance
@@ -102,17 +103,17 @@ Every Coastal Alpine Tech repository is expected to surface **Privacy**, **Secur
 
 **Full chronological list with hyperlinks:** **[docs/UPDATES.md](./docs/UPDATES.md)**
 
-### 24 August 2026 pm — Continuous iteration
+### Don't audit. Sprintit. — Sprintit AI
 
-Skills fleet hardening · cat-agent-harness posture · Aether computer-use HITL & skills catalogue · Weaver tenant isolation & Core pin hygiene.
+Concise report: [docs/UPDATES.md](./docs/UPDATES.md#25-august-2026--sprintit-ai-concise-report)
 
-### 24 August 2026 am — NZ Startup in a Box + Byte Size Kai skill fleets completed
+### 24 August 2026 — Commercial sweep + continuous iteration
 
-Full digital-employee fleets for founder OS and live farm/community kai operations. See [docs/UPDATES.md](./docs/UPDATES.md).
+Context layer protected · skills stubbed · funding trackers blanked · Aether/Weaver/harness hardening. See [docs/UPDATES.md](./docs/UPDATES.md).
 
-### Earlier July 2026 milestones
+### July 2026 milestones
 
-AI Infrastructure Leadership, Commercial Positioning, Enterprise Readiness, Funding system, Hybrid foundation + dual-platform installers — full detail in [docs/UPDATES.md](./docs/UPDATES.md).
+AI Infrastructure Leadership, Commercial Positioning, Enterprise Readiness, Funding system, Hybrid foundation — full detail in [docs/UPDATES.md](./docs/UPDATES.md).
 
 ---
 
