@@ -2,7 +2,28 @@
 
 **Purpose:** Single place for clients, partners, and the founder to see major company and product updates across the Kiwi Edge AI Stack.
 
-**Last updated:** 25 August 2026
+**Last updated:** 25 August 2026 (morning)
+
+---
+
+## 25 August 2026 — Context layer push
+
+**Context layer** = CAT’s primary commercial income surface: jurisdiction-depth methods, readiness packs, skill procedures, templates, and scored playbooks. Public repos stay **posture-only**; full context is commercial-track only.
+
+### What was pushed (24–25 August)
+
+| Area | Action | Link |
+|------|--------|------|
+| **NZ-Start-Up skills** | Public stubs only (role + autonomy ceiling) | [NZ-Start-Up skills](https://github.com/fivepanelhat/NZ-Start-Up/tree/main/skills) |
+| **NZ-Start-Up templates / knowledge** | Withdrawn from evaluation licence | [NZ-Start-Up](https://github.com/fivepanelhat/NZ-Start-Up) |
+| **Aether nz-startup mirror** | Full fleet stubbed (was still shipping procedures) | [Aether skills/nz-startup](https://github.com/fivepanelhat/Aether/tree/main/skills/nz-startup) |
+| **Product prices** | Removed from public MARKET / EDA / README surfaces | [MARKET.md](https://github.com/fivepanelhat/NZ-Start-Up/blob/main/docs/MARKET.md) |
+| **Funding pack** | Eligibility matrix, roadmap, fit scores, opportunity briefs, tracker blanked | [Funding index](https://github.com/fivepanelhat/fivepanelhat/tree/main/.github/funding) |
+| **Sprintit AI** | First entry point + governance-layer readiness (tagline public; method private) | [Sprintit report](https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/UPDATES.md#25-august-2026--sprintit-ai-concise-report) |
+
+**Why:** Competitors must not adopt or undercut the context layer from public GitHub. Track A = evaluation posture. Track B = paid context.
+
+**This page:** [docs/UPDATES.md](https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/UPDATES.md)
 
 ---
 
@@ -31,27 +52,19 @@ It is a short, structured review of a customer’s **current AI use and readines
 
 ### How Sprintit AI came about
 
-Sprintit was shaped from real founder–customer conversations. CAT needed a **first entry point** that:
-
-- reviews the customer’s **AI use and business readiness**,
-- surfaces gaps and opportunities in plain terms, and
-- shows **what solutions CAT can offer** — without bombarding the customer with technical or product jargon.
-
-That review function sits in CAT’s **governance layer**. Productising it as **Sprintit AI** turns internal discipline into a client-facing door: collaborative, time-boxed, and commercial.
+Sprintit was shaped from real founder–customer conversations. CAT needed a **first entry point** that reviews the customer’s **AI use and business readiness**, surfaces gaps in plain terms, and shows **what solutions CAT can offer** — without bombarding the customer with technical or product jargon. That review function sits in CAT’s **governance layer**.
 
 **Tagline:** Don't audit. Sprintit.  
 **Commercial role:** First entry point · readiness review · solution-fit path.  
 **Method, rubrics, and report packs:** commercial delivery only.
 
-**Related:** [NZ-Start-Up](https://github.com/fivepanelhat/NZ-Start-Up) · [Byte-Size-Kai](https://github.com/fivepanelhat/Byte-Size-Kai) · [Aether](https://github.com/fivepanelhat/Aether) · [Updates](https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/UPDATES.md)
+**Related:** [NZ-Start-Up](https://github.com/fivepanelhat/NZ-Start-Up) · [Byte-Size-Kai](https://github.com/fivepanelhat/Byte-Size-Kai) · [Aether](https://github.com/fivepanelhat/Aether)
 
 ---
 
 ## 24 August 2026 — Full estate commercial sweep
 
-End-to-end prune so competitors cannot adopt or weaponise the context layer. Skills stubbed; templates, knowledge, funding matrices, and opportunity trackers withdrawn or commercial-only. Product prices removed from public docs.
-
-**Repos:** [NZ-Start-Up](https://github.com/fivepanelhat/NZ-Start-Up) · [Aether](https://github.com/fivepanelhat/Aether) · [Funding index](https://github.com/fivepanelhat/fivepanelhat/tree/main/.github/funding)
+End-to-end prune of the public surface (skills, templates, knowledge, funding trackers). See **[Context layer push](#25-august-2026--context-layer-push)** for the consolidated table and links.
 
 ---
 
