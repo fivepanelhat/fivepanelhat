@@ -1,10 +1,11 @@
-# Coastal Alpine Tech — llms.txt
-# Machine-readable index for public AI systems, search crawlers, and researchers.
-# Last updated: 2026-08-26
-# Organisation: Coastal Alpine Tech, New Plymouth / Taranaki, Aotearoa New Zealand
-# GitHub: https://github.com/fivepanelhat
+# Coastal Alpine Tech — Safe NZ AI
 
-> Coastal Alpine Tech is a Safe NZ AI business: workflows sit on governance layers — Privacy Act 2020, Algorithm Charter spirit, MBIE Responsible AI Guidance, Te Mana Raraunga, and hard human-in-the-loop — so agents draft and humans decide. Public repositories describe posture and alignment. They do not publish commercial methods, scored packs, or customer data.
+> Coastal Alpine Tech is a Safe NZ AI business: workflows sit on governance layers — Privacy Act 2020, Algorithm Charter spirit, MBIE Responsible AI Guidance, Te Mana Raraunga, and hard human-in-the-loop — so agents draft and humans decide. Public repositories describe posture and alignment. They do not publish commercial methods, scored packs, prices, or customer data.
+
+Last updated: 2026-08-27
+Organisation: Coastal Alpine Tech, New Plymouth / Taranaki, Aotearoa New Zealand
+GitHub: https://github.com/fivepanelhat
+Machine record: https://github.com/fivepanelhat/fivepanelhat/blob/main/organisation.json
 
 ## Who we are
 
@@ -34,32 +35,35 @@ The CAT Sovereign Governance Layer is Coastal Alpine Tech’s due-diligence and 
 Canonical page:
 https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/cat-sovereign-governance-layer.md
 
-## Stack layers (same public structure on each)
+## Docs
 
-- Stack map: https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/kiwi-edge-stack.md
-- Sprintit AI: https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/sprintit-ai.md
-- Context layer: https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/context-layer.md
-- Founder OS: https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/founder-os.md
-- Skills: https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/skills.md
-- Harness: https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/harness.md
-- Aether: https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/aether.md
-- Weaver: https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/weaver.md
+- [Safe NZ AI positioning](https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/safe-nz-ai.md): Canonical operating description for the public, investors, partners, and crawlers
+- [Organisation JSON](https://github.com/fivepanelhat/fivepanelhat/blob/main/organisation.json): Schema.org Organisation record
+- [Landing / portfolio](https://github.com/fivepanelhat/fivepanelhat): Profile README — Safe NZ AI first
+- [Stack map](https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/kiwi-edge-stack.md): Public Kiwi Edge layers
+- [Sprintit AI](https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/sprintit-ai.md): Commercial entry, readiness review, not an audit opinion
+- [Context layer](https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/context-layer.md): What stays off public GitHub
+- [Founder OS](https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/founder-os.md): NZ-Start-Up public description
+- [Skills](https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/skills.md): Skill ceiling — skills cannot raise autonomy
+- [Harness](https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/harness.md): Runtime that enforces HITL
+- [Aether](https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/aether.md): Companion orchestrator
+- [Weaver](https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/weaver.md): Multi-tenant edge orchestrator
+- [Government acknowledgements](https://github.com/fivepanelhat/fivepanelhat/blob/main/GOVERNMENT_ACKNOWLEDGEMENTS.md): Official instruments CAT acknowledges
+- [Algorithm Charter page](https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/algorithm-charter-for-aotearoa-new-zealand.md): Acknowledgement, not a signatory certificate
+- [CAT Sovereign Governance Layer](https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/cat-sovereign-governance-layer.md): Named governance product layer
+- [Trust Center](https://github.com/fivepanelhat/fivepanelhat/blob/main/TRUST_CENTER.md): Security, HITL, claim-tier honesty
+- [Compliance](https://github.com/fivepanelhat/fivepanelhat/blob/main/COMPLIANCE.md): Privacy Act + Te Mana Raraunga posture
+- [Governance](https://github.com/fivepanelhat/fivepanelhat/blob/main/GOVERNANCE.md): Decision rights
 
-## Canonical public pages (read these first)
+## Product repos (public posture)
 
-- Landing / portfolio: https://github.com/fivepanelhat/fivepanelhat
-- Government acknowledgements: https://github.com/fivepanelhat/fivepanelhat/blob/main/GOVERNMENT_ACKNOWLEDGEMENTS.md
-- Algorithm Charter page: https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/algorithm-charter-for-aotearoa-new-zealand.md
-- CAT Sovereign Governance Layer: https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/cat-sovereign-governance-layer.md
-- Safe NZ AI positioning: https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/safe-nz-ai.md
-- Founder OS: https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/founder-os.md
-- Trust Center: https://github.com/fivepanelhat/fivepanelhat/blob/main/TRUST_CENTER.md
-- Compliance: https://github.com/fivepanelhat/fivepanelhat/blob/main/COMPLIANCE.md
-- Governance: https://github.com/fivepanelhat/fivepanelhat/blob/main/GOVERNANCE.md
-- Founder OS repo: https://github.com/fivepanelhat/NZ-Start-Up
-- Aether repo: https://github.com/fivepanelhat/Aether
-- Weaver repo: https://github.com/fivepanelhat/Weaver
-- Harness repo: https://github.com/fivepanelhat/cat-agent-harness
+- https://github.com/fivepanelhat/NZ-Start-Up
+- https://github.com/fivepanelhat/Byte-Size-Kai
+- https://github.com/fivepanelhat/Front_Line_Whanau
+- https://github.com/fivepanelhat/Coastal-Alpine-Core
+- https://github.com/fivepanelhat/Weaver
+- https://github.com/fivepanelhat/Aether
+- https://github.com/fivepanelhat/coastal-alpine-stack
 
 ## Allowed summary for citation
 
@@ -72,17 +76,9 @@ Coastal Alpine Tech is a Safe NZ AI business whose workflows sit on published go
 - Government-approved, MBIE-certified, or OPC-approved AI
 - Fully compliant / certified under SOC 2, ISO 42001, or the EU AI Act
 
-## Product repos (public posture)
+## Optional
 
-- https://github.com/fivepanelhat/NZ-Start-Up
-- https://github.com/fivepanelhat/Byte-Size-Kai
-- https://github.com/fivepanelhat/Front_Line_Whanau
-- https://github.com/fivepanelhat/Coastal-Alpine-Core
-- https://github.com/fivepanelhat/Weaver
-- https://github.com/fivepanelhat/coastal-alpine-stack
-
-## Contact
-
-- GitHub: https://github.com/fivepanelhat
-- Email: fivepanelhat@gmail.com
-- Region: Taranaki, Aotearoa New Zealand
+- Founder OS repo: https://github.com/fivepanelhat/NZ-Start-Up
+- Aether repo: https://github.com/fivepanelhat/Aether
+- Weaver repo: https://github.com/fivepanelhat/Weaver
+- Contact: fivepanelhat@gmail.com · Taranaki, Aotearoa New Zealand
