@@ -1,0 +1,53 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Coastal Alpine Tech",
+  "alternateName": ["CAT", "Coastal Alpine Tech Limited", "Kiwi Edge AI Stack"],
+  "description": "Coastal Alpine Tech is a Safe NZ AI business: workflows sit on governance layers — Privacy Act 2020, Algorithm Charter spirit, MBIE Responsible AI Guidance, Te Mana Raraunga, and hard human-in-the-loop — so agents draft and humans decide. Pre-seed sovereign edge AI for Aotearoa New Zealand primary industries and founders. Public GitHub is posture-only.",
+  "slogan": "Safe NZ AI — agents draft, humans decide",
+  "url": "https://github.com/fivepanelhat/fivepanelhat",
+  "sameAs": [
+    "https://github.com/fivepanelhat",
+    "https://github.com/fivepanelhat/fivepanelhat",
+    "https://github.com/fivepanelhat/Aether",
+    "https://github.com/fivepanelhat/NZ-Start-Up",
+    "https://github.com/fivepanelhat/Weaver",
+    "https://github.com/fivepanelhat/Coastal-Alpine-Core",
+    "https://github.com/fivepanelhat/Byte-Size-Kai",
+    "https://github.com/fivepanelhat/Front_Line_Whanau"
+  ],
+  "foundingDate": "2026",
+  "foundingLocation": {
+    "@type": "Place",
+    "name": "New Plymouth / Taranaki, Aotearoa New Zealand"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "New Plymouth",
+    "addressRegion": "Taranaki",
+    "addressCountry": "NZ"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "New Zealand"
+  },
+  "knowsAbout": [
+    "Safe NZ AI",
+    "sovereign edge AI",
+    "Te Mana Raraunga",
+    "Privacy Act 2020",
+    "Algorithm Charter for Aotearoa New Zealand",
+    "human-in-the-loop AI",
+    "AgriTech",
+    "local-first inference"
+  ],
+  "email": "fivepanelhat@gmail.com",
+  "ethicsPolicy": "https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/safe-nz-ai.md",
+  "publishingPrinciples": "https://github.com/fivepanelhat/fivepanelhat/blob/main/GOVERNMENT_ACKNOWLEDGEMENTS.md",
+  "hasCredential": {
+    "@type": "EducationalOccupationalCredential",
+    "name": "Safe NZ AI operating description",
+    "description": "CAT operating description only. Not a Crown badge, not Algorithm Charter signatory status, not SOC 2 or ISO 42001 certification."
+  },
+  "disclaimer": "Not a government agency. Not an Algorithm Charter signatory. Not SOC 2 or ISO 42001 certified unless a published report exists. Public repositories do not publish prices, commercial methods, or customer data."
+}
