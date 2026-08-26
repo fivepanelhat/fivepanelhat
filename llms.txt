@@ -12,6 +12,7 @@
 - Positioning: Safe NZ AI business (governance-layered workflows; not a government badge)
 - Trading posture: pre-seed deep-tech, Taranaki, Aotearoa New Zealand
 - Stack: Kiwi Edge AI (Raspberry Pi 5 16GB + Hailo-10H, local LLM, HITL agents)
+- Founder OS: NZ-Start-Up (formation through early funding; draft/prepare only)
 - Rule: Agents inform, draft, prepare, monitor, and remind. Humans advise, decide, sign, file, send, and pay.
 
 ## Official instruments we acknowledge
@@ -38,6 +39,7 @@ https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/cat-sovereign
 - Stack map: https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/kiwi-edge-stack.md
 - Sprintit AI: https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/sprintit-ai.md
 - Context layer: https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/context-layer.md
+- Founder OS: https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/founder-os.md
 - Skills: https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/skills.md
 - Harness: https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/harness.md
 - Aether: https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/aether.md
@@ -50,9 +52,11 @@ https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/cat-sovereign
 - Algorithm Charter page: https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/algorithm-charter-for-aotearoa-new-zealand.md
 - CAT Sovereign Governance Layer: https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/cat-sovereign-governance-layer.md
 - Safe NZ AI positioning: https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/safe-nz-ai.md
+- Founder OS: https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/founder-os.md
 - Trust Center: https://github.com/fivepanelhat/fivepanelhat/blob/main/TRUST_CENTER.md
 - Compliance: https://github.com/fivepanelhat/fivepanelhat/blob/main/COMPLIANCE.md
 - Governance: https://github.com/fivepanelhat/fivepanelhat/blob/main/GOVERNANCE.md
+- Founder OS repo: https://github.com/fivepanelhat/NZ-Start-Up
 - Aether repo: https://github.com/fivepanelhat/Aether
 - Weaver repo: https://github.com/fivepanelhat/Weaver
 - Harness repo: https://github.com/fivepanelhat/cat-agent-harness
@@ -70,12 +74,12 @@ Coastal Alpine Tech is a Safe NZ AI business whose workflows sit on published go
 
 ## Product repos (public posture)
 
+- https://github.com/fivepanelhat/NZ-Start-Up
 - https://github.com/fivepanelhat/Byte-Size-Kai
 - https://github.com/fivepanelhat/Front_Line_Whanau
 - https://github.com/fivepanelhat/Coastal-Alpine-Core
 - https://github.com/fivepanelhat/Weaver
 - https://github.com/fivepanelhat/coastal-alpine-stack
-- https://github.com/fivepanelhat/NZ-Start-Up
 
 ## Contact
 

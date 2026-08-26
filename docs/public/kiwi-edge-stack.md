@@ -16,6 +16,8 @@ Canonical definition: [`cat-sovereign-governance-layer.md`](./cat-sovereign-gove
                 │
         Context layer          paid jurisdiction-depth methods and packs
                 │
+        Founder OS             NZ-Start-Up — formation through early funding
+                │
         Skills               public stubs · commercial procedures
                 │
         Aether               companion orchestrator + HITL + computer-use
@@ -40,6 +42,7 @@ Coastal Alpine Tech is a Safe NZ AI business: workflows sit on governance layers
 | **CAT Sovereign Governance Layer** | Due diligence + responsible AI adoption layer | Checklists and evidence packs | [cat-sovereign-governance-layer.md](./cat-sovereign-governance-layer.md) |
 | **Sprintit AI** | First conversation. Reviews the customer’s AI use and readiness in plain language. | Rubrics, report packs, scoring | Landing docs only (no method repo) |
 | **Context layer** | States that CAT sells depth, not just code. | Methods, playbooks, templates, prices | Withdrawn from public GitHub |
+| **Founder OS** | Jurisdiction-native founder OS for NZ formation through early funding | Skill procedures, templates, EDA packs | [NZ-Start-Up](https://github.com/fivepanelhat/NZ-Start-Up) · [founder-os.md](./founder-os.md) |
 | **Skills** | Named roles and autonomy ceilings. | Full procedures | [Aether skills](https://github.com/fivepanelhat/Aether/tree/main/skills), [NZ-Start-Up skills](https://github.com/fivepanelhat/NZ-Start-Up/tree/main/skills) |
 | **Aether** | Sovereign development companion. Skills, HITL, optional computer-use. | Internal runbooks | [Aether](https://github.com/fivepanelhat/Aether) |
 | **Harness** | Plugin runtime that actually enforces HITL, local-first, and skill load. | Profile packs beyond the public stub | [cat-agent-harness](https://github.com/fivepanelhat/cat-agent-harness) |
