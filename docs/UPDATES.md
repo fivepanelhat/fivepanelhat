@@ -2,7 +2,38 @@
 
 **Purpose:** Single place for clients, partners, and the founder to see major company and product updates across the Kiwi Edge AI Stack.
 
-**Last updated:** 25 August 2026 (morning)
+**Last updated:** 26 August 2026 (evening)
+
+---
+
+## 26 August 2026 — CAT Sovereign Governance Layer (public index)
+
+Public posture pages published so people, partners, and crawlers can find Coastal Alpine Tech under official New Zealand AI instrument names — without prices, methods, or signatory claims.
+
+**Named entity:** [CAT Sovereign Governance Layer](../docs/public/cat-sovereign-governance-layer.md)
+
+CAT is a Safe NZ AI business. Product workflows pass through this layer before a model informs a decision. It acknowledges the Algorithm Charter for Aotearoa New Zealand and implements its spirit. CAT is **not** a Charter signatory and does **not** certify compliance.
+
+### What went public
+
+| Page | Role |
+|------|------|
+| [CAT Sovereign Governance Layer](https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/cat-sovereign-governance-layer.md) | Canonical layer: Mutual Protection, due diligence orientation, nine support layers, AI Adoption gate |
+| [Government acknowledgements](https://github.com/fivepanelhat/fivepanelhat/blob/main/GOVERNMENT_ACKNOWLEDGEMENTS.md) | Charter, MBIE Strategy and business guidance, GCDO Framework, Privacy Act / OPC, Te Mana Raraunga |
+| [Algorithm Charter page](https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/algorithm-charter-for-aotearoa-new-zealand.md) | Query-shaped acknowledgement (not a signatory certificate) |
+| [Safe NZ AI](https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/safe-nz-ai.md) | Operating description for public, investors, partners |
+| [llms.txt](https://github.com/fivepanelhat/fivepanelhat/blob/main/llms.txt) | Machine index for search and AI systems |
+| [Kiwi Edge stack map](https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/kiwi-edge-stack.md) | How Sprintit, context, Founder OS, skills, Aether, harness, Weaver sit under the layer |
+| [Founder OS](https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/founder-os.md) | NZ-Start-Up public card (formation through early funding; founder still files) |
+| [Sprintit AI](https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/sprintit-ai.md) | Plain-language entry to the layer |
+| [Context layer](https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/context-layer.md) | Public vs commercial-track split |
+| [Skills](https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/skills.md) · [Harness](https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/harness.md) · [Aether](https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/aether.md) · [Weaver](https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/weaver.md) | Same skeleton on each |
+
+Aether control library: [algorithm-charter.md](https://github.com/fivepanelhat/Aether/blob/main/docs/alignments/nz-government/algorithm-charter.md)
+
+**Still commercial-track:** methods, rubrics, templates, prices.
+
+**Official Charter:** https://data.govt.nz/use-data/data-ethics/government-algorithm-transparency-and-accountability/algorithmcharter/
 
 ---
 
