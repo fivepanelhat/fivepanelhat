@@ -2,7 +2,17 @@
 
 **Purpose:** Single place for clients, partners, and the founder to see major company and product updates across the Kiwi Edge AI Stack.
 
-**Last updated:** 26 August 2026 (evening)
+**Last updated:** 28 August 2026
+
+---
+
+## 28 August 2026 — Incorporation
+
+Coastal Alpine Tech Limited was incorporated in New Zealand on **28 August 2026**.
+
+That date is Day 0 of the 30/60/90 launch sequence.
+
+Public GitHub stays posture-only. Register extracts, company numbers, director details, and registered-office addresses are not published on this surface.
 
 ---
 

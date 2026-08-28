@@ -7,11 +7,6 @@
   "description": "Coastal Alpine Tech is a Safe NZ AI business: workflows sit on governance layers — Privacy Act 2020, Algorithm Charter spirit, MBIE Responsible AI Guidance, Te Mana Raraunga, and hard human-in-the-loop — so agents draft and humans decide. Pre-seed sovereign edge AI for Aotearoa New Zealand primary industries and founders. Public GitHub is posture-only.",
   "slogan": "Safe NZ AI — agents draft, humans decide",
   "url": "https://github.com/fivepanelhat/fivepanelhat",
-  "identifier": {
-    "@type": "PropertyValue",
-    "name": "NZ Companies Office company number",
-    "value": "9451195"
-  },
   "sameAs": [
     "https://github.com/fivepanelhat",
     "https://github.com/fivepanelhat/fivepanelhat",
@@ -20,8 +15,7 @@
     "https://github.com/fivepanelhat/Weaver",
     "https://github.com/fivepanelhat/Coastal-Alpine-Core",
     "https://github.com/fivepanelhat/Byte-Size-Kai",
-    "https://github.com/fivepanelhat/Front_Line_Whanau",
-    "https://app.companiesoffice.govt.nz/companies/app/ui/pages/companies/9451195"
+    "https://github.com/fivepanelhat/Front_Line_Whanau"
   ],
   "foundingDate": "2026-08-28",
   "foundingLocation": {
