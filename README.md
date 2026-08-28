@@ -1,5 +1,7 @@
 # Coastal Alpine Tech — Safe NZ AI
 
+<a href='https://app.companiesoffice.govt.nz/companies/app/ui/pages/companies/companyBadgeSnippet/9451195?utm_campaign=companiesdirectlinks&utm_medium=webpage&utm_source=thecompany'><img src='https://app.companiesoffice.govt.nz/companies/app/ui/themes/companies/images/CO_Details_light_optimal_WEB.png' alt='New Zealand Companies Office — view company details' style='border-style:none'/></a>
+
 [![Safe NZ AI](https://img.shields.io/badge/Safe%20NZ%20AI-Operating%20description-8B5CF6)](./docs/public/safe-nz-ai.md)
 [![Privacy](https://img.shields.io/badge/Privacy-Local--first%20%2B%20Privacy%20Act%202020-00247D)](./COMPLIANCE.md)
 [![No data sold](https://img.shields.io/badge/Data-Not%20sold%20to%20third%20parties-0f766e)](./COMPLIANCE.md)
@@ -10,6 +12,7 @@
 [![Regions](https://img.shields.io/badge/AU%20%7C%20Asia%20%7C%20EU-Mapped-0ea5e9)](./COMPLIANCE_REGIONS.md)
 [![Security](https://img.shields.io/badge/Security-No%20silent%20exfil%20%2B%20SecOps-dc2626)](./SECURITY.md)
 [![Governance](https://img.shields.io/badge/Governance-HITL%20%2B%20Te%20Mana%20Raraunga-0f766e)](./COMPLIANCE.md)
+[![Companies Office](https://img.shields.io/badge/NZ%20Companies%20Office-9451195-00247D)](https://app.companiesoffice.govt.nz/companies/app/ui/pages/companies/9451195)
 
 > **Coastal Alpine Tech is a Safe NZ AI business:** workflows sit on governance layers — Privacy Act 2020, Algorithm Charter spirit, MBIE Responsible AI Guidance, Te Mana Raraunga, and hard human-in-the-loop — so agents draft and humans decide.
 >
@@ -113,7 +116,7 @@ Every Coastal Alpine Tech repository is expected to surface **Privacy**, **Secur
 ## Solution we have built
 
 | Layer | Solution (repo) | Role |
-| :--- | :--- | :--- |
+| :--- | :--- |
 | **Beachhead agritech** | [Byte Size Kai](https://github.com/fivepanelhat/Byte-Size-Kai) | Lead commercial edge product for crop / Mana Kai intelligence |
 | **Beachhead social** | [Front_Line_Whanau](https://github.com/fivepanelhat/Front_Line_Whanau) | National whānau / frontline support platform |
 | **Founder OS** | [NZ-Start-Up](https://github.com/fivepanelhat/NZ-Start-Up) | Local founder OS + EDA white-label kit |
@@ -125,7 +128,7 @@ Every Coastal Alpine Tech repository is expected to surface **Privacy**, **Secur
 ## Focus wedges (90-day)
 
 | Priority | Wedge | Canonical repo |
-| :--- | :--- | :--- |
+| :--- | :--- |
 | **P0** | **Byte Size Kai** (agritech) | [Byte-Size-Kai](https://github.com/fivepanelhat/Byte-Size-Kai) |
 | **P0** | **Front Line Whānau** (social) | [Front_Line_Whanau](https://github.com/fivepanelhat/Front_Line_Whanau) |
 | Supporting | Stack foundation | Core, Weaver, Aether, stack |
