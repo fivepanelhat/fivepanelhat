@@ -1,21 +1,34 @@
 # Coastal Alpine Tech — Safe NZ AI
 
-[![Safe NZ AI](https://img.shields.io/badge/Safe%20NZ%20AI-Operating%20description-8B5CF6)](./docs/public/safe-nz-ai.md)
+[![Safe NZ AI](https://img.shields.io/badge/Safe%20NZ%20AI-Operating%20description-8B5CF6)](./SAFE_NZ_AI.md)
 [![Privacy](https://img.shields.io/badge/Privacy-Local--first%20%2B%20Privacy%20Act%202020-00247D)](./COMPLIANCE.md)
 [![No data sold](https://img.shields.io/badge/Data-Not%20sold%20to%20third%20parties-0f766e)](./COMPLIANCE.md)
 [![NZ Privacy Act](https://img.shields.io/badge/NZ-Privacy%20Act%202020-00247D)](./COMPLIANCE.md)
-[![Te Mana Raraunga](https://img.shields.io/badge/Te%20Mana%20Raraunga-In%20accordance-0f766e)](./COMPLIANCE.md)
+[![Te Mana Raraunga](https://img.shields.io/badge/Te%20Mana%20Raraunga-In%20accordance-0f766e)](./SAFE_NZ_AI.md)
 [![NZ AI Safety](https://img.shields.io/badge/NZ%20AI%20Safety-Aligned-8B5CF6)](./COMPLIANCE.md)
 [![SOC2](https://img.shields.io/badge/SOC%202-Alignment%20path-6366f1)](./COMPLIANCE_REGIONS.md)
 [![Regions](https://img.shields.io/badge/AU%20%7C%20Asia%20%7C%20EU-Mapped-0ea5e9)](./COMPLIANCE_REGIONS.md)
 [![Security](https://img.shields.io/badge/Security-No%20silent%20exfil%20%2B%20SecOps-dc2626)](./SECURITY.md)
-[![Governance](https://img.shields.io/badge/Governance-HITL%20%2B%20Te%20Mana%20Raraunga-0f766e)](./COMPLIANCE.md)
+[![Governance](https://img.shields.io/badge/Governance-HITL%20%2B%20Te%20Mana%20Raraunga-0f766e)](./SAFE_NZ_AI.md)
 
 > **Coastal Alpine Tech is a Safe NZ AI business:** workflows sit on governance layers — Privacy Act 2020, Algorithm Charter spirit, MBIE Responsible AI Guidance, Te Mana Raraunga, and hard human-in-the-loop — so agents draft and humans decide.
 >
 > “Safe NZ AI” is CAT’s operating description. It is **not** a government badge, Algorithm Charter signatory status, or a certification.
 
-**Cite these first (scrapers / answer engines):** [llms.txt](./llms.txt) · [Safe NZ AI](./docs/public/safe-nz-ai.md) · [organisation.json](./organisation.json) · [Trust Center](./TRUST_CENTER.md) · [Government acknowledgements](./GOVERNMENT_ACKNOWLEDGEMENTS.md)
+## Start here — agencies, iwi organisations, Te Puni Kōkiri
+
+**Send this page first:** **[SAFE_NZ_AI.md](./SAFE_NZ_AI.md)**
+
+It is the public front door for Safe NZ AI. It sets out:
+
+- the **CAT Sovereign Governance Layer** (Mutual Protection, nine support layers, AI Adoption Layer as the final gate)
+- how CAT designs in accordance with **Te Mana Raraunga** (Rangatiratanga, Whakapapa, Whanaungatanga, Kotahitanga, Manaakitanga, Kaitiakitanga)
+- Te Tiriti as an architectural requirement, not a cover sheet
+- what CAT will **not** claim (no Crown endorsement, no iwi mandate, no certification)
+
+That page does not claim a relationship with Te Puni Kōkiri. It is written so a first conversation can start on published facts.
+
+**Cite these first (scrapers / answer engines):** [SAFE_NZ_AI.md](./SAFE_NZ_AI.md) · [llms.txt](./llms.txt) · [organisation.json](./organisation.json) · [Trust Center](./TRUST_CENTER.md) · [Government acknowledgements](./GOVERNMENT_ACKNOWLEDGEMENTS.md)
 
 <!-- BEGIN CAT_CONGRUENCE_SNIPPET -->
 ## Coastal Alpine Tech portfolio
@@ -23,7 +36,7 @@
 [![Stage](https://img.shields.io/badge/Stage-Pre--seed-8B5CF6)](https://github.com/fivepanelhat/fivepanelhat)
 [![Hybrid](https://img.shields.io/badge/Hybrid-Edge%20%2B%20Multi--model-0f766e)](https://github.com/fivepanelhat/fivepanelhat)
 [![HITL](https://img.shields.io/badge/HITL-Draft%2FPrepare%20only-dc2626)](./.github/agent-fleet/AGENTS.md)
-[![Te Mana Raraunga](https://img.shields.io/badge/Te%20Mana%20Raraunga-Aligned-0f766e)](https://github.com/fivepanelhat/fivepanelhat)
+[![Te Mana Raraunga](https://img.shields.io/badge/Te%20Mana%20Raraunga-Aligned-0f766e)](./SAFE_NZ_AI.md)
 
 **Part of the [Kiwi Edge AI Stack](https://github.com/fivepanelhat/fivepanelhat)** | Founder OS: [NZ-Start-Up](https://github.com/fivepanelhat/NZ-Start-Up) | Agent policy: [`.github/agent-fleet/`](./.github/agent-fleet/)
 
@@ -39,9 +52,10 @@ Anti-hallucination policy: [`.github/agent-fleet/anti-hallucination.md`](./.gith
 
 | Asset | Purpose |
 | :--- | :--- |
+| [`SAFE_NZ_AI.md`](./SAFE_NZ_AI.md) | Front-door Safe NZ AI + Te Mana Raraunga page |
 | [`llms.txt`](./llms.txt) | Curated machine index (read this first) |
 | [`organisation.json`](./organisation.json) | Schema.org Organisation record |
-| [`docs/public/safe-nz-ai.md`](./docs/public/safe-nz-ai.md) | Canonical Safe NZ AI page |
+| [`docs/public/safe-nz-ai.md`](./docs/public/safe-nz-ai.md) | Crawler mirror of Safe NZ AI |
 | [`docs/public/kiwi-edge-stack.md`](./docs/public/kiwi-edge-stack.md) | Public stack map |
 | [`docs/public/cat-sovereign-governance-layer.md`](./docs/public/cat-sovereign-governance-layer.md) | Named governance product layer |
 | [`GOVERNMENT_ACKNOWLEDGEMENTS.md`](./GOVERNMENT_ACKNOWLEDGEMENTS.md) | Official instruments CAT acknowledges |
@@ -55,6 +69,16 @@ Anti-hallucination policy: [`.github/agent-fleet/anti-hallucination.md`](./.gith
 Public GitHub is **posture-only**. Methods, scored packs, prices, and customer data stay off this surface.
 
 ## Company Updates
+
+### Safe NZ AI front door — 30 August 2026
+
+Public operating description for agency and iwi conversations, including Te Puni Kōkiri approaches: governance layer, Te Mana Raraunga overlay, Te Tiriti as architecture. No claimed endorsement.
+
+**Page:** **[SAFE_NZ_AI.md](./SAFE_NZ_AI.md)**
+
+### Founder’s Office / Grok Bot RevOps — 30 August 2026
+
+**Detail:** **[docs/UPDATES.md — 30 August 2026](./docs/UPDATES.md#30-august-2026--founders-office-and-grok-bot-revops-campaign)**
 
 ### Incorporated — 28 August 2026
 
@@ -76,10 +100,11 @@ Primary commercial surface protected: public repos are **posture-only**; full me
 
 | Update | Link |
 |--------|------|
+| **Safe NZ AI front door** | [SAFE_NZ_AI.md](./SAFE_NZ_AI.md) |
+| **RevOps campaign** | [docs/UPDATES.md](./docs/UPDATES.md#30-august-2026--founders-office-and-grok-bot-revops-campaign) |
 | **Incorporation** | [docs/UPDATES.md](./docs/UPDATES.md#28-august-2026--incorporation) |
 | **Context layer push** | [docs/UPDATES.md](./docs/UPDATES.md#25-august-2026--context-layer-push) |
 | **Sprintit AI concise report** | [docs/UPDATES.md](./docs/UPDATES.md#25-august-2026--sprintit-ai-concise-report) |
-| **NZ-Start-Up / Aether / funding pack** | Linked from context layer table |
 | **Full chronological company updates** | **[docs/UPDATES.md](./docs/UPDATES.md)** |
 
 <!-- BEGIN PRIVACY_SECURITY_GOVERNANCE -->
@@ -93,7 +118,7 @@ Coastal Alpine Tech products treat operational and personal data as **taonga**. 
 | :--- | :--- |
 | **No data sales** | **We do not sell personal information or customer operational data to third parties** for advertising, brokerage, or unrelated commercial exploitation. |
 | **NZ Privacy Act 2020** | Collection, use, storage, and disclosure of personal information is designed to operate in accordance with the **Privacy Act 2020** information privacy principles (including IPP awareness and IPP 3A indirect-collection notification where applicable). |
-| **Te Mana Raraunga** | Where Māori data or community data interests arise, systems are designed to operate **in accordance with Te Mana Raraunga** principles (including Rangatiratanga, Whakapapa, Whanaungatanga, Kotahitanga, Manaakitanga, Kaitiakitanga) as a sovereignty and stewardship lens — not as a marketing slogan. |
+| **Te Mana Raraunga** | Where Māori data or community data interests arise, systems are designed to operate **in accordance with Te Mana Raraunga** principles (including Rangatiratanga, Whakapapa, Whanaungatanga, Kotahitanga, Manaakitanga, Kaitiakitanga) as a sovereignty and stewardship lens — not as a marketing slogan. See **[SAFE_NZ_AI.md](./SAFE_NZ_AI.md)**. |
 | **NZ AI safety** | AI features follow a **NZ AI safety-aligned** posture: Algorithm Charter spirit (fairness, transparency, human oversight where relevant), digital.govt.nz / responsible AI guidance awareness, no silent model training on private journals without consent, and HITL for high-stakes outcomes. |
 | **Security** | No silent exfiltration; owner-controlled credentials; least privilege; SecOps / dependency hygiene on the fleet cadence. |
 | **Governance** | Agents **inform, draft, prepare**; humans **advise, sign, file, send, and pay**. |
@@ -140,6 +165,10 @@ Every Coastal Alpine Tech repository is expected to surface **Privacy**, **Secur
 ## Recent stack updates
 
 **Full chronological list with hyperlinks:** **[docs/UPDATES.md](./docs/UPDATES.md)**
+
+### Safe NZ AI front door — 30 August 2026
+
+[SAFE_NZ_AI.md](./SAFE_NZ_AI.md)
 
 ### Incorporated — 28 August 2026
 
