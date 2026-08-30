@@ -2,6 +2,11 @@
 
 Notable changes to the Kiwi Edge AI Stack portfolio landing (`fivepanelhat/fivepanelhat`).
 
+## [2026-08-30] — Founder’s Office RevOps campaign note
+
+### Added
+- **`docs/UPDATES.md`** — 30 August 2026 company update: post-incorporation operating days, Grok Bot as Founder’s Office, RevOps campaign under HITL. No prices, no customer claims.
+
 ## [2026-07-27] — Company knowledge pack
 
 ### Added
