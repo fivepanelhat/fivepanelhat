@@ -9,7 +9,8 @@
 [![SOC2](https://img.shields.io/badge/SOC%202-Alignment%20path-6366f1)](./COMPLIANCE_REGIONS.md)
 [![Regions](https://img.shields.io/badge/AU%20%7C%20Asia%20%7C%20EU-Mapped-0ea5e9)](./COMPLIANCE_REGIONS.md)
 [![Security](https://img.shields.io/badge/Security-No%20silent%20exfil%20%2B%20SecOps-dc2626)](./SECURITY.md)
-[![Governance](https://img.shields.io/badge/Governance-HITL%20%2B%20Te%20Mana%20Raraunga-0f766e)](./SAFE_NZ_AI.md)
+[![Governance](https://img.shields.io/badge/Governance-HITL%20%2B%20Te%20Mana%20Raraunga-0f766e)](./docs/public/cat-sovereign-governance-layer.md)
+[![Governance Layer](https://img.shields.io/badge/CAT-Sovereign%20Governance%20Layer-0f766e)](./docs/public/cat-sovereign-governance-layer.md)
 
 > **Coastal Alpine Tech is a Safe NZ AI business:** workflows sit on governance layers — Privacy Act 2020, Algorithm Charter spirit, MBIE Responsible AI Guidance, Te Mana Raraunga, and hard human-in-the-loop — so agents draft and humans decide.
 >
@@ -19,16 +20,18 @@
 
 **Send this page first:** **[SAFE_NZ_AI.md](./SAFE_NZ_AI.md)**
 
+**Governance:** **[CAT Sovereign Governance Layer](./docs/public/cat-sovereign-governance-layer.md)** · [Governance section on Safe NZ AI](./SAFE_NZ_AI.md#cat-sovereign-governance-layer) · [GOVERNANCE.md](./GOVERNANCE.md)
+
 It is the public front door for Safe NZ AI. It sets out:
 
-- the **CAT Sovereign Governance Layer** (Mutual Protection, nine support layers, AI Adoption Layer as the final gate)
+- the **[CAT Sovereign Governance Layer](./docs/public/cat-sovereign-governance-layer.md)** (Mutual Protection, nine support layers, AI Adoption Layer as the final gate)
 - how CAT designs in accordance with **Te Mana Raraunga** (Rangatiratanga, Whakapapa, Whanaungatanga, Kotahitanga, Manaakitanga, Kaitiakitanga)
 - Te Tiriti as an architectural requirement, not a cover sheet
 - what CAT will **not** claim (no Crown endorsement, no iwi mandate, no certification)
 
 That page does not claim a relationship with Te Puni Kōkiri. It is written so a first conversation can start on published facts.
 
-**Cite these first (scrapers / answer engines):** [SAFE_NZ_AI.md](./SAFE_NZ_AI.md) · [llms.txt](./llms.txt) · [organisation.json](./organisation.json) · [Trust Center](./TRUST_CENTER.md) · [Government acknowledgements](./GOVERNMENT_ACKNOWLEDGEMENTS.md)
+**Cite these first (scrapers / answer engines):** [SAFE_NZ_AI.md](./SAFE_NZ_AI.md) · [CAT Sovereign Governance Layer](./docs/public/cat-sovereign-governance-layer.md) · [llms.txt](./llms.txt) · [organisation.json](./organisation.json) · [Trust Center](./TRUST_CENTER.md) · [Government acknowledgements](./GOVERNMENT_ACKNOWLEDGEMENTS.md)
 
 <!-- BEGIN CAT_CONGRUENCE_SNIPPET -->
 ## Coastal Alpine Tech portfolio
@@ -53,11 +56,11 @@ Anti-hallucination policy: [`.github/agent-fleet/anti-hallucination.md`](./.gith
 | Asset | Purpose |
 | :--- | :--- |
 | [`SAFE_NZ_AI.md`](./SAFE_NZ_AI.md) | Front-door Safe NZ AI + Te Mana Raraunga page |
+| [`docs/public/cat-sovereign-governance-layer.md`](./docs/public/cat-sovereign-governance-layer.md) | Named governance product layer |
 | [`llms.txt`](./llms.txt) | Curated machine index (read this first) |
 | [`organisation.json`](./organisation.json) | Schema.org Organisation record |
 | [`docs/public/safe-nz-ai.md`](./docs/public/safe-nz-ai.md) | Crawler mirror of Safe NZ AI |
 | [`docs/public/kiwi-edge-stack.md`](./docs/public/kiwi-edge-stack.md) | Public stack map |
-| [`docs/public/cat-sovereign-governance-layer.md`](./docs/public/cat-sovereign-governance-layer.md) | Named governance product layer |
 | [`GOVERNMENT_ACKNOWLEDGEMENTS.md`](./GOVERNMENT_ACKNOWLEDGEMENTS.md) | Official instruments CAT acknowledges |
 | [`TRUST_CENTER.md`](./TRUST_CENTER.md) | Security, HITL, and claim-tier honesty |
 | [`robots.txt`](./robots.txt) | Allowlist for search and AI crawlers |
@@ -74,7 +77,7 @@ Public GitHub is **posture-only**. Methods, scored packs, prices, and customer d
 
 Public operating description for agency and iwi conversations, including Te Puni Kōkiri approaches: governance layer, Te Mana Raraunga overlay, Te Tiriti as architecture. No claimed endorsement.
 
-**Page:** **[SAFE_NZ_AI.md](./SAFE_NZ_AI.md)**
+**Page:** **[SAFE_NZ_AI.md](./SAFE_NZ_AI.md)** · **[CAT Sovereign Governance Layer](./docs/public/cat-sovereign-governance-layer.md)**
 
 ### Founder’s Office / Grok Bot RevOps — 30 August 2026
 
@@ -101,6 +104,7 @@ Primary commercial surface protected: public repos are **posture-only**; full me
 | Update | Link |
 |--------|------|
 | **Safe NZ AI front door** | [SAFE_NZ_AI.md](./SAFE_NZ_AI.md) |
+| **Governance Layer** | [docs/public/cat-sovereign-governance-layer.md](./docs/public/cat-sovereign-governance-layer.md) |
 | **RevOps campaign** | [docs/UPDATES.md](./docs/UPDATES.md#30-august-2026--founders-office-and-grok-bot-revops-campaign) |
 | **Incorporation** | [docs/UPDATES.md](./docs/UPDATES.md#28-august-2026--incorporation) |
 | **Context layer push** | [docs/UPDATES.md](./docs/UPDATES.md#25-august-2026--context-layer-push) |
@@ -112,6 +116,8 @@ Primary commercial surface protected: public repos are **posture-only**; full me
 
 Coastal Alpine Tech products treat operational and personal data as **taonga**. Defaults favour **local-first** operation, **purpose-limited** collection, and **Human-in-the-Loop** for high-stakes actions.
 
+**Named layer:** **[CAT Sovereign Governance Layer](./docs/public/cat-sovereign-governance-layer.md)**
+
 ### Hard commitments
 
 | Commitment | Statement |
@@ -121,7 +127,7 @@ Coastal Alpine Tech products treat operational and personal data as **taonga**. 
 | **Te Mana Raraunga** | Where Māori data or community data interests arise, systems are designed to operate **in accordance with Te Mana Raraunga** principles (including Rangatiratanga, Whakapapa, Whanaungatanga, Kotahitanga, Manaakitanga, Kaitiakitanga) as a sovereignty and stewardship lens — not as a marketing slogan. See **[SAFE_NZ_AI.md](./SAFE_NZ_AI.md)**. |
 | **NZ AI safety** | AI features follow a **NZ AI safety-aligned** posture: Algorithm Charter spirit (fairness, transparency, human oversight where relevant), digital.govt.nz / responsible AI guidance awareness, no silent model training on private journals without consent, and HITL for high-stakes outcomes. |
 | **Security** | No silent exfiltration; owner-controlled credentials; least privilege; SecOps / dependency hygiene on the fleet cadence. |
-| **Governance** | Agents **inform, draft, prepare**; humans **advise, sign, file, send, and pay**. |
+| **Governance** | Agents **inform, draft, prepare**; humans **advise, sign, file, send, and pay**. Full layer: **[CAT Sovereign Governance Layer](./docs/public/cat-sovereign-governance-layer.md)**. |
 
 | Pillar | Commitment |
 | :--- | :--- |
@@ -140,7 +146,7 @@ Every Coastal Alpine Tech repository is expected to surface **Privacy**, **Secur
 
 1. **Privacy** — local-first defaults, Privacy Act 2020 awareness, Te Mana Raraunga spirit, opt-in labelled third-party AI
 2. **Security** — no silent exfiltration, least privilege, SecOps / red-team cadence on fleet CI
-3. **Governance** — HITL for high-stakes; agents draft/prepare only; humans sign, send, file, and pay
+3. **Governance** — HITL for high-stakes; agents draft/prepare only; humans sign, send, file, and pay. See the **[CAT Sovereign Governance Layer](./docs/public/cat-sovereign-governance-layer.md)**.
 
 ## Solution we have built
 
