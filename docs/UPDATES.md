@@ -2,7 +2,48 @@
 
 **Purpose:** Single place for clients, partners, and the founder to see major company and product updates across the Kiwi Edge AI Stack.
 
-**Last updated:** 28 August 2026
+**Last updated:** 30 August 2026
+
+---
+
+## 30 August 2026 — Founder’s Office and Grok Bot RevOps campaign
+
+The three days after incorporation have been operating days, not architecture days.
+
+Coastal Alpine Tech Limited is live as of **28 August 2026** (Day 0 of the 30/60/90 launch sequence). Since then the work has been to stand up the **Founder’s Office** — the internal operating team around the founder — and to point that office at first revenue, under Human-in-the-Loop rules.
+
+### What we have been doing (28–30 August 2026)
+
+- Closed incorporation and started the post-incorporation legitimacy sequence (bank, IRD, GST decision, books, insurance enquiry). Agents draft. The founder files.
+- Named the internal Grok Bot roster as the Founder’s Office (not a public sales floor): Summit (Chief of Staff), Formation, Kaitiaki Grants, Pipeline, Sentinel, Forge, Scout.
+- Separated fleets in writing: **Aether** remains the product fleet inside the Kiwi Edge stack. **Grok Bot** is how the company is run.
+- Locked the commercial wedge for Days 0–30: Sprintit AI as public entry, CAT Sovereign Governance Layer as the paid offering, Weaver + AquaGuard as the technical proof. Public GitHub stays posture-only.
+- Opened a **RevOps campaign** run through Grok Bot / Aether Summit. The campaign produces discovery lists, unsent outreach drafts, a short discovery script, a buyer one-pager, a paid 90-day pilot outline, invoice readiness checks, and contemporaneous R&D logging. Nothing is sent, filed, or invoiced by a bot.
+- Restated the payback rule: a bot artefact only counts if the founder can use it within 48 hours to book a conversation, lodge a draft, issue an invoice, or refuse a risky action.
+
+### Grok Bot on the RevOps campaign
+
+Coastal Alpine Tech is using **Grok Bot** as the Founder’s Office engine for this campaign.
+
+| Desk | Campaign job |
+|------|----------------|
+| Summit | Weekly cadence, HITL queue, reject work that does not feed the pipe |
+| Scout | Named organisations and public contact paths only |
+| Pipeline | Drafts marked unsent; UEM Act 2007 respected |
+| Forge | Demonstration shot list and buyer one-pager (no public prices) |
+| Kaitiaki | Grant fit-scoring and same-week R&D evidence rows |
+| Formation | Cash-rail checklist so a pilot invoice can be paid |
+| Sentinel | Public-surface sweep for prices, secrets, and over-claim |
+
+Humans still send mail, book calls, sign, and take payment. That is the product of Safe NZ AI, not a limitation of the campaign.
+
+### What this is not
+
+- Not a claim of signed customers or current revenue.
+- Not a price list. Method, rubrics, and commercial packs stay off public GitHub.
+- Not autonomous outreach. New Zealand’s Unsolicited Electronic Messages Act 2007 still applies.
+
+**Related public pages:** [Founder OS](public/founder-os.md) · [Sprintit AI](public/sprintit-ai.md) · [CAT Sovereign Governance Layer](public/cat-sovereign-governance-layer.md) · [Context layer](public/context-layer.md)
 
 ---
 
