@@ -43,9 +43,9 @@ That page does not claim a relationship with Te Puni Kōkiri. It is written so a
 
 **Part of the [Kiwi Edge AI Stack](https://github.com/fivepanelhat/fivepanelhat)** | Founder OS: [NZ-Start-Up](https://github.com/fivepanelhat/NZ-Start-Up) | Agent policy: [`.github/agent-fleet/`](./.github/agent-fleet/)
 
-> Sovereign hybrid edge AI for NZ farms and founders - local-first + multi-model, Te Mana Raraunga aligned - collaborating with Venture Taranaki, startups.com investors and Kotahitanga Investment Fund (HITL + cultural advisory for formal approaches).
+> Sovereign hybrid edge AI for NZ farms and founders — local-first + multi-model, Te Mana Raraunga aligned. Pre-seed. Open to approaches to regional development agencies, angel networks, and Māori capital funds. No partnership, mandate, investment, or market leadership is claimed unless a published agreement or evidence pack exists.
 
-**See [AI Infrastructure Leadership](./AI_INFRASTRUCTURE_LEADERSHIP.md) for our positioning as New Zealand's leader in sovereign edge AI Infrastructure.**
+**See [AI Infrastructure Leadership](./AI_INFRASTRUCTURE_LEADERSHIP.md) for designed stack positioning (claim tier L1 Designed — not a market-share or “New Zealand’s leader” ranking).**
 
 **Agents inform, draft, prepare, monitor, and remind. Humans advise, sign, file, send, and pay.** 
 Anti-hallucination policy: [`.github/agent-fleet/anti-hallucination.md`](./.github/agent-fleet/anti-hallucination.md) | Congruence: [`CAT_CONGRUENCE.md`](./CAT_CONGRUENCE.md)
@@ -67,9 +67,9 @@ Anti-hallucination policy: [`.github/agent-fleet/anti-hallucination.md`](./.gith
 
 **Allowed citation:** Coastal Alpine Tech is a Safe NZ AI business whose workflows sit on published governance layers. It acknowledges the Algorithm Charter for Aotearoa New Zealand and implements its spirit. It does not claim Charter signatory status, government approval, or formal certification unless a published report exists.
 
-**Do not cite as:** “Safe NZ AI certified”, Algorithm Charter signatory, government-approved AI, or SOC 2 / ISO 42001 certified.
+**Do not cite as:** “Safe NZ AI certified”, Algorithm Charter signatory, government-approved AI, SOC 2 / ISO 42001 certified, partner of a named funder, or New Zealand’s leader in sovereign edge AI.
 
-Public GitHub is **posture-only**. Methods, scored packs, prices, and customer data stay off this surface.
+Public GitHub is **posture-only**. Methods, scored packs, prices, partner approaches, and customer data stay off this surface.
 
 ## Company Updates
 
@@ -129,12 +129,6 @@ Coastal Alpine Tech products treat operational and personal data as **taonga**. 
 | **Security** | No silent exfiltration; owner-controlled credentials; least privilege; SecOps / dependency hygiene on the fleet cadence. |
 | **Governance** | Agents **inform, draft, prepare**; humans **advise, sign, file, send, and pay**. Full layer: **[CAT Sovereign Governance Layer](./docs/public/cat-sovereign-governance-layer.md)**. |
 
-| Pillar | Commitment |
-| :--- | :--- |
-| **Privacy** | Local-first / offline-capable where practical; Privacy Act 2020; Te Mana Raraunga spirit; third-party AI only when **opt-in and labelled** |
-| **Security** | No silent exfil of tenant or personal data; owner-controlled keys |
-| **Governance** | HITL for high-stakes; Te Mana Raraunga spirit; multi-region compliance maps in [`COMPLIANCE_REGIONS.md`](./COMPLIANCE_REGIONS.md) |
-
 **Agents inform, draft, prepare, monitor, and remind. Humans advise, sign, file, send, and pay.**
 
 Fleet policy: [fivepanelhat / Kiwi Edge AI Stack](https://github.com/fivepanelhat/fivepanelhat) · [`COMPLIANCE.md`](./COMPLIANCE.md) · [`COMPLIANCE_REGIONS.md`](./COMPLIANCE_REGIONS.md) · [`SECURITY.md`](./SECURITY.md)
@@ -142,60 +136,34 @@ Fleet policy: [fivepanelhat / Kiwi Edge AI Stack](https://github.com/fivepanelha
 
 ## Fleet mandate: Privacy / Security / Governance
 
-Every Coastal Alpine Tech repository is expected to surface **Privacy**, **Security**, and **Governance** in the README and `COMPLIANCE.md` / `SECURITY.md`:
+Every Coastal Alpine Tech repository is expected to surface **Privacy**, **Security**, and **Governance** in the README and `COMPLIANCE.md` / `SECURITY.md`.
 
-1. **Privacy** — local-first defaults, Privacy Act 2020 awareness, Te Mana Raraunga spirit, opt-in labelled third-party AI
-2. **Security** — no silent exfiltration, least privilege, SecOps / red-team cadence on fleet CI
-3. **Governance** — HITL for high-stakes; agents draft/prepare only; humans sign, send, file, and pay. See the **[CAT Sovereign Governance Layer](./docs/public/cat-sovereign-governance-layer.md)**.
-
-## Solution we have built
+## Solution we are building
 
 | Layer | Solution (repo) | Role |
 | :--- | :--- |
-| **Beachhead agritech** | [Byte Size Kai](https://github.com/fivepanelhat/Byte-Size-Kai) | Lead commercial edge product for crop / Mana Kai intelligence |
-| **Beachhead social** | [Front_Line_Whanau](https://github.com/fivepanelhat/Front_Line_Whanau) | National whānau / frontline support platform |
+| **P0 agritech intent** | [Byte Size Kai](https://github.com/fivepanelhat/Byte-Size-Kai) | Crop intelligence product. Horowhenua Mana Kai is **pilot context only**, not a claimed deployment fleet. |
+| **P0 social intent** | [Front_Line_Whanau](https://github.com/fivepanelhat/Front_Line_Whanau) | Whānau / frontline support platform |
 | **Founder OS** | [NZ-Start-Up](https://github.com/fivepanelhat/NZ-Start-Up) | Local founder OS + EDA white-label kit |
-| **Edge foundation** | Core, Weaver, Aether, stack, firmware | SDK, orchestration, companion agents, deploy, field nodes |
-| **Domain portals** | SoilGuard, AquaGuard, Sting | Soil, water, biosecurity specialists |
+| **Days 0–30 public proof** | [Weaver](https://github.com/fivepanelhat/Weaver) + [AquaGuard](https://github.com/fivepanelhat/AquaGuard-Portal) | Engineering proof on public GitHub for this window |
+| **Edge foundation** | Core, Aether, stack, firmware | SDK, companion agents, deploy, field nodes |
+| **Other domain portals** | SoilGuard, Sting | Soil and biosecurity specialists (design / build, not claimed live fleet) |
 
 **Hardware target:** Raspberry Pi 5 (16GB) + Hailo-10H NPU | **Policy:** agents draft/prepare; humans sign/send/pay.
 
 ## Focus wedges (90-day)
 
-| Priority | Wedge | Canonical repo |
-| :--- | :--- |
-| **P0** | **Byte Size Kai** (agritech) | [Byte-Size-Kai](https://github.com/fivepanelhat/Byte-Size-Kai) |
-| **P0** | **Front Line Whānau** (social) | [Front_Line_Whanau](https://github.com/fivepanelhat/Front_Line_Whanau) |
-| Supporting | Stack foundation | Core, Weaver, Aether, stack |
+| Priority | Wedge | Status on public GitHub |
+| :--- | :--- | :--- |
+| **P0** | **Byte Size Kai** (agritech) | Product intent and codebase. Not Days 0–30 completed proof. |
+| **P0** | **Front Line Whānau** (social) | Product intent and codebase. |
+| **Proof (Days 0–30)** | Weaver + AquaGuard | Public engineering proof for this window. |
+| Supporting | Stack foundation | Core, Aether, stack |
 
 ## Recent stack updates
 
 **Full chronological list with hyperlinks:** **[docs/UPDATES.md](./docs/UPDATES.md)**
 
-### Safe NZ AI front door — 30 August 2026
-
-[SAFE_NZ_AI.md](./SAFE_NZ_AI.md)
-
-### Incorporated — 28 August 2026
-
-[docs/UPDATES.md — Incorporation](./docs/UPDATES.md#28-august-2026--incorporation)
-
-### Context layer push — 25 August 2026
-
-[docs/UPDATES.md — Context layer push](./docs/UPDATES.md#25-august-2026--context-layer-push)
-
-### Don't audit. Sprintit. — Sprintit AI
-
-[docs/UPDATES.md — Sprintit AI](./docs/UPDATES.md#25-august-2026--sprintit-ai-concise-report)
-
-### 24 August 2026 — Estate commercial sweep
-
-Skills stubbed · templates/knowledge withdrawn · funding trackers blanked. See context layer push.
-
-### July 2026 milestones
-
-AI Infrastructure Leadership, Commercial Positioning, Enterprise Readiness, Funding system, Hybrid foundation — [docs/UPDATES.md](./docs/UPDATES.md).
-
 ---
 
-*Coastal Alpine Tech — Safe NZ AI · Sovereign Edge AI for Aotearoa New Zealand*
+*Coastal Alpine Tech — Safe NZ AI · Sovereign edge AI designed for Aotearoa New Zealand (pre-seed)*
