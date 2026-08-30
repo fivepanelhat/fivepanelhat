@@ -6,7 +6,7 @@ Taranaki, Aotearoa New Zealand
 **Updated:** 30 August 2026  
 **Stage:** Pre-seed. Published posture and design controls — not a certification, audit opinion, or Crown endorsement.
 
-This is the page to send first.
+
 
 Coastal Alpine Tech is a **Safe NZ AI** business. Every product workflow sits on the **CAT Sovereign Governance Layer** before a model is allowed to inform a decision or actuate a tool. Agents draft. Humans decide.
 
