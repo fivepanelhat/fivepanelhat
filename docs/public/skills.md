@@ -1,12 +1,14 @@
 # Skills — public stubs, governed procedures
 
 **Organisation:** Coastal Alpine Tech  
-**Updated:** 26 August 2026  
+**Updated:** 1 September 2026  
 **Repos:** [Aether/skills](https://github.com/fivepanelhat/Aether/tree/main/skills) · [NZ-Start-Up/skills](https://github.com/fivepanelhat/NZ-Start-Up/tree/main/skills)
 
 ## 1. One-line role
 
 Skills are versioned markdown procedures the harness and Aether can load. Public GitHub carries **stubs** (name, role, autonomy ceiling). Full procedures are context-layer.
+
+On 1 September 2026, skills and the private CAT Agent Harness were created and updated for NZ-Start-Up and related products. This page does not describe those procedures.
 
 ## 2. Safe NZ AI sentence
 
@@ -27,7 +29,7 @@ Coastal Alpine Tech is a Safe NZ AI business: a skill cannot raise the autonomy 
 
 | Public | Commercial-track |
 |---|---|
-| Skill name, one-line role, HITL level, cultural sensitivity | Step-by-step procedures, checklists, scored outputs |
+| Skill name, one-line role, HITL level, cultural sensitivity, update notice | Step-by-step procedures, checklists, scored outputs, pack worksheets, prices |
 
 ## 5. Language by audience
 
@@ -36,12 +38,13 @@ Coastal Alpine Tech is a Safe NZ AI business: a skill cannot raise the autonomy 
 | Public | Skills are the recipes. The public repo shows the labels; the working recipe is licensed. |
 | Investors | The catalogue is the product surface; the procedures are the moat. |
 | Partners | White-label skills ship under agreement with the same HITL ceiling. |
-| Customers | Named skills (grants, ops, edge) only run inside the harness with a human gate. |
+| Customers | Named skills only run inside the harness with a human gate. |
 
 ## 6. What we will not say
 
 - That public stubs are production-complete autonomous employees  
 - That a skill “complies with” the Algorithm Charter by existing  
+- What a new commercial-track pack contains  
 
 ## 7. Canonical URL
 
