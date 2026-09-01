@@ -1,12 +1,14 @@
 # CAT Agent Harness — runtime that enforces the gates
 
 **Organisation:** Coastal Alpine Tech  
-**Updated:** 26 August 2026  
+**Updated:** 1 September 2026  
 **Repo:** [cat-agent-harness](https://github.com/fivepanelhat/cat-agent-harness)
 
 ## 1. One-line role
 
 The harness is the plugin-first runtime that loads models, tools, skills, sandboxes, and approval policy — and refuses to run a path that skips HITL or local-first defaults.
+
+On 1 September 2026 the private harness was updated with new and revised skills for NZ-Start-Up and related products. Public pages do not publish those procedures.
 
 ## 2. Safe NZ AI sentence
 
@@ -27,7 +29,7 @@ Coastal Alpine Tech is a Safe NZ AI business: the harness is where governance la
 
 | Public | Commercial-track |
 |---|---|
-| Design principles, triad docs, sovereign-edge profile name | Customer profile packs, private tool plugins, production secrets handling |
+| Design principles, triad docs, sovereign-edge profile name, update notice | Customer profile packs, private skill bodies, production secrets handling, prices |
 
 ## 5. Language by audience
 
@@ -42,6 +44,7 @@ Coastal Alpine Tech is a Safe NZ AI business: the harness is where governance la
 
 - That the harness is autonomous  
 - That a plugin is approved for production without founder HITL  
+- What private packs contain  
 
 ## 7. Canonical URL
 
