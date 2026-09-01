@@ -3,12 +3,14 @@
 **Organisation:** Coastal Alpine Tech  
 **Public name:** Founder OS  
 **Repo:** [NZ-Start-Up](https://github.com/fivepanelhat/NZ-Start-Up)  
-**Updated:** 26 August 2026  
+**Updated:** 1 September 2026  
 **Status:** Pre-seed. Public files are evaluation posture. Context packs are commercial-track.
 
 ## 1. One-line role
 
 Founder OS is the jurisdiction-native founder operating system for Aotearoa New Zealand — formation through early funding — under hard legal ceilings and Human-in-the-Loop governance.
+
+On 1 September 2026, skills and the private CAT Agent Harness were created and updated for NZ-Start-Up and related products. This page does not describe those procedures.
 
 ## 2. Safe NZ AI sentence
 
@@ -37,7 +39,7 @@ One-liner from the repo: jurisdiction-native founder OS for New Zealand — unde
 
 | Public (Track A) | Commercial (Track B) |
 |---|---|
-| Problem statement, role names, autonomy ceilings, dual-licence notice | Full skill procedures, templates, report packs, Sprintit method, jurisdiction-depth context |
+| Problem statement, role names, autonomy ceilings, dual-licence notice, update notice | Full skill procedures, templates, report packs, Sprintit method, jurisdiction-depth context |
 
 Digital employees listed in public are **role cards only** (Formation Officer, Compliance Registrar, Grants & RDTI Clerk, Market Validator, GTM / Pipeline Rep, and related roles). Procedures are not on public GitHub.
 
@@ -56,6 +58,7 @@ Digital employees listed in public are **role cards only** (Formation Officer, C
 - That it is a law firm, tax agent, or licensed financial adviser  
 - That public stubs are the full commercial product  
 - Prices or cohort terms on public GitHub  
+- What commercial-track add-on packs contain  
 
 ## 8. Canonical URL
 
