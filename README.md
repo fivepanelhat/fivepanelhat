@@ -73,6 +73,14 @@ Public GitHub is **posture-only**. Methods, scored packs, prices, partner approa
 
 ## Company Updates
 
+### Skills and harness — 1 September 2026
+
+Skills were created and updated, and the private CAT Agent Harness was updated, for NZ-Start-Up and related products (including Aether).
+
+Public GitHub stays posture-only. Procedures, pack worksheets, methods, and prices are not published here.
+
+**Detail:** **[docs/UPDATES.md — 1 September 2026](./docs/UPDATES.md#1-september-2026--skills-and-harness-update)** · [Skills](./docs/public/skills.md) · [Harness](./docs/public/harness.md) · [NZ-Start-Up](https://github.com/fivepanelhat/NZ-Start-Up) · [Aether](https://github.com/fivepanelhat/Aether)
+
 ### Safe NZ AI front door — 30 August 2026
 
 Public operating description for agency and iwi conversations, including Te Puni Kōkiri approaches: governance layer, Te Mana Raraunga overlay, Te Tiriti as architecture. No claimed endorsement.
@@ -103,6 +111,7 @@ Primary commercial surface protected: public repos are **posture-only**; full me
 
 | Update | Link |
 |--------|------|
+| **Skills and harness (1 Sep 2026)** | [docs/UPDATES.md](./docs/UPDATES.md#1-september-2026--skills-and-harness-update) |
 | **Safe NZ AI front door** | [SAFE_NZ_AI.md](./SAFE_NZ_AI.md) |
 | **Governance Layer** | [docs/public/cat-sovereign-governance-layer.md](./docs/public/cat-sovereign-governance-layer.md) |
 | **RevOps campaign** | [docs/UPDATES.md](./docs/UPDATES.md#30-august-2026--founders-office-and-grok-bot-revops-campaign) |
@@ -161,6 +170,8 @@ Every Coastal Alpine Tech repository is expected to surface **Privacy**, **Secur
 | Supporting | Stack foundation | Core, Aether, stack |
 
 ## Recent stack updates
+
+**1 September 2026:** skills created and updated; private CAT Agent Harness updated for NZ-Start-Up and related products. Public pages do not publish procedures or prices.
 
 **Full chronological list with hyperlinks:** **[docs/UPDATES.md](./docs/UPDATES.md)**
 
