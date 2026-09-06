@@ -2,7 +2,21 @@
 
 **Purpose:** Single place for clients, partners, and the founder to see major company and product updates across the Kiwi Edge AI Stack.
 
-**Last updated:** 1 September 2026
+**Last updated:** 7 September 2026
+
+---
+
+## 7 September 2026 — MintIT AI with CAT
+
+Coastal Alpine Tech named the keep-side of the first commercial pair.
+
+- **SprintIT** (Sprintit AI on earlier pages) is the run.
+- **MintIT** is the keep: dated artefacts, index, and replay pack under HITL.
+- Together they sit on the **CAT Sovereign Governance Layer** and the published context-layer rule: agents draft; humans send, lodge, and pay.
+
+Also this week (process, not traction): Founder OS Loop H on Linear; public week note; demo logger path distinguished from the hub path; supplier and broker threads opened in New Zealand. No prices on this page. No claimed deployments or mandates.
+
+**Pages:** [MintIT AI](public/mintit-ai.md) · [Sprintit AI](public/sprintit-ai.md) · [Founder OS week note](FOUNDER_OS_WEEK_2026-09-07.md) · [Harness](public/harness.md) · [Governance](public/cat-sovereign-governance-layer.md)
 
 ---
 
