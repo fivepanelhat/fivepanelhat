@@ -4,13 +4,6 @@
   "name": "Coastal Alpine Tech",
   "legalName": "Coastal Alpine Tech Limited",
   "alternateName": ["CAT", "Coastal Alpine Tech Limited", "Kiwi Edge AI Stack"],
-  "identifier": [
-    {
-      "@type": "PropertyValue",
-      "name": "NZ Companies Office number",
-      "value": "9451195"
-    }
-  ],
   "description": "Coastal Alpine Tech is a Safe NZ AI business: workflows sit on governance layers — Privacy Act 2020, Algorithm Charter spirit, MBIE Responsible AI Guidance, Te Mana Raraunga, and hard human-in-the-loop — so agents draft and humans decide. Pre-seed sovereign edge AI for Aotearoa New Zealand primary industries and founders. Public GitHub is posture-only.",
   "slogan": "Safe NZ AI — agents draft, humans decide",
   "url": "https://github.com/fivepanelhat/fivepanelhat",
@@ -55,7 +48,6 @@
     "AgriTech",
     "local-first inference"
   ],
-  "email": "fivepanelhat@gmail.com",
   "ethicsPolicy": "https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/safe-nz-ai.md",
   "publishingPrinciples": "https://github.com/fivepanelhat/fivepanelhat/blob/main/GOVERNMENT_ACKNOWLEDGEMENTS.md",
   "hasCredential": {
@@ -63,5 +55,5 @@
     "name": "Safe NZ AI operating description",
     "description": "CAT operating description only. Not a Crown badge, not Algorithm Charter signatory status, not SOC 2 or ISO 42001 certification."
   },
-  "disclaimer": "Not a government agency. Not an Algorithm Charter signatory. Not SOC 2 or ISO 42001 certified unless a published report exists. Public repositories do not publish prices, commercial methods, or customer data."
+  "disclaimer": "Not a government agency. Not an Algorithm Charter signatory. Not SOC 2 or ISO 42001 certified unless a published report exists. Public repositories do not publish prices, commercial methods, customer data, or register identifiers unless the founder publishes them."
 }
