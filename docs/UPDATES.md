@@ -2,7 +2,21 @@
 
 **Purpose:** Single place for clients, partners, and the founder to see major company and product updates across the Kiwi Edge AI Stack.
 
-**Last updated:** 7 September 2026
+**Last updated:** 9 September 2026
+
+---
+
+## 9 September 2026 — Byte Size Kai skill chain (posture)
+
+Coastal Alpine Tech named the Byte Size Kai **edge skill chain** as a private Agent Plugins pack. Public GitHub stays posture-only.
+
+Named chain (stubs only): `kiwi-edge-architecture` → `edge-node-commissioning` → `cat-egress-sentinel` → `cat-model-sentinel` → `cat-doctor`. Commercial companion: `pilot-loi-drafter` (explicit; human sends). Safety overlay: HITL, architectural standards, Te Mana Raraunga controls, cultural-safety-gate.
+
+SprintIT remains the run. MintIT remains the keep (artefacts and harness). Egress deny is a local hook plus permission rule, not a skill the model may skip. Procedure bodies, pack worksheets, and prices stay off this surface.
+
+This is not an install notice, not a claimed deployment, and not a mandate.
+
+**Pages:** [Skills](public/skills.md) · [Harness](public/harness.md) · [MintIT AI](public/mintit-ai.md) · [Sprintit AI](public/sprintit-ai.md) · [Byte Size Kai](https://github.com/fivepanelhat/Byte-Size-Kai)
 
 ---
 
