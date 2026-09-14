@@ -2,7 +2,6 @@
 
 **Organisation:** Coastal Alpine Tech  
 **Updated:** 14 September 2026  
-**Repo:** [Aether](https://github.com/fivepanelhat/Aether)  
 **Status:** Public posture only.
 
 ## One-line role
@@ -20,7 +19,7 @@ Coastal Alpine Tech is a Safe NZ AI business: Aether drafts and prepares; humans
 - High-impact writes, git, desktop actuation, and security changes halt for human approval.
 - Public GitHub is evaluation posture; full procedures and customer runbooks are commercial-track.
 
-Runtime internals, skill-loader design, alignments-library layout, and method packs stay commercial-track or private.
+Runtime internals, skill-loader design, alignments-library layout, install scripts, and private repository URLs stay commercial-track or private.
 
 ## What we will not say
 
@@ -28,6 +27,8 @@ Runtime internals, skill-loader design, alignments-library layout, and method pa
 - Algorithm Charter signatory  
 - That silent auto-remediation is the default
 
-## Canonical URL
+## Related public pages
 
-https://github.com/fivepanelhat/Aether
+- [CATALOGUE](../company/CATALOGUE.md)  
+- [Safe NZ AI](../../SAFE_NZ_AI.md)  
+- [Trust Center](../../TRUST_CENTER.md)

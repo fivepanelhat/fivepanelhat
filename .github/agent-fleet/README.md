@@ -1,17 +1,16 @@
-# Agent fleet (portfolio congruence pack)
+# Agent fleet — public posture
 
-Portable **Coastal Alpine Tech** agent policy for every public repo.
+**Updated:** 14 September 2026
+
+Portable HITL and anti-hallucination policy for this public landing repo.
 
 | File | Role |
 |------|------|
-| `AGENTS.md` | Load order, HITL, tool use, testing |
-| `anti-hallucination.md` | Refusal calibration, FACT/INFERENCE/UNKNOWN, extended thinking |
-| `agent-hardening/SKILL.md` | Security skill (v1.1) |
-| `cat-architectural-standards/SKILL.md` | Gold / Diamond / Platinum |
+| `../AGENTS.md` (repo root) | Autonomy ceiling, tool use, refusal |
+| `anti-hallucination.md` | FACT / INFERENCE / UNKNOWN |
+| `agent-hardening/SKILL.md` | Security skill (public stub / posture) |
+| `cat-architectural-standards/SKILL.md` | Standards posture |
 
-**Full digital-employee fleet + CLI:** [NZ-Start-Up](https://github.com/fivepanelhat/NZ-Start-Up) 
-**Org architecture map:** [fivepanelhat](https://github.com/fivepanelhat/fivepanelhat)
+Full Founder OS fleets, CLI installers, and private skill packs are **commercial-track / private** — not linked from this public surface.
 
-Install skills into Claude/Aether paths by copying this directory, or clone NZ-Start-Up and run `nz-startup install-skills`.
-
-**Encoding:** UTF-8 without BOM. Prefer ASCII punctuation (`|`, `-`) so GitHub and terminals render consistently.
+**Org landing:** [fivepanelhat/fivepanelhat](https://github.com/fivepanelhat/fivepanelhat)
