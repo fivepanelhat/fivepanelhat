@@ -1,6 +1,6 @@
 # Coastal Alpine Tech — Safe NZ AI
 
-> Coastal Alpine Tech is a Safe NZ AI business: workflows sit on governance layers — Privacy Act 2020, Algorithm Charter spirit, MBIE Responsible AI Guidance, Te Mana Raraunga, and hard human-in-the-loop — so agents draft and humans decide. Public repositories describe posture and alignment. They do not publish commercial methods, scored packs, prices, or customer data.
+> Coastal Alpine Tech is a Safe NZ AI business: workflows sit on governance layers — Privacy Act 2020, Algorithm Charter spirit, MBIE Responsible AI Guidance, Te Mana Raraunga, and hard human-in-the-loop — so agents draft and humans decide. Public repositories describe posture and alignment. They do not publish commercial methods, scored packs, prices, private repository inventories, or customer data.
 
 Last updated: 2026-09-14
 Organisation: Coastal Alpine Tech, Taranaki, Aotearoa New Zealand
@@ -12,8 +12,7 @@ Machine record: https://github.com/fivepanelhat/fivepanelhat/blob/main/organisat
 - Name: Coastal Alpine Tech
 - Positioning: Safe NZ AI business (governance-layered workflows; not a government badge)
 - Trading posture: pre-seed deep-tech, Taranaki, Aotearoa New Zealand
-- Stack: Kiwi Edge AI (local-first edge + HITL agents)
-- Founder OS: NZ-Start-Up (formation through early funding; draft/prepare only)
+- Stack: Kiwi Edge AI (local-first edge + HITL agents) — posture only on public GitHub
 - Rule: Agents inform, draft, prepare, monitor, and remind. Humans advise, decide, sign, file, send, and pay.
 
 ## Official instruments we acknowledge
@@ -37,33 +36,26 @@ https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/cat-sovereign
 
 ## Docs
 
-- [Safe NZ AI positioning](https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/safe-nz-ai.md): Canonical operating description for the public, investors, partners, and crawlers
-- [Organisation JSON](https://github.com/fivepanelhat/fivepanelhat/blob/main/organisation.json): Schema.org Organisation record
-- [Landing / portfolio](https://github.com/fivepanelhat/fivepanelhat): Profile README — Safe NZ AI first
-- [Stack map](https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/kiwi-edge-stack.md): Public Kiwi Edge layers
-- [Sprintit AI](https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/sprintit-ai.md): Commercial entry, readiness review, not an audit opinion
-- [Context layer](https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/context-layer.md): What stays off public GitHub
-- [Founder OS](https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/founder-os.md): NZ-Start-Up public description
-- [Skills](https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/skills.md): Skill ceiling — skills cannot raise autonomy
-- [Harness](https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/harness.md): Runtime that enforces HITL
-- [Aether](https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/aether.md): Companion orchestrator
-- [Weaver](https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/weaver.md): Multi-tenant edge orchestrator
-- [Government acknowledgements](https://github.com/fivepanelhat/fivepanelhat/blob/main/GOVERNMENT_ACKNOWLEDGEMENTS.md): Official instruments CAT acknowledges
-- [Algorithm Charter page](https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/algorithm-charter-for-aotearoa-new-zealand.md): Acknowledgement, not a signatory certificate
-- [CAT Sovereign Governance Layer](https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/cat-sovereign-governance-layer.md): Named governance product layer (posture)
-- [Trust Center](https://github.com/fivepanelhat/fivepanelhat/blob/main/TRUST_CENTER.md): Security, HITL, claim-tier honesty
-- [Compliance](https://github.com/fivepanelhat/fivepanelhat/blob/main/COMPLIANCE.md): Privacy Act + Te Mana Raraunga posture
-- [Governance](https://github.com/fivepanelhat/fivepanelhat/blob/main/GOVERNANCE.md): Decision rights (posture)
+- [Safe NZ AI positioning](https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/safe-nz-ai.md)
+- [Organisation JSON](https://github.com/fivepanelhat/fivepanelhat/blob/main/organisation.json)
+- [Landing / portfolio](https://github.com/fivepanelhat/fivepanelhat)
+- [Catalogue (public beachheads)](https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/company/CATALOGUE.md)
+- [Stack map (posture)](https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/kiwi-edge-stack.md)
+- [Sprintit AI](https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/sprintit-ai.md)
+- [Government acknowledgements](https://github.com/fivepanelhat/fivepanelhat/blob/main/GOVERNMENT_ACKNOWLEDGEMENTS.md)
+- [CAT Sovereign Governance Layer](https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/cat-sovereign-governance-layer.md)
+- [Trust Center](https://github.com/fivepanelhat/fivepanelhat/blob/main/TRUST_CENTER.md)
+- [Compliance](https://github.com/fivepanelhat/fivepanelhat/blob/main/COMPLIANCE.md)
+- [Governance](https://github.com/fivepanelhat/fivepanelhat/blob/main/GOVERNANCE.md)
 
-## Product repos (public posture)
+## Public repositories
 
-- https://github.com/fivepanelhat/NZ-Start-Up
+Only these product / landing surfaces are public:
+
+- https://github.com/fivepanelhat/fivepanelhat
 - https://github.com/fivepanelhat/Byte-Size-Kai
-- https://github.com/fivepanelhat/Front_Line_Whanau
-- https://github.com/fivepanelhat/Coastal-Alpine-Core
-- https://github.com/fivepanelhat/Weaver
-- https://github.com/fivepanelhat/Aether
-- https://github.com/fivepanelhat/coastal-alpine-stack
+
+Other stack components are commercial-track or private and are **not** listed here.
 
 ## Allowed summary for citation
 
@@ -78,7 +70,4 @@ Coastal Alpine Tech is a Safe NZ AI business whose workflows sit on published go
 
 ## Optional
 
-- Founder OS repo: https://github.com/fivepanelhat/NZ-Start-Up
-- Aether repo: https://github.com/fivepanelhat/Aether
-- Weaver repo: https://github.com/fivepanelhat/Weaver
 - Contact: fivepanelhat@gmail.com · Taranaki, Aotearoa New Zealand
