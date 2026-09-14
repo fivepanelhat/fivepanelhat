@@ -1,8 +1,8 @@
 # Company Profile — Coastal Alpine Tech Limited
 
 **Document type:** Public-safe company profile (not a prospectus)  
-**Stage:** Pre-seed · **Region:** New Plymouth, Taranaki, Aotearoa New Zealand  
-**Updated:** 2026-09-14 · **Version:** 0.2.0
+**Stage:** Pre-seed · **Region:** Taranaki, Aotearoa New Zealand  
+**Updated:** 2026-09-14 · **Version:** 0.3.0
 
 ---
 
@@ -16,7 +16,7 @@
 | **Founder / CEO** | Wayne Roberts |
 | **Org home** | [github.com/fivepanelhat](https://github.com/fivepanelhat) |
 | **Contact** | fivepanelhat@gmail.com |
-| **Focus** | Sovereign edge AI infrastructure for NZ primary industries and frontline social care |
+| **Focus** | Sovereign edge AI for New Zealand organisations under hard Human-in-the-Loop |
 
 Not a claim of raised Series capital, large commercial fleet deployment, or certified compliance products.
 
@@ -24,40 +24,36 @@ Not a claim of raised Series capital, large commercial fleet deployment, or cert
 
 ## One-liner
 
-Coastal Alpine Tech is building **sovereign hybrid edge-AI infrastructure** for Aotearoa — local-first nodes (Raspberry Pi 5 + Hailo NPU), multi-model fleets, **designed in accordance with Te Mana Raraunga**, with hard **Human-in-the-Loop** ceilings — so farms, founders, and whānau can use AI without defaulting to extractive cloud dependency.
+Coastal Alpine Tech is a **Safe NZ AI** business: sovereign, local-first edge AI under the **CAT Sovereign Governance Layer**, **Te Mana Raraunga** as an operating overlay where relevant, and hard **Human-in-the-Loop** — so agents draft and humans decide.
 
 ---
 
-## Mission
+## Mission (public)
 
-1. **Keep operational and personal data under NZ custody** by default (local processing, owner-controlled keys, no silent exfiltration).
-2. **Ship production-shaped infrastructure**, not demos: Core SDK, orchestration, agent control plane, field firmware, and beachhead products on the same stack.
-3. **Respect Te Tiriti and Te Mana Raraunga** as design constraints, not marketing slogans.
-4. **Preserve human authority** — agents inform, draft, prepare, monitor, and remind; humans advise, sign, file, send, pay, and actuate.
+1. Keep operational and personal data under NZ custody by default.
+2. Publish posture only on public GitHub; methods and delivery packs stay commercial-track.
+3. Treat Te Tiriti and Te Mana Raraunga as design constraints, not marketing slogans.
+4. Preserve human authority — agents inform, draft, prepare, monitor, and remind; humans advise, decide, sign, file, send, and pay.
 
 ---
 
 ## What we build (summary)
 
-See **[CATALOGUE.md](./CATALOGUE.md)** for the public map.
+Public beachheads only — see **[CATALOGUE.md](./CATALOGUE.md)**.
 
-| Layer | Role |
-|-------|------|
-| **Platform** | Core, Weaver, Aether, stack, Sovereign-Edge-Firmware (commercial / private track detail) |
-| **Agritech beachhead** | Byte Size Kai (microgreens / Mana Kai–class intelligence) |
-| **Social beachhead** | Front Line Whanau (frontline / preterm support platform — design / build) |
-| **Founder OS** | NZ-Start-Up (formation, grants, fleet skills) |
-| **Domain portals** | SoilGuard, AquaGuard, Sting-Operation-AI (background until the wedge needs them) |
+Named public surfaces: **Byte Size Kai**, **Sprintit AI**, and **Safe NZ AI / CAT Sovereign Governance Layer** posture pages.
 
-**Canonical hardware target:** Raspberry Pi 5 (16GB) + Hailo-10H NPU.
+Platform components, domain portals, Founder OS internals, and companion runtimes stay on the **commercial / private** track under written agreement.
+
+**Canonical hardware class (posture):** Raspberry Pi–class edge compute with optional NPU acceleration. Exact BOMs stay private.
 
 ---
 
 ## Context
 
-- Engineering base: **Taranaki**; field context includes regional primary industries and **Mana Kai–class** agritech as **pilot context only**.
+- Engineering base: **Taranaki**.
 - No unpaid partner, family, or programme mandate is claimed on this surface.
-- Open to regional EDAs and sovereignty-aligned capital — formal approaches require HITL + cultural advisory. No implied existing deals.
+- Open to regional EDAs and sovereignty-aligned capital — formal approaches require HITL. No implied existing deals.
 
 ---
 
@@ -72,9 +68,9 @@ See **[CATALOGUE.md](./CATALOGUE.md)** for the public map.
 
 ---
 
-## Funding posture (non-dilutive preference)
+## Funding posture
 
-Priority interest in NZ instruments aligned to deep tech, agritech, and sovereign edge. Agent drafts are never submissions.
+Non-dilutive preference. Agent drafts are never submissions. No public dollar figures on this surface.
 
 ---
 
@@ -83,7 +79,7 @@ Priority interest in NZ instruments aligned to deep tech, agritech, and sovereig
 - **HITL:** Agents draft/prepare only for high-stakes outcomes.
 - **No data sales** of personal or customer operational data to third parties for ads or brokerage.
 - **Fail-closed** on security and sovereignty gates where implemented.
-- **No invented** NZBN, IRD, iwi endorsement, or partner consent.
+- **No invented** NZBN misuse, IRD disclosure, iwi endorsement, or partner consent.
 
 ---
 
@@ -92,5 +88,5 @@ Priority interest in NZ instruments aligned to deep tech, agritech, and sovereig
 | | |
 |--|--|
 | Owner | Founder |
-| Classification | Public narrative (grounded) |
+| Classification | Public narrative (posture) |
 | Not | Investment advice, legal advice, or certified capability statement |
