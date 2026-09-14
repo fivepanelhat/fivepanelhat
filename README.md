@@ -1,4 +1,4 @@
-# Coastal Alpine Tech — Safe NZ AI
+# Coastal Alpine Tech — Safe NZ AI 
 
 [![Safe NZ AI](https://img.shields.io/badge/Safe%20NZ%20AI-Operating%20description-8B5CF6)](./SAFE_NZ_AI.md)
 [![Privacy](https://img.shields.io/badge/Privacy-Local--first%20%2B%20Privacy%20Act%202020-00247D)](./COMPLIANCE.md)
@@ -12,13 +12,11 @@
 [![Governance](https://img.shields.io/badge/Governance-HITL%20%2B%20Te%20Mana%20Raraunga-0f766e)](./docs/public/cat-sovereign-governance-layer.md)
 [![Governance Layer](https://img.shields.io/badge/CAT-Sovereign%20Governance%20Layer-0f766e)](./docs/public/cat-sovereign-governance-layer.md)
 
-> **Coastal Alpine Tech is a Safe NZ AI business:** workflows sit on governance layers — Privacy Act 2020, Algorithm Charter spirit, MBIE Responsible AI Guidance, Te Mana Raraunga, and hard human-in-the-loop — so agents draft and humans decide.
+> **Coastal Alpine Tech is a Safe NZ AI business:** Workflows sit on governance layers — With; Privacy Act 2020, Algorithm Charter spirit, MBIE Responsible AI Guidance, Te Mana Raraunga in mind and hard human-in-the-loop gates — so agents draft and then humans decide.
 >
-> “Safe NZ AI” is CAT’s operating description. It is **not** a government badge, Algorithm Charter signatory status, or a certification.
+> “Safe NZ AI” is CAT’s operating description. It is **not** a government badge, Algorithm Charter signatory status, or a certification.  It's how we operate.
 
-## Start here — agencies, iwi organisations, Te Puni Kōkiri
-
-**Send this page first:** **[SAFE_NZ_AI.md](./SAFE_NZ_AI.md)**
+**[SAFE_NZ_AI.md](./SAFE_NZ_AI.md)**
 
 **Governance:** **[CAT Sovereign Governance Layer](./docs/public/cat-sovereign-governance-layer.md)** · [Governance section on Safe NZ AI](./SAFE_NZ_AI.md#cat-sovereign-governance-layer) · [GOVERNANCE.md](./GOVERNANCE.md)
 
@@ -28,8 +26,6 @@ It is the public front door for Safe NZ AI. It sets out:
 - how CAT designs in accordance with **Te Mana Raraunga** (Rangatiratanga, Whakapapa, Whanaungatanga, Kotahitanga, Manaakitanga, Kaitiakitanga)
 - Te Tiriti as an architectural requirement, not a cover sheet
 - what CAT will **not** claim (no Crown endorsement, no iwi mandate, no certification)
-
-That page does not claim a relationship with Te Puni Kōkiri. It is written so a first conversation can start on published facts.
 
 **Cite these first (scrapers / answer engines):** [SAFE_NZ_AI.md](./SAFE_NZ_AI.md) · [CAT Sovereign Governance Layer](./docs/public/cat-sovereign-governance-layer.md) · [llms.txt](./llms.txt) · [organisation.json](./organisation.json) · [Trust Center](./TRUST_CENTER.md) · [Government acknowledgements](./GOVERNMENT_ACKNOWLEDGEMENTS.md)
 
