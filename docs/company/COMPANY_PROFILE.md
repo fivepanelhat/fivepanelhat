@@ -1,8 +1,8 @@
 # Company Profile — Coastal Alpine Tech Limited
 
-**Document type:** Founder-facing company profile (not a prospectus)  
+**Document type:** Public-safe company profile (not a prospectus)  
 **Stage:** Pre-seed · **Region:** New Plymouth, Taranaki, Aotearoa New Zealand  
-**Updated:** 2026-07-27 · **Version:** 0.1.0
+**Updated:** 2026-09-14 · **Version:** 0.2.0
 
 ---
 
@@ -11,8 +11,8 @@
 | Field | Value |
 |-------|--------|
 | **Working name** | Coastal Alpine Tech |
-| **Legal target** | Coastal Alpine Tech Limited |
-| **Incorporation target** | 8 August 2026 (Taranaki) |
+| **Legal** | Coastal Alpine Tech Limited |
+| **Incorporation** | 28 August 2026 (Taranaki) |
 | **Founder / CEO** | Wayne Roberts |
 | **Org home** | [github.com/fivepanelhat](https://github.com/fivepanelhat) |
 | **Contact** | fivepanelhat@gmail.com |
@@ -39,24 +39,25 @@ Coastal Alpine Tech is building **sovereign hybrid edge-AI infrastructure** for 
 
 ## What we build (summary)
 
-See **[CATALOGUE.md](./CATALOGUE.md)** for the full map.
+See **[CATALOGUE.md](./CATALOGUE.md)** for the public map.
 
 | Layer | Role |
 |-------|------|
-| **Platform** | Coastal-Alpine-Core, Weaver, Aether, coastal-alpine-stack, Sovereign-Edge-Firmware |
+| **Platform** | Core, Weaver, Aether, stack, Sovereign-Edge-Firmware (commercial / private track detail) |
 | **Agritech beachhead** | Byte Size Kai (microgreens / Mana Kai–class intelligence) |
-| **Social beachhead** | Front Line Whanau (national frontline / preterm support platform) |
+| **Social beachhead** | Front Line Whanau (frontline / preterm support platform — design / build) |
 | **Founder OS** | NZ-Start-Up (formation, grants, fleet skills) |
-| **Domain portals** | SoilGuard, AquaGuard, Sting-Operation-AI (background until wedge needs them) |
+| **Domain portals** | SoilGuard, AquaGuard, Sting-Operation-AI (background until the wedge needs them) |
 
 **Canonical hardware target:** Raspberry Pi 5 (16GB) + Hailo-10H NPU.
 
 ---
 
-## Context & collaboration
+## Context
 
-- Engineering base: **Taranaki**; field context includes regional primary industries and **Horowhenua Mana Kai** collaboration (community kai resilience; family collaboration with Matthew Roberts / Mana Kai Network).
-- Open to **Venture Taranaki**, regional EDAs, and sovereignty-aligned capital — formal approaches require HITL + cultural advisory. No implied existing deals.
+- Engineering base: **Taranaki**; field context includes regional primary industries and **Mana Kai–class** agritech as **pilot context only**.
+- No unpaid partner, family, or programme mandate is claimed on this surface.
+- Open to regional EDAs and sovereignty-aligned capital — formal approaches require HITL + cultural advisory. No implied existing deals.
 
 ---
 
@@ -66,15 +67,14 @@ See **[CATALOGUE.md](./CATALOGUE.md)** for the full map.
 |-------|---------|
 | Pre-seed | Yes |
 | Bootstrapped discipline | Yes |
-| Live product surface | Front Line Whanau on Vercel; stack engineering continuous |
+| Live commercial fleet | **Not claimed** |
 | External audits / SOC 2 attestation | **Not claimed** — design targets and frameworks only |
-| Alignment scorecards (July 2026) | Aether **L1 Designed**; Hub **L0–L1** — see Aether `docs/alignments/` |
 
 ---
 
 ## Funding posture (non-dilutive preference)
 
-Priority interest in NZ instruments aligned to Māori AI, deep tech, agritech, sovereign edge (e.g. MBIE R&D pathways, TPK Māori Development Fund, MPI primary growth pathways, RDTI). Agent drafts are never submissions. Tracker lives under portfolio `.github/funding/`.
+Priority interest in NZ instruments aligned to deep tech, agritech, and sovereign edge. Agent drafts are never submissions.
 
 ---
 
@@ -84,8 +84,6 @@ Priority interest in NZ instruments aligned to Māori AI, deep tech, agritech, s
 - **No data sales** of personal or customer operational data to third parties for ads or brokerage.
 - **Fail-closed** on security and sovereignty gates where implemented.
 - **No invented** NZBN, IRD, iwi endorsement, or partner consent.
-
-Full operating rules: **[BRAIN.md](./BRAIN.md)**.
 
 ---
 
