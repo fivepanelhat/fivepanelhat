@@ -1,76 +1,36 @@
 # COMPLIANCE.md
 
-**Coastal Alpine Tech Limited** | **Product:** fivepanelhat (Kiwi Edge portfolio)
-Last updated: 27 July 2026
+**Coastal Alpine Tech Limited**  
+Last updated: 14 September 2026  
+**Status:** Public posture / alignment evidence. Not a compliance certificate, audit report, or legal advice.
 
-## Privacy / Security / Governance (fleet mandatory)
-
-**Last reviewed (fleet block):** 27 July 2026
+## Fleet mandatory posture
 
 | Pillar | Standard |
 | --- | --- |
-| **No data sales** | **Personal and customer operational data is not sold to third parties** for ads, data brokerage, or unrelated monetisation. |
-| **Privacy** | Designed to operate in accordance with the **New Zealand Privacy Act 2020** (IPPs; IPP 3A awareness). Local-first default; purpose-limited collection; third-party processing only when opt-in and disclosed. |
-| **Te Mana Raraunga** | Designed to operate **in accordance with Te Mana Raraunga** Māori data sovereignty principles where Māori / community data interests apply. |
-| **NZ AI safety** | Aligned with NZ AI safety / responsible AI posture: human oversight for high-stakes use, transparency of AI processing, Algorithm Charter spirit, no silent training on private customer content without consent. |
-| **Security** | No silent exfil; owner-controlled credentials; least privilege; SecOps / red-team cadence where CI is present. |
+| **No data sales** | Personal and customer operational data is not sold to third parties for ads, data brokerage, or unrelated monetisation. |
+| **Privacy** | Designed to operate in accordance with the **New Zealand Privacy Act 2020**. Local-first default; purpose-limited collection. |
+| **Te Mana Raraunga** | Designed to operate in accordance with Te Mana Raraunga Māori data sovereignty principles where Māori / community data interests apply. |
+| **NZ AI safety** | Human oversight for high-stakes use; transparency of AI processing; Algorithm Charter spirit; no silent training on private customer content without consent. |
+| **Security** | No silent exfil; owner-controlled credentials; least privilege. |
 | **Governance** | HITL for high-stakes; agents draft only; humans sign / send / pay. |
-| **Assurance path** | **SOC 2** Type I/II and **ISO/IEC 42001** treated as multi-tenant SaaS **alignment targets**, not claimed certifications unless a formal report is published. |
-| **Regions** | Australia, Asia-Pacific, and European frameworks mapped in [`COMPLIANCE_REGIONS.md`](./COMPLIANCE_REGIONS.md) under a **NZ AI safety-first** baseline. |
+| **Assurance path** | **SOC 2** and **ISO/IEC 42001** are multi-tenant SaaS **alignment targets**, not claimed certifications unless a formal report is published. |
 
-> This document is **alignment evidence**, not a compliance certificate, audit report, or legal advice.
+## Instruments acknowledged
 
-## Alignment Evidence
+New Zealand: Privacy Act 2020, Algorithm Charter for Aotearoa New Zealand (spirit; not a signatory), MBIE Responsible AI Guidance for Businesses, GCDO Public Service AI Framework, Te Mana Raraunga principles.
 
-Canonical instrument mapping, metrics, scorecards, and grant reinforcement links live in the **Aether** alignments library (system of record):
+International standards and regional framework mapping detail stay commercial-track or private. Scorecards, grant reinforcement packs, and alignments libraries are not published on this surface.
 
-- https://github.com/fivepanelhat/Aether/tree/main/docs/alignments
-- Portfolio pointer: [`docs/ALIGNMENT_EVIDENCE.md`](./docs/ALIGNMENT_EVIDENCE.md)
-- Grant citations: [GRANT-REINFORCEMENT.md](https://github.com/fivepanelhat/Aether/blob/main/docs/alignments/GRANT-REINFORCEMENT.md)
+## Limitations
 
-Binding controls remain those stated in this document and product-level COMPLIANCE / SECURITY files. External claims require concrete controls plus founder approval. **Scorecard tier (July 2026): L1 Designed** until Minimum Viable Set runtime evidence is recorded on Aether.
-
-## Regulatory Mapping
-
-### New Zealand
-- Privacy Act 2020 + **IPP 3A** (Privacy Amendment Act 2025) - effective **1 May 2026**  
-  Notification required when personal information is collected indirectly.
-- Biometric Processing Privacy Code 2025  
-  New biometric processing: 3 November 2025  
-  Existing biometric processing: 3 August 2026
-- Health Information Privacy Code (applies where health / wellbeing data is processed)
-- Te Mana Raraunga principles - primary data sovereignty framework
-
-### European Union
-- **EU AI Act** - Annex III high-risk obligations enforceable **2 August 2026**
-- Relevant high-risk categories:
-  - Health decision support
-  - Biometrics (remote identification, categorisation, emotion recognition)
-  - Critical infrastructure / essential services
-- Required: risk management, data governance, technical documentation, human oversight, logging, transparency, post-market monitoring
-
-### International Standards
-- **ISO/IEC 42001** - AI Management System (AIMS)  
-  Covers AI policy, risk assessment, data governance, human oversight, monitoring, continual improvement
-- **SOC 2** - Security, Availability, Confidentiality, Processing Integrity, Privacy  
-  Priority for multi-tenant / customer-facing components
-
-### Core Technical Controls (Mandatory)
-- Local-first / offline-native processing by default
-- Owner-controlled encryption keys
-- No silent data exfiltration
-- Explicit Human-in-the-Loop (HITL) gates for high-impact and culturally sensitive decisions
-- Data residency under New Zealand control
-
-### Scope Notes
-- Current systems prioritise offline-native operation and data minimisation.
-- Any future multi-tenant or customer-facing features will be assessed against SOC 2 and EU AI Act high-risk requirements before release.
-
-### Limitations
 - Not legal advice; not a certification claim.
 - Confirm statute application with NZ counsel before commercial shipping claims.
 - Agents inform / draft / prepare only; humans advise / sign / file / send / pay.
 
-### Data sales
+## Related public pages
 
-**We do not sell personal or customer operational data to third parties.**
+- [Trust Center](./TRUST_CENTER.md)  
+- [Safe NZ AI](./SAFE_NZ_AI.md)  
+- [Governance](./GOVERNANCE.md)  
+- [Government acknowledgements](./GOVERNMENT_ACKNOWLEDGEMENTS.md)
