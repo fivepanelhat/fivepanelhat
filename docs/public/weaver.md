@@ -2,7 +2,6 @@
 
 **Organisation:** Coastal Alpine Tech  
 **Updated:** 14 September 2026  
-**Repo:** [Weaver](https://github.com/fivepanelhat/Weaver)  
 **Status:** Public posture only. Early release.
 
 ## One-line role
@@ -20,13 +19,15 @@ Coastal Alpine Tech is a Safe NZ AI business: Weaver keeps each tenant’s opera
 - Early release. Target scenarios — not a claim of a national deployed fleet.
 - Public GitHub is evaluation posture; tenant playbooks, customer knowledge packs, and white-label pricing are commercial-track.
 
-Orchestration internals, isolation design detail, security-component wiring, and install architecture stay commercial-track or private.
+Orchestration internals, isolation design detail, security-component wiring, install architecture, and private repository URLs stay commercial-track or private.
 
 ## What we will not say
 
 - Existing large-scale commercial fleet deployment  
 - That tenant isolation is certified to a named audit standard
 
-## Canonical URL
+## Related public pages
 
-https://github.com/fivepanelhat/Weaver
+- [CATALOGUE](../company/CATALOGUE.md)  
+- [Safe NZ AI](../../SAFE_NZ_AI.md)  
+- [Trust Center](../../TRUST_CENTER.md)
