@@ -6,6 +6,8 @@
 [![Te Mana Raraunga](https://img.shields.io/badge/Te%20Mana%20Raraunga-In%20accordance-0f766e)](./SAFE_NZ_AI.md)
 [![Governance Layer](https://img.shields.io/badge/CAT-Sovereign%20Governance%20Layer-0f766e)](./docs/public/cat-sovereign-governance-layer.md)
 
+![Coastal Alpine Tech](./assets/social_preview.png)
+
 > **Coastal Alpine Tech is a Safe NZ AI business:** workflows sit on governance layers — Privacy Act 2020, Algorithm Charter spirit, MBIE Responsible AI Guidance, Te Mana Raraunga, and hard human-in-the-loop — so agents draft and humans decide.
 >
 > “Safe NZ AI” is CAT’s operating description. It is **not** a government badge, Algorithm Charter signatory status, or a certification.
