@@ -5,7 +5,7 @@
 **Organisation:** Coastal Alpine Tech  
 **Location:** Taranaki, Aotearoa New Zealand  
 **Page type:** Crawler / historic public copy. The root `SAFE_NZ_AI.md` is now the page for agency and iwi conversations.  
-**Updated:** 30 August 2026  
+**Updated:** 14 September 2026  
 **Stage:** Pre-seed. Design targets and published controls — not a certification.
 
 Coastal Alpine Tech is a **Safe NZ AI business**: every product workflow is built on published **governance layers** before a model is allowed to inform a decision or actuate a tool.
@@ -22,11 +22,11 @@ Coastal Alpine Tech is a Safe NZ AI business: workflows sit on governance layers
 
 ## Read the full public page
 
-Governance layer, nine support layers, Te Mana Raraunga principle-by-principle alignment, Te Tiriti posture, and the “what we will not say” list for a Te Puni Kōkiri conversation:
+Operating description, Te Mana Raraunga posture, Te Tiriti stance, and the “what we will not say” list:
 
 **[SAFE_NZ_AI.md](../../SAFE_NZ_AI.md)**
 
-Named stack layer: [`cat-sovereign-governance-layer.md`](./cat-sovereign-governance-layer.md)
+Named stack layer (posture stub): [`cat-sovereign-governance-layer.md`](./cat-sovereign-governance-layer.md)
 
 ---
 
