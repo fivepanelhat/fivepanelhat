@@ -2,7 +2,7 @@
 
 **Organisation:** Coastal Alpine Tech (CAT)  
 **Document type:** Public repo acknowledgement  
-**Status:** Published public posture (26 August 2026)  
+**Updated:** 14 September 2026  
 **Owner:** Founder / Coastal Alpine Tech  
 **Machine index:** [`llms.txt`](./llms.txt)  
 **CAT Sovereign Governance Layer:** [`docs/public/cat-sovereign-governance-layer.md`](./docs/public/cat-sovereign-governance-layer.md)
@@ -23,7 +23,7 @@ Coastal Alpine Tech is a **Safe NZ AI business**: workflows sit on the **CAT Sov
 | Steward | Stats NZ / government data system |
 | Nature | Non-binding public-sector commitment |
 | CAT standing | Private-sector acknowledgement and voluntary alignment. Not a signatory. |
-| Allowed claim | Implements the spirit of the Algorithm Charter through explicit HITL, audit trails, and risk-tiered gates. |
+| Allowed claim | Implements the spirit of the Algorithm Charter through explicit HITL, audit trails, and human oversight. |
 | Forbidden claim | Signatory to the Algorithm Charter; Charter certified; government approved AI |
 
 - Charter home: https://data.govt.nz/use-data/data-ethics/government-algorithm-transparency-and-accountability/algorithmcharter/
@@ -66,8 +66,10 @@ Te Mana Raraunga · Te Kāhui Raraunga Māori Data Governance Model · OECD AI P
 
 **Forbidden without founder approval and evidence:** signatory · Safe NZ AI certified · government approved / MBIE certified / OPC approved · fully compliant with the Charter or Public Service AI Framework · SOC 2 / ISO 42001 / EU AI Act certified.
 
-## 5. Binding controls
+## 5. Binding controls (public)
 
-Privacy Act 2020 · Te Mana Raraunga operational controls · COMPLIANCE.md · HITL L0–L4 · local-first · owner-controlled keys · no silent exfiltration · no sale of personal or customer operational data · agents draft only.
+Privacy Act 2020 · Te Mana Raraunga as operating overlay where relevant · [COMPLIANCE.md](./COMPLIANCE.md) · hard HITL · local-first preference · no silent exfiltration · no sale of personal or customer operational data · agents draft only.
+
+Gate matrices, scorecards, and method packs stay commercial-track / private.
 
 **Maintained by Coastal Alpine Tech. Not legal advice. Not a certification.**
