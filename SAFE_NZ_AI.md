@@ -34,7 +34,7 @@ CAT designs sovereign, local-first AI and edge systems for New Zealand organisat
 
 Public entry is **Sprintit AI** (a short readiness review — not an audit).  
 The paid architecture layer is the **CAT Sovereign Governance Layer**.  
-The product fleet (Aether, Weaver, Core, domain portals) runs underneath that layer.
+The product fleet runs underneath that layer on the commercial / private track.
 
 Public GitHub is **posture-only**. Methods, rubrics, templates, and prices stay off this surface.
 
@@ -147,7 +147,7 @@ https://www.mbie.govt.nz/business-and-employment/business/support-for-business/r
 | :--- | :--- |
 | Inform, draft, prepare, monitor, remind | Advise, decide, sign, file, send, pay |
 
-Standing policies cannot bypass high-impact, cultural, health, or irreversible actions. This applies to CAT’s own Founder’s Office (Grok Bot) as well as to customer-facing agents.
+Standing policies cannot bypass high-impact, cultural, health, or irreversible actions. This applies to CAT’s own internal operators as well as to customer-facing agents.
 
 ---
 
