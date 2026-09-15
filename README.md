@@ -8,15 +8,15 @@
 
 ![Coastal Alpine Tech](./assets/social_preview.png)
 
-> **Coastal Alpine Tech is a Safe NZ AI business:** workflows sit on governance layers — Privacy Act 2020, Algorithm Charter spirit, MBIE Responsible AI Guidance, Te Mana Raraunga, and hard human-in-the-loop — so agents draft and humans decide.
->
-> “Safe NZ AI” is CAT’s operating description. It is **not** a government badge, Algorithm Charter signatory status, or a certification.
+**Coastal Alpine Tech Limited** — pre-seed, Taranaki, Aotearoa New Zealand.
+
+We build Safe NZ AI: local-first edge software where agents draft and humans decide. “Safe NZ AI” is how we describe that work — not a government badge, Algorithm Charter signatory status, or a certification.
+
+**Agents inform, draft, prepare, monitor, and remind. Humans advise, sign, file, send, and pay.**
 
 **[SAFE_NZ_AI.md](./SAFE_NZ_AI.md)** · **[CAT Sovereign Governance Layer](./docs/public/cat-sovereign-governance-layer.md)** · **[Trust Center](./TRUST_CENTER.md)** · **[UPDATES.md](./docs/UPDATES.md)**
 
 Public GitHub is **posture-only**. Methods, scored packs, prices, partner approaches, internal operating rosters, skill catalogues, and private repository inventories stay off this surface.
-
-**Agents inform, draft, prepare, monitor, and remind. Humans advise, sign, file, send, and pay.**
 
 ## Company updates (public)
 
