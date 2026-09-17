@@ -41,6 +41,19 @@ Platform components, Founder OS internals, companion runtimes, and domain portal
 
 **Hardware class (posture):** Raspberry Pi–class edge compute with optional NPU acceleration. Exact BOMs stay private.
 
+## Commercial products
+
+Private, revenue-facing services built on the Coastal Alpine Tech stack. Methods, pricing, and implementation detail are not published here.
+
+| Product | What it is | Status |
+| --- | --- | --- |
+| **Weaver Agents** | Multi-tenant AI helpdesk platform for enterprise and government *deployment capability* | Private / commercial |
+| **Aether Agents** | Managed deployment of the sovereign agentic development orchestrator | Private / commercial |
+| **SprintIT** | Diagnostic pass: gaps, upgrade opportunities, and optimisation targets in a client's existing systems | Private / commercial |
+| **MintIT** | Planning, building, executing, and integrating the resulting skill chains, harness, and agent fleet | Private / commercial |
+
+SprintIT and MintIT are distinct passes and may be engaged separately or in sequence. Prices and methods stay off this surface.
+
 ## Partnership enquiries
 
 For partnership or pilot enquiries (including agritech / primary-industry context): **[fivepanelhat@gmail.com](mailto:fivepanelhat@gmail.com)**.
