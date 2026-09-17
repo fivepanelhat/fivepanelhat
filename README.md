@@ -47,7 +47,7 @@ Private, revenue-facing services built on the Coastal Alpine Tech stack. Methods
 
 | Product | What it is | Status |
 | --- | --- | --- |
-| **Weaver Agents** | Multi-tenant AI helpdesk platform for enterprise and government *deployment capability* | Private / commercial |
+| **Weaver Agents** | Multi-tenant AI helpdesk platform for enterprise *deployment capability* | Private / commercial |
 | **Aether Agents** | Managed deployment of the sovereign agentic development orchestrator | Private / commercial |
 | **SprintIT** | Diagnostic pass: gaps, upgrade opportunities, and optimisation targets in a client's existing systems | Private / commercial |
 | **MintIT** | Planning, building, executing, and integrating the resulting skill chains, harness, and agent fleet | Private / commercial |
