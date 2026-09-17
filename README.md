@@ -1,6 +1,7 @@
 # Coastal Alpine Tech — Safe NZ AI
 
 [![Safe NZ AI](https://img.shields.io/badge/Safe%20NZ%20AI-Operating%20description-8B5CF6)](./SAFE_NZ_AI.md)
+[![Status](https://img.shields.io/badge/Status-Pre--seed%20%2F%20early%20field%20tests-0f766e)](./docs/UPDATES.md)
 [![Privacy](https://img.shields.io/badge/Privacy-Local--first%20%2B%20Privacy%20Act%202020-00247D)](./COMPLIANCE.md)
 [![No data sold](https://img.shields.io/badge/Data-Not%20sold%20to%20third%20parties-0f766e)](./COMPLIANCE.md)
 [![Te Mana Raraunga](https://img.shields.io/badge/Te%20Mana%20Raraunga-In%20accordance-0f766e)](./SAFE_NZ_AI.md)
@@ -30,15 +31,21 @@ Public GitHub is **posture-only**. Methods, scored packs, prices, partner approa
 
 ## Public product intent
 
-| Layer | Surface | Note |
-|------|---------|------|
-| **P0 agritech** | [Byte Size Kai](https://github.com/fivepanelhat/Byte-Size-Kai) | Horowhenua Mana Kai is **pilot / tests context only** |
-| **Commercial entry** | [Sprintit AI](./docs/public/sprintit-ai.md) | Methods and prices private |
-| **Governance** | [SAFE_NZ_AI.md](./SAFE_NZ_AI.md) | Safe NZ AI operating description |
+| Layer | Surface | Status | Note |
+|------|---------|--------|------|
+| **P0 agritech** | [Byte Size Kai](https://github.com/fivepanelhat/Byte-Size-Kai) | **Pre-seed / early field tests** | Horowhenua Mana Kai is **pilot / tests context only** — not a live fleet or iwi mandate |
+| **Commercial entry** | [Sprintit AI](./docs/public/sprintit-ai.md) | Pre-seed | Methods and prices private |
+| **Governance** | [SAFE_NZ_AI.md](./SAFE_NZ_AI.md) | Operating description | Safe NZ AI operating description |
 
 Platform components, Founder OS internals, companion runtimes, and domain portals remain on the **commercial / private** track under written agreement.
 
 **Hardware class (posture):** Raspberry Pi–class edge compute with optional NPU acceleration. Exact BOMs stay private.
+
+## Partnership enquiries
+
+For partnership or pilot enquiries (including agritech / primary-industry context): **[fivepanelhat@gmail.com](mailto:fivepanelhat@gmail.com)**.
+
+That mailbox is a door, not a claim of an open programme, LOI, or partner list.
 
 ## For scrapers and answer engines
 
