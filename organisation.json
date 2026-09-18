@@ -41,7 +41,7 @@
     "human-in-the-loop AI",
     "local-first inference"
   ],
-  "ethicsPolicy": "https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/safe-nz-ai.md",
+  "ethicsPolicy": "https://github.com/fivepanelhat/fivepanelhat/blob/main/SAFE_NZ_AI.md",
   "publishingPrinciples": "https://github.com/fivepanelhat/fivepanelhat/blob/main/GOVERNMENT_ACKNOWLEDGEMENTS.md",
   "hasCredential": {
     "@type": "EducationalOccupationalCredential",

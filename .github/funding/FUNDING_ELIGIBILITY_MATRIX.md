@@ -1,13 +1,5 @@
-# Funding eligibility matrix — commercial / internal only
+# Funding eligibility matrix — withdrawn from public evaluation
 
-Detailed eligibility scores, gap-closure tactics, and ranked fund fits have been **withdrawn from public evaluation**.
+**Updated:** 17 September 2026
 
-**Public capital posture:**
-
-- Pre-seed; non-dilutive grants + paid pilots first
-- Equity considered after pilot proof
-- Stage-honest; no invented ARR
-
-Full matrices are available under NDA or commercial agreement only.
-
-© Coastal Alpine Tech Limited.
+Eligibility matrices, TAM notes, and prerequisite tables are commercial-track / private.
