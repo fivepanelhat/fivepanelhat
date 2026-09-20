@@ -1,0 +1,40 @@
+# Coastal Alpine Tech — public posture surface
+# Safe NZ AI business. Public files are posture-only.
+
+User-agent: *
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Preferred machine entry points
+# llms.txt: https://github.com/fivepanelhat/fivepanelhat/blob/main/llms.txt
+# organisation.json: https://github.com/fivepanelhat/fivepanelhat/blob/main/organisation.json
+# Safe NZ AI: https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/safe-nz-ai.md

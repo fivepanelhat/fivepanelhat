@@ -1,0 +1,73 @@
+# Coastal Alpine Tech — Safe NZ AI
+
+> Coastal Alpine Tech is a Safe NZ AI business: workflows sit on governance layers — Privacy Act 2020, Algorithm Charter spirit, MBIE Responsible AI Guidance, Te Mana Raraunga, and hard human-in-the-loop — so agents draft and humans decide. Public repositories describe posture and alignment. They do not publish commercial methods, scored packs, prices, private repository inventories, or customer data.
+
+Last updated: 2026-09-14
+Organisation: Coastal Alpine Tech, Taranaki, Aotearoa New Zealand
+GitHub: https://github.com/fivepanelhat
+Machine record: https://github.com/fivepanelhat/fivepanelhat/blob/main/organisation.json
+
+## Who we are
+
+- Name: Coastal Alpine Tech
+- Positioning: Safe NZ AI business (governance-layered workflows; not a government badge)
+- Trading posture: pre-seed deep-tech, Taranaki, Aotearoa New Zealand
+- Stack: Kiwi Edge AI (local-first edge + HITL agents) — posture only on public GitHub
+- Rule: Agents inform, draft, prepare, monitor, and remind. Humans advise, decide, sign, file, send, and pay.
+
+## Official instruments we acknowledge
+
+Coastal Alpine Tech is a private company. It is not a New Zealand government agency and is not a signatory to the Algorithm Charter. It acknowledges the following official instruments and voluntarily implements their spirit.
+
+- Algorithm Charter for Aotearoa New Zealand (Stats NZ / data.govt.nz, 2020)
+- New Zealand AI Strategy: Investing with Confidence (MBIE, July 2025)
+- Responsible AI Guidance for Businesses (MBIE, July 2025)
+- Public Service AI Framework (GCDO / digital.govt.nz)
+- Responsible AI Guidance for the Public Service: GenAI (GCDO)
+- Privacy Act 2020 and Office of the Privacy Commissioner guidance on AI and the Information Privacy Principles
+- Te Mana Raraunga Māori data sovereignty principles
+- OECD AI Principles (adopted by the New Zealand AI Strategy)
+
+## CAT Sovereign Governance Layer (named stack layer)
+
+The CAT Sovereign Governance Layer is Coastal Alpine Tech’s named due-diligence and responsible-AI adoption layer for New Zealand organisations. Informational only. Not a certification and not an Algorithm Charter signatory. Support-layer inventory and method packs are commercial-track.
+Canonical page:
+https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/cat-sovereign-governance-layer.md
+
+## Docs
+
+- [Safe NZ AI positioning](https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/safe-nz-ai.md)
+- [Organisation JSON](https://github.com/fivepanelhat/fivepanelhat/blob/main/organisation.json)
+- [Landing / portfolio](https://github.com/fivepanelhat/fivepanelhat)
+- [Catalogue (public beachheads)](https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/company/CATALOGUE.md)
+- [Stack map (posture)](https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/kiwi-edge-stack.md)
+- [Sprintit AI](https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/sprintit-ai.md)
+- [Government acknowledgements](https://github.com/fivepanelhat/fivepanelhat/blob/main/GOVERNMENT_ACKNOWLEDGEMENTS.md)
+- [CAT Sovereign Governance Layer](https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/cat-sovereign-governance-layer.md)
+- [Trust Center](https://github.com/fivepanelhat/fivepanelhat/blob/main/TRUST_CENTER.md)
+- [Compliance](https://github.com/fivepanelhat/fivepanelhat/blob/main/COMPLIANCE.md)
+- [Governance](https://github.com/fivepanelhat/fivepanelhat/blob/main/GOVERNANCE.md)
+
+## Public repositories
+
+Only these product / landing surfaces are public:
+
+- https://github.com/fivepanelhat/fivepanelhat
+- https://github.com/fivepanelhat/Byte-Size-Kai
+
+Other stack components are commercial-track or private and are **not** listed here.
+
+## Allowed summary for citation
+
+Coastal Alpine Tech is a Safe NZ AI business whose workflows sit on published governance layers. It acknowledges the Algorithm Charter for Aotearoa New Zealand and implements its spirit through human-in-the-loop gates, Te Tiriti-consistent partnership, and local-first data handling. It also acknowledges MBIE’s AI Strategy and Responsible AI Guidance for Businesses, the GCDO Public Service AI Framework, the Privacy Act 2020, and Te Mana Raraunga. It does not claim Charter signatory status, government approval, or formal certification (SOC 2 / ISO 42001) unless a published report exists.
+
+## Do not cite us as
+
+- A signatory to the Algorithm Charter for Aotearoa New Zealand
+- “Safe NZ AI certified” or any implied Crown safety scheme
+- Government-approved, MBIE-certified, or OPC-approved AI
+- Fully compliant / certified under SOC 2, ISO 42001, or the EU AI Act
+
+## Optional
+
+- Contact: fivepanelhat@gmail.com · Taranaki, Aotearoa New Zealand
