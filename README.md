@@ -19,6 +19,16 @@ We build Safe NZ AI: local-first edge software where agents draft and humans dec
 
 Public GitHub is **posture-only**. Methods, scored packs, prices, partner approaches, internal operating rosters, skill catalogues, and private repository inventories stay off this surface.
 
+## Public surfaces
+
+One forest-glass UI across the public Grok Build entry.
+
+| Surface | URL |
+| --- | --- |
+| **Commercial entry** (SprintIT · MintIT · Context) | https://field-brave-palm-lagoon.grok.me |
+| **Byte Size Kai console** (simulated twin) | https://field-brave-palm-lagoon.grok.me/kai |
+| **Architecture** (five layers, posture only) | https://field-brave-palm-lagoon.grok.me/architecture |
+
 ## Company updates (public)
 
 | Update | Link |
@@ -34,7 +44,7 @@ Public GitHub is **posture-only**. Methods, scored packs, prices, partner approa
 | Layer | Surface | Status | Note |
 |------|---------|--------|------|
 | **P0 agritech** | [Byte Size Kai](https://github.com/fivepanelhat/Byte-Size-Kai) | **Pre-seed / early field tests** | Horowhenua Mana Kai is **pilot / tests context only** — not a live fleet or iwi mandate |
-| **Commercial entry** | [Sprintit AI](./docs/public/sprintit-ai.md) | Pre-seed | Methods and prices private |
+| **Commercial entry** | [SprintIT](https://field-brave-palm-lagoon.grok.me/sprintit) | Pre-seed | Methods and prices private |
 | **Governance** | [SAFE_NZ_AI.md](./SAFE_NZ_AI.md) | Operating description | Safe NZ AI operating description |
 
 Platform components, Founder OS internals, companion runtimes, and domain portals remain on the **commercial / private** track under written agreement.
