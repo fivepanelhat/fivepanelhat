@@ -1,80 +1,34 @@
-# Coastal Alpine Tech - portfolio congruence
+# Coastal Alpine Tech — portfolio congruence
 
-**Company:** Coastal Alpine Tech Limited | **Stage:** Pre-seed | **Region:** Taranaki, Aotearoa New Zealand  
-**R&D since:** 8 August 2025 | **Founding target:** 8 August 2026  
-**Org home:** [fivepanelhat](https://github.com/fivepanelhat/fivepanelhat) | **Founder OS:** [NZ-Start-Up](https://github.com/fivepanelhat/NZ-Start-Up)
+**Company:** Coastal Alpine Tech Limited  
+**Stage:** Pre-seed · **Region:** Taranaki, Aotearoa New Zealand  
+**Updated:** 14 September 2026  
+**Status:** Public posture only.
 
-This repository is part of the **Kiwi Edge AI Stack** - hybrid edge (RPi 5 16GB + Hailo-10H) + multi-model fleets + Te Mana Raraunga local-first data. It is **not** a claim of large-scale commercial deployment or raised Series capital.
+Org home: [fivepanelhat/fivepanelhat](https://github.com/fivepanelhat/fivepanelhat)
 
-## Investor one-liner (global)
+This repository is the public landing for Coastal Alpine Tech’s Safe NZ AI posture. It is **not** a claim of large-scale commercial deployment or raised Series capital.
 
-> Coastal Alpine Tech is building the sovereign hybrid edge-AI stack for Aotearoa's primary industries and founders - local-first RPi 5 + Hailo nodes, multi-model fleets (Grok/Claude/Gemini), **designed in accordance with Te Mana Raraunga** principles, and white-label EDA tools - actively seeking collaboration with Venture Taranaki, startups.com investors, and the Kotahitanga Investment Fund to scale intergenerational Māori and regional economic outcomes.
+## Public beachheads
 
-**Collaboration:** Open to Venture Taranaki, startups.com investors, and Kotahitanga Investment Fund - **HITL + cultural advisory** for any formal approach. No implied existing deals.
+See **[docs/company/CATALOGUE.md](./docs/company/CATALOGUE.md)** for the public map.
 
-**Claim tier:** Portfolio external language is **L1 Designed** (July 2026). Prefer “designed in accordance with…” over “fully aligned / certified / guarantees sovereignty.” Canonical evidence: [docs/ALIGNMENT_EVIDENCE.md](./docs/ALIGNMENT_EVIDENCE.md) → [Aether alignments](https://github.com/fivepanelhat/Aether/tree/main/docs/alignments).
+Named public surfaces: **Byte Size Kai**, **Sprintit AI**, and **Safe NZ AI / CAT Sovereign Governance Layer** posture pages.
 
-## Stack map
+Full platform / portal / Founder OS repository inventories stay commercial-track or private.
 
-| Layer | Repos |
-|-------|--------|
-| Narrative | fivepanelhat |
-| Founder OS / EDA | NZ-Start-Up |
-| Agent / HITL | Aether |
-| Edge orchestration | Weaver |
-| Shared SDK | Coastal-Alpine-Core, coastal-alpine-stack |
-| Field | Sovereign-Edge-Firmware |
-| Domains | **Byte Size Kai** (Byte-Size-Kai), SoilGuard-Portal, AquaGuard-Portal, Sting-Operation-AI |
-| Whanau / social | Front_Line_Whanau |
-| Privacy util | CAT-mail |
-
-## Autonomy ceiling (all agentic work)
+## Autonomy ceiling
 
 **Agents inform, draft, prepare, monitor, and remind.**  
-**Humans advise, sign, file, send, and pay.**
+**Humans advise, decide, sign, file, send, and pay.**
 
-Hard refusals: inventing NZBN/IRD/partner consent | autonomous cold email (UEM) | filing government forms | moving money | cultural extraction / invented iwi endorsement.
+## Claim tier
 
-## Anti-hallucination (portfolio standard)
+Prefer “designed in accordance with…” and “stack partner” over “fully aligned / certified / national leader.” Public GitHub is posture-only.
 
-1. Prefer **tools and files** over model memory.
-2. Label every non-trivial claim: **fact** (sourced) / **inference** / **unknown**.
-3. Knowledge and stats older than **90 days** without `verified:` dates must be re-verified.
-4. Refusal is correct behaviour when evidence is missing - do not invent to "complete" the task.
-5. Extended thinking: list uncertainties and what would change the answer **before** final output.
-6. Watermarks: `DRAFT`, `NOT LEGAL ADVICE`, `NOT FINANCIAL ADVICE`, `DRAFT_NOT_SENT`, `PREPARED BY AGENT`.
+## Related public pages
 
-## NZ AI Safety & alignment evidence
-
-- Hardened guidelines and skills live primarily in **Aether** (`docs/HARDENED_NZ_AI_SAFETY_GUIDELINES.md`, `skills/aether-nz-ai-safety`).
-- Instrument mapping, scorecards, grant links: [Aether `docs/alignments/`](https://github.com/fivepanelhat/Aether/tree/main/docs/alignments).
-- Portfolio pointer: [`docs/ALIGNMENT_EVIDENCE.md`](./docs/ALIGNMENT_EVIDENCE.md).
-- Default HITL for production / external / health / cultural actions: **L2**.
-- External compliance claims require founder approval and must match scorecard tier.
-
-## Agent fleet location
-
-Portable skills and policy live under:
-
-```text
-.github/agent-fleet/
-  AGENTS.md
-  anti-hallucination.md
-  agent-hardening/SKILL.md
-  cat-architectural-standards/SKILL.md
-```
-
-Canonical full fleet + runtime: **NZ-Start-Up** (`skills/`, `nz-startup` CLI).
-
-## Licence
-
-Product IP is generally **dual proprietary + commercial** unless a specific repo declares open source (e.g. some whanau hubs). Do not re-licence without founder decision.
-
-## This repository
-
-| Field | Value |
-|-------|-------|
-| **Repo** | `fivepanelhat` |
-| **Role in stack** | Org landing / architecture map |
-| **Agent fleet** | `.github/agent-fleet/` |
-| **Canonical skills runtime** | [NZ-Start-Up](https://github.com/fivepanelhat/NZ-Start-Up) |
+- [CATALOGUE](./docs/company/CATALOGUE.md)  
+- [Safe NZ AI](./SAFE_NZ_AI.md)  
+- [Trust Center](./TRUST_CENTER.md)  
+- [Company profile](./docs/company/COMPANY_PROFILE.md)

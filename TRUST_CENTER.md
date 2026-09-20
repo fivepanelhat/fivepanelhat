@@ -1,46 +1,37 @@
-# Trust Center — Security, Compliance & Responsible AI (Coastal Alpine Tech)
+# Trust Center — Coastal Alpine Tech
 
-**Public-facing page for customers, partners, investors, and regulators.**
+**Public-facing posture for customers, partners, investors, and regulators.**  
+**Updated:** 14 September 2026  
+**Status:** Pre-seed. Design targets and published controls — not a certification, audit opinion, or Crown endorsement.
 
-**Last Updated**: July 2026 (pre-seed design targets)
+## Our commitment
 
-## Our Commitment
-Coastal Alpine Tech builds **sovereign edge AI Infrastructure** that is trustworthy by design: offline-first, fail-closed, HITL-enforced, and aligned with Te Mana Raraunga and New Zealand frameworks. We treat data as taonga and human oversight as non-negotiable.
+Coastal Alpine Tech builds sovereign, local-first edge AI that is trustworthy by design: fail-closed defaults, hard Human-in-the-Loop, and alignment with Te Mana Raraunga and New Zealand frameworks. We treat data as taonga and human oversight as non-negotiable.
 
-## Current Controls & Artefacts (Design Targets)
+## Public posture
 
-### Security
-- SecurityGuard on every model path and high-impact action (injection defence, screening, tenant isolation)
-- STRIDE Threat Model for edge + multi-tenant + local-LLM surface
-- Phased Security & Compliance Roadmap to first pilot
-- Least-privilege design, fail-closed defaults, immutable audit where possible
+- **Security** — least privilege, fail-closed defaults, no silent exfiltration, owner-influenced credentials.
+- **Responsible AI & HITL** — agents inform, draft, prepare, monitor, and remind; humans advise, decide, sign, file, send, and pay.
+- **Data sovereignty** — local / NZ-resident processing preference; Te Mana Raraunga treated as an operating overlay where Māori or community data interests apply.
+- **Compliance** — designed for Privacy Act 2020 and Algorithm Charter spirit; SOC 2 and ISO/IEC 42001 are alignment targets, not claimed certifications unless a published report exists.
+- **Transparency** — stage-honest public docs; this Trust Center is a living posture page.
 
-### Responsible AI & HITL
-- Hard human-in-the-loop gates (L0–L4) with explicit approval for high-impact actions
-- aether-nz-ai-safety hardened guidelines (risk-tiered, culturally safe, continuous assurance)
-- Agent Constitution (what the system will and will not do)
-- Red teaming and adversarial testing programme
+Threat models, control inventories, skill names, gate matrices, and private compliance paths stay commercial-track or private.
 
-### Data Sovereignty & Cultural Safety
-- Local / NZ-resident processing by default
-- Te Mana Raraunga operational controls via aether-data-sovereignty
-- Cultural Advisory interface in governance
-- Explicit consent graphs and purpose limitation
+## Current status
 
-### Compliance Mapping
-- NZ Privacy Act 2020, Algorithm Charter, Public Service AI Framework
-- Emerging global: EU AI Act Annex III alignment, ISO 42001 self-assessment readiness
-- Full details in `.github/compliance/NZ_AI_FRAMEWORKS_ALIGNMENT.md`
+Pre-seed. External audit, formal certification, and large-scale deployment claims are future milestones gated on pilots and commercial traction.
 
-### Transparency
-- Open documentation of architecture, threat models, and governance
-- Audit trails for gated actions
-- This Trust Center (living document)
+## Contact
 
-## Current Status
-Pre-seed. All controls above are design targets or early implementation. External audit, formal certification (e.g., SOC 2, ISO 42001), and large-scale deployment claims are future milestones gated on pilots and commercial traction.
-
-## Contact for Security / Compliance Matters
-fivepanelhat@gmail.com | Taranaki, Aotearoa New Zealand
+fivepanelhat@gmail.com · Taranaki, Aotearoa New Zealand
 
 **Trust is earned through transparent controls, not marketing claims.** We publish what we have and are honest about what is still in progress.
+
+## Related public pages
+
+- [Safe NZ AI](./SAFE_NZ_AI.md)  
+- [Governance](./GOVERNANCE.md)  
+- [HITL Gateway](./HITL_GATEWAY.md)  
+- [Compliance](./COMPLIANCE.md)  
+- [CAT Sovereign Governance Layer](./docs/public/cat-sovereign-governance-layer.md)
