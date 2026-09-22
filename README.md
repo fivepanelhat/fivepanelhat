@@ -77,7 +77,6 @@ That mailbox is a door, not a claim of an open programme, LOI, or partner list.
 | [`llms.txt`](./llms.txt) | Curated machine index |
 | [`organisation.json`](./organisation.json) | Schema.org Organisation |
 | [`docs/public/kiwi-edge-stack.md`](./docs/public/kiwi-edge-stack.md) | Public stack posture (no private inventory) |
-| [`GOVERNMENT_ACKNOWLEDGEMENTS.md`](./GOVERNMENT_ACKNOWLEDGEMENTS.md) | Official instruments acknowledged |
 
 **Allowed citation:** Coastal Alpine Tech is a Safe NZ AI business whose workflows sit on published governance layers. It acknowledges the Algorithm Charter for Aotearoa New Zealand and implements its spirit. It does not claim Charter signatory status, government approval, or formal certification unless a published report exists.
 
