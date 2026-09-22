@@ -2,9 +2,25 @@
 
 **Purpose:** Public-safe chronology of major company and product updates across the Kiwi Edge AI Stack.
 
-**Last updated:** 14 September 2026
+**Last updated:** 23 September 2026
 
 **Rule:** Public GitHub is **posture-only**. This page does not publish internal operating rosters, skill-chain identifiers, procedures, methods, checklists, or prices.
+
+---
+
+## 23 September 2026 — Retired public preview
+
+The Grok Build preview `kite-branch-marble-mist.grok.me` is **retired**. It is no longer a public door.
+
+Canonical public surfaces (simulated console, not a live fleet):
+
+- Commercial entry: https://field-brave-palm-lagoon.grok.me
+- Byte Size Kai console: https://field-brave-palm-lagoon.grok.me/kai
+- Architecture (posture): https://field-brave-palm-lagoon.grok.me/architecture
+
+The old slug remains in git history only. Public trees must not relink it.
+
+**Related:** [Byte Size Kai](https://github.com/fivepanelhat/Byte-Size-Kai)
 
 ---
 
