@@ -9,7 +9,7 @@
 
 ![Coastal Alpine Tech](./assets/social_preview.png)
 
-**Coastal Alpine Tech Limited** — pre-seed, Taranaki, Aotearoa New Zealand.
+**Coastal Alpine Tech Limited** - pre-seed, Taranaki, Aotearoa New Zealand.
 
 We build Safe NZ AI: local-first edge software where agents draft and humans decide. “Safe NZ AI” is how we describe that work.
 
