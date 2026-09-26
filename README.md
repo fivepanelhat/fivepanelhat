@@ -47,7 +47,7 @@ Public GitHub is **posture-only**. Methods, scored packs, prices, partner approa
 **Coastal Alpine Tech** is the portfolio and governance front door for Safe NZ AI — sovereign hybrid edge systems for primary industries, founders, and high-stakes New Zealand operations.
 
 1. **Data sovereignty gap** — Sensitive operational, financial, legal and personal data from farms, councils, Iwi and frontline services is routinely sent to offshore public LLM APIs; many NZ operators need local-first custody aligned with Privacy Act 2020 and Te Mana Raraunga.
-2. **Unsafe autonomy claims** — Generic agent products over-promise full autonomy; high-stakes NZ contexts require hard Human-in-the-Loop so agents draft and humans decide.
+2. **Unsafe autonomy claims** — Generic agent products over-promise full autonomy; high-stakes NZ contexts require hard Human-in-the-Loop so agents draft and humans decide safely.
 3. **Fragmented founder tooling** — NZ incorporation, compliance and sensitive workflows are split across offshore SaaS that does not encode local jurisdiction or cultural safety.
 4. **Primary-sector productivity under constraint** — Rural and edge operators need offline-capable intelligence without surrendering data or paying perpetual cloud tolls.
 5. **Governance theatre vs architecture** — “Responsible AI” statements without enforceable layers leave agencies, Iwi, and EDAs without a credible secure and private NZ-native option.
