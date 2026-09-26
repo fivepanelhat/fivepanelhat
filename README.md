@@ -1,4 +1,4 @@
-# Coastal Alpine Tech — Safe NZ AI
+# Coastal Alpine Tech - Safe NZ AI
 
 [![Safe NZ AI](https://img.shields.io/badge/Safe%20NZ%20AI-Operating%20description-8B5CF6)](./SAFE_NZ_AI.md)
 [![Status](https://img.shields.io/badge/Status-Pre--seed%20%2F%20early%20field%20tests-0f766e)](./docs/UPDATES.md)
@@ -11,7 +11,7 @@
 
 **Coastal Alpine Tech Limited** — pre-seed, Taranaki, Aotearoa New Zealand.
 
-We build Safe NZ AI: local-first edge software where agents draft and humans decide. “Safe NZ AI” is how we describe that work — not a government badge, Algorithm Charter signatory status, or a certification.
+We build Safe NZ AI: local-first edge software where agents draft and humans decide. “Safe NZ AI” is how we describe that work.
 
 **Agents inform, draft, prepare, monitor, and remind. Humans advise, sign, file, send, and pay.**
 
@@ -44,30 +44,30 @@ One forest-glass UI across the public Grok Build entry.
 
 ## Problems we are solving
 
-**Coastal Alpine Tech** is the portfolio and governance front door for Safe NZ AI — sovereign hybrid edge systems for primary industries, founders, and high-stakes Kiwi operations.
+**Coastal Alpine Tech** is the portfolio and governance front door for Safe NZ AI — sovereign hybrid edge systems for primary industries, founders, and high-stakes New Zealand operations.
 
-1. **Data sovereignty gap** — Operational and personal data from farms, councils, and frontline services is routinely sent to offshore public LLM APIs; many NZ operators need local-first custody aligned with Privacy Act 2020 and Te Mana Raraunga.
+1. **Data sovereignty gap** — Sensitive operational, financial, legal and personal data from farms, councils, Iwi and frontline services is routinely sent to offshore public LLM APIs; many NZ operators need local-first custody aligned with Privacy Act 2020 and Te Mana Raraunga.
 2. **Unsafe autonomy claims** — Generic agent products over-promise full autonomy; high-stakes NZ contexts require hard Human-in-the-Loop so agents draft and humans decide.
-3. **Fragmented founder tooling** — NZ incorporation, compliance, and early funding workflows are split across offshore SaaS that does not encode local jurisdiction or cultural safety.
-4. **Primary-sector productivity under constraint** — Rural and edge operators need offline-capable intelligence (crop, consent, biosecurity, helpdesk) without surrendering data or paying perpetual cloud tolls.
-5. **Governance theatre vs architecture** — “Responsible AI” statements without enforceable layers (HITL gates, local-first defaults, no silent exfil) leave agencies, iwi, and EDAs without a credible NZ-native option.
+3. **Fragmented founder tooling** — NZ incorporation, compliance and sensitive workflows are split across offshore SaaS that does not encode local jurisdiction or cultural safety.
+4. **Primary-sector productivity under constraint** — Rural and edge operators need offline-capable intelligence without surrendering data or paying perpetual cloud tolls.
+5. **Governance theatre vs architecture** — “Responsible AI” statements without enforceable layers leave agencies, Iwi, and EDAs without a credible secure and private NZ-native option.
 
 ## Solution we are building
 
 | Layer / product | What it does | Public posture |
 | :--- | :--- | :--- |
 | **CAT Sovereign Governance Layer** | Due diligence, NZ AI instruments, Te Mana Raraunga overlay, HITL as architecture | [SAFE_NZ_AI.md](./SAFE_NZ_AI.md) · [governance layer](./docs/public/cat-sovereign-governance-layer.md) |
-| **SprintIT / MintIT** | Diagnostic readiness pass → skill chains, harness, and agent fleet delivery | Commercial entry · methods private |
+| **SprintIT / MintIT** | Diagnostic readiness pass → customised skill chains, harness, and agent fleet delivery | Commercial entry · methods private |
 | **Byte Size Kai** | Crop intelligence product (agritech P0) | [Repo](https://github.com/fivepanelhat/Byte-Size-Kai) · pilot/tests context only |
-| **Weaver Agents** | Multi-tenant edge mesh + local RAG helpdesk | Commercial / private deployment capability |
-| **Aether Agents** | Sovereign agentic orchestrator + companion skills + HITL | Commercial / private |
-| **Founder OS (NZ-Start-Up)** | Jurisdiction-native path from formation through early funding | Portfolio map only on public GitHub |
+| **Weaver Agents** | Multi-tenant edge mesh + local RAG customised helpdesk | Commercial / private deployment capability |
+| **Aether Agents** | Sovereign agentic orchestrator + specialised skill chains + HITL | Commercial / private |
+| **Founder OS (NZ-Start-Up)** | Jurisdiction-native agents from company formation through early funding | Portfolio map only on public GitHub |
 
 **Hardware class (posture):** Raspberry Pi–class edge compute with optional NPU acceleration. Exact BOMs stay private.
 
 **Policy:** Agents **inform / draft / prepare / monitor / remind**. Humans **advise / sign / file / send / pay**.
 
-### Local (Taranaki) and national (Aotearoa) economic benefits
+### Local (Taranaki) and national (Aotearoa) economic benefits - 
 
 | Lever | Benefit |
 | :--- | :--- |
@@ -76,7 +76,7 @@ One forest-glass UI across the public Grok Build entry.
 | **Skilled employment pathways** | Edge install, field support, agritech ops, software, compliance, and cultural advisory roles as pilots scale |
 | **Data sovereignty** | Te Mana Raraunga-aligned local custody keeps high-value operational data onshore |
 | **HITL jobs quality** | Agents augment people; they do not fake full autonomy — quality of work rises with human judgment in the loop |
-| **Founder infrastructure** | NZ-native formation-to-funding tooling reduces leakage of early-stage capability and capital offshore |
+| **Founder infrastructure** | NZ-native agentic start-up tooling, reduces friction and supports founders and start-ups from pre-seed to exit.
 
 **Stage honesty (pre-seed):** Impact today is founder R&D, near-term contractors, and EDA/partner leverage. Permanent multi-region payroll follows paid pilots and revenue — we do not invent headcount or GDP claims.
 
@@ -108,10 +108,10 @@ Private, revenue-facing services built on the Coastal Alpine Tech stack. Methods
 
 | Product | What it is | Status |
 | --- | --- | --- |
-| **Weaver Agents** | Multi-tenant AI helpdesk platform for enterprise *deployment capability* | Private / commercial |
-| **Aether Agents** | Managed deployment of the sovereign agentic development orchestrator | Private / commercial |
-| **SprintIT** | Diagnostic pass: gaps, upgrade opportunities, and optimisation targets in a client's existing systems | Private / commercial |
-| **MintIT** | Planning, building, executing, and integrating the resulting skill chains, harness, and agent fleet | Private / commercial |
+| **Weaver Agents** | Multi-tenant AI helpdesk platform for enterprise *deployment capability* | Private / Commercial |
+| **Aether Agents** | Managed deployment of the sovereign agentic development orchestrator | Private / Commercial |
+| **SprintIT** | Diagnostic pass: gaps, upgrade opportunities, and optimisation targets in a client's existing systems | Private / Commercial |
+| **MintIT** | Planning, building, executing, and integrating the resulting skill chains, harness, and agent fleet | Private / Commercial |
 
 SprintIT and MintIT are distinct passes and may be engaged separately or in sequence. Prices and methods stay off this surface.
 
@@ -129,7 +129,7 @@ That mailbox is a door, not a claim of an open programme, LOI, or partner list.
 | [`organisation.json`](./organisation.json) | Schema.org Organisation |
 | [`docs/public/kiwi-edge-stack.md`](./docs/public/kiwi-edge-stack.md) | Public stack posture (no private inventory) |
 
-**Allowed citation:** Coastal Alpine Tech is a Safe NZ AI business whose workflows sit on published governance layers. It acknowledges the Algorithm Charter for Aotearoa New Zealand and implements its spirit. It does not claim Charter signatory status, government approval, or formal certification unless a published report exists.
+**Allowed citation:** Coastal Alpine Tech is a Safe NZ AI business whose workflows sit on published governance layers. It acknowledges the Algorithm Charter for Aotearoa New Zealand and implements it's spirit. It does not claim Charter signatory status, government approval, or formal certification unless a published report exists.
 
 ---
 
