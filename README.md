@@ -40,6 +40,58 @@ One forest-glass UI across the public Grok Build entry.
 | Incorporation (28 Aug 2026) | [docs/UPDATES.md](./docs/UPDATES.md#28-august-2026--incorporation) |
 | Full chronology | [docs/UPDATES.md](./docs/UPDATES.md) |
 
+---
+
+## Problems we are solving
+
+**Coastal Alpine Tech** is the portfolio and governance front door for Safe NZ AI — sovereign hybrid edge systems for primary industries, founders, and high-stakes Kiwi operations.
+
+1. **Data sovereignty gap** — Operational and personal data from farms, councils, and frontline services is routinely sent to offshore public LLM APIs; many NZ operators need local-first custody aligned with Privacy Act 2020 and Te Mana Raraunga.
+2. **Unsafe autonomy claims** — Generic agent products over-promise full autonomy; high-stakes NZ contexts require hard Human-in-the-Loop so agents draft and humans decide.
+3. **Fragmented founder tooling** — NZ incorporation, compliance, and early funding workflows are split across offshore SaaS that does not encode local jurisdiction or cultural safety.
+4. **Primary-sector productivity under constraint** — Rural and edge operators need offline-capable intelligence (crop, consent, biosecurity, helpdesk) without surrendering data or paying perpetual cloud tolls.
+5. **Governance theatre vs architecture** — “Responsible AI” statements without enforceable layers (HITL gates, local-first defaults, no silent exfil) leave agencies, iwi, and EDAs without a credible NZ-native option.
+
+## Solution we are building
+
+| Layer / product | What it does | Public posture |
+| :--- | :--- | :--- |
+| **CAT Sovereign Governance Layer** | Due diligence, NZ AI instruments, Te Mana Raraunga overlay, HITL as architecture | [SAFE_NZ_AI.md](./SAFE_NZ_AI.md) · [governance layer](./docs/public/cat-sovereign-governance-layer.md) |
+| **SprintIT / MintIT** | Diagnostic readiness pass → skill chains, harness, and agent fleet delivery | Commercial entry · methods private |
+| **Byte Size Kai** | Crop intelligence product (agritech P0) | [Repo](https://github.com/fivepanelhat/Byte-Size-Kai) · pilot/tests context only |
+| **Weaver Agents** | Multi-tenant edge mesh + local RAG helpdesk | Commercial / private deployment capability |
+| **Aether Agents** | Sovereign agentic orchestrator + companion skills + HITL | Commercial / private |
+| **Founder OS (NZ-Start-Up)** | Jurisdiction-native path from formation through early funding | Portfolio map only on public GitHub |
+
+**Hardware class (posture):** Raspberry Pi–class edge compute with optional NPU acceleration. Exact BOMs stay private.
+
+**Policy:** Agents **inform / draft / prepare / monitor / remind**. Humans **advise / sign / file / send / pay**.
+
+### Local (Taranaki) and national (Aotearoa) economic benefits
+
+| Lever | Benefit |
+| :--- | :--- |
+| **Regional R&D HQ** | Product design and IP stay in New Plymouth / Taranaki — not only Auckland or offshore SaaS hubs |
+| **Primary-sector productivity** | On-farm and rural tools aim to cut waste, protect consents, and support export competitiveness |
+| **Skilled employment pathways** | Edge install, field support, agritech ops, software, compliance, and cultural advisory roles as pilots scale |
+| **Data sovereignty** | Te Mana Raraunga-aligned local custody keeps high-value operational data onshore |
+| **HITL jobs quality** | Agents augment people; they do not fake full autonomy — quality of work rises with human judgment in the loop |
+| **Founder infrastructure** | NZ-native formation-to-funding tooling reduces leakage of early-stage capability and capital offshore |
+
+**Stage honesty (pre-seed):** Impact today is founder R&D, near-term contractors, and EDA/partner leverage. Permanent multi-region payroll follows paid pilots and revenue — we do not invent headcount or GDP claims.
+
+---
+
+## The 5 Ws: Project Context
+
+- **Who:** Coastal Alpine Tech Limited (pre-seed), New Plymouth / Taranaki; designed for NZ primary industries, founders, agencies, and high-stakes operators who need sovereign edge AI.
+- **What:** A Safe NZ AI portfolio — governance layer, commercial entry (SprintIT/MintIT), agritech intent (Byte Size Kai), multi-tenant edge mesh (Weaver), agentic orchestrator (Aether), and Founder OS — where agents draft and humans decide.
+- **Where:** Engineered at HQ in New Plymouth, Taranaki, Aotearoa New Zealand. Edge-deployable; public GitHub is posture-only.
+- **When:** Incorporated 28 August 2026; active pre-seed development and early field tests as of September 2026.
+- **Why:** To give Aotearoa a credible local-first alternative to offshore LLM dependency — Privacy Act 2020, Algorithm Charter spirit, Te Mana Raraunga, and hard HITL built into the architecture, not bolted on as marketing.
+
+---
+
 ## Public product intent
 
 | Layer | Surface | Status | Note |
@@ -49,8 +101,6 @@ One forest-glass UI across the public Grok Build entry.
 | **Governance** | [SAFE_NZ_AI.md](./SAFE_NZ_AI.md) | Operating description | Safe NZ AI operating description |
 
 Platform components, Founder OS internals, companion runtimes, and domain portals remain on the **commercial / private** track under written agreement.
-
-**Hardware class (posture):** Raspberry Pi–class edge compute with optional NPU acceleration. Exact BOMs stay private.
 
 ## Commercial products
 
