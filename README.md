@@ -21,7 +21,7 @@ Public GitHub is **posture-only**. Methods, scored packs, prices, partner approa
 
 ## Public surfaces
 
-One forest-glass UI across the public Grok Build entry.
+
 
 | Surface | URL |
 | --- | --- |
