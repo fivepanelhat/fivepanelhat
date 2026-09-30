@@ -1,0 +1,11 @@
+/* TEAM */
+Founder: Wayne Roberts
+Company: Coastal Alpine Tech Limited
+Place: Taranaki, Aotearoa New Zealand
+Contact: fivepanelhat@gmail.com
+GitHub: https://github.com/fivepanelhat
+
+/* SITE */
+Last update: 2026-09-30
+Standards: Privacy Act 2020 spirit, Te Mana Raraunga principles, HITL autonomy ceiling
+Language: en-NZ
