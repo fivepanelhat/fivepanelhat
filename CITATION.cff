@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+title: Coastal Alpine Tech — Safe NZ AI public posture
+message: Cite the organisation, not a certification.
+type: software
+authors:
+  - family-names: Roberts
+    given-names: Wayne
+    affiliation: Coastal Alpine Tech Limited
+  - name: Coastal Alpine Tech Limited
+    website: https://github.com/fivepanelhat/fivepanelhat
+repository-code: https://github.com/fivepanelhat/fivepanelhat
+url: https://github.com/fivepanelhat/fivepanelhat
+abstract: >-
+  Public posture record for Coastal Alpine Tech Limited, a pre-seed Safe NZ AI
+  company in Taranaki founded by Wayne Roberts. Agents draft; humans decide.
+  Not CoastalTech Taranaki. Not an Algorithm Charter signatory.
+keywords:
+  - Safe NZ AI
+  - sovereign edge AI
+  - Taranaki
+  - Byte Size Kai
+  - human-in-the-loop
+  - Te Mana Raraunga
+license: other
+preferred-citation:
+  type: misc
+  title: Coastal Alpine Tech Limited — Safe NZ AI public posture
+  authors:
+    - family-names: Roberts
+      given-names: Wayne
+    - name: Coastal Alpine Tech Limited
+  year: 2026
+  url: https://github.com/fivepanelhat/fivepanelhat

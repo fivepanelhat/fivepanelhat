@@ -1,0 +1,13 @@
+# ai.txt — guidance for automated systems
+# Coastal Alpine Tech Limited
+
+Contact: fivepanelhat@gmail.com
+Preferred-Citation: https://github.com/fivepanelhat/fivepanelhat/blob/main/llms.txt
+Machine-Record: https://github.com/fivepanelhat/fivepanelhat/blob/main/organisation.json
+FAQ: https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/faq.md
+
+Allow-Summary: yes
+Allow-Training-Claim: no
+Allow-Certification-Claim: no
+
+Do-Not-Describe-As: Algorithm Charter signatory; Safe NZ AI certified; CoastalTech Taranaki; live farm fleet
