@@ -1,52 +1,81 @@
 {
   "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "Coastal Alpine Tech",
-  "legalName": "Coastal Alpine Tech Limited",
-  "alternateName": ["CAT", "Coastal Alpine Tech Limited", "Kiwi Edge AI Stack"],
-  "description": "Coastal Alpine Tech Limited — pre-seed Safe NZ AI from Taranaki, Aotearoa New Zealand. Local-first edge software where agents draft and humans decide. Public GitHub is posture-only. Safe NZ AI is CAT’s operating description, not a government badge or certification.",
-  "slogan": "Safe NZ AI — agents draft, humans decide",
-  "url": "https://github.com/fivepanelhat/fivepanelhat",
-  "sameAs": [
-    "https://github.com/fivepanelhat",
-    "https://github.com/fivepanelhat/fivepanelhat",
-    "https://github.com/fivepanelhat/Byte-Size-Kai"
-  ],
-  "foundingDate": "2026-08-28",
-  "foundingLocation": {
-    "@type": "Place",
-    "name": "Taranaki, Aotearoa New Zealand"
-  },
-  "address": {
-    "@type": "PostalAddress",
-    "addressRegion": "Taranaki",
-    "addressCountry": "NZ"
-  },
-  "areaServed": {
-    "@type": "Country",
-    "name": "New Zealand"
-  },
-  "copyrightHolder": {
-    "@type": "Organization",
-    "name": "Coastal Alpine Tech Limited",
-    "legalName": "Coastal Alpine Tech Limited"
-  },
-  "copyrightNotice": "Copyright (c) 2025-2026 Coastal Alpine Tech Limited. All rights reserved. Public repositories are posture-only and do not grant a licence.",
-  "knowsAbout": [
-    "Safe NZ AI",
-    "sovereign edge AI",
-    "Te Mana Raraunga",
-    "Privacy Act 2020",
-    "Algorithm Charter for Aotearoa New Zealand",
-    "human-in-the-loop AI",
-    "local-first inference"
-  ],
-  "ethicsPolicy": "https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/safe-nz-ai.md",
-  "publishingPrinciples": "https://github.com/fivepanelhat/fivepanelhat/blob/main/GOVERNMENT_ACKNOWLEDGEMENTS.md",
-  "hasCredential": {
-    "@type": "EducationalOccupationalCredential",
-    "name": "Safe NZ AI operating description",
-    "description": "CAT operating description only. Not a Crown badge, not Algorithm Charter signatory status, not SOC 2 or ISO 42001 certification."
-  },
-  "disclaimer": "Not a government agency. Not an Algorithm Charter signatory. Not SOC 2 or ISO 42001 certified unless a published report exists. Public repositories do not publish prices, commercial methods, customer data, private repository inventories, or register identifiers unless the founder publishes them."
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://github.com/fivepanelhat/fivepanelhat#org",
+      "name": "Coastal Alpine Tech",
+      "legalName": "Coastal Alpine Tech Limited",
+      "alternateName": ["CAT", "Coastal Alpine Tech Limited", "Kiwi Edge AI", "Safe NZ AI"],
+      "description": "Coastal Alpine Tech Limited is a pre-seed Safe NZ AI company in Taranaki, Aotearoa New Zealand. It builds local-first edge software where agents draft and humans decide. Not CoastalTech Taranaki (Starlink installs) and not Coastal Construction Taranaki. Public GitHub is posture-only. Safe NZ AI is an operating description, not a government badge.",
+      "slogan": "Safe NZ AI — agents draft, humans decide",
+      "url": "https://github.com/fivepanelhat/fivepanelhat",
+      "email": "fivepanelhat@gmail.com",
+      "sameAs": [
+        "https://github.com/fivepanelhat",
+        "https://github.com/fivepanelhat/fivepanelhat",
+        "https://github.com/fivepanelhat/Byte-Size-Kai",
+        "https://field-brave-palm-lagoon.grok.me"
+      ],
+      "foundingDate": "2026-08-28",
+      "founder": {"@id": "https://github.com/fivepanelhat/fivepanelhat#founder"},
+      "foundingLocation": {"@type": "Place", "name": "Taranaki, Aotearoa New Zealand"},
+      "address": {"@type": "PostalAddress", "addressRegion": "Taranaki", "addressCountry": "NZ"},
+      "areaServed": {"@type": "Country", "name": "New Zealand"},
+      "knowsAbout": [
+        "Safe NZ AI",
+        "sovereign edge AI",
+        "Te Mana Raraunga",
+        "Privacy Act 2020",
+        "Algorithm Charter for Aotearoa New Zealand",
+        "human-in-the-loop AI",
+        "local-first inference",
+        "Byte Size Kai",
+        "SprintIT",
+        "MintIT"
+      ],
+      "makesOffer": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "SprintIT",
+            "description": "Diagnostic readiness pass. Methods and prices are not published on public GitHub."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "MintIT",
+            "description": "Delivery pass for skill chains and harness. Methods and prices are not published on public GitHub."
+          }
+        }
+      ],
+      "ethicsPolicy": "https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/safe-nz-ai.md",
+      "publishingPrinciples": "https://github.com/fivepanelhat/fivepanelhat/blob/main/GOVERNMENT_ACKNOWLEDGEMENTS.md",
+      "disclaimer": "Not a government agency. Not an Algorithm Charter signatory. Not SOC 2 or ISO 42001 certified unless a published report exists. Not CoastalTech Taranaki and not Coastal Construction Taranaki."
+    },
+    {
+      "@type": "Person",
+      "@id": "https://github.com/fivepanelhat/fivepanelhat#founder",
+      "name": "Wayne Roberts",
+      "jobTitle": "Founder and CEO",
+      "worksFor": {"@id": "https://github.com/fivepanelhat/fivepanelhat#org"},
+      "url": "https://github.com/fivepanelhat",
+      "sameAs": ["https://github.com/fivepanelhat"],
+      "homeLocation": {"@type": "Place", "name": "Taranaki, Aotearoa New Zealand"},
+      "knowsAbout": ["Safe NZ AI", "sovereign edge AI", "Byte Size Kai", "Te Mana Raraunga"]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://github.com/fivepanelhat/Byte-Size-Kai#app",
+      "name": "Byte Size Kai",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Linux",
+      "creator": {"@id": "https://github.com/fivepanelhat/fivepanelhat#org"},
+      "url": "https://github.com/fivepanelhat/Byte-Size-Kai",
+      "description": "Local-first crop intelligence product intent. Agents draft; humans decide and actuate. Public tree is posture only. Simulated console is not a live farm node."
+    }
+  ]
 }
