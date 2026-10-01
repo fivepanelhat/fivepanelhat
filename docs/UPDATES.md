@@ -2,9 +2,17 @@
 
 **Purpose:** Public-safe chronology of major company and product updates across the Kiwi Edge AI Stack.
 
-**Last updated:** 23 September 2026
+**Last updated:** 1 October 2026
 
 **Rule:** Public GitHub is **posture-only**. This page does not publish internal operating rosters, skill-chain identifiers, procedures, methods, checklists, or prices.
+
+---
+
+## 1 October 2026 — Skills count (posture)
+
+Public skills posture now states **116 named, versioned skills**. The figure replaces earlier public counts. Names, chains, and procedure bodies stay on the private harness.
+
+**Related:** [Skills](public/skills.md) · [Harness](public/harness.md)
 
 ---
 
