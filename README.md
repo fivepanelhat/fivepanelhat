@@ -33,6 +33,7 @@ Public GitHub is **posture-only**. Methods, scored packs, prices, partner approa
 
 | Update | Link |
 |--------|------|
+| Skills count posture (1 Oct 2026) | [docs/UPDATES.md](./docs/UPDATES.md#1-october-2026--skills-count-posture) · [skills](./docs/public/skills.md) |
 | Retired marble-mist preview (23 Sep 2026) | [docs/UPDATES.md](./docs/UPDATES.md#23-september-2026--retired-public-preview) |
 | Public moat hygiene (14 Sep 2026) | [docs/UPDATES.md](./docs/UPDATES.md#14-september-2026--public-moat-hygiene) |
 | Skills and harness posture (1 Sep 2026) | [docs/UPDATES.md](./docs/UPDATES.md#1-september-2026--skills-and-harness-posture) · [skills](./docs/public/skills.md) · [harness](./docs/public/harness.md) |
