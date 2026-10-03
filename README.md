@@ -33,6 +33,7 @@ Public GitHub is **posture-only**. Methods, scored packs, prices, partner approa
 
 | Update | Link |
 |--------|------|
+| Evidence ledger posture (4 Oct 2026) | [docs/UPDATES.md](./docs/UPDATES.md#4-october-2026--evidence-ledger-posture) · [harness](./docs/public/harness.md) |
 | Skills count posture (1 Oct 2026) | [docs/UPDATES.md](./docs/UPDATES.md#1-october-2026--skills-count-posture) · [skills](./docs/public/skills.md) |
 | Retired marble-mist preview (23 Sep 2026) | [docs/UPDATES.md](./docs/UPDATES.md#23-september-2026--retired-public-preview) |
 | Public moat hygiene (14 Sep 2026) | [docs/UPDATES.md](./docs/UPDATES.md#14-september-2026--public-moat-hygiene) |
@@ -77,7 +78,7 @@ Public GitHub is **posture-only**. Methods, scored packs, prices, partner approa
 | **Skilled employment pathways** | Edge install, field support, agritech ops, software, compliance, and cultural advisory roles as pilots scale |
 | **Data sovereignty** | Te Mana Raraunga-aligned local custody keeps high-value operational data onshore |
 | **HITL jobs quality** | Agents augment people; they do not fake full autonomy — quality of work rises with human judgment in the loop |
-| **Founder infrastructure** | NZ-native agentic start-up tooling, reduces friction and supports founders and start-ups from pre-seed to exit.
+| **Founder infrastructure** | NZ-native agentic start-up tooling, reduces friction and supports founders and start-ups from pre-seed to exit. |
 
 **Stage honesty (pre-seed):** Impact today is founder R&D, near-term contractors, and EDA/partner leverage. Permanent multi-region payroll follows paid pilots and revenue — we do not invent headcount or GDP claims.
 
