@@ -20,6 +20,12 @@ GitHub stars, forks, contributors, downloads, and community pull requests are no
 
 ---
 
+## 4 October 2026 — One architecture
+
+Public names reduce to three: Coastal Alpine Tech Limited, the CAT Sovereign Governance Layer, and Byte Size Kai. Safe NZ AI, Sprintit, MintIT, Kiwi Edge, and Founder OS stay as aliases, not extra products. Diagram: [Architecture](public/ARCHITECTURE.md).
+
+---
+
 ## 4 October 2026 — Evidence ledger (posture)
 
 The private CAT Agent Harness now carries an evidence ledger. The public band is **100 claim rows**. Each row is a policy stub: a claim, a test, a result, a date, and a reproduce line.

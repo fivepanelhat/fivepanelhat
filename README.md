@@ -17,7 +17,7 @@ We build Safe NZ AI: local-first edge software where agents draft and humans dec
 
 **[SAFE_NZ_AI.md](./SAFE_NZ_AI.md)** · **[CAT Sovereign Governance Layer](./docs/public/cat-sovereign-governance-layer.md)** · **[Trust Center](./TRUST_CENTER.md)** · **[UPDATES.md](./docs/UPDATES.md)**
 
-Public GitHub is **posture-only**. Methods, scored packs, prices, partner approaches, internal operating rosters, skill catalogues, and private repository inventories stay off this surface.
+Public GitHub is **posture-only**. One company, one governance layer, one public prototype: [Architecture](./docs/public/ARCHITECTURE.md). Methods, scored packs, prices, partner approaches, internal operating rosters, skill catalogues, and private repository inventories stay off this surface.
 
 ## Public surfaces
 
