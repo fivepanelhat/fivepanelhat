@@ -8,6 +8,12 @@
 
 ---
 
+## 4 October 2026 — Component status labels
+
+Each major component now has one maturity label: Production, Pilot, Prototype, Architecture, or Commercial/private. Nothing is labelled Production or Pilot. The table is [COMPONENT_STATUS.md](../COMPONENT_STATUS.md).
+
+---
+
 ## 4 October 2026 — Evidence ledger (posture)
 
 The private CAT Agent Harness now carries an evidence ledger. The public band is **100 claim rows**. Each row is a policy stub: a claim, a test, a result, a date, and a reproduce line.
