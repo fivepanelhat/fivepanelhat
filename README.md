@@ -1,7 +1,7 @@
 # Coastal Alpine Tech - Safe NZ AI
 
 [![Safe NZ AI](https://img.shields.io/badge/Safe%20NZ%20AI-Operating%20description-8B5CF6)](./SAFE_NZ_AI.md)
-[![Status](https://img.shields.io/badge/Status-Pre--seed%20%2F%20early%20field%20tests-0f766e)](./docs/UPDATES.md)
+[![Status](https://img.shields.io/badge/Status-Pre--seed%20%2F%20posture%20only-0f766e)](./docs/UPDATES.md)
 [![Privacy](https://img.shields.io/badge/Privacy-Local--first%20%2B%20Privacy%20Act%202020-00247D)](./COMPLIANCE.md)
 [![No data sold](https://img.shields.io/badge/Data-Not%20sold%20to%20third%20parties-0f766e)](./COMPLIANCE.md)
 [![Te Mana Raraunga](https://img.shields.io/badge/Te%20Mana%20Raraunga-In%20accordance-0f766e)](./SAFE_NZ_AI.md)
@@ -60,7 +60,7 @@ Public GitHub is **posture-only**. Methods, scored packs, prices, partner approa
 | :--- | :--- | :--- |
 | **CAT Sovereign Governance Layer** | Due diligence, NZ AI instruments, Te Mana Raraunga overlay, HITL as architecture | [SAFE_NZ_AI.md](./SAFE_NZ_AI.md) · [governance layer](./docs/public/cat-sovereign-governance-layer.md) |
 | **SprintIT / MintIT** | Diagnostic readiness pass → customised skill chains, harness, and agent fleet delivery | Commercial entry · methods private |
-| **Byte Size Kai** | Crop intelligence product (agritech P0) | [Repo](https://github.com/fivepanelhat/Byte-Size-Kai) · pilot/tests context only |
+| **Byte Size Kai** | Crop intelligence product (agritech P0) | [Repo](https://github.com/fivepanelhat/Byte-Size-Kai) · prototype; no named pilot recorded |
 | **Weaver Agents** | Multi-tenant edge mesh + local RAG customised helpdesk | Commercial / private deployment capability |
 | **Aether Agents** | Sovereign agentic orchestrator + specialised skill chains + HITL | Commercial / private |
 | **Founder OS (NZ-Start-Up)** | Jurisdiction-native agents from company formation through early funding | Portfolio map only on public GitHub |
@@ -89,7 +89,7 @@ Public GitHub is **posture-only**. Methods, scored packs, prices, partner approa
 - **Who:** Coastal Alpine Tech Limited (pre-seed), New Plymouth / Taranaki; designed for NZ primary industries, founders, agencies, and high-stakes operators who need sovereign edge AI.
 - **What:** A Safe NZ AI portfolio — governance layer, commercial entry (SprintIT/MintIT), agritech intent (Byte Size Kai), multi-tenant edge mesh (Weaver), agentic orchestrator (Aether), and Founder OS — where agents draft and humans decide.
 - **Where:** Engineered at HQ in New Plymouth, Taranaki, Aotearoa New Zealand. Edge-deployable; public GitHub is posture-only.
-- **When:** Incorporated 28 August 2026; active pre-seed development and early field tests as of September 2026.
+- **When:** Incorporated 28 August 2026; active pre-seed development and posture only as of September 2026.
 - **Why:** To give Aotearoa a credible local-first alternative to offshore LLM dependency — Privacy Act 2020, Algorithm Charter spirit, Te Mana Raraunga, and hard HITL built into the architecture, not bolted on as marketing.
 
 ---
@@ -98,7 +98,7 @@ Public GitHub is **posture-only**. Methods, scored packs, prices, partner approa
 
 | Layer | Surface | Status | Note |
 |------|---------|--------|------|
-| **P0 agritech** | [Byte Size Kai](https://github.com/fivepanelhat/Byte-Size-Kai) | **Pre-seed / early field tests** | Horowhenua Mana Kai is **pilot / tests context only** — not a live fleet or iwi mandate |
+| **P0 agritech** | [Byte Size Kai](https://github.com/fivepanelhat/Byte-Size-Kai) | **Pre-seed / posture only** | Horowhenua Mana Kai is **pilot / tests context only** — not a live fleet or iwi mandate |
 | **Commercial entry** | [SprintIT](https://field-brave-palm-lagoon.grok.me/sprintit) | Pre-seed | Methods and prices private |
 | **Governance** | [SAFE_NZ_AI.md](./SAFE_NZ_AI.md) | Operating description | Safe NZ AI operating description |
 
