@@ -3,7 +3,6 @@
 
 from __future__ import annotations
 
-import re
 import sys
 from pathlib import Path
 
@@ -53,6 +52,7 @@ def main() -> None:
     root = Path(sys.argv[1] if len(sys.argv) > 1 else ".")
     status = root / "COMPONENT_STATUS.md"
     validation = root / "VALIDATION.md"
+    problems: list[str] = []
     if not validation.is_file():
         problems.append("VALIDATION.md missing")
     else:
@@ -61,7 +61,6 @@ def main() -> None:
             problems.append("VALIDATION.md missing the popularity denial")
         if "Not claimed" not in v:
             problems.append("VALIDATION.md must keep customer, pilot, and partnership as not claimed")
-    problems: list[str] = []
     if not status.is_file():
         problems.append("COMPONENT_STATUS.md missing")
     else:
