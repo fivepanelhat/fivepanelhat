@@ -14,6 +14,12 @@ Each major component now has one maturity label: Production, Pilot, Prototype, A
 
 ---
 
+## 4 October 2026 — Validation path
+
+GitHub stars, forks, contributors, downloads, and community pull requests are not validation. The portfolio is proprietary. The path that would count is a named pilot, a stored benchmark, a customer, a deployment reading, or a partnership. None of those is claimed. See [VALIDATION.md](../VALIDATION.md).
+
+---
+
 ## 4 October 2026 — Evidence ledger (posture)
 
 The private CAT Agent Harness now carries an evidence ledger. The public band is **100 claim rows**. Each row is a policy stub: a claim, a test, a result, a date, and a reproduce line.
