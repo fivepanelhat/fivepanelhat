@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="220" viewBox="0 0 920 220" role="img" aria-labelledby="title desc">
+  <title id="title">Coastal Alpine Tech architecture</title>
+  <desc id="desc">Three boxes: the company, the governance layer, and the Byte Size Kai prototype. No production or pilot claim.</desc>
+  <rect width="920" height="220" fill="#f7f6f3"/>
+  <g font-family="Georgia, serif" fill="#1c1917">
+    <rect x="20" y="50" width="260" height="120" rx="8" fill="#fff" stroke="#1c1917"/>
+    <text x="150" y="95" text-anchor="middle" font-size="16">Coastal Alpine Tech</text>
+    <text x="150" y="118" text-anchor="middle" font-size="14">Limited</text>
+    <text x="150" y="146" text-anchor="middle" font-size="13" fill="#57534e">Commercial/private</text>
+    <rect x="330" y="50" width="260" height="120" rx="8" fill="#fff" stroke="#1c1917"/>
+    <text x="460" y="95" text-anchor="middle" font-size="16">Sovereign Governance</text>
+    <text x="460" y="118" text-anchor="middle" font-size="14">Layer</text>
+    <text x="460" y="146" text-anchor="middle" font-size="13" fill="#57534e">Architecture</text>
+    <rect x="640" y="50" width="260" height="120" rx="8" fill="#fff" stroke="#1c1917"/>
+    <text x="770" y="106" text-anchor="middle" font-size="16">Byte Size Kai</text>
+    <text x="770" y="146" text-anchor="middle" font-size="13" fill="#57534e">Prototype</text>
+    <polygon points="280,110 330,110 330,104 348,110 330,116 330,110" fill="#1c1917"/>
+    <polygon points="590,110 640,110 640,104 658,110 640,116 640,110" fill="#1c1917"/>
+  </g>
+</svg>
