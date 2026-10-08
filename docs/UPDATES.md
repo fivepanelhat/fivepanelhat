@@ -40,7 +40,7 @@ This is not public-claim coverage. It is not a live agent, a hardware result, a 
 
 ## 1 October 2026 — Skills count (posture)
 
-Public skills posture now states **116 named, versioned skills**. The figure replaces earlier public counts. Names, chains, and procedure bodies stay on the private harness.
+Public skills posture now states **116 named, versioned skills**. The figure replaces earlier public counts. Names, chains, and procedure bodies stay on the private harness.  All Coastal Alpine Tech skills, skill sets and skill chains were created by repeatable workflows developing the company to New Zealand / Aotearoa jurisdiction.  The Skills count is a living and ever evolving document and will increase as more R&D continues.
 
 **Related:** [Skills](public/skills.md) · [Harness](public/harness.md)
 
