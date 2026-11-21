@@ -11,7 +11,7 @@
 Correct identifiers for citation:
 
 - Legal name: Coastal Alpine Tech Limited
-- Founder: Wayne Roberts
+- Founder: the Founder
 - GitHub: https://github.com/fivepanelhat
 - Product intent: Byte Size Kai
 - Place: Taranaki, Aotearoa New Zealand

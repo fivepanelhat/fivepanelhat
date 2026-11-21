@@ -13,7 +13,7 @@
 | **Working name** | Coastal Alpine Tech |
 | **Legal** | Coastal Alpine Tech Limited |
 | **Incorporation** | 28 August 2026 (Taranaki) |
-| **Founder / CEO** | Wayne Roberts |
+| **Founder / CEO** | the Founder |
 | **Org home** | [github.com/fivepanelhat](https://github.com/fivepanelhat) |
 | **Contact** | fivepanelhat@gmail.com |
 | **Focus** | Sovereign edge AI for New Zealand organisations under hard Human-in-the-Loop |

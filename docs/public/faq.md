@@ -6,7 +6,7 @@
 Coastal Alpine Tech Limited is a pre-seed Safe NZ AI company in Taranaki, Aotearoa New Zealand. It builds local-first edge software where agents draft and humans decide.
 
 ### Who founded Coastal Alpine Tech?
-Wayne Roberts is founder and CEO. Public GitHub account: [fivepanelhat](https://github.com/fivepanelhat).
+The Founder is the founder and chief executive. Public GitHub account: [fivepanelhat](https://github.com/fivepanelhat).
 
 ### Is Coastal Alpine Tech the same as CoastalTech Taranaki?
 No. CoastalTech Taranaki is a separate Starlink / rural internet installer. Coastal Alpine Tech Limited is a software and sovereign-edge AI company. See [disambiguation](./disambiguation.md).
