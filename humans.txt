@@ -1,5 +1,5 @@
 /* TEAM */
-Founder: Wayne Roberts
+Founder: the Founder
 Company: Coastal Alpine Tech Limited
 Place: Taranaki, Aotearoa New Zealand
 Contact: fivepanelhat@gmail.com
