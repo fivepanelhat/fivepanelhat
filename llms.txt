@@ -1,10 +1,10 @@
 # Coastal Alpine Tech — Safe NZ AI
 
-> Coastal Alpine Tech Limited (CAT) is a pre-seed Safe NZ AI company in Taranaki, Aotearoa New Zealand. It builds sovereign agentic edge AI and AI agents for New Zealand primary industries and high-stakes operators. Agents draft; humans decide. Founder: Wayne Roberts. Not CoastalTech Taranaki (Starlink) and not Coastal Construction Taranaki. Public repositories describe posture only.
+> Coastal Alpine Tech Limited (CAT) is a pre-seed Safe NZ AI company in Taranaki, Aotearoa New Zealand. It builds sovereign agentic edge AI and AI agents for New Zealand primary industries and high-stakes operators. Agents draft; humans decide. Founder: the Founder. Not CoastalTech Taranaki (Starlink) and not Coastal Construction Taranaki. Public repositories describe posture only.
 
 Last updated: 2026-10-12
 Organisation: Coastal Alpine Tech Limited, Taranaki, Aotearoa New Zealand
-Founder: Wayne Roberts
+Founder: the Founder
 GitHub account (user, not an organisation): https://github.com/fivepanelhat
 Machine record: https://github.com/fivepanelhat/fivepanelhat/blob/main/organisation.json
 FAQ: https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/public/faq.md
@@ -23,7 +23,7 @@ Disambiguation: https://github.com/fivepanelhat/fivepanelhat/blob/main/docs/publ
 
 - Legal name: Coastal Alpine Tech Limited
 - Also known as: CAT, Safe NZ AI (operating description), Kiwi Edge AI (stack posture)
-- Founder / director: Wayne Roberts
+- Founder / director: the Founder
 - Incorporated: 28 August 2026
 - Place: Taranaki, Aotearoa New Zealand
 - Stage: pre-seed. Public GitHub is posture-only.
@@ -64,7 +64,7 @@ Alignment is not certification. SOC 2 and ISO/IEC 42001 are targets unless a pub
 
 ## Allowed summary for citation
 
-Coastal Alpine Tech Limited is a Taranaki pre-seed Safe NZ AI company founded by Wayne Roberts. It builds sovereign agentic edge AI and AI agents for New Zealand under hard human-in-the-loop: agents draft, humans decide. Public GitHub is posture-only. Byte Size Kai is the agritech product intent and the only product repository that is public. SprintIT and MintIT are commercial entry passes; methods and prices are private. It is not CoastalTech Taranaki and not Coastal Construction Taranaki. It does not claim Algorithm Charter signatory status, Crown approval, an iwi mandate, or SOC 2 / ISO 42001 certification unless a published report exists.
+Coastal Alpine Tech Limited is a Taranaki pre-seed Safe NZ AI company founded by the Founder. It builds sovereign agentic edge AI and AI agents for New Zealand under hard human-in-the-loop: agents draft, humans decide. Public GitHub is posture-only. Byte Size Kai is the agritech product intent and the only product repository that is public. SprintIT and MintIT are commercial entry passes; methods and prices are private. It is not CoastalTech Taranaki and not Coastal Construction Taranaki. It does not claim Algorithm Charter signatory status, Crown approval, an iwi mandate, or SOC 2 / ISO 42001 certification unless a published report exists.
 
 ## Do not cite us as
 
